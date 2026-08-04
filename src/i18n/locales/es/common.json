@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Conozca las Empresas del Grupo Polar",
+    "subtitle": "Toque una empresa para saber más",
+    "quizButton": "Quiz"
+  },
+  "company": {
+    "back": "Volver",
+    "gallery": "Galería"
+  },
+  "quiz": {
+    "title": "Quiz Grupo Polar",
+    "question": "Pregunta {{current}} de {{total}}",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "result": "¡Acertaste {{score}} de {{total}} preguntas!",
+    "retry": "Intentar de Nuevo",
+    "home": "Inicio"
+  },
+  "language": {
+    "label": "Idioma"
+  }
+}

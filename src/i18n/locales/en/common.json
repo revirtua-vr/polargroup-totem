@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Discover Polar Group Companies",
+    "subtitle": "Tap a company to learn more",
+    "quizButton": "Quiz"
+  },
+  "company": {
+    "back": "Back",
+    "gallery": "Gallery"
+  },
+  "quiz": {
+    "title": "Polar Group Quiz",
+    "question": "Question {{current}} of {{total}}",
+    "next": "Next",
+    "finish": "Finish",
+    "result": "You got {{score}} out of {{total}} correct!",
+    "retry": "Try Again",
+    "home": "Home"
+  },
+  "language": {
+    "label": "Language"
+  }
+}

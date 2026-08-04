@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "text": "Qual empresa do Grupo Polar é especializada em soluções de infraestrutura e construção civil?",
+      "options": ["Polar Agro", "Polar Engenharia", "Polar Logística", "Polar Comunicação"],
+      "correct": 1
+    },
+    {
+      "text": "Qual divisão do Grupo Polar atua no setor de energia renovável?",
+      "options": ["Polar Mineração", "Polar Transportes", "Polar Energia", "Polar Financeira"],
+      "correct": 2
+    },
+    {
+      "text": "Qual empresa do grupo oferece soluções de crédito, investimento e seguros?",
+      "options": ["Polar Financeira", "Polar Saúde", "Polar Educação", "Polar Alimentos"],
+      "correct": 0
+    },
+    {
+      "text": "A Polar Hotelaria administra quais tipos de empreendimentos?",
+      "options": ["Shoppings e escritórios", "Hospitais e clínicas", "Hotéis e resorts", "Escolas e faculdades"],
+      "correct": 2
+    },
+    {
+      "text": "Qual empresa do Grupo Polar é focada em tecnologia, IA e IoT?",
+      "options": ["Polar Aviação", "Polar Seguros", "Polar Tecnologia", "Polar Ambiental"],
+      "correct": 2
+    },
+    {
+      "text": "A Polar Transportes atua em qual setor?",
+      "options": ["Transporte aéreo executivo", "Transporte público urbano", "Transporte de cargas internacionais", "Transporte marítimo"],
+      "correct": 1
+    },
+    {
+      "text": "Qual empresa do grupo é responsável por grandes obras como pontes, viadutos e barragens?",
+      "options": ["Polar Construção", "Polar Imóveis", "Polar Engenharia", "Polar Logística"],
+      "correct": 0
+    },
+    {
+      "text": "Qual é o foco da Polar Ambiental?",
+      "options": ["Geração de energia solar", "Gestão de resíduos e sustentabilidade", "Produção de alimentos orgânicos", "Educação ambiental em escolas"],
+      "correct": 1
+    }
+  ]
+}
