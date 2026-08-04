@@ -109,11 +109,14 @@ pnpm build        # must succeed
   "companies": [{
     "id": "kebab-case-id",
     "name": "Company Name",
-    "logo": "public/images/logo.png",
+    "logo": "images/logo.png",
     "description": "Paragraphs separated by \\n\\n",
     "gallery": [
-      { "type": "image", "src": "public/images/photo.jpg", "alt": "Caption" },
-      { "type": "video", "src": "public/videos/clip.mp4", "thumbnail": "public/images/thumb.jpg" }
+      { "type": "image", "src": "images/photo.jpg", "alt": "Caption" },
+      { "type": "video", "src": "videos/clip.mp4", "thumbnail": "images/thumb.jpg" }
+    ],
+    "products": [
+      { "id": "prod-id", "name": "Product Name", "description": "...", "image": "images/prod.png" }
     ]
   }]
 }
@@ -128,6 +131,46 @@ pnpm build        # must succeed
     "correct": 0
   }]
 }
+```
+
+**Videos data shape** (`src/data/videos/pt-BR.json`):
+```json
+{
+  "videos": [{
+    "id": "v1",
+    "title": "Video Title",
+    "src": "videos/clip.mp4",
+    "thumbnail": "images/thumb.jpg"
+  }]
+}
+```
+
+## CI/CD
+
+Two workflows in `.github/workflows/`:
+
+| Workflow | Trigger | What it does |
+|---|---|---|
+| `ci.yml` | push/PR to `main` | lint → type-check → Vite build |
+| `release.yml` | `v*` tag push | Builds EXE (Windows) + Docker image (Linux), creates GitHub Release with EXE attached |
+
+### Creating a Release
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+This triggers `release.yml` which:
+1. Builds the Windows EXE via Electron Forge → attaches to GitHub Release
+2. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `v1.0.0`, `1.0`, `latest`
+3. Creates a GitHub Release at `https://github.com/revirtua-vr/polargroup-totem/releases` with release notes containing both download links
+
+### Docker
+
+```bash
+docker pull ghcr.io/revirtua-vr/polargroup-totem:latest
+docker run -p 80:80 ghcr.io/revirtua-vr/polargroup-totem:latest
 ```
 
 ## DON'Ts
