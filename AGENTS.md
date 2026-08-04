@@ -21,23 +21,29 @@ Institutional kiosk app for conventions showcasing Polar Group's 18 companies. H
 polargroup-totem/
 ├── src/
 │   ├── main.tsx                 # Entry — HashRouter wraps App
-│   ├── App.tsx                  # Routes: /, /company/:id, /quiz
+│   ├── App.tsx                  # Routes + NavBar + LanguageSwitcher layout
 │   ├── pages/
-│   │   ├── Home.tsx            # Grid of 18 company cards + quiz card
-│   │   ├── Company.tsx         # Detail view: logo, description, ribbon gallery
+│   │   ├── QuemSomos.tsx       # About Polar Group: mission, vision, values
+│   │   ├── Marcas.tsx          # Grid of 18 company cards + quiz card
+│   │   ├── Company.tsx         # Detail view: logo, description, products, ribbon gallery
+│   │   ├── Produtos.tsx        # All products aggregated from every company
+│   │   ├── Videos.tsx          # Dedicated Polar Group videos (not company galleries)
+│   │   ├── Contato.tsx         # Address, phone, email, social media
 │   │   └── Quiz.tsx            # 8 multiple-choice questions, scored, ephemeral
 │   ├── components/
 │   │   ├── ui/                 # shadcn/ui primitives (button, card, dialog, scroll-area)
+│   │   ├── NavBar.tsx          # Top navigation: Quem Somos | Marcas | Produtos | Vídeos | Contato
 │   │   ├── LanguageSwitcher.tsx # PT/EN/ES toggle (top-right corner)
 │   │   └── RibbonGallery.tsx   # Horizontal scroll thumbnails → lightbox (images/videos)
 │   ├── data/
-│   │   ├── companies/pt-BR.json # 18 companies: { id, name, logo, description, gallery[] }
-│   │   └── quiz/pt-BR.json     # 8 questions: { text, options[], correct }
+│   │   ├── companies/pt-BR.json # 18 companies: { id, name, logo, description, products[], gallery[] }
+│   │   ├── quiz/pt-BR.json     # 8 questions: { text, options[], correct }
+│   │   └── videos/pt-BR.json   # Dedicated videos: { id, title, src, thumbnail }
 │   ├── i18n/
 │   │   ├── index.ts            # react-i18next config, loads locale JSON files
 │   │   └── locales/{pt-BR,en,es}/common.json
 │   ├── hooks/
-│   │   └── useIdleTimer.ts     # 180s inactivity → navigate to /
+│   │   └── useIdleTimer.ts     # 180s inactivity → navigate to / (QuemSomos)
 │   ├── lib/
 │   │   └── utils.ts            # cn() helper
 │   └── index.css               # Tailwind + shadcn CSS variables
@@ -48,12 +54,25 @@ polargroup-totem/
 │   └── translate.ts            # Reads pt-BR JSON, prompts OpenAI → writes en.json, es.json
 ├── public/
 │   └── images/                 # Company logos, gallery images/videos
-├── forge.config.ts             # Electron Forge → Squirrel EXE + ZIP
+├── forge.config.ts             # Electron Forge → Squirrel EXE
+├── .npmrc                       # node-linker=hoisted (required by Electron Forge)
 ├── Dockerfile                  # nginx:alpine serving dist/
 ├── vite.config.ts              # @ alias, base: './' for file:// in Electron
 ├── tailwind.config.ts          # shadcn theme + tailwindcss-animate
 └── package.json
 ```
+
+## Routes
+
+| Path | Page | Description |
+|---|---|---|
+| `/` | QuemSomos | About Polar Group (mission, vision, values) |
+| `/marcas` | Marcas | 18-company card grid + quiz entry |
+| `/marcas/:id` | Company | Company detail with products + gallery |
+| `/produtos` | Produtos | All products from all companies aggregated |
+| `/videos` | Videos | Dedicated Polar Group videos (not company galleries) |
+| `/contato` | Contato | Address, phone, email, social media |
+| `/quiz` | Quiz | Multiple-choice quiz (ephemeral, no persistence) |
 
 ## Key Decisions
 
@@ -96,7 +115,7 @@ pnpm build        # must succeed
 
 ## i18n Content Workflow
 
-1. Edit `src/data/companies/pt-BR.json` and `src/data/quiz/pt-BR.json`
+1. Edit `src/data/companies/pt-BR.json`, `src/data/quiz/pt-BR.json`, and `src/data/videos/pt-BR.json`
 2. Edit UI strings in `src/i18n/locales/pt-BR/common.json`
 3. Run `pnpm translate` (requires `OPENAI_API_KEY` env var)
 4. Manually review `en/common.json` and `es/common.json`
