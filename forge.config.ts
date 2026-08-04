@@ -11,9 +11,8 @@ const config: ForgeConfig = {
   makers: [
     new MakerSquirrel({
       name: 'polargroup-totem',
-      setupIcon: './public/icon.ico',
     }),
-    new MakerZIP({}, ['darwin']),
+    new MakerZIP({}),
   ],
   plugins: [
     new VitePlugin({
