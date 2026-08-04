@@ -3,128 +3,205 @@
     {
       "id": "polar-engenharia",
       "name": "Polar Engenharia",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Engenharia é referência em soluções de infraestrutura e construção civil. Com mais de 20 anos de experiência, entregamos projetos que transformam cidades e conectam pessoas.\n\nNossa equipe é formada por engenheiros, arquitetos e técnicos altamente qualificados, comprometidos com excelência, sustentabilidade e inovação em cada obra.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "eng-1", "name": "Projetos de Infraestrutura", "description": "Planejamento e execução de obras de grande porte como pontes, viadutos e rodovias.", "image": "images/placeholder-logo.png" },
+        { "id": "eng-2", "name": "Consultoria em Engenharia", "description": "Análise técnica, estudos de viabilidade e gerenciamento de projetos de construção.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-agro",
       "name": "Polar Agro",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Agro é a divisão do Grupo Polar dedicada ao agronegócio. Atuamos em toda a cadeia produtiva, desde a produção de grãos até a exportação de commodities.\n\nInvestimos constantemente em tecnologia de ponta para garantir produtividade, sustentabilidade e qualidade em cada safra, contribuindo para o desenvolvimento do setor agrícola brasileiro.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "agro-1", "name": "Grãos e Cereais", "description": "Produção de soja, milho e trigo com tecnologia de agricultura de precisão.", "image": "images/placeholder-logo.png" },
+        { "id": "agro-2", "name": "Exportação de Commodities", "description": "Comercialização internacional de produtos agrícolas com logística integrada.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-logistica",
       "name": "Polar Logística",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Logística oferece soluções completas de transporte e armazenagem para empresas de todos os portes. Nossa malha logística cobre todo o território nacional com eficiência e segurança.\n\nContamos com uma frota moderna, centros de distribuição estrategicamente localizados e sistemas de rastreamento em tempo real para garantir que sua carga chegue ao destino no prazo.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "log-1", "name": "Transporte Rodoviário", "description": "Frota moderna com rastreamento em tempo real para entregas em todo o Brasil.", "image": "images/placeholder-logo.png" },
+        { "id": "log-2", "name": "Armazenagem e Distribuição", "description": "Centros de distribuição estrategicamente localizados para gestão eficiente de estoques.", "image": "images/placeholder-logo.png" },
+        { "id": "log-3", "name": "Logística Internacional", "description": "Soluções de importação e exportação com parceiros logísticos globais.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-energia",
       "name": "Polar Energia",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Energia é a frente de negócios do grupo voltada para geração e distribuição de energia renovável. Investimos em usinas solares, eólicas e de biomassa em todo o Brasil.\n\nNossa missão é liderar a transição energética no país, oferecendo energia limpa, acessível e confiável para indústrias, comércios e residências.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "ene-1", "name": "Energia Solar", "description": "Usinas fotovoltaicas e soluções de geração distribuída para indústrias e residências.", "image": "images/placeholder-logo.png" },
+        { "id": "ene-2", "name": "Energia Eólica", "description": "Parques eólicos com turbinas de última geração para geração de energia limpa.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-saude",
       "name": "Polar Saúde",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Saúde é uma rede de hospitais e clínicas que oferece atendimento médico de excelência. Com unidades em diversas cidades, proporcionamos cuidado humanizado e tecnologia de ponta.\n\nNossa equipe multidisciplinar abrange mais de 30 especialidades médicas, garantindo um atendimento completo e integrado para nossos pacientes.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "sau-1", "name": "Rede Hospitalar", "description": "Hospitais com infraestrutura completa, UTI e centro cirúrgico 24 horas.", "image": "images/placeholder-logo.png" },
+        { "id": "sau-2", "name": "Clínicas de Especialidades", "description": "Atendimento em mais de 30 especialidades médicas com agendamento simplificado.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-educacao",
       "name": "Polar Educação",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Educação é o braço educacional do grupo, operando instituições de ensino que vão da educação infantil ao ensino superior. Acreditamos que a educação é o principal motor de transformação social.\n\nNossas escolas e faculdades utilizam metodologias inovadoras, infraestrutura moderna e corpo docente qualificado para formar os líderes do amanhã.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "edu-1", "name": "Ensino Básico", "description": "Educação infantil, fundamental e médio com metodologia bilíngue e tecnologia em sala de aula.", "image": "images/placeholder-logo.png" },
+        { "id": "edu-2", "name": "Ensino Superior", "description": "Graduação e pós-graduação em áreas como engenharia, saúde e negócios.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-tecnologia",
       "name": "Polar Tecnologia",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Tecnologia desenvolve soluções de software e hardware para empresas e governos. Somos especialistas em transformação digital, inteligência artificial e Internet das Coisas.\n\nNosso centro de inovação reúne mais de 200 engenheiros e cientistas de dados que trabalham diariamente para criar produtos que fazem a diferença na vida das pessoas.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "tec-1", "name": "Plataforma de IA", "description": "Soluções de inteligência artificial para automação de processos e análise preditiva.", "image": "images/placeholder-logo.png" },
+        { "id": "tec-2", "name": "IoT Industrial", "description": "Sensores e plataformas de Internet das Coisas para monitoramento e eficiência operacional.", "image": "images/placeholder-logo.png" },
+        { "id": "tec-3", "name": "Consultoria em Transformação Digital", "description": "Assessoria completa para digitalização de processos e modernização de sistemas.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-alimentos",
       "name": "Polar Alimentos",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Alimentos é uma das maiores processadoras de alimentos do país. Produzimos desde laticínios até produtos congelados, sempre com rigorosos padrões de qualidade e segurança alimentar.\n\nNossas marcas estão presentes em milhões de lares brasileiros, levando sabor, nutrição e praticidade para o dia a dia das famílias.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "ali-1", "name": "Laticínios", "description": "Leite, queijos, iogurtes e manteiga produzidos com rigoroso controle de qualidade.", "image": "images/placeholder-logo.png" },
+        { "id": "ali-2", "name": "Congelados", "description": "Linha completa de alimentos congelados: massas, vegetais e pratos prontos.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-imoveis",
       "name": "Polar Imóveis",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Imóveis é a imobiliária do Grupo Polar, especializada em empreendimentos residenciais e comerciais de alto padrão. Já entregamos mais de 10.000 unidades em todo o Brasil.\n\nCombinamos design arrojado, localizações privilegiadas e acabamento impecável para criar espaços que superam as expectativas dos nossos clientes.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "imo-1", "name": "Empreendimentos Residenciais", "description": "Apartamentos e casas de alto padrão em localizações privilegiadas.", "image": "images/placeholder-logo.png" },
+        { "id": "imo-2", "name": "Empreendimentos Comerciais", "description": "Salas, lajes corporativas e espaços comerciais com infraestrutura completa.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-financeira",
       "name": "Polar Financeira",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Financeira oferece soluções de crédito, investimento e seguros para pessoas físicas e jurídicas. Atuamos com transparência e agilidade para atender às necessidades financeiras dos nossos clientes.\n\nCom produtos que vão desde consórcios até fundos de investimento, estamos presentes em todos os momentos da vida financeira dos brasileiros.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "fin-1", "name": "Crédito Pessoal", "description": "Empréstimos com taxas competitivas e aprovação rápida para pessoas físicas.", "image": "images/placeholder-logo.png" },
+        { "id": "fin-2", "name": "Crédito Empresarial", "description": "Capital de giro, financiamento de equipamentos e antecipação de recebíveis.", "image": "images/placeholder-logo.png" },
+        { "id": "fin-3", "name": "Consórcios", "description": "Consórcios de imóveis e veículos com parcelas acessíveis e sem juros.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-transportes",
       "name": "Polar Transportes",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Transportes é a concessionária de transporte público do grupo, operando linhas de ônibus e metrô em importantes regiões metropolitanas. Transportamos milhões de passageiros todos os dias.\n\nInvestimos continuamente na renovação da frota com veículos mais eficientes, acessíveis e menos poluentes, contribuindo para uma mobilidade urbana mais sustentável.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "tra-1", "name": "Ônibus Urbano", "description": "Frota moderna com ar-condicionado, acessibilidade e Wi-Fi gratuito.", "image": "images/placeholder-logo.png" },
+        { "id": "tra-2", "name": "Metrô", "description": "Operação de linhas metroviárias com trens climatizados e estações acessíveis.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-hotelaria",
       "name": "Polar Hotelaria",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Hotelaria administra uma rede de hotéis e resorts em destinos turísticos paradisíacos. Oferecemos experiências inesquecíveis com o conforto e a hospitalidade que só o Grupo Polar proporciona.\n\nCada empreendimento é projetado para se integrar harmoniosamente ao ambiente local, valorizando a cultura e a natureza de cada região.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "hot-1", "name": "Hotéis Executivos", "description": "Hospedagem premium em centros urbanos com estrutura para eventos e negócios.", "image": "images/placeholder-logo.png" },
+        { "id": "hot-2", "name": "Resorts", "description": "Complexos de lazer à beira-mar com gastronomia, spa e atividades para toda a família.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-mineracao",
       "name": "Polar Mineração",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Mineração atua na extração e beneficiamento de minérios essenciais para a indústria. Operamos com as mais rigorosas práticas de segurança e responsabilidade ambiental.\n\nNossas operações incluem minas de ferro, níquel e cobre, fornecendo matéria-prima para os setores siderúrgico, automotivo e de construção civil.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "min-1", "name": "Minério de Ferro", "description": "Extração e beneficiamento de minério de ferro para a indústria siderúrgica.", "image": "images/placeholder-logo.png" },
+        { "id": "min-2", "name": "Níquel e Cobre", "description": "Fornecimento de metais não ferrosos para os setores automotivo e eletrônico.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-aviacao",
       "name": "Polar Aviação",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Aviação oferece serviços de táxi aéreo, manutenção aeronáutica e fretamento executivo. Nossa frota é composta por aeronaves modernas e nossa equipe por profissionais certificados.\n\nAtendemos clientes corporativos e particulares com agilidade, discrição e segurança, conectando destinos em todo o Brasil e América Latina.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "avi-1", "name": "Táxi Aéreo", "description": "Voos executivos sob demanda para destinos nacionais e internacionais.", "image": "images/placeholder-logo.png" },
+        { "id": "avi-2", "name": "Manutenção Aeronáutica", "description": "Serviços certificados de manutenção preventiva e corretiva para aeronaves.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-seguros",
       "name": "Polar Seguros",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Seguros é a corretora oficial do grupo, oferecendo proteção para todos os momentos da vida. De seguros automotivos a planos de previdência, temos a solução ideal para cada necessidade.\n\nTrabalhamos com as melhores seguradoras do mercado, garantindo cobertura abrangente, preços competitivos e atendimento personalizado.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "seg-1", "name": "Seguro Automotivo", "description": "Cobertura completa para veículos com assistência 24 horas em todo o Brasil.", "image": "images/placeholder-logo.png" },
+        { "id": "seg-2", "name": "Seguro de Vida", "description": "Planos de proteção financeira para você e sua família com coberturas flexíveis.", "image": "images/placeholder-logo.png" },
+        { "id": "seg-3", "name": "Previdência Privada", "description": "Planos de previdência complementar com rentabilidade competitiva.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-construcao",
       "name": "Polar Construção",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Construção é a construtora do grupo, responsável por grandes obras de infraestrutura como pontes, viadutos, barragens e rodovias. Nossa engenharia move o Brasil.\n\nCom equipamentos de última geração e uma equipe de profissionais experientes, entregamos projetos complexos dentro do prazo e do orçamento, sempre com foco na qualidade.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "con-1", "name": "Obras de Infraestrutura", "description": "Construção de pontes, viadutos, barragens e rodovias com engenharia de ponta.", "image": "images/placeholder-logo.png" },
+        { "id": "con-2", "name": "Obras Industriais", "description": "Montagem de plantas industriais e instalações de grande porte.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-ambiental",
       "name": "Polar Ambiental",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Ambiental é a empresa do grupo dedicada à gestão de resíduos, recuperação ambiental e consultoria em sustentabilidade. Cuidamos do planeta para as futuras gerações.\n\nDesenvolvemos projetos de economia circular, tratamento de efluentes e reflorestamento, ajudando empresas e governos a reduzir seu impacto ambiental.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "amb-1", "name": "Gestão de Resíduos", "description": "Coleta, tratamento e destinação adequada de resíduos industriais e urbanos.", "image": "images/placeholder-logo.png" },
+        { "id": "amb-2", "name": "Consultoria Ambiental", "description": "Licenciamento ambiental, estudos de impacto e planos de sustentabilidade corporativa.", "image": "images/placeholder-logo.png" },
+        { "id": "amb-3", "name": "Reflorestamento", "description": "Projetos de recuperação de áreas degradadas e compensação de carbono.", "image": "images/placeholder-logo.png" }
+      ]
     },
     {
       "id": "polar-comunicacao",
       "name": "Polar Comunicação",
-      "logo": "public/images/placeholder-logo.png",
+      "logo": "images/placeholder-logo.png",
       "description": "A Polar Comunicação é a agência de publicidade e marketing do Grupo Polar. Criamos campanhas que conectam marcas a pessoas, gerando valor e resultados mensuráveis.\n\nNossa equipe é formada por estrategistas, designers, redatores e analistas de mídia que trabalham integrados para entregar comunicação de alto impacto em todos os canais.",
-      "gallery": []
+      "gallery": [],
+      "products": [
+        { "id": "com-1", "name": "Marketing Digital", "description": "Gestão de mídias sociais, SEO e campanhas de performance para resultados mensuráveis.", "image": "images/placeholder-logo.png" },
+        { "id": "com-2", "name": "Produção Audiovisual", "description": "Criação de conteúdo em vídeo, motion graphics e campanhas publicitárias.", "image": "images/placeholder-logo.png" }
+      ]
     }
   ]
 }

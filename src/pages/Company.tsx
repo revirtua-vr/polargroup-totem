@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
 import { RibbonGallery } from '@/components/RibbonGallery'
 import companiesData from '@/data/companies/pt-BR.json'
 import { ArrowLeft } from 'lucide-react'
@@ -16,7 +17,7 @@ export default function Company() {
     return (
       <div className="h-full flex flex-col items-center justify-center gap-4 p-8">
         <p className="text-xl text-muted-foreground">Empresa não encontrada</p>
-        <Button onClick={() => navigate('/')}>{t('company.back')}</Button>
+        <Button onClick={() => navigate('/marcas')}>{t('company.back')}</Button>
       </div>
     )
   }
@@ -24,7 +25,7 @@ export default function Company() {
   return (
     <div className="h-full flex flex-col">
       <header className="flex items-center gap-4 px-6 py-4 border-b flex-shrink-0">
-        <Button variant="ghost" size="lg" onClick={() => navigate('/')}>
+        <Button variant="ghost" size="lg" onClick={() => navigate('/marcas')}>
           <ArrowLeft className="w-5 h-5 mr-2" />
           {t('company.back')}
         </Button>
@@ -44,6 +45,22 @@ export default function Company() {
               <p key={i} className="text-base leading-relaxed mb-4">{paragraph}</p>
             ))}
           </div>
+
+          {company.products && company.products.length > 0 && (
+            <div className="mb-8">
+              <h2 className="text-xl font-bold mb-4">{t('company.products')}</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {company.products.map((product) => (
+                  <Card key={product.id}>
+                    <CardContent className="pt-6">
+                      <CardTitle className="text-base mb-1">{product.name}</CardTitle>
+                      <CardDescription className="text-sm">{product.description}</CardDescription>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          )}
 
           {company.gallery && company.gallery.length > 0 && (
             <RibbonGallery items={company.gallery} />

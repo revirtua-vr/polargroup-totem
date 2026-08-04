@@ -1,12 +1,38 @@
 {
-  "home": {
-    "title": "Discover Polar Group Companies",
+  "nav": {
+    "quemSomos": "About Us",
+    "marcas": "Brands",
+    "produtos": "Products",
+    "videos": "Videos",
+    "contato": "Contact"
+  },
+  "quemSomos": {
+    "title": "Polar Group",
+    "subtitle": "Innovation and excellence in every sector"
+  },
+  "marcas": {
+    "title": "Our Brands",
     "subtitle": "Tap a company to learn more",
     "quizButton": "Quiz"
   },
+  "produtos": {
+    "title": "Products",
+    "subtitle": "Discover our products and services",
+    "all": "All",
+    "empty": "No products registered"
+  },
+  "videos": {
+    "title": "Videos",
+    "subtitle": "Experience Polar Group in motion"
+  },
+  "contato": {
+    "title": "Contact",
+    "subtitle": "Get in touch with Polar Group"
+  },
   "company": {
     "back": "Back",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "products": "Products"
   },
   "quiz": {
     "title": "Polar Group Quiz",

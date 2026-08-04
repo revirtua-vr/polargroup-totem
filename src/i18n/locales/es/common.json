@@ -1,12 +1,38 @@
 {
-  "home": {
-    "title": "Conozca las Empresas del Grupo Polar",
+  "nav": {
+    "quemSomos": "Quiénes Somos",
+    "marcas": "Marcas",
+    "produtos": "Productos",
+    "videos": "Vídeos",
+    "contato": "Contacto"
+  },
+  "quemSomos": {
+    "title": "Grupo Polar",
+    "subtitle": "Innovación y excelencia en cada sector"
+  },
+  "marcas": {
+    "title": "Nuestras Marcas",
     "subtitle": "Toque una empresa para saber más",
     "quizButton": "Quiz"
   },
+  "produtos": {
+    "title": "Productos",
+    "subtitle": "Conozca nuestros productos y servicios",
+    "all": "Todos",
+    "empty": "Ningún producto registrado"
+  },
+  "videos": {
+    "title": "Vídeos",
+    "subtitle": "Conozca el Grupo Polar en movimiento"
+  },
+  "contato": {
+    "title": "Contacto",
+    "subtitle": "Hable con el Grupo Polar"
+  },
   "company": {
     "back": "Volver",
-    "gallery": "Galería"
+    "gallery": "Galería",
+    "products": "Productos"
   },
   "quiz": {
     "title": "Quiz Grupo Polar",

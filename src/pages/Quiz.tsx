@@ -46,7 +46,7 @@ export default function Quiz() {
           {t('quiz.result', { score, total })}
         </p>
         <div className="flex gap-4">
-          <Button size="lg" variant="outline" onClick={() => navigate('/')}>
+          <Button size="lg" variant="outline" onClick={() => navigate('/marcas')}>
             {t('quiz.home')}
           </Button>
           <Button
