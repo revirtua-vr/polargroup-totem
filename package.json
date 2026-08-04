@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Institutional kiosk app for Polar Group — showcases companies at conventions",
   "author": "Polar Group",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
