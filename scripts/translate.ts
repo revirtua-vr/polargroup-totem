@@ -1,10 +1,10 @@
 import fs from 'fs'
 import path from 'path'
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY
 
-if (!OPENAI_API_KEY) {
-  console.error('OPENAI_API_KEY environment variable is required')
+if (!DEEPSEEK_API_KEY) {
+  console.error('DEEPSEEK_API_KEY environment variable is required')
   process.exit(1)
 }
 
@@ -23,14 +23,14 @@ Do not include any explanation, markdown formatting, or code blocks. Output raw 
 Content to translate:
 ${JSON.stringify(source, null, 2)}`
 
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
+  const response = await fetch('https://api.deepseek.com/chat/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${OPENAI_API_KEY}`,
+      Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'gpt-4o-mini',
+      model: 'deepseek-chat',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.2,
     }),

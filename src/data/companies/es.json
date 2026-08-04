@@ -1,0 +1,296 @@
+{
+  "companies": [
+    {
+      "id": "atexxo",
+      "name": "Atexxo",
+      "logo": "images/atexxo/Logo atexxo - sem fundo.png",
+      "tagline": "Dispositivos móviles a prueba de explosión para áreas clasificadas",
+      "description": "Atexxo Manufacturing es una empresa internacional especializada en el diseño y producción de dispositivos móviles a prueba de explosión con certificaciones ATEX e IECEx. Con sede en los Países Bajos, Atexxo convierte dispositivos premium de Apple y Samsung — como iPhones, iPads y Galaxy Tabs — en versiones certificadas para uso seguro en áreas clasificadas, manteniendo todas las funcionalidades originales de los equipos, incluyendo 5G, NFC, cámaras, carga inalámbrica y conectividad Wi-Fi y Bluetooth.\n\nLos productos Atexxo están certificados para ATEX Zona 1 y 2 (riesgo de explosión por gas) y Zona 21 y 22 (riesgo de explosión por polvo), con certificaciones internacionales IECEx y UKCA, además de certificación INMETRO disponible para modelos seleccionados. Todos los dispositivos preservan la experiencia completa del usuario, incluyendo aplicaciones, interfaz, rendimiento y ecosistema del dispositivo original, sin pérdida de rendimiento.\n\nDiseñados específicamente para industrias críticas como petróleo y gas, petroquímica, offshore y farmacéutica, los dispositivos Atexxo son ideales para trabajadores conectados, Industria 4.0, gemelos digitales en áreas clasificadas y captura segura de fotos y videos en entornos peligrosos.",
+      "gallery": [
+        { "type": "image", "src": "images/atexxo/iphone-15-2-240x300.png", "alt": "iPhone 15 a prueba de explosión certificado ATEX/IECEx/INMETRO para Zona 1 y Zona 2" },
+        { "type": "image", "src": "images/atexxo/ipad-mini-7-2-240x300.png", "alt": "iPad mini 7 a prueba de explosión certificado ATEX/IECEx/INMETRO para Zona 1 y Zona 2" },
+        { "type": "image", "src": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png", "alt": "iPhone 17 a prueba de explosión certificado ATEX/IECEx para Zona 1" },
+        { "type": "image", "src": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png", "alt": "Galaxy S25 a prueba de explosión certificado ATEX/IECEx para Zona 2" },
+        { "type": "image", "src": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png", "alt": "iPad 11 a prueba de explosión certificado ATEX/IECEx para Zona 1" },
+        { "type": "image", "src": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png", "alt": "Galaxy Tab Active5 a prueba de explosión certificado ATEX/IECEx para Zona 1" },
+        { "type": "video", "src": "videos/atexxo/ATX_iPhone_EXd-IPH-13.mp4", "thumbnail": "images/atexxo/MOB-EX-IPH-15-front-ex-621x1024.png" },
+        { "type": "video", "src": "videos/atexxo/ATX-Mini iPad-M6.mp4", "thumbnail": "images/atexxo/ipad-mini-7-2-240x300.png" }
+      ],
+      "products": [
+        { "id": "atx-iphone-15", "name": "iPhone 15 Ex", "description": "Smartphone Apple iPhone 15 convertido y certificado para uso seguro en áreas clasificadas Zona 1 y 2 (gases) y Zona 21 y 22 (polvos). Disponible con capacidades de almacenamiento de 128 GB, 256 GB y 512 GB. Mantiene todas las funcionalidades originales del iPhone 15, incluyendo 5G, NFC, cámaras, carga inalámbrica y botones físicos. Certificación INMETRO, ATEX e IECEx. Marcación: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.", "image": "images/atexxo/iphone-15-2-240x300.png" },
+        { "id": "atx-ipad-mini-7", "name": "iPad mini 7 Ex", "description": "Tablet Apple iPad mini 7.ª generación convertido y certificado para uso seguro en áreas clasificadas Zona 1 y 2 (gases) y Zona 21 y 22 (polvos). Disponible con capacidades de almacenamiento de 128 GB, 256 GB y 512 GB, en los modelos Wi-Fi o Wi-Fi+5G con E-SIM. Mantiene todas las funcionalidades originales, excepto el sensor de huella digital. Certificación INMETRO, ATEX e IECEx.", "image": "images/atexxo/ipad-mini-7-2-240x300.png" },
+        { "id": "atx-iphone-16", "name": "iPhone 16 Ex", "description": "Smartphone Apple iPhone 16 convertido y certificado para uso seguro en áreas clasificadas Zona 1. Mantiene todas las funcionalidades originales del dispositivo, incluyendo 5G, NFC, cámaras, carga inalámbrica y botones físicos. Certificación ATEX e IECEx.", "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png" },
+        { "id": "atx-iphone-17", "name": "iPhone 17 Ex", "description": "Smartphone Apple iPhone 17 convertido y certificado para uso seguro en áreas clasificadas Zona 1. Mantiene todas las funcionalidades originales del dispositivo. Certificación ATEX e IECEx.", "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png" },
+        { "id": "atx-iphone-16e", "name": "iPhone 16E Ex", "description": "Smartphone Apple iPhone 16E convertido y certificado para uso seguro en áreas clasificadas Zona 2. Mantiene todas las funcionalidades originales del dispositivo. Certificación ATEX e IECEx.", "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png" },
+        { "id": "atx-samsung-s24", "name": "Galaxy S24 Ex", "description": "Smartphone Samsung Galaxy S24 convertido y certificado para uso seguro en áreas clasificadas Zona 2. Mantiene todas las funcionalidades originales del dispositivo, incluyendo 5G, cámaras y aplicaciones. Certificación ATEX e IECEx.", "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png" },
+        { "id": "atx-samsung-s25", "name": "Galaxy S25 Ex", "description": "Smartphone Samsung Galaxy S25 convertido y certificado para uso seguro en áreas clasificadas Zona 2. Mantiene todas las funcionalidades originales del dispositivo. Certificación ATEX e IECEx.", "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png" },
+        { "id": "atx-galaxy-tab-active5", "name": "Galaxy Tab Active5 Ex", "description": "Tablet robusto Samsung Galaxy Tab Active5 convertido y certificado para uso seguro en áreas clasificadas Zona 1. Ideal para trabajadores conectados e Industria 4.0 en entornos agresivos. Certificación ATEX e IECEx.", "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png" },
+        { "id": "atx-ipad-11", "name": "iPad 11 Ex", "description": "Tablet Apple iPad 11 convertido y certificado para uso seguro en áreas clasificadas Zona 1. Mantiene todas las funcionalidades originales del iPad, incluyendo cámaras, Wi-Fi, 5G y rendimiento completo del ecosistema Apple. Certificación ATEX e IECEx.", "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png" }
+      ]
+    },
+    {
+      "id": "blinda",
+      "name": "Blinda",
+      "logo": "images/blinda/Logo Blinda PolarComponentsGroup.png",
+      "tagline": "Equipos a prueba de explosión con certificación internacional — la única empresa brasileña autorizada para utilizar componentes CEAG",
+      "description": "Desde hace más de 60 años, Blinda es referencia nacional en equipos eléctricos a prueba de explosión (Ex), atendiendo con excelencia los sectores de petróleo y gas, petroquímico, siderúrgico y de minería. Su portafolio abarca cajas de conexión, paneles de mando, pulsadores, prensacables, señalizadores y una línea completa de conexiones y accesorios certificados.\n\nCon certificaciones INMETRO, IECEx y ATEX, Blinda es la única empresa en Brasil autorizada para utilizar componentes CEAG en sus proyectos, garantizando estándar internacional de calidad y seguridad. Todos los productos son fabricados con materiales de alta resistencia — aluminio copper free, acero inoxidable 304/316L y poliéster reforzado con fibra de vidrio (GRP) — asegurando protección IP66/W y clase de temperatura de -60 °C a +110 °C.\n\nUbicada en Votorantim (SP), Blinda integra el Polar Components Group, ofreciendo soluciones completas en equipos Ex para atmósferas explosivas, con soporte técnico especializado y fabricación bajo pedido para atender las más rigurosas especificaciones de la industria.",
+      "gallery": [
+        { "type": "image", "src": "images/blinda/key804.971.jpg", "alt": "Caja de conexión a prueba de explosión CBX — fabricada en aluminio, grado de protección IP66W, certificada INMETRO" },
+        { "type": "image", "src": "images/blinda/key970.1095.jpg", "alt": "Panel de mando y control a prueba de explosión Blinda para aplicaciones industriales en atmósferas explosivas" },
+        { "type": "image", "src": "images/blinda/key862_Munsell.995.jpg", "alt": "Caja de conexión CDWE a prueba de explosión con múltiples entradas para prensacables" },
+        { "type": "image", "src": "images/blinda/key680.1009.jpg", "alt": "Unidad selladora Ex para prensacables — conexiones y accesorios certificados para áreas clasificadas" },
+        { "type": "video", "src": "videos/blinda/BL_Painel Carlos e Felipe_ jan2023.mp4", "thumbnail": "images/blinda/key804.971.jpg" },
+        { "type": "video", "src": "videos/blinda/BL_prensa cabos.mp4", "thumbnail": "images/blinda/key41_A2F.1117.jpg" }
+      ],
+      "products": [
+        { "id": "bli-1", "name": "Caixa de Ligação e Distribuição Ex — Linha CBX", "description": "Cajas de conexión y distribución a prueba de explosión fabricadas en aluminio copper free con pintura electrostática en polvo poliéster gris Munsell N6.5. Certificadas Ex db IIB Gb y Ex tb IIIC Db con grado de protección IP66W. Disponibles en 13 tamaños (CBX-01 a CBX-18), con opción de visor. Placa de montaje interna en naranja 2,5YR 6/14. Tornillos en acero inox 304 conforme ANSI B 18.2.1.", "image": "images/blinda/key804.971.jpg" },
+        { "id": "bli-2", "name": "Caixa de Ligação Vazia Ex — Linha CBX-U", "description": "Cajas de conexión y distribución vacías a prueba de explosión, destinadas al montaje de equipos eléctricos por el cliente. Certificadas para recertificación conforme anexo D de la ABNT NBR IEC 60079-1. Fabricadas en aluminio, grado de protección IP66W, tamaños CBX-01U a CBX-18U.", "image": "images/blinda/key804.971.jpg" },
+        { "id": "bli-3", "name": "Controlador Digital de Aterramento Ex — CBX-STR2", "description": "Controlador digital de puesta a tierra a prueba de explosión con tecnología de estado sólido, sin partes móviles. Alimentación full-range 110/220 Vac. Detecta capacitancia entre 470pF y 10.000pF. Incluye cable flexible de hasta 8m, garra tipo cocodrilo y señalizador luminoso. Aplicación en áreas de carga y transferencia de productos inflamables.", "image": "images/blinda/key525.846 CBX STR2.jpg" },
+        { "id": "bli-4", "name": "Sirene à Prova de Explosão — BX6500", "description": "Sirena electrónica a prueba de explosión con microprocesador y 32 tipos de sonorización. Nivel sonoro de 110dB a 1 metro. Fabricada en aluminio con pintura electrostática poliéster. Certificada Ex db IIB T6 Gb y Ex tb IIIC T85°C Db. Disponible en tensiones 220Vca, 127Vca y 24Vcc.", "image": "images/blinda/key43_Munsell_B.878 (1).jpg" },
+        { "id": "bli-5", "name": "Caixa de Terminais GBOX — GRP (Poliéster Reforçado com Fibra de Vidro)", "description": "Cajas de conexión y terminales en GRP con superficie antiestática, resistentes a la corrosión atmosférica y ataques químicos. Certificadas Inmetro Ex eb IIC Gb y Ex tb IIIC Db. Grado de protección IP66. Temperatura de servicio de -60 °C a +110 °C. Tensión nominal hasta 690V, corriente nominal hasta 315A. Placas de puesta a tierra en latón o acero inoxidable.", "image": "images/blinda/key1122.1039.jpg" },
+        { "id": "bli-6", "name": "Caixa de Terminais Ex-Cell — Aço Inoxidável Ex-e / Ex-i", "description": "Cajas de terminales en acero inoxidable 316L o 304 con pulido electroquímico. Certificadas INMETRO Ex eb IIC Gb y Ex tb IIIC Db. Grado de protección IP66. Resistencia al impacto de 7J. Tensión nominal hasta 750V, corriente nominal hasta 500A. Tapa articulada con cierre de 1/4 de vuelta.", "image": "images/blinda/key970.1095.jpg" },
+        { "id": "bli-7", "name": "Carrinho de Tomada Móvel Ex — CTME", "description": "Carro de tomas móvil de seguridad aumentada para alimentación de equipos en áreas clasificadas. Cuerpo en GRP, estructura en acero carbono con pintura electrostática azul y ruedas de 8\" (200mm). Certificación Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. Tomas estándar CEAG. Incluye disyuntores DR 30mA y dispositivo LOTO.", "image": "images/blinda/key1122.1039.jpg" },
+        { "id": "bli-8", "name": "Chaves Seccionadoras de Segurança Ex — GHG 261 / GHG 262", "description": "Interruptores y seccionadores de seguridad para áreas clasificadas. Modelo GHG 261 (10A) en poliamida y GHG 262 (20A) en GRP. Certificación Ex ed IIC T6 / Ex ed ia IIC T6, grado de protección IP66. Dispositivo de bloqueo en posición OFF para hasta 3 candados. Prensacables M20/M25/M32 incluidos.", "image": "images/blinda/key742.702.jpg" },
+        { "id": "bli-9", "name": "Prensa-Cabos Ex — Linhas A2F, E1F e A2F-EF", "description": "Prensacables a prueba de explosión Ex db IIC, fabricados en latón niquelado. Modelos A2F (estándar), A2F-EF (con brida) y E1F (seguridad aumentada). Disponibles en diversos calibres para cables de 1,5mm² a 240mm². Rosca métrica o NPT según necesidad.", "image": "images/blinda/key41_A2F.1117.jpg" },
+        { "id": "bli-10", "name": "Unidades Seladoras Ex — USD_XH, USX_H e USX_V", "description": "Unidades selladoras a prueba de explosión para barrera física contra propagación de llamas en electroductos y conexiones de cables. Fabricadas en aluminio y latón. Modelos horizontal y vertical. Utilizadas en conjunto con prensacables y electroductos pesados NBR 5597. Certificación INMETRO.", "image": "images/blinda/key680.1009.jpg" },
+        { "id": "bli-11", "name": "Conexões e Acessórios Ex — Uniões, Cotovelos, Niphes, Plugues e Buchas", "description": "Línea completa de conexiones a prueba de explosión: uniones macho-hembra (UX-MF) y hembra-hembra (UX-FF), uniones de expansión (UEX), codos 45° y 90° (CFX), niples (NA-C y NA-L), manguitos (LU), tapones (PR y PCS), drenajes (DX), respiraderos (RX) y bujes de reducción (BS-M40). Fabricadas en aluminio o latón con roscas NPT. Certificadas para grupos IIB y IIIC.", "image": "images/blinda/key812.1001 (1).jpg" },
+        { "id": "bli-12", "name": "Painéis de Comando e Controle Ex — BCX, BCDX e BCTX", "description": "Cajas de mando y control a prueba de explosión para pulsadores, señalizadores, instrumentos y dispositivos de control en áreas clasificadas. Fabricadas en aluminio copper free con pintura electrostática poliéster. Grado de protección IP66W. Certificación Ex db IIB Gb y Ex tb IIIC Db. Personalización con componentes CEAG originales.", "image": "images/blinda/key970.1095.jpg" }
+      ]
+    },
+    {
+      "id": "chalmit",
+      "name": "Chalmit",
+      "logo": "images/chalmit/Logo Chalmit - sem fundo.png",
+      "tagline": "Iluminación para áreas clasificadas desde 1910",
+      "description": "Chalmit es especialista en iluminación para áreas clasificadas desde 1910, con más de un siglo dedicado a la iluminación para atmósferas explosivas, con enfoque en seguridad, confiabilidad y rendimiento en entornos severos. Parte del grupo Hubbell y referencia del estándar IEC, Chalmit amplía innovación, estandarización global y soporte técnico en proyectos críticos.\n\nCon presencia en más de 40 países y alineación a las certificaciones ATEX, IECEx y NEC, Chalmit garantiza especificación segura en los segmentos de petróleo y gas, química, minería, energía y marítimo. Sus luminarias certificadas atienden zonas clasificadas (Zona 1, 2, 21 y 22) en plataformas, refinerías y áreas de almacenamiento.\n\nEl portafolio incluye luminarias lineales LED para áreas de proceso y offshore (línea Protecta X), proyectores LED para áreas externas y grandes espacios (línea Evolution X), y bulkheads para circulación y salas técnicas (líneas NexLED / Neo X), con opciones de emergencia. Construcción en aluminio fundido grado marino, acero inoxidable y recubrimientos anticorrosivos, con protección IP66/IP67. LED de alta eficiencia con vida útil típica por encima de 100.000 horas.",
+      "gallery": [
+        { "type": "video", "src": "videos/chalmit/Chalmit - Protecta X.mp4", "thumbnail": "images/chalmit/04.01.2024 - Protecta X.png" },
+        { "type": "video", "src": "videos/chalmit/Como uma bateria de emergência pode reduzir os custos operacionais Protecta X.mp4", "thumbnail": "images/chalmit/CHL_Em protecta X view 1_1200.jpg" },
+        { "type": "video", "src": "videos/chalmit/Evolution X - versão curta.mp4", "thumbnail": "images/chalmit/CHL_EvolutionX_515.webp" },
+        { "type": "video", "src": "videos/chalmit/Evolution X.mp4", "thumbnail": "images/chalmit/evolution_x_evxb_20l_le_1_2.jpg" },
+        { "type": "image", "src": "images/chalmit/CHL_Em protecta X view 1_1200.jpg", "alt": "Luminaria Chalmit Protecta X — iluminación lineal para áreas clasificadas" },
+        { "type": "image", "src": "images/chalmit/CHL_EvolutionX_515.webp", "alt": "Proyector LED Chalmit Evolution X para áreas externas y offshore" },
+        { "type": "image", "src": "images/chalmit/CHL_H065550_Angle03_SECONDARY_PRODIMAGE_1200.webp", "alt": "Luminaria Chalmit — aplicación industrial" },
+        { "type": "image", "src": "images/chalmit/CHL_NeoX_PIrepresentative_515.webp", "alt": "Bulkhead Chalmit Neo X para áreas de circulación" },
+        { "type": "image", "src": "images/chalmit/HubbellHQ1.jpg", "alt": "Sede del grupo Hubbell — Chalmit" },
+        { "type": "image", "src": "images/chalmit/Industrial-02-hero.jpg", "alt": "Aplicación industrial de iluminación Chalmit" },
+        { "type": "image", "src": "images/chalmit/NexLEDIII_515.webp", "alt": "Luminaria NexLED Chalmit para salas técnicas" },
+        { "type": "image", "src": "images/chalmit/04.01.2024 - Protecta X.png", "alt": "Luminaria lineal Protecta X" }
+      ],
+      "products": [
+        { "id": "protecta-x", "name": "Protecta X / Protecta III", "description": "Luminarias lineales LED para áreas de proceso, corredores industriales y offshore. Alta eficiencia luminosa y construcción robusta en aluminio grado marino. Certificación ATEX, IECEx para Zonas 1, 2, 21 y 22. Protección IP66/IP67. Disponibles con batería de emergencia integrada.", "image": "images/chalmit/04.01.2024 - Protecta X.png" },
+        { "id": "evolution-x", "name": "Evolution X", "description": "Proyectores LED para áreas externas y grandes espacios. Ópticas asimétricas con alta uniformidad y control de deslumbramiento. Reducción de contaminación lumínica. Certificación ATEX, IECEx para Zonas 1, 2, 21 y 22.", "image": "images/chalmit/CHL_EvolutionX_515.webp" },
+        { "id": "nexled-neo-x", "name": "NexLED / Neo X", "description": "Bulkheads LED para circulación y salas técnicas. Opciones para Zona 1/2 y Zona 21/22, con versiones de emergencia. Diseño compacto y robusto para instalación en áreas confinadas. Construcción anticorrosiva con protección IP66.", "image": "images/chalmit/NexLEDIII_515.webp" }
+      ]
+    },
+    {
+      "id": "dropsafe",
+      "name": "Dropsafe",
+      "logo": "images/dropsafe/Logo Dropsafe - sem fundo.png",
+      "tagline": "Líder global en prevención de caídas de objetos — protegiendo personas, activos y operaciones con soluciones pasivas de seguridad 24/7",
+      "description": "Dropsafe es líder global en la prevención de caídas de objetos, socio de empresas en sectores de alto riesgo como energía, petróleo y gas, minería, químico, marítimo y renovables. Con más de 20 años de experiencia, desarrolla soluciones especializadas — redes, barreras, eslingas y sistemas de fijación — para evitar la caída de objetos en entornos industriales, garantizando operaciones más seguras y fortaleciendo la cultura de seguridad.\n\nA diferencia de las soluciones activas que dependen de intervención humana diaria, Dropsafe adopta una filosofía de prevención pasiva: una única instalación protege todos los activos 24 horas al día, 7 días a la semana, funcionando independientemente de la acción humana. Sus productos están fabricados en acero inoxidable SUS 316 y policarbonato de alta resistencia, diseñados para entornos offshore severos con temperaturas de -40 °C a 500 °C.\n\nLa tecnología patentada Trisafe™ — un mosquetón de triple acción con bloqueo automático operable con una sola mano — elimina el error humano y establece un nuevo estándar de seguridad. Con certificaciones globales incluyendo DNVGL-RP-F107, ABS DOPP+, API RP 2D, NORSOK e ISO 9001, Dropsafe protege personas y equipos en los entornos más exigentes del mundo, respaldada por seguro de responsabilidad de producto de US$ 10 millones.",
+      "gallery": [
+        { "type": "video", "src": "videos/dropsafe/Introducing Dropsafe Nets with Trisafe Carabiner.mp4", "thumbnail": "images/dropsafe/Net_main_wm-2.webp" },
+        { "type": "video", "src": "videos/dropsafe/Trisafe Carabiner.mp4", "thumbnail": "images/dropsafe/dropsafe-tool-tethering-795.webp" },
+        { "type": "video", "src": "videos/dropsafe/Mosquetão Trisafe.mp4", "thumbnail": "images/dropsafe/dropsafe-tool-tethering-469.webp" },
+        { "type": "video", "src": "videos/dropsafe/Redes Dropsafe.mp4", "thumbnail": "images/dropsafe/dropsafe-nets-225.webp" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-798.webp", "alt": "Barrera Dropsafe instalada en barandilla industrial" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-864.webp", "alt": "Sistema de barrera Dropsafe con paneles modulares" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-902.webp", "alt": "Barrera Dropsafe — detalle de instalación y fijación" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-nets-782.webp", "alt": "Red Dropsafe envolviendo equipo suspendido con Trisafe™" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-nets-818.webp", "alt": "Red de retención Dropsafe instalada en luminaria industrial" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-slings-598.webp", "alt": "Eslinga Dropsafe en acero inoxidable con mosquetón de seguridad" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-pouches-975.webp", "alt": "Bolsa de seguridad Dropsafe para equipos portátiles" },
+        { "type": "image", "src": "images/dropsafe/Net_main_wm-2.webp", "alt": "Red Dropsafe con mosquetón Trisafe™ y placa RFID" },
+        { "type": "image", "src": "images/dropsafe/DROPSAFE-LED-Render-2.jpg", "alt": "Render LED Dropsafe — iluminación con red de protección" }
+      ],
+      "products": [
+        { "id": "dropsafe-nets", "name": "Redes Dropsafe (Dropsafe Nets)", "description": "Dispositivos de retención secundaria que envuelven y sujetan con seguridad equipos suspendidos como luminarias, cámaras CCTV, altavoces y detectores. Fabricadas en acero inoxidable SUS 316, probadas para más de 5 veces la Carga de Trabajo Segura (SWL). Equipadas con mosquetón Trisafe™ de triple acción y placa RFID para trazabilidad. Disponibles en más de 100 tamaños y proyectos personalizados.", "image": "images/dropsafe/dropsafe-nets-225.webp" },
+        { "id": "dropsafe-barrier", "name": "Barreiras Dropsafe (Dropsafe Barrier)", "description": "Sistema modular de prevención de caídas que se fija a la parte interna de barandillas, andamios o bajo escaleras. Fabricado en policarbonato reciclable, con tres componentes: Panel Grande (1675 x 800 mm), Panel Pequeño (1100 x 800 mm) y Dispositivo de Fijación. Alta resistencia a impactos (63J), soporta vientos CAT 5 (250 km/h). Instalación sin herramientas.", "image": "images/dropsafe/dropsafe-barrier-798.webp" },
+        { "id": "dropsafe-slings", "name": "Eslingas Dropsafe (Dropsafe Slings)", "description": "Solución de fijación secundaria para equipos en altura cuando no es necesario envolver componentes internos. Fabricadas en acero inoxidable SUS 316 con cierres dobles. Disponible con mosquetón tradicional (cierre roscado) o patentado Trisafe™ de triple acción con bloqueo automático.", "image": "images/dropsafe/dropsafe-slings-598.webp" },
+        { "id": "dropsafe-trisafe-carabiner", "name": "Mosquetão Trisafe™", "description": "Tecnología patentada: primer mosquetón del mundo con mecanismo de triple acción y bloqueo automático, específicamente diseñado para prevenir caídas de objetos. Diseño en gancho, operación con una sola mano incluso usando guantes. Fabricado en 100% acero inoxidable.", "image": "images/dropsafe/dropsafe-tool-tethering-795.webp" },
+        { "id": "dropsafe-tool-tethering", "name": "Fixação de Ferramentas (Tool Tethering)", "description": "Línea de cordones de seguridad para fijación de herramientas en altura, equipada con mosquetón Trisafe™ de triple acción. Opciones: cable de acero inoxidable (SUS 316L, 3 mm), bungee elástico (1680D Poliéster) y cinta. Cumple ANSI/ISEA 121-2018. Giro integrado de 360°.", "image": "images/dropsafe/dropsafe-tool-tethering-469.webp" },
+        { "id": "dropsafe-pouches", "name": "Bolsas de Segurança (Dropsafe Pouches)", "description": "Dispositivos que envuelven y sujetan artículos portátiles utilizados en altura (radios, detectores de gas, latas de aerosol, multímetros). Red de acero inoxidable SUS 316. Probadas para más de 2 veces la SWL. Incluye clip para cinturón resistente. Reutilizables y 100% reciclables.", "image": "images/dropsafe/dropsafe-pouches-975.webp" }
+      ]
+    },
+    {
+      "id": "hawke",
+      "name": "Hawke",
+      "logo": "images/hawke/Logo Hawke - sem fundo.png",
+      "tagline": "Prensacables certificados para atmósferas explosivas y aplicaciones críticas",
+      "description": "Hawke es un fabricante británico de renombre mundial, especializado en prensacables y accesorios para instalaciones eléctricas en atmósferas explosivas. Con décadas de experiencia, la marca es referencia en seguridad y confiabilidad para los sectores de petróleo y gas, petroquímico, minería y energía.\n\nSus productos están certificados conforme a las normas internacionales más rigurosas (IECEx, ATEX), garantizando protección contra explosiones en entornos clasificados. La línea RCG (Resin Cable Gland) es uno de los productos estrella de la marca, ofreciendo sellado con resina para aplicaciones críticas donde la integridad del cable es esencial.\n\nHawke también posee credenciales aeroespaciales, con soluciones probadas y aprobadas para uso en condiciones extremas — incluyendo aplicaciones espaciales — comprobando la robustez y la calidad de ingeniería que hacen de sus prensacables la opción preferida de integradores y armadores de paneles eléctricos en todo el mundo.",
+      "gallery": [
+        { "type": "video", "src": "videos/hawke/Hawke - RCG 501 com legenda.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" },
+        { "type": "video", "src": "videos/hawke/Hawke no espaço.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" },
+        { "type": "video", "src": "videos/hawke/HK_prensa_cabos_estoque_41s.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" }
+      ],
+      "products": [
+        { "id": "hawke-1", "name": "Prensa-Cabos RCG 501", "description": "Prensacables con sellado en resina de la línea RCG, diseñado para instalaciones en áreas clasificadas y atmósferas explosivas. Certificación IECEx y ATEX. Ideal para aplicaciones críticas en petróleo y gas, petroquímica y minería.", "image": "images/hawke/Logo Hawke.webp" },
+        { "id": "hawke-2", "name": "Prensa-Cabos Ex", "description": "Línea completa de prensacables a prueba de explosión para entornos Ex d, Ex e y Ex nR. Cumple normas internacionales con construcción robusta en latón niquelado o acero inoxidable, garantizando seguridad y durabilidad en condiciones extremas.", "image": "images/hawke/Logo Hawke.webp" }
+      ]
+    },
+    {
+      "id": "hi-force",
+      "name": "Hi-Force",
+      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
+      "tagline": "Herramientas hidráulicas de alto torque para aplicaciones industriales críticas",
+      "description": "Hi-Force es un fabricante británico líder mundial en herramientas hidráulicas de alto torque para los sectores industrial, offshore y de construcción. Fundada en el Reino Unido, la empresa desarrolla equipos de precisión para aplicaciones críticas de atornillado, tensionado, elevación y corte.\n\nCon centros de servicio y distribución en más de 100 países, Hi-Force ofrece tecnología de punta en torquímetros hidráulicos, tensores de pernos, gatos de elevación y sistemas de bombeo, garantizando seguridad y productividad en las operaciones más exigentes.",
+      "gallery": [
+        { "type": "video", "src": "videos/hi-force/Basic Principles of Hydraulic Jack.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Hi-Force APP.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Hi-Force JAS.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Hi-Force TWH-N.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Sistema de Elevação com Macaco Toughlift (Hi-Force).mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" }
+      ],
+      "products": [
+        { "id": "hi-1", "name": "Torquímetro Hidráulico TWH-N", "description": "Torquímetro hidráulico de perfil bajo para aplicaciones industriales de atornillado controlado con alta precisión de torque. Ideal para bridas, recipientes a presión y conexiones críticas.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-2", "name": "Sistema de Elevação Toughlift", "description": "Gato hidráulico autónomo de elevación controlada para cargas pesadas. Ideal para entornos industriales y de mantenimiento. Operación segura y precisa con accionamiento hidráulico.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-3", "name": "Sistema de Tensionamento APP", "description": "Bomba de alta presión para tensionado simultáneo de múltiples pernos en aplicaciones como bridas y recipientes a presión. Precisión y control para operaciones críticas de pernado.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-4", "name": "Sistema de Levantamento JAS", "description": "Sistema modular de elevación hidráulica sincronizada para movimiento y posicionamiento preciso de grandes estructuras. Control centralizado de múltiples puntos de elevación.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-5", "name": "Macaco Hidráulico Industrial", "description": "Cilindros hidráulicos de simple y doble acción con capacidades de 10 a 1.000 toneladas para elevación y posicionamiento de cargas. Construcción robusta para uso industrial continuo.", "image": "images/hi-force/Logo Hi-Force.jpg" }
+      ]
+    },
+    {
+      "id": "nightstick",
+      "name": "Nightstick",
+      "logo": "images/nightstick/Logo Nightstick - sem fundo.png",
+      "tagline": "Linternas intrínsecamente seguras para áreas clasificadas y operaciones de rescate",
+      "description": "Nightstick es la marca de iluminación profesional de Bayco Products (EE. UU.), especializada en linternas y linternas frontales intrínsecamente seguras (Ex) para áreas clasificadas y entornos de riesgo.\n\nCon certificaciones ATEX, IECEx y Class I Division 1, las linternas Nightstick están diseñadas para profesionales que trabajan en atmósferas explosivas, espacios confinados y operaciones de rescate. La línea incluye modelos recargables, linternas frontales y linternas portátiles con alta durabilidad y rendimiento luminoso.\n\nFabricadas con materiales de ingeniería de alto impacto y a prueba de agua, las linternas Nightstick ofrecen seguridad y confiabilidad para industrias de petróleo y gas, minería, combate de incendios y servicios de emergencia.",
+      "gallery": [
+        { "type": "video", "src": "videos/nightstick/08.04.2024 - XPP-5454G lanterna cabeça_30 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
+        { "type": "video", "src": "videos/nightstick/14.05.2024 - XPR-5584 GMX lanterna recarregável_48 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
+        { "type": "video", "src": "videos/nightstick/16.04.2024 - embalando lanterna nightstick_40s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
+        { "type": "video", "src": "videos/nightstick/NS_Lanternas diversas Ex 24 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" }
+      ],
+      "products": [
+        { "id": "xpp-5454g", "name": "Lanterna de Cabeça XPP-5454G", "description": "Linterna frontal intrínsecamente segura con certificación Class I Division 1. Diseñada para trabajo en espacios confinados y áreas clasificadas con riesgo de explosión. Manos libres con alto rendimiento luminoso.", "image": "images/nightstick/Logo Nightstick.jpg" },
+        { "id": "xpr-5584-gmx", "name": "Lanterna Recarregável XPR-5584 GMX", "description": "Linterna portátil recargable intrínsecamente segura con certificación ATEX/IECEx. Batería de larga duración con alto rendimiento luminoso para operaciones en atmósferas explosivas.", "image": "images/nightstick/Logo Nightstick.jpg" },
+        { "id": "lanternas-ex", "name": "Lanternas Ex à Prova de Explosão", "description": "Línea completa de linternas portátiles certificadas para atmósferas explosivas (Ex). Modelos con diferentes potencias y autonomías para aplicaciones en petróleo y gas, minería y rescate.", "image": "images/nightstick/Logo Nightstick.jpg" }
+      ]
+    },
+    {
+      "id": "oliver",
+      "name": "Oliver Valves",
+      "logo": "images/oliver/Logo Oliver Valves - Sem fundo.png",
+      "tagline": "Válvulas de instrumentación para aplicaciones críticas",
+      "description": "Oliver Valves es un fabricante británico de válvulas de instrumentación para los sectores de petróleo y gas, petroquímico y energía. Especializada en válvulas de aguja, válvulas de bola, válvulas manifold y válvulas de retención, la empresa suministra soluciones de alta precisión para control de flujo en aplicaciones críticas.\n\nCon décadas de experiencia en ingeniería de válvulas, Oliver Valves es reconocida por la confiabilidad y durabilidad de sus productos en los entornos más exigentes del mundo.",
+      "gallery": [],
+      "products": [
+        { "id": "oli-1", "name": "Válvulas Agulha", "description": "Válvulas de aguja de instrumentación para control de flujo preciso en aplicaciones de alta presión. Diseñadas para los sectores de petróleo y gas y petroquímico.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" },
+        { "id": "oli-2", "name": "Válvulas Manifold", "description": "Manifolds de instrumentación para montaje de transmisores de presión. Configuraciones de 2, 3 y 5 vías para atender diferentes requisitos de instalación.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" },
+        { "id": "oli-3", "name": "Válvulas de Retenção", "description": "Válvulas de retención de alto rendimiento para protección contra flujo inverso en sistemas de instrumentación industrial.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" }
+      ]
+    },
+    {
+      "id": "parker",
+      "name": "Parker",
+      "logo": "images/parker/Logo Parker - Sem fundo.png",
+      "tagline": "Tecnologías de movimiento y control para la industria",
+      "description": "Parker Hannifin es líder global en tecnologías de movimiento y control, suministrando soluciones hidráulicas, neumáticas y electromecánicas para una amplia gama de industrias. Con presencia en más de 50 países, Parker desarrolla componentes y sistemas que aumentan la productividad y la eficiencia de máquinas y equipos.\n\nEn el portafolio del Grupo Polar, los productos Parker incluyen mangueras, conexiones, válvulas y sistemas de filtración para aplicaciones industriales, cumpliendo con los más rigurosos estándares de calidad y seguridad.",
+      "gallery": [],
+      "products": [
+        { "id": "par-1", "name": "Mangueiras e Conexões Hidráulicas", "description": "Mangueras de alta presión y conexiones para sistemas hidráulicos industriales y móviles. Amplia gama de diámetros y materiales para diferentes fluidos y temperaturas.", "image": "images/parker/Logo Parker - Sem fundo.png" },
+        { "id": "par-2", "name": "Válvulas e Atuadores", "description": "Válvulas direccionales, proporcionales y actuadores neumáticos e hidráulicos para control preciso de movimiento en máquinas y procesos industriales.", "image": "images/parker/Logo Parker - Sem fundo.png" },
+        { "id": "par-3", "name": "Sistemas de Filtragem", "description": "Filtros hidráulicos y sistemas de monitoreo de contaminación para garantizar la vida útil y la confiabilidad de sistemas hidráulicos.", "image": "images/parker/Logo Parker - Sem fundo.png" }
+      ]
+    },
+    {
+      "id": "pelican",
+      "name": "Pelican",
+      "logo": "images/pelican/Logo Pelican - Sem fundo.png",
+      "tagline": "Cases de protección legendarios — a prueba de agua, polvo y caídas",
+      "description": "Pelican es referencia mundial en cases de protección de alto rendimiento, linternas tácticas y coolers profesionales. Sus productos son utilizados por fuerzas armadas, socorristas, fotógrafos y aventureros en los entornos más extremos del planeta.\n\nReconocida por su durabilidad legendaria, cada case Pelican posee certificación IP67 contra agua y polvo, además de resistir caídas e impactos severos. La línea Air Case revolucionó el mercado al ofrecer la misma protección con reducción significativa de peso, ideal para equipos electrónicos y profesionales que necesitan movilidad sin comprometer la seguridad.",
+      "gallery": [
+        { "type": "video", "src": "videos/pelican/CASES DE PROTEÇÃO.mp4", "thumbnail": "images/pelican/Pelican .png" },
+        { "type": "video", "src": "videos/pelican/Pelican - Air Case.mp4", "thumbnail": "images/pelican/Pelican .png" },
+        { "type": "video", "src": "videos/pelican/Pelican 7610.mp4", "thumbnail": "images/pelican/Pelican .png" }
+      ],
+      "products": [
+        { "id": "pel-1", "name": "Cases de Proteção", "description": "Cases de alto impacto con certificación IP67, a prueba de agua, polvo y caídas. Protección definitiva para equipos electrónicos, armamento, instrumentos científicos y equipos fotográficos.", "image": "images/pelican/Logo Pelican - Sem fundo.png" },
+        { "id": "pel-2", "name": "Air Case", "description": "Línea revolucionaria de cases ultraligeros que mantiene la resistencia legendaria de Pelican con hasta un 40% menos de peso. Ideal para proteger drones, notebooks y equipos portátiles en campo.", "image": "images/pelican/Logo Pelican - Sem fundo.png" },
+        { "id": "pel-3", "name": "Lanterna Tática 7610", "description": "Linterna LED táctica de alto rendimiento, compacta y recargable, con haz ajustable y cuerpo resistente a impactos. Diseñada para fuerzas de seguridad, bomberos y situaciones de emergencia.", "image": "images/pelican/Logo Pelican - Sem fundo.png" }
+      ]
+    },
+    {
+      "id": "proserv",
+      "name": "Proserv",
+      "logo": "images/proserv/Logo Proserv - Sem fundo.png",
+      "tagline": "Tecnología de control y sistemas de muestreo para la industria de energía",
+      "description": "Proserv es una empresa global de tecnología de control que atiende la industria de energía. Con actuación internacional, somos especialistas en sistemas de muestreo topside y subsea para el sector de petróleo y gas.\n\nCon nuestra nueva identidad de marca, reafirmamos nuestro compromiso con la innovación y la excelencia operativa, suministrando soluciones de control avanzadas que garantizan seguridad, eficiencia y confiabilidad en las operaciones de nuestros clientes en todo el mundo.",
+      "gallery": [
+        { "type": "image", "src": "images/proserv/Proserv_empresa global.png", "alt": "Proserv — Empresa global de tecnología de control" },
+        { "type": "image", "src": "images/proserv/Proserv_new brand.png", "alt": "Nueva identidad visual de Proserv" },
+        { "type": "image", "src": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png", "alt": "Sistemas de muestreo topside y subsea Proserv" }
+      ],
+      "products": [
+        { "id": "proserv-1", "name": "Sistemas de Amostragem Topside", "description": "Soluciones completas de muestreo para plataformas e instalaciones de superficie, garantizando precisión y conformidad operativa.", "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png" },
+        { "id": "proserv-2", "name": "Sistemas de Amostragem Subsea", "description": "Tecnología avanzada de muestreo submarino para operaciones en aguas profundas con máxima confiabilidad.", "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png" },
+        { "id": "proserv-3", "name": "Tecnologia de Controle", "description": "Sistemas de control y automatización para la industria de energía, optimizando procesos y reduciendo riesgos operativos.", "image": "images/proserv/Proserv_empresa global.png" }
+      ]
+    },
+    {
+      "id": "sa-equip",
+      "name": "SA EQUIP",
+      "logo": "images/sa-equip/Logo SA Equip - Sem fundo.png",
+      "tagline": "Equipos Ex certificados para las condiciones más extremas",
+      "description": "SA Equipment diseña y fabrica equipos certificados Ex (ATEX, IECEx y UKEX) para atmósferas explosivas. Nuestra línea de productos atiende los sectores de petróleo y gas, minería, químico e industrial, con equipos robustos de alto rendimiento para los entornos más extremos.\n\nCon fabricación en el Reino Unido y materiales de calidad marítima (marine grade), nuestros productos están diseñados para operación continua en temperaturas de -20 °C a +50 °C, con protección IP65. Cada equipo es probado y certificado individualmente, garantizando seguridad y confiabilidad en Zonas 1 y 2 (gases) y Zonas 21 y 22 (polvos).",
+      "gallery": [
+        { "type": "image", "src": "images/sa-equip/Air_Conditioner_Hero.png", "alt": "SA CYCLONE EX Air Conditioner — Vista frontal" },
+        { "type": "image", "src": "images/sa-equip/SA_CYCLONE_40CM_3_SIDE.png", "alt": "SA CYCLONE con ducto de 40 cm — Vista lateral" },
+        { "type": "image", "src": "images/sa-equip/AIR_CONDITIONER_2025_2.png", "alt": "SA CYCLONE EX — Vista en campo" },
+        { "type": "image", "src": "images/sa-equip/AIR_CONDITIONER_2025_3.png", "alt": "SA CYCLONE EX — Aplicación industrial" },
+        { "type": "image", "src": "images/sa-equip/Ex AIR MOVER.png", "alt": "SA CYCLONE EX Air Mover — Movimentador de aire Ex" },
+        { "type": "image", "src": "images/sa-equip/Iluminação portátil LED Ex.png", "alt": "SA LUMIN — Iluminación portátil LED Ex" },
+        { "type": "image", "src": "images/sa-equip/SA_Transformador Ex_400VA.png", "alt": "SA Transformador Ex 400VA" },
+        { "type": "video", "src": "videos/sa-equip/SA_Cyclone_42 s.mp4", "thumbnail": "images/sa-equip/Air_Conditioner_Hero.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_Cyclone_Sistema_Ventilação_07 s.mp4", "thumbnail": "images/sa-equip/SA_CYCLONE_30CM_2_FRONT.png" },
+        { "type": "video", "src": "videos/sa-equip/SA LUMIN EX LED FLOODLIGHT Product Application - SA Equip (1080p).mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "type": "video", "src": "videos/sa-equip/SA LUMIN EX LED WORKLIGHT 100 DROP TEST - SA Equip (1080p).mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_Projetor LED Ex.mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_Transformador Ex_4 s.mp4", "thumbnail": "images/sa-equip/SA_Transformador Ex_400VA.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_portifólio.mp4", "thumbnail": "images/sa-equip/Logo SA Equip.jpg" }
+      ],
+      "products": [
+        { "id": "sa-cyclone-ac", "name": "SA CYCLONE EX Air Conditioner", "description": "Aire acondicionado portátil certificado Ex para Zonas 1 y 2 (gases) y Zonas 21 y 22 (polvos). Potencia de refrigeración de 11 kW a 400-440V trifásico 50/60Hz. Caudal de 690 m³/h con reducción típica de temperatura de 10-20 °C. Área enfriada de 240 m³. Dimensiones: 800 × 700 × 1290 mm, 200 kg. Protección IP65. Certificaciones ATEX, IECEx y UKEX. Modelos Tropical (HT30) y Templado (LT30).", "image": "images/sa-equip/Air_Conditioner_Hero.png" },
+        { "id": "sa-lumin-floodlight", "name": "SA LUMIN EX LED Floodlight", "description": "Proyector LED certificado Ex para iluminación de grandes áreas en atmósferas explosivas. Alta eficiencia luminosa con bajo consumo de energía. Construcción robusta en aluminio con protección anticorrosiva. Certificación ATEX para Zonas 1 y 2.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "id": "sa-lumin-worklight", "name": "SA LUMIN EX LED Worklight", "description": "Linterna de trabajo LED certificada Ex, sometida a rigurosas pruebas de resistencia incluyendo prueba de caída de 100 metros. Iluminación potente y portátil para inspecciones y mantenimiento en áreas clasificadas. Certificación ATEX para Zonas 1 y 2.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "id": "sa-lumin-portable", "name": "SA LUMIN Iluminação Portátil LED Ex", "description": "Línea de iluminación portátil LED certificada Ex para áreas clasificadas. Soluciones compactas y ligeras para iluminación temporal en tanques, espacios confinados y áreas de mantenimiento. Alimentación por batería recargable de larga duración. Certificación ATEX.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "id": "sa-transformador-ex", "name": "SA Transformador Ex", "description": "Transformador portátil certificado Ex para alimentación segura de equipos en atmósferas explosivas. Disponible en 400VA con carcasa robusta y protección IP65. Diseñado para uso en Zonas 1 y 2. Certificaciones ATEX, IECEx y UKEX.", "image": "images/sa-equip/SA_Transformador Ex_400VA.png" },
+        { "id": "sa-air-mover", "name": "SA CYCLONE EX Air Mover", "description": "Movimentador de aire portátil certificado Ex para ventilación y circulación de aire en espacios confinados y áreas clasificadas. Compatible con ductos antiestáticos SA CYCLONE. Ideal para renovación de aire, enfriamiento y extracción de humos. Certificación ATEX.", "image": "images/sa-equip/Ex AIR MOVER.png" }
+      ]
+    },
+    {
+      "id": "stopdropp",
+      "name": "StopDropp",
+      "logo": "images/stopdropp/Logo Stopdrop - sem fundo.png",
+      "tagline": "Protegiendo lo invisible. Previniendo lo impensable.",
+      "description": "StopDropp desarrolla herramientas manuales diseñadas específicamente para evitar caídas durante trabajos en altura. Fundada en 2005, con sedes en Houston, Texas (EE. UU.) y Dewsbury, West Yorkshire (Reino Unido), la empresa es referencia global en tethered tools, tools at height y tools aloft.\n\nAtiende sectores de petróleo y gas, petroquímica, construcción, minería, utilities, energía eólica y telecomunicaciones, con el objetivo de reducir incidentes de caída de objetos. Es miembro de organizaciones dedicadas a la prevención de caídas en los sectores offshore y onshore.\n\nSu ecosistema de productos abarca: cordones y espirales de amarre con límites de carga de trabajo (WLL) explícitos para todo tipo de herramientas; puntos de anclaje vestibles (cinturones y chalecos con puntos de fijación reforzados) y estructurales; bolsas y mochilas con cierres magnéticos o de hebilla, no conductivas y con múltiples puntos de fijación; además de mosquetones, conectores, envoltorios para herramientas y kits completos. Todos los productos poseen certificaciones EN 13157, ANSI/ISEA 121, ASME B30.20 y API RP 2D, con pruebas de carga realizadas por certificadoras externas y trazabilidad total por serialización.",
+      "gallery": [
+        { "type": "video", "src": "videos/stopdropp/Stopdrop_ferramentas uso altura.mp4", "thumbnail": "images/stopdropp/Logo Stopdrop.jpg" }
+      ],
+      "products": [
+        { "id": "stopdropp-cordoes-amarracao", "name": "Cordões e Espirais de Amarração", "description": "Cordones fijos y espirales retráctiles para amarre de todo tipo de herramientas manuales. Fabricados en nylon de alta tenacidad, poliéster y opciones reforzadas con Kevlar. Límites de carga de trabajo (WLL) explícitos.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
+        { "id": "stopdropp-ancoras-vestiveis", "name": "Âncoras Vestíveis", "description": "Cinturones de herramientas y chalecos con puntos de fijación reforzados, diseñados para trabajos prolongados en altura. Compatibles con equipos de protección contra caídas. Ergonómicos y confortables.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
+        { "id": "stopdropp-bolsas-ferramentas", "name": "Bolsas para Ferramentas", "description": "Bolsas no conductivas esenciales para trabajos en zonas eléctricas y de telecomunicación. Sistemas de cierre magnético o de hebilla que impiden apertura accidental. Múltiples puntos de fijación.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
+        { "id": "stopdropp-kits-completos", "name": "Kits Completos de Amarração", "description": "Kits completos serializados y empacados por equipo, disponibles en las versiones estática, móvil o por función. Montados a medida tras evaluación del inventario de herramientas del cliente. Trazabilidad completa.", "image": "images/stopdropp/Logo Stopdrop.jpg" }
+      ]
+    },
+    {
+      "id": "vantrunk",
+      "name": "Vantrunk",
+      "logo": "images/vantrunk/Logo Vantrunk - sem fundo.png",
+      "tagline": "Sistemas de gestión de cables para entornos industriales y áreas clasificadas",
+      "description": "Vantrunk es referencia mundial en sistemas de gestión de cables, ofreciendo soluciones innovadoras para los sectores industrial y de áreas clasificadas. Con décadas de experiencia, nuestros sistemas de bandejas y escalerillas portacables garantizan seguridad, durabilidad y eficiencia en las instalaciones más exigentes.\n\nDesarrollamos productos diseñados para soportar entornos agresivos, incluyendo plataformas offshore, plantas petroquímicas, industrias de minería e instalaciones de energía, siempre en conformidad con las más rigurosas normas internacionales.",
+      "gallery": [
+        { "type": "image", "src": "images/vantrunk/Intelok Sistrma.png", "alt": "Sistema Intelok Vantrunk" },
+        { "type": "video", "src": "videos/vantrunk/Speedway cable ladder system_24 seg.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" },
+        { "type": "video", "src": "videos/vantrunk/Vantrunk - Institucional  legenda port_2.23.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" },
+        { "type": "video", "src": "videos/vantrunk/Vantrunk - Speedway cable ladder  04 min.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" }
+      ],
+      "products": [
+        { "id": "vantrunk-speedway", "name": "Sistema Speedway Cable Ladder", "description": "Sistema de escalerilla portacables de alta resistencia, diseñado para instalaciones industriales pesadas y áreas clasificadas. Ofrece rápida instalación, excelente capacidad de carga y protección contra corrosión para entornos agresivos.", "image": "images/vantrunk/Intelok Sistrma.png" },
+        { "id": "vantrunk-intelok", "name": "Sistema Intelok", "description": "Sistema de bloqueo inteligente para escalerillas y bandejas portacables que garantiza conexiones seguras e instalación simplificada. Ideal para aplicaciones en plantas petroquímicas, plataformas offshore y entornos industriales de alta exigencia.", "image": "images/vantrunk/Intelok Sistrma.png" }
+      ]
+    }
+  ]
+}

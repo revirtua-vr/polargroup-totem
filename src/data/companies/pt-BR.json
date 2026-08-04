@@ -1,206 +1,295 @@
 {
   "companies": [
     {
-      "id": "polar-engenharia",
-      "name": "Polar Engenharia",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Engenharia é referência em soluções de infraestrutura e construção civil. Com mais de 20 anos de experiência, entregamos projetos que transformam cidades e conectam pessoas.\n\nNossa equipe é formada por engenheiros, arquitetos e técnicos altamente qualificados, comprometidos com excelência, sustentabilidade e inovação em cada obra.",
-      "gallery": [],
+      "id": "atexxo",
+      "name": "Atexxo",
+      "logo": "images/atexxo/Logo atexxo - sem fundo.png",
+      "tagline": "Dispositivos móveis à prova de explosão para áreas classificadas",
+      "description": "A Atexxo Manufacturing é uma empresa internacional especializada no design e produção de dispositivos móveis à prova de explosão com certificações ATEX e IECEx. Com sede na Holanda, a Atexxo converte dispositivos premium da Apple e Samsung — como iPhones, iPads e Galaxy Tabs — em versões certificadas para uso seguro em áreas classificadas, mantendo todas as funcionalidades originais dos equipamentos, incluindo 5G, NFC, câmeras, carregamento sem fio e conectividade Wi-Fi e Bluetooth.\n\nOs produtos Atexxo são certificados para ATEX Zona 1 e 2 (risco de explosão por gás) e Zona 21 e 22 (risco de explosão por poeira), com certificações internacionais IECEx e UKCA, além de certificação INMETRO disponível para modelos selecionados. Todos os dispositivos preservam a experiência completa do usuário, incluindo aplicativos, interface, desempenho e ecossistema do dispositivo original, sem perda de performance.\n\nProjetados especificamente para indústrias críticas como óleo e gás, petroquímica, offshore e farmacêutica, os dispositivos Atexxo são ideais para trabalhadores conectados, Indústria 4.0, gêmeos digitais em áreas classificadas e captura segura de fotos e vídeos em ambientes perigosos.",
+      "gallery": [
+        { "type": "image", "src": "images/atexxo/iphone-15-2-240x300.png", "alt": "iPhone 15 à prova de explosão certificado ATEX/IECEx/INMETRO para Zona 1 e Zona 2" },
+        { "type": "image", "src": "images/atexxo/ipad-mini-7-2-240x300.png", "alt": "iPad mini 7 à prova de explosão certificado ATEX/IECEx/INMETRO para Zona 1 e Zona 2" },
+        { "type": "image", "src": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png", "alt": "iPhone 17 à prova de explosão certificado ATEX/IECEx para Zona 1" },
+        { "type": "image", "src": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png", "alt": "Galaxy S25 à prova de explosão certificado ATEX/IECEx para Zona 2" },
+        { "type": "image", "src": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png", "alt": "iPad 11 à prova de explosão certificado ATEX/IECEx para Zona 1" },
+        { "type": "image", "src": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png", "alt": "Galaxy Tab Active5 à prova de explosão certificado ATEX/IECEx para Zona 1" },
+        { "type": "video", "src": "videos/atexxo/ATX_iPhone_EXd-IPH-13.mp4", "thumbnail": "images/atexxo/MOB-EX-IPH-15-front-ex-621x1024.png" },
+        { "type": "video", "src": "videos/atexxo/ATX-Mini iPad-M6.mp4", "thumbnail": "images/atexxo/ipad-mini-7-2-240x300.png" }
+      ],
       "products": [
-        { "id": "eng-1", "name": "Projetos de Infraestrutura", "description": "Planejamento e execução de obras de grande porte como pontes, viadutos e rodovias.", "image": "images/placeholder-logo.png" },
-        { "id": "eng-2", "name": "Consultoria em Engenharia", "description": "Análise técnica, estudos de viabilidade e gerenciamento de projetos de construção.", "image": "images/placeholder-logo.png" }
+        { "id": "atx-iphone-15", "name": "iPhone 15 Ex", "description": "Smartphone Apple iPhone 15 convertido e certificado para uso seguro em áreas classificadas Zona 1 e 2 (gases) e Zona 21 e 22 (poeiras). Disponível com capacidades de armazenamento de 128 GB, 256 GB e 512 GB. Mantém todas as funcionalidades originais do iPhone 15, incluindo 5G, NFC, câmeras, carregamento sem fio e botões físicos. Certificação INMETRO, ATEX e IECEx. Marcação: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.", "image": "images/atexxo/iphone-15-2-240x300.png" },
+        { "id": "atx-ipad-mini-7", "name": "iPad mini 7 Ex", "description": "Tablet Apple iPad mini 7ª geração convertido e certificado para uso seguro em áreas classificadas Zona 1 e 2 (gases) e Zona 21 e 22 (poeiras). Disponível com capacidades de armazenamento de 128 GB, 256 GB e 512 GB, nos modelos Wi-Fi ou Wi-Fi+5G com E-SIM. Mantém todas as funcionalidades originais, exceto o sensor de impressão digital. Certificação INMETRO, ATEX e IECEx.", "image": "images/atexxo/ipad-mini-7-2-240x300.png" },
+        { "id": "atx-iphone-16", "name": "iPhone 16 Ex", "description": "Smartphone Apple iPhone 16 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todos os recursos originais do dispositivo, incluindo 5G, NFC, câmeras, carregamento sem fio e botões físicos. Certificação ATEX e IECEx.", "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png" },
+        { "id": "atx-iphone-17", "name": "iPhone 17 Ex", "description": "Smartphone Apple iPhone 17 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todos os recursos originais do dispositivo. Certificação ATEX e IECEx.", "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png" },
+        { "id": "atx-iphone-16e", "name": "iPhone 16E Ex", "description": "Smartphone Apple iPhone 16E convertido e certificado para uso seguro em áreas classificadas Zona 2. Mantém todos os recursos originais do dispositivo. Certificação ATEX e IECEx.", "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png" },
+        { "id": "atx-samsung-s24", "name": "Galaxy S24 Ex", "description": "Smartphone Samsung Galaxy S24 convertido e certificado para uso seguro em áreas classificadas Zona 2. Mantém todas as funcionalidades originais do dispositivo, incluindo 5G, câmeras e aplicativos. Certificação ATEX e IECEx.", "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png" },
+        { "id": "atx-samsung-s25", "name": "Galaxy S25 Ex", "description": "Smartphone Samsung Galaxy S25 convertido e certificado para uso seguro em áreas classificadas Zona 2. Mantém todas as funcionalidades originais do dispositivo. Certificação ATEX e IECEx.", "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png" },
+        { "id": "atx-galaxy-tab-active5", "name": "Galaxy Tab Active5 Ex", "description": "Tablet robusto Samsung Galaxy Tab Active5 convertido e certificado para uso seguro em áreas classificadas Zona 1. Ideal para trabalhadores conectados e Indústria 4.0 em ambientes agressivos. Certificação ATEX e IECEx.", "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png" },
+        { "id": "atx-ipad-11", "name": "iPad 11 Ex", "description": "Tablet Apple iPad 11 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todas as funcionalidades originais do iPad, incluindo câmeras, Wi-Fi, 5G e desempenho completo do ecossistema Apple. Certificação ATEX e IECEx.", "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png" }
       ]
     },
     {
-      "id": "polar-agro",
-      "name": "Polar Agro",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Agro é a divisão do Grupo Polar dedicada ao agronegócio. Atuamos em toda a cadeia produtiva, desde a produção de grãos até a exportação de commodities.\n\nInvestimos constantemente em tecnologia de ponta para garantir produtividade, sustentabilidade e qualidade em cada safra, contribuindo para o desenvolvimento do setor agrícola brasileiro.",
-      "gallery": [],
+      "id": "blinda",
+      "name": "Blinda",
+      "logo": "images/blinda/Logo Blinda PolarComponentsGroup.png",
+      "tagline": "Equipamentos à prova de explosão com certificação internacional — a única empresa brasileira autorizada a utilizar componentes CEAG",
+      "description": "Há mais de 60 anos, a Blinda é referência nacional em equipamentos elétricos à prova de explosão (Ex), atendendo com excelência os setores de óleo e gás, petroquímico, siderúrgico e de mineração. Seu portfólio abrange caixas de ligação, painéis de comando, botoeiras, prensa-cabos, sinalizadores e uma linha completa de conexões e acessórios certificados.\n\nCom certificações INMETRO, IECEx e ATEX, a Blinda é a única empresa no Brasil autorizada a utilizar componentes CEAG em seus projetos, garantindo padrão internacional de qualidade e segurança. Todos os produtos são fabricados com materiais de alta resistência — alumínio copper free, aço inoxidável 304/316L e poliéster reforçado com fibra de vidro (GRP) — assegurando proteção IP66/W e classe de temperatura de -60 °C a +110 °C.\n\nLocalizada em Votorantim (SP), a Blinda integra o Polar Components Group, oferecendo soluções completas em equipamentos Ex para atmosferas explosivas, com suporte técnico especializado e fabricação sob encomenda para atender às mais rigorosas especificações da indústria.",
+      "gallery": [
+        { "type": "image", "src": "images/blinda/key804.971.jpg", "alt": "Caixa de ligação à prova de explosão CBX — fabricada em alumínio, grau de proteção IP66W, certificada INMETRO" },
+        { "type": "image", "src": "images/blinda/key970.1095.jpg", "alt": "Painel de comando e controle à prova de explosão Blinda para aplicações industriais em atmosferas explosivas" },
+        { "type": "image", "src": "images/blinda/key862_Munsell.995.jpg", "alt": "Caixa de junção CDWE à prova de explosão com múltiplas entradas para prensa-cabos" },
+        { "type": "image", "src": "images/blinda/key680.1009.jpg", "alt": "Unidade seladora Ex para prensa-cabos — conexões e acessórios certificados para áreas classificadas" },
+        { "type": "video", "src": "videos/blinda/BL_Painel Carlos e Felipe_ jan2023.mp4", "thumbnail": "images/blinda/key804.971.jpg" },
+        { "type": "video", "src": "videos/blinda/BL_prensa cabos.mp4", "thumbnail": "images/blinda/key41_A2F.1117.jpg" }
+      ],
       "products": [
-        { "id": "agro-1", "name": "Grãos e Cereais", "description": "Produção de soja, milho e trigo com tecnologia de agricultura de precisão.", "image": "images/placeholder-logo.png" },
-        { "id": "agro-2", "name": "Exportação de Commodities", "description": "Comercialização internacional de produtos agrícolas com logística integrada.", "image": "images/placeholder-logo.png" }
+        { "id": "bli-1", "name": "Caixa de Ligação e Distribuição Ex — Linha CBX", "description": "Caixas de ligação e distribuição à prova de explosão fabricadas em alumínio copper free com pintura eletrostática a pó poliéster cinza Munsell N6.5. Certificadas Ex db IIB Gb e Ex tb IIIC Db com grau de proteção IP66W. Disponíveis em 13 tamanhos (CBX-01 a CBX-18), com opção de visor. Placa de montagem interna em laranja 2,5YR 6/14. Parafusos em aço inox 304 conforme ANSI B 18.2.1.", "image": "images/blinda/key804.971.jpg" },
+        { "id": "bli-2", "name": "Caixa de Ligação Vazia Ex — Linha CBX-U", "description": "Caixas de ligação e distribuição vazias à prova de explosão, destinadas à montagem de equipamentos elétricos pelo cliente. Certificadas para recertificação conforme anexo D da ABNT NBR IEC 60079-1. Fabricadas em alumínio, grau de proteção IP66W, tamanhos CBX-01U a CBX-18U.", "image": "images/blinda/key804.971.jpg" },
+        { "id": "bli-3", "name": "Controlador Digital de Aterramento Ex — CBX-STR2", "description": "Controlador digital de aterramento à prova de explosão com tecnologia de estado sólido, sem partes móveis. Alimentação full-range 110/220 Vac. Detecta capacitância entre 470pF e 10.000pF. Inclui cabo flexível de até 8m, garra tipo jacaré e sinaleiro luminoso. Aplicação em áreas de carregamento e transferência de produtos inflamáveis.", "image": "images/blinda/key525.846 CBX STR2.jpg" },
+        { "id": "bli-4", "name": "Sirene à Prova de Explosão — BX6500", "description": "Sirene eletrônica à prova de explosão com microprocessador e 32 tipos de sonorização. Nível sonoro de 110dB a 1 metro. Fabricada em alumínio com pintura eletrostática poliéster. Certificada Ex db IIB T6 Gb e Ex tb IIIC T85°C Db. Disponível nas tensões 220Vca, 127Vca e 24Vcc.", "image": "images/blinda/key43_Munsell_B.878 (1).jpg" },
+        { "id": "bli-5", "name": "Caixa de Terminais GBOX — GRP (Poliéster Reforçado com Fibra de Vidro)", "description": "Caixas de junção e terminais em GRP com superfície antiestática, resistentes à corrosão atmosférica e ataques químicos. Certificadas Inmetro Ex eb IIC Gb e Ex tb IIIC Db. Grau de proteção IP66. Temperatura de serviço de -60 °C a +110 °C. Tensão nominal até 690V, corrente nominal até 315A. Placas de aterramento em latão ou aço inoxidável.", "image": "images/blinda/key1122.1039.jpg" },
+        { "id": "bli-6", "name": "Caixa de Terminais Ex-Cell — Aço Inoxidável Ex-e / Ex-i", "description": "Caixas de terminais em aço inoxidável 316L ou 304 com polimento eletroquímico. Certificadas INMETRO Ex eb IIC Gb e Ex tb IIIC Db. Grau de proteção IP66. Resistência ao impacto de 7J. Tensão nominal até 750V, corrente nominal até 500A. Tampa articulada com trava de 1/4 de volta.", "image": "images/blinda/key970.1095.jpg" },
+        { "id": "bli-7", "name": "Carrinho de Tomada Móvel Ex — CTME", "description": "Carrinho de tomada móvel de segurança aumentada para alimentação de equipamentos em áreas classificadas. Corpo em GRP, estrutura em aço carbono com pintura eletrostática azul e rodízios de 8\" (200mm). Certificação Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. Tomadas padrão CEAG. Inclui disjuntores DR 30mA e dispositivo LOTO.", "image": "images/blinda/key1122.1039.jpg" },
+        { "id": "bli-8", "name": "Chaves Seccionadoras de Segurança Ex — GHG 261 / GHG 262", "description": "Interruptores e seccionadoras de segurança para áreas classificadas. Modelo GHG 261 (10A) em poliamida e GHG 262 (20A) em GRP. Certificação Ex ed IIC T6 / Ex ed ia IIC T6, grau de proteção IP66. Dispositivo de bloqueio na posição OFF para até 3 cadeados. Prensa-cabos M20/M25/M32 inclusos.", "image": "images/blinda/key742.702.jpg" },
+        { "id": "bli-9", "name": "Prensa-Cabos Ex — Linhas A2F, E1F e A2F-EF", "description": "Prensa-cabos à prova de explosão Ex db IIC, fabricados em latão niquelado. Modelos A2F (padrão), A2F-EF (com flange) e E1F (segurança aumentada). Disponíveis em diversas bitolas para cabos de 1,5mm² a 240mm². Rosca métrica ou NPT conforme necessidade.", "image": "images/blinda/key41_A2F.1117.jpg" },
+        { "id": "bli-10", "name": "Unidades Seladoras Ex — USD_XH, USX_H e USX_V", "description": "Unidades seladoras à prova de explosão para barreira física contra propagação de chamas em eletrodutos e conexões de cabos. Fabricadas em alumínio e latão. Modelos horizontal e vertical. Utilizadas em conjunto com prensa-cabos e eletrodutos pesados NBR 5597. Certificação INMETRO.", "image": "images/blinda/key680.1009.jpg" },
+        { "id": "bli-11", "name": "Conexões e Acessórios Ex — Uniões, Cotovelos, Niphes, Plugues e Buchas", "description": "Linha completa de conexões à prova de explosão: uniões macho-fêmea (UX-MF) e fêmea-fêmea (UX-FF), uniões de expansão (UEX), cotovelos 45° e 90° (CFX), niphes (NA-C e NA-L), luvas (LU), plugues (PR e PCS), drenos (DX), respiros (RX) e buchas de redução (BS-M40). Fabricadas em alumínio ou latão com roscas NPT. Certificadas para grupos IIB e IIIC.", "image": "images/blinda/key812.1001 (1).jpg" },
+        { "id": "bli-12", "name": "Painéis de Comando e Controle Ex — BCX, BCDX e BCTX", "description": "Caixas de comando e controle à prova de explosão para botoeiras, sinaleiros, instrumentos e dispositivos de controle em áreas classificadas. Fabricadas em alumínio copper free com pintura eletrostática poliéster. Grau de proteção IP66W. Certificação Ex db IIB Gb e Ex tb IIIC Db. Customização com componentes CEAG originais.", "image": "images/blinda/key970.1095.jpg" }
       ]
     },
     {
-      "id": "polar-logistica",
-      "name": "Polar Logística",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Logística oferece soluções completas de transporte e armazenagem para empresas de todos os portes. Nossa malha logística cobre todo o território nacional com eficiência e segurança.\n\nContamos com uma frota moderna, centros de distribuição estrategicamente localizados e sistemas de rastreamento em tempo real para garantir que sua carga chegue ao destino no prazo.",
-      "gallery": [],
+      "id": "chalmit",
+      "name": "Chalmit",
+      "logo": "images/chalmit/Logo Chalmit - sem fundo.png",
+      "tagline": "Iluminação para áreas classificadas desde 1910",
+      "description": "A Chalmit é especialista em iluminação para áreas classificadas desde 1910, com mais de um século dedicado à iluminação para atmosferas explosivas, com foco em segurança, confiabilidade e desempenho em ambientes severos. Parte do grupo Hubbell e referência do padrão IEC, a Chalmit amplia inovação, padronização global e suporte técnico em projetos críticos.\n\nCom presença em mais de 40 países e alinhamento às certificações ATEX, IECEx e NEC, a Chalmit garante especificação segura nos segmentos de óleo e gás, química, mineração, energia e marítimo. Suas luminárias certificadas atendem zonas classificadas (Zona 1, 2, 21 e 22) em plataformas, refinarias e áreas de armazenamento.\n\nO portfólio inclui luminárias lineares LED para áreas de processo e offshore (linha Protecta X), projetores LED para áreas externas e grandes espaços (linha Evolution X), e bulkheads para circulação e salas técnicas (linhas NexLED / Neo X), com opções de emergência. Construção em alumínio fundido grau marinho, aço inox e revestimentos anticorrosivos, com proteção IP66/IP67. LED de alta eficiência com vida útil típica acima de 100.000 horas.",
+      "gallery": [
+        { "type": "video", "src": "videos/chalmit/Chalmit - Protecta X.mp4", "thumbnail": "images/chalmit/04.01.2024 - Protecta X.png" },
+        { "type": "video", "src": "videos/chalmit/Como uma bateria de emergência pode reduzir os custos operacionais Protecta X.mp4", "thumbnail": "images/chalmit/CHL_Em protecta X view 1_1200.jpg" },
+        { "type": "video", "src": "videos/chalmit/Evolution X - versão curta.mp4", "thumbnail": "images/chalmit/CHL_EvolutionX_515.webp" },
+        { "type": "video", "src": "videos/chalmit/Evolution X.mp4", "thumbnail": "images/chalmit/evolution_x_evxb_20l_le_1_2.jpg" },
+        { "type": "image", "src": "images/chalmit/CHL_Em protecta X view 1_1200.jpg", "alt": "Luminária Chalmit Protecta X — iluminação linear para áreas classificadas" },
+        { "type": "image", "src": "images/chalmit/CHL_EvolutionX_515.webp", "alt": "Projetor LED Chalmit Evolution X para áreas externas e offshore" },
+        { "type": "image", "src": "images/chalmit/CHL_H065550_Angle03_SECONDARY_PRODIMAGE_1200.webp", "alt": "Luminária Chalmit — aplicação industrial" },
+        { "type": "image", "src": "images/chalmit/CHL_NeoX_PIrepresentative_515.webp", "alt": "Bulkhead Chalmit Neo X para áreas de circulação" },
+        { "type": "image", "src": "images/chalmit/HubbellHQ1.jpg", "alt": "Sede do grupo Hubbell — Chalmit" },
+        { "type": "image", "src": "images/chalmit/Industrial-02-hero.jpg", "alt": "Aplicação industrial de iluminação Chalmit" },
+        { "type": "image", "src": "images/chalmit/NexLEDIII_515.webp", "alt": "Luminária NexLED Chalmit para salas técnicas" },
+        { "type": "image", "src": "images/chalmit/04.01.2024 - Protecta X.png", "alt": "Luminária linear Protecta X" }
+      ],
       "products": [
-        { "id": "log-1", "name": "Transporte Rodoviário", "description": "Frota moderna com rastreamento em tempo real para entregas em todo o Brasil.", "image": "images/placeholder-logo.png" },
-        { "id": "log-2", "name": "Armazenagem e Distribuição", "description": "Centros de distribuição estrategicamente localizados para gestão eficiente de estoques.", "image": "images/placeholder-logo.png" },
-        { "id": "log-3", "name": "Logística Internacional", "description": "Soluções de importação e exportação com parceiros logísticos globais.", "image": "images/placeholder-logo.png" }
+        { "id": "protecta-x", "name": "Protecta X / Protecta III", "description": "Luminárias lineares LED para áreas de processo, corredores industriais e offshore. Alta eficiência luminosa e construção robusta em alumínio grau marinho. Certificação ATEX, IECEx para Zonas 1, 2, 21 e 22. Proteção IP66/IP67. Disponíveis com bateria de emergência integrada.", "image": "images/chalmit/04.01.2024 - Protecta X.png" },
+        { "id": "evolution-x", "name": "Evolution X", "description": "Projetores LED para áreas externas e grandes espaços. Ópticas assimétricas com alta uniformidade e controle de ofuscamento. Redução de poluição luminosa. Certificação ATEX, IECEx para Zonas 1, 2, 21 e 22.", "image": "images/chalmit/CHL_EvolutionX_515.webp" },
+        { "id": "nexled-neo-x", "name": "NexLED / Neo X", "description": "Bulkheads LED para circulação e salas técnicas. Opções para Zona 1/2 e Zona 21/22, com versões de emergência. Design compacto e robusto para instalação em áreas confinadas. Construção anticorrosiva com proteção IP66.", "image": "images/chalmit/NexLEDIII_515.webp" }
       ]
     },
     {
-      "id": "polar-energia",
-      "name": "Polar Energia",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Energia é a frente de negócios do grupo voltada para geração e distribuição de energia renovável. Investimos em usinas solares, eólicas e de biomassa em todo o Brasil.\n\nNossa missão é liderar a transição energética no país, oferecendo energia limpa, acessível e confiável para indústrias, comércios e residências.",
-      "gallery": [],
+      "id": "dropsafe",
+      "name": "Dropsafe",
+      "logo": "images/dropsafe/Logo Dropsafe - sem fundo.png",
+      "tagline": "Líder global em prevenção de quedas de objetos — protegendo pessoas, ativos e operações com soluções passivas de segurança 24/7",
+      "description": "A Dropsafe é líder global na prevenção de quedas de objetos, parceira de empresas em setores de alto risco como energia, petróleo e gás, mineração, químico, marítimo e renováveis. Com mais de 20 anos de experiência, desenvolve soluções especializadas — redes, barreiras, eslingas e sistemas de fixação — para evitar a queda de objetos em ambientes industriais, garantindo operações mais seguras e fortalecendo a cultura de segurança.\n\nAo contrário de soluções ativas que dependem de intervenção humana diária, a Dropsafe adota uma filosofia de prevenção passiva: uma única instalação protege todos os ativos 24 horas por dia, 7 dias por semana, funcionando independentemente da ação humana. Seus produtos são fabricados em aço inoxidável SUS 316 e policarbonato de alta resistência, projetados para ambientes offshore severos com temperaturas de -40 °C a 500 °C.\n\nA tecnologia patenteada Trisafe™ — um mosquetão de tripla ação com travamento automático operável com uma só mão — elimina o erro humano e estabelece um novo padrão de segurança. Com certificações globais incluindo DNVGL-RP-F107, ABS DOPP+, API RP 2D, NORSOK e ISO 9001, a Dropsafe protege pessoas e equipamentos nos ambientes mais exigentes do mundo, respaldada por seguro de responsabilidade de produto de US$ 10 milhões.",
+      "gallery": [
+        { "type": "video", "src": "videos/dropsafe/Introducing Dropsafe Nets with Trisafe Carabiner.mp4", "thumbnail": "images/dropsafe/Net_main_wm-2.webp" },
+        { "type": "video", "src": "videos/dropsafe/Trisafe Carabiner.mp4", "thumbnail": "images/dropsafe/dropsafe-tool-tethering-795.webp" },
+        { "type": "video", "src": "videos/dropsafe/Mosquetão Trisafe.mp4", "thumbnail": "images/dropsafe/dropsafe-tool-tethering-469.webp" },
+        { "type": "video", "src": "videos/dropsafe/Redes Dropsafe.mp4", "thumbnail": "images/dropsafe/dropsafe-nets-225.webp" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-798.webp", "alt": "Barreira Dropsafe instalada em guarda-corpo industrial" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-864.webp", "alt": "Sistema de barreira Dropsafe com painéis modulares" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-902.webp", "alt": "Barreira Dropsafe — detalhe da instalação e fixação" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-nets-782.webp", "alt": "Rede Dropsafe envolvendo equipamento suspenso com Trisafe™" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-nets-818.webp", "alt": "Rede de retenção Dropsafe instalada em luminária industrial" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-slings-598.webp", "alt": "Eslinga Dropsafe em aço inoxidável com mosquetão de segurança" },
+        { "type": "image", "src": "images/dropsafe/dropsafe-pouches-975.webp", "alt": "Bolsa de segurança Dropsafe para equipamentos portáteis" },
+        { "type": "image", "src": "images/dropsafe/Net_main_wm-2.webp", "alt": "Rede Dropsafe com mosquetão Trisafe™ e placa RFID" },
+        { "type": "image", "src": "images/dropsafe/DROPSAFE-LED-Render-2.jpg", "alt": "Render LED Dropsafe — iluminação com rede de proteção" }
+      ],
       "products": [
-        { "id": "ene-1", "name": "Energia Solar", "description": "Usinas fotovoltaicas e soluções de geração distribuída para indústrias e residências.", "image": "images/placeholder-logo.png" },
-        { "id": "ene-2", "name": "Energia Eólica", "description": "Parques eólicos com turbinas de última geração para geração de energia limpa.", "image": "images/placeholder-logo.png" }
+        { "id": "dropsafe-nets", "name": "Redes Dropsafe (Dropsafe Nets)", "description": "Dispositivos de retenção secundária que envolvem e prendem com segurança equipamentos suspensos como luminárias, câmeras CCTV, alto-falantes e detectores. Fabricadas em aço inoxidável SUS 316, testadas para mais de 5 vezes a Carga de Trabalho Segura (SWL). Equipadas com mosquetão Trisafe™ de tripla ação e placa RFID para rastreabilidade. Disponíveis em mais de 100 tamanhos e projetos personalizados.", "image": "images/dropsafe/dropsafe-nets-225.webp" },
+        { "id": "dropsafe-barrier", "name": "Barreiras Dropsafe (Dropsafe Barrier)", "description": "Sistema modular de prevenção de quedas que se fixa à parte interna de guarda-corpos, andaimes ou sob escadas. Fabricado em policarbonato reciclável, com três componentes: Painel Grande (1675 x 800 mm), Painel Pequeno (1100 x 800 mm) e Dispositivo de Fixação. Alta resistência a impactos (63J), suporta ventos CAT 5 (250 km/h). Instalação sem ferramentas.", "image": "images/dropsafe/dropsafe-barrier-798.webp" },
+        { "id": "dropsafe-slings", "name": "Eslingas Dropsafe (Dropsafe Slings)", "description": "Solução de fixação secundária para equipamentos em altura quando não é necessário envolver componentes internos. Fabricadas em aço inoxidável SUS 316 com ferrolhos duplos. Disponível com mosquetão tradicional (trava de rosca) ou patenteado Trisafe™ de tripla ação com travamento automático.", "image": "images/dropsafe/dropsafe-slings-598.webp" },
+        { "id": "dropsafe-trisafe-carabiner", "name": "Mosquetão Trisafe™", "description": "Tecnologia patenteada: primeiro mosquetão do mundo com mecanismo de tripla ação e travamento automático, especificamente projetado para prevenir quedas de objetos. Design em gancho, operação com uma só mão mesmo usando luvas. Fabricado em 100% aço inoxidável.", "image": "images/dropsafe/dropsafe-tool-tethering-795.webp" },
+        { "id": "dropsafe-tool-tethering", "name": "Fixação de Ferramentas (Tool Tethering)", "description": "Linha de cordões de segurança para fixação de ferramentas em altura, equipada com mosquetão Trisafe™ de tripla ação. Opções: cabo de aço inoxidável (SUS 316L, 3 mm), bungee elástico (1680D Poliéster) e webbing. Atende ANSI/ISEA 121-2018. Giro integrado de 360°.", "image": "images/dropsafe/dropsafe-tool-tethering-469.webp" },
+        { "id": "dropsafe-pouches", "name": "Bolsas de Segurança (Dropsafe Pouches)", "description": "Dispositivos que envolvem e prendem itens portáteis utilizados em altura (rádios, detectores de gás, latas de aerossol, multímetros). Rede de aço inoxidável SUS 316. Testadas para mais de 2 vezes a SWL. Inclui clipe de cinto resistente. Reutilizáveis e 100% recicláveis.", "image": "images/dropsafe/dropsafe-pouches-975.webp" }
       ]
     },
     {
-      "id": "polar-saude",
-      "name": "Polar Saúde",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Saúde é uma rede de hospitais e clínicas que oferece atendimento médico de excelência. Com unidades em diversas cidades, proporcionamos cuidado humanizado e tecnologia de ponta.\n\nNossa equipe multidisciplinar abrange mais de 30 especialidades médicas, garantindo um atendimento completo e integrado para nossos pacientes.",
-      "gallery": [],
+      "id": "hawke",
+      "name": "Hawke",
+      "logo": "images/hawke/Logo Hawke - sem fundo.png",
+      "tagline": "Prensa-cabos certificados para atmosferas explosivas e aplicações críticas",
+      "description": "A Hawke é uma fabricante britânica de renome mundial, especializada em prensa-cabos e acessórios para instalações elétricas em atmosferas explosivas. Com décadas de experiência, a marca é referência em segurança e confiabilidade para os setores de óleo e gás, petroquímico, mineração e energia.\n\nSeus produtos são certificados conforme as normas internacionais mais rigorosas (IECEx, ATEX), garantindo proteção contra explosões em ambientes classificados. A linha RCG (Resin Cable Gland) é um dos carros-chefe da marca, oferecendo vedação com resina para aplicações críticas onde a integridade do cabo é essencial.\n\nA Hawke também possui credenciais aeroespaciais, com soluções testadas e aprovadas para uso em condições extremas — incluindo aplicações espaciais — comprovando a robustez e a qualidade de engenharia que tornam seus prensa-cabos a escolha preferida de integradores e montadoras de painéis elétricos em todo o mundo.",
+      "gallery": [
+        { "type": "video", "src": "videos/hawke/Hawke - RCG 501 com legenda.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" },
+        { "type": "video", "src": "videos/hawke/Hawke no espaço.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" },
+        { "type": "video", "src": "videos/hawke/HK_prensa_cabos_estoque_41s.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" }
+      ],
       "products": [
-        { "id": "sau-1", "name": "Rede Hospitalar", "description": "Hospitais com infraestrutura completa, UTI e centro cirúrgico 24 horas.", "image": "images/placeholder-logo.png" },
-        { "id": "sau-2", "name": "Clínicas de Especialidades", "description": "Atendimento em mais de 30 especialidades médicas com agendamento simplificado.", "image": "images/placeholder-logo.png" }
+        { "id": "hawke-1", "name": "Prensa-Cabos RCG 501", "description": "Prensa-cabos com vedação em resina da linha RCG, projetado para instalações em áreas classificadas e atmosferas explosivas. Certificação IECEx e ATEX. Ideal para aplicações críticas em óleo e gás, petroquímica e mineração.", "image": "images/hawke/Logo Hawke.webp" },
+        { "id": "hawke-2", "name": "Prensa-Cabos Ex", "description": "Linha completa de prensa-cabos à prova de explosão para ambientes Ex d, Ex e e Ex nR. Atende normas internacionais com construção robusta em latão niquelado ou aço inoxidável, garantindo segurança e durabilidade em condições extremas.", "image": "images/hawke/Logo Hawke.webp" }
       ]
     },
     {
-      "id": "polar-educacao",
-      "name": "Polar Educação",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Educação é o braço educacional do grupo, operando instituições de ensino que vão da educação infantil ao ensino superior. Acreditamos que a educação é o principal motor de transformação social.\n\nNossas escolas e faculdades utilizam metodologias inovadoras, infraestrutura moderna e corpo docente qualificado para formar os líderes do amanhã.",
-      "gallery": [],
+      "id": "hi-force",
+      "name": "Hi-Force",
+      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
+      "tagline": "Ferramentas hidráulicas de alto torque para aplicações industriais críticas",
+      "description": "A Hi-Force é fabricante britânica líder mundial em ferramentas hidráulicas de alto torque para os setores industrial, offshore e de construção. Fundada no Reino Unido, a empresa desenvolve equipamentos de precisão para aplicações críticas de aparafusamento, tensionamento, elevação e corte.\n\nCom centros de serviço e distribuição em mais de 100 países, a Hi-Force oferece tecnologia de ponta em torquímetros hidráulicos, tensionadores de parafusos, macacos de elevação e sistemas de bombeamento, garantindo segurança e produtividade nas operações mais exigentes.",
+      "gallery": [
+        { "type": "video", "src": "videos/hi-force/Basic Principles of Hydraulic Jack.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Hi-Force APP.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Hi-Force JAS.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Hi-Force TWH-N.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
+        { "type": "video", "src": "videos/hi-force/Sistema de Elevação com Macaco Toughlift (Hi-Force).mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" }
+      ],
       "products": [
-        { "id": "edu-1", "name": "Ensino Básico", "description": "Educação infantil, fundamental e médio com metodologia bilíngue e tecnologia em sala de aula.", "image": "images/placeholder-logo.png" },
-        { "id": "edu-2", "name": "Ensino Superior", "description": "Graduação e pós-graduação em áreas como engenharia, saúde e negócios.", "image": "images/placeholder-logo.png" }
+        { "id": "hi-1", "name": "Torquímetro Hidráulico TWH-N", "description": "Torquímetro hidráulico de baixo perfil para aplicações industriais de aparafusamento controlado com alta precisão de torque. Ideal para flanges, vasos de pressão e conexões críticas.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-2", "name": "Sistema de Elevação Toughlift", "description": "Macaco hidráulico autônomo de elevação controlada para cargas pesadas. Ideal para ambientes industriais e de manutenção. Operação segura e precisa com acionamento hidráulico.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-3", "name": "Sistema de Tensionamento APP", "description": "Bomba de alta pressão para tensionamento simultâneo de múltiplos parafusos em aplicações como flanges e vasos de pressão. Precisão e controle para operações críticas de boltagem.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-4", "name": "Sistema de Levantamento JAS", "description": "Sistema modular de elevação hidráulica sincronizada para movimentação e posicionamento preciso de grandes estruturas. Controle centralizado de múltiplos pontos de elevação.", "image": "images/hi-force/Logo Hi-Force.jpg" },
+        { "id": "hi-5", "name": "Macaco Hidráulico Industrial", "description": "Cilindros hidráulicos de simples e dupla ação com capacidades de 10 a 1.000 toneladas para elevação e posicionamento de cargas. Construção robusta para uso industrial contínuo.", "image": "images/hi-force/Logo Hi-Force.jpg" }
       ]
     },
     {
-      "id": "polar-tecnologia",
-      "name": "Polar Tecnologia",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Tecnologia desenvolve soluções de software e hardware para empresas e governos. Somos especialistas em transformação digital, inteligência artificial e Internet das Coisas.\n\nNosso centro de inovação reúne mais de 200 engenheiros e cientistas de dados que trabalham diariamente para criar produtos que fazem a diferença na vida das pessoas.",
-      "gallery": [],
+      "id": "nightstick",
+      "name": "Nightstick",
+      "logo": "images/nightstick/Logo Nightstick - sem fundo.png",
+      "tagline": "Lanternas intrinsecamente seguras para áreas classificadas e operações de resgate",
+      "description": "Nightstick é a marca de iluminação profissional da Bayco Products (EUA), especializada em lanternas e lanternas de cabeça intrinsecamente seguras (Ex) para áreas classificadas e ambientes de risco.\n\nCom certificações ATEX, IECEx e Class I Division 1, as lanternas Nightstick são projetadas para profissionais que trabalham em atmosferas explosivas, espaços confinados e operações de resgate. A linha inclui modelos recarregáveis, lanternas de cabeça e lanternas portáteis com alta durabilidade e desempenho luminoso.\n\nFabricadas com materiais de engenharia de alto impacto e à prova d'água, as lanternas Nightstick oferecem segurança e confiabilidade para indústrias de petróleo e gás, mineração, combate a incêndios e serviços de emergência.",
+      "gallery": [
+        { "type": "video", "src": "videos/nightstick/08.04.2024 - XPP-5454G lanterna cabeça_30 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
+        { "type": "video", "src": "videos/nightstick/14.05.2024 - XPR-5584 GMX lanterna recarregável_48 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
+        { "type": "video", "src": "videos/nightstick/16.04.2024 - embalando lanterna nightstick_40s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
+        { "type": "video", "src": "videos/nightstick/NS_Lanternas diversas Ex 24 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" }
+      ],
       "products": [
-        { "id": "tec-1", "name": "Plataforma de IA", "description": "Soluções de inteligência artificial para automação de processos e análise preditiva.", "image": "images/placeholder-logo.png" },
-        { "id": "tec-2", "name": "IoT Industrial", "description": "Sensores e plataformas de Internet das Coisas para monitoramento e eficiência operacional.", "image": "images/placeholder-logo.png" },
-        { "id": "tec-3", "name": "Consultoria em Transformação Digital", "description": "Assessoria completa para digitalização de processos e modernização de sistemas.", "image": "images/placeholder-logo.png" }
+        { "id": "xpp-5454g", "name": "Lanterna de Cabeça XPP-5454G", "description": "Lanterna de cabeça intrinsecamente segura com certificação Class I Division 1. Projetada para trabalho em espaços confinados e áreas classificadas com risco de explosão. Mãos livres com alto desempenho luminoso.", "image": "images/nightstick/Logo Nightstick.jpg" },
+        { "id": "xpr-5584-gmx", "name": "Lanterna Recarregável XPR-5584 GMX", "description": "Lanterna portátil recarregável intrinsecamente segura com certificação ATEX/IECEx. Bateria de longa duração com alto desempenho luminoso para operações em atmosferas explosivas.", "image": "images/nightstick/Logo Nightstick.jpg" },
+        { "id": "lanternas-ex", "name": "Lanternas Ex à Prova de Explosão", "description": "Linha completa de lanternas portáteis certificadas para atmosferas explosivas (Ex). Modelos com diferentes potências e autonomias para aplicações em petróleo e gás, mineração e resgate.", "image": "images/nightstick/Logo Nightstick.jpg" }
       ]
     },
     {
-      "id": "polar-alimentos",
-      "name": "Polar Alimentos",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Alimentos é uma das maiores processadoras de alimentos do país. Produzimos desde laticínios até produtos congelados, sempre com rigorosos padrões de qualidade e segurança alimentar.\n\nNossas marcas estão presentes em milhões de lares brasileiros, levando sabor, nutrição e praticidade para o dia a dia das famílias.",
+      "id": "oliver",
+      "name": "Oliver Valves",
+      "logo": "images/oliver/Logo Oliver Valves - Sem fundo.png",
+      "tagline": "Válvulas de instrumentação para aplicações críticas",
+      "description": "A Oliver Valves é fabricante britânica de válvulas de instrumentação para os setores de óleo e gás, petroquímico e energia. Especializada em válvulas agulha, válvulas esfera, válvulas manifold e válvulas de retenção, a empresa fornece soluções de alta precisão para controle de fluxo em aplicações críticas.\n\nCom décadas de experiência em engenharia de válvulas, a Oliver Valves é reconhecida pela confiabilidade e durabilidade de seus produtos nos ambientes mais exigentes do mundo.",
       "gallery": [],
       "products": [
-        { "id": "ali-1", "name": "Laticínios", "description": "Leite, queijos, iogurtes e manteiga produzidos com rigoroso controle de qualidade.", "image": "images/placeholder-logo.png" },
-        { "id": "ali-2", "name": "Congelados", "description": "Linha completa de alimentos congelados: massas, vegetais e pratos prontos.", "image": "images/placeholder-logo.png" }
+        { "id": "oli-1", "name": "Válvulas Agulha", "description": "Válvulas agulha de instrumentação para controle de fluxo preciso em aplicações de alta pressão. Projetadas para os setores de óleo e gás e petroquímico.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" },
+        { "id": "oli-2", "name": "Válvulas Manifold", "description": "Manifolds de instrumentação para montagem de transmissores de pressão. Configurações de 2, 3 e 5 vias para atender diferentes requisitos de instalação.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" },
+        { "id": "oli-3", "name": "Válvulas de Retenção", "description": "Válvulas de retenção de alta performance para proteção contra fluxo reverso em sistemas de instrumentação industrial.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" }
       ]
     },
     {
-      "id": "polar-imoveis",
-      "name": "Polar Imóveis",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Imóveis é a imobiliária do Grupo Polar, especializada em empreendimentos residenciais e comerciais de alto padrão. Já entregamos mais de 10.000 unidades em todo o Brasil.\n\nCombinamos design arrojado, localizações privilegiadas e acabamento impecável para criar espaços que superam as expectativas dos nossos clientes.",
+      "id": "parker",
+      "name": "Parker",
+      "logo": "images/parker/Logo Parker - Sem fundo.png",
+      "tagline": "Tecnologias de movimento e controle para a indústria",
+      "description": "A Parker Hannifin é líder global em tecnologias de movimento e controle, fornecendo soluções hidráulicas, pneumáticas e eletromecânicas para uma ampla gama de indústrias. Com presença em mais de 50 países, a Parker desenvolve componentes e sistemas que aumentam a produtividade e a eficiência de máquinas e equipamentos.\n\nNo portfólio do Grupo Polar, os produtos Parker incluem mangueiras, conexões, válvulas e sistemas de filtragem para aplicações industriais, atendendo aos mais rigorosos padrões de qualidade e segurança.",
       "gallery": [],
       "products": [
-        { "id": "imo-1", "name": "Empreendimentos Residenciais", "description": "Apartamentos e casas de alto padrão em localizações privilegiadas.", "image": "images/placeholder-logo.png" },
-        { "id": "imo-2", "name": "Empreendimentos Comerciais", "description": "Salas, lajes corporativas e espaços comerciais com infraestrutura completa.", "image": "images/placeholder-logo.png" }
+        { "id": "par-1", "name": "Mangueiras e Conexões Hidráulicas", "description": "Mangueiras de alta pressão e conexões para sistemas hidráulicos industriais e móveis. Ampla gama de diâmetros e materiais para diferentes fluidos e temperaturas.", "image": "images/parker/Logo Parker - Sem fundo.png" },
+        { "id": "par-2", "name": "Válvulas e Atuadores", "description": "Válvulas direcionais, proporcionais e atuadores pneumáticos e hidráulicos para controle preciso de movimento em máquinas e processos industriais.", "image": "images/parker/Logo Parker - Sem fundo.png" },
+        { "id": "par-3", "name": "Sistemas de Filtragem", "description": "Filtros hidráulicos e sistemas de monitoramento de contaminação para garantir a vida útil e a confiabilidade de sistemas hidráulicos.", "image": "images/parker/Logo Parker - Sem fundo.png" }
       ]
     },
     {
-      "id": "polar-financeira",
-      "name": "Polar Financeira",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Financeira oferece soluções de crédito, investimento e seguros para pessoas físicas e jurídicas. Atuamos com transparência e agilidade para atender às necessidades financeiras dos nossos clientes.\n\nCom produtos que vão desde consórcios até fundos de investimento, estamos presentes em todos os momentos da vida financeira dos brasileiros.",
-      "gallery": [],
+      "id": "pelican",
+      "name": "Pelican",
+      "logo": "images/pelican/Logo Pelican - Sem fundo.png",
+      "tagline": "Cases de proteção lendários — à prova d'água, poeira e quedas",
+      "description": "A Pelican é referência mundial em cases de proteção de alto desempenho, lanternas táticas e coolers profissionais. Seus produtos são utilizados por forças armadas, socorristas, fotógrafos e aventureiros nos ambientes mais extremos do planeta.\n\nReconhecida pela durabilidade lendária, cada case Pelican possui certificação IP67 contra água e poeira, além de resistir a quedas e impactos severos. A linha Air Case revolucionou o mercado ao oferecer a mesma proteção com redução significativa de peso, ideal para equipamentos eletrônicos e profissionais que precisam de mobilidade sem comprometer a segurança.",
+      "gallery": [
+        { "type": "video", "src": "videos/pelican/CASES DE PROTEÇÃO.mp4", "thumbnail": "images/pelican/Pelican .png" },
+        { "type": "video", "src": "videos/pelican/Pelican - Air Case.mp4", "thumbnail": "images/pelican/Pelican .png" },
+        { "type": "video", "src": "videos/pelican/Pelican 7610.mp4", "thumbnail": "images/pelican/Pelican .png" }
+      ],
       "products": [
-        { "id": "fin-1", "name": "Crédito Pessoal", "description": "Empréstimos com taxas competitivas e aprovação rápida para pessoas físicas.", "image": "images/placeholder-logo.png" },
-        { "id": "fin-2", "name": "Crédito Empresarial", "description": "Capital de giro, financiamento de equipamentos e antecipação de recebíveis.", "image": "images/placeholder-logo.png" },
-        { "id": "fin-3", "name": "Consórcios", "description": "Consórcios de imóveis e veículos com parcelas acessíveis e sem juros.", "image": "images/placeholder-logo.png" }
+        { "id": "pel-1", "name": "Cases de Proteção", "description": "Cases de alto impacto com certificação IP67, à prova d'água, poeira e quedas. Proteção definitiva para equipamentos eletrônicos, armamentos, instrumentos científicos e equipamentos fotográficos.", "image": "images/pelican/Logo Pelican - Sem fundo.png" },
+        { "id": "pel-2", "name": "Air Case", "description": "Linha revolucionária de cases ultraleves que mantém a resistência lendária Pelican com até 40% menos peso. Ideal para proteger drones, notebooks e equipamentos portáteis em campo.", "image": "images/pelican/Logo Pelican - Sem fundo.png" },
+        { "id": "pel-3", "name": "Lanterna Tática 7610", "description": "Lanterna LED tática de alto desempenho, compacta e recarregável, com feixe ajustável e corpo resistente a impactos. Projetada para forças de segurança, bombeiros e situações de emergência.", "image": "images/pelican/Logo Pelican - Sem fundo.png" }
       ]
     },
     {
-      "id": "polar-transportes",
-      "name": "Polar Transportes",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Transportes é a concessionária de transporte público do grupo, operando linhas de ônibus e metrô em importantes regiões metropolitanas. Transportamos milhões de passageiros todos os dias.\n\nInvestimos continuamente na renovação da frota com veículos mais eficientes, acessíveis e menos poluentes, contribuindo para uma mobilidade urbana mais sustentável.",
-      "gallery": [],
+      "id": "proserv",
+      "name": "Proserv",
+      "logo": "images/proserv/Logo Proserv - Sem fundo.png",
+      "tagline": "Tecnologia de controle e sistemas de amostragem para a indústria de energia",
+      "description": "A Proserv é uma empresa global de tecnologia de controle que atende a indústria de energia. Com atuação internacional, somos especialistas em sistemas de amostragem topside e subsea para o setor de óleo e gás.\n\nCom nossa nova identidade de marca, reafirmamos nosso compromisso com a inovação e a excelência operacional, fornecendo soluções de controle avançadas que garantem segurança, eficiência e confiabilidade nas operações de nossos clientes em todo o mundo.",
+      "gallery": [
+        { "type": "image", "src": "images/proserv/Proserv_empresa global.png", "alt": "Proserv — Empresa global de tecnologia de controle" },
+        { "type": "image", "src": "images/proserv/Proserv_new brand.png", "alt": "Nova identidade visual da Proserv" },
+        { "type": "image", "src": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png", "alt": "Sistemas de amostragem topside e subsea Proserv" }
+      ],
       "products": [
-        { "id": "tra-1", "name": "Ônibus Urbano", "description": "Frota moderna com ar-condicionado, acessibilidade e Wi-Fi gratuito.", "image": "images/placeholder-logo.png" },
-        { "id": "tra-2", "name": "Metrô", "description": "Operação de linhas metroviárias com trens climatizados e estações acessíveis.", "image": "images/placeholder-logo.png" }
+        { "id": "proserv-1", "name": "Sistemas de Amostragem Topside", "description": "Soluções completas de amostragem para plataformas e instalações de superfície, garantindo precisão e conformidade operacional.", "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png" },
+        { "id": "proserv-2", "name": "Sistemas de Amostragem Subsea", "description": "Tecnologia avançada de amostragem submarina para operações em águas profundas com máxima confiabilidade.", "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png" },
+        { "id": "proserv-3", "name": "Tecnologia de Controle", "description": "Sistemas de controle e automação para a indústria de energia, otimizando processos e reduzindo riscos operacionais.", "image": "images/proserv/Proserv_empresa global.png" }
       ]
     },
     {
-      "id": "polar-hotelaria",
-      "name": "Polar Hotelaria",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Hotelaria administra uma rede de hotéis e resorts em destinos turísticos paradisíacos. Oferecemos experiências inesquecíveis com o conforto e a hospitalidade que só o Grupo Polar proporciona.\n\nCada empreendimento é projetado para se integrar harmoniosamente ao ambiente local, valorizando a cultura e a natureza de cada região.",
-      "gallery": [],
+      "id": "sa-equip",
+      "name": "SA EQUIP",
+      "logo": "images/sa-equip/Logo SA Equip - Sem fundo.png",
+      "tagline": "Equipamentos Ex certificados para as condições mais extremas",
+      "description": "A SA Equipment projeta e fabrica equipamentos certificados Ex (ATEX, IECEx e UKEX) para atmosferas explosivas. Nossa linha de produtos atende aos setores de petróleo e gás, mineração, químico e industrial, com equipamentos robustos de alta performance para os ambientes mais extremos.\n\nCom fabricação no Reino Unido e materiais de qualidade marítima (marine grade), nossos produtos são projetados para operação contínua em temperaturas de -20 °C a +50 °C, com proteção IP65. Cada equipamento é testado e certificado individualmente, garantindo segurança e confiabilidade em Zonas 1 e 2 (gases) e Zonas 21 e 22 (poeiras).",
+      "gallery": [
+        { "type": "image", "src": "images/sa-equip/Air_Conditioner_Hero.png", "alt": "SA CYCLONE EX Air Conditioner — Vista frontal" },
+        { "type": "image", "src": "images/sa-equip/SA_CYCLONE_40CM_3_SIDE.png", "alt": "SA CYCLONE com duto de 40 cm — Vista lateral" },
+        { "type": "image", "src": "images/sa-equip/AIR_CONDITIONER_2025_2.png", "alt": "SA CYCLONE EX — Vista em campo" },
+        { "type": "image", "src": "images/sa-equip/AIR_CONDITIONER_2025_3.png", "alt": "SA CYCLONE EX — Aplicação industrial" },
+        { "type": "image", "src": "images/sa-equip/Ex AIR MOVER.png", "alt": "SA CYCLONE EX Air Mover — Movimentador de ar Ex" },
+        { "type": "image", "src": "images/sa-equip/Iluminação portátil LED Ex.png", "alt": "SA LUMIN — Iluminação portátil LED Ex" },
+        { "type": "image", "src": "images/sa-equip/SA_Transformador Ex_400VA.png", "alt": "SA Transformador Ex 400VA" },
+        { "type": "video", "src": "videos/sa-equip/SA_Cyclone_42 s.mp4", "thumbnail": "images/sa-equip/Air_Conditioner_Hero.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_Cyclone_Sistema_Ventilação_07 s.mp4", "thumbnail": "images/sa-equip/SA_CYCLONE_30CM_2_FRONT.png" },
+        { "type": "video", "src": "videos/sa-equip/SA LUMIN EX LED FLOODLIGHT Product Application - SA Equip (1080p).mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "type": "video", "src": "videos/sa-equip/SA LUMIN EX LED WORKLIGHT 100 DROP TEST - SA Equip (1080p).mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_Projetor LED Ex.mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_Transformador Ex_4 s.mp4", "thumbnail": "images/sa-equip/SA_Transformador Ex_400VA.png" },
+        { "type": "video", "src": "videos/sa-equip/SA_portifólio.mp4", "thumbnail": "images/sa-equip/Logo SA Equip.jpg" }
+      ],
       "products": [
-        { "id": "hot-1", "name": "Hotéis Executivos", "description": "Hospedagem premium em centros urbanos com estrutura para eventos e negócios.", "image": "images/placeholder-logo.png" },
-        { "id": "hot-2", "name": "Resorts", "description": "Complexos de lazer à beira-mar com gastronomia, spa e atividades para toda a família.", "image": "images/placeholder-logo.png" }
+        { "id": "sa-cyclone-ac", "name": "SA CYCLONE EX Air Conditioner", "description": "Ar-condicionado portátil certificado Ex para Zonas 1 e 2 (gases) e Zonas 21 e 22 (poeiras). Potência de refrigeração de 11 kW a 400-440V trifásico 50/60Hz. Vazão de 690 m³/h com redução típica de temperatura de 10-20 °C. Área resfriada de 240 m³. Dimensões: 800 × 700 × 1290 mm, 200 kg. Proteção IP65. Certificações ATEX, IECEx e UKEX. Modelos Tropical (HT30) e Temperado (LT30).", "image": "images/sa-equip/Air_Conditioner_Hero.png" },
+        { "id": "sa-lumin-floodlight", "name": "SA LUMIN EX LED Floodlight", "description": "Holofote LED certificado Ex para iluminação de grandes áreas em atmosferas explosivas. Alta eficiência luminosa com baixo consumo de energia. Construção robusta em alumínio com proteção anticorrosiva. Certificação ATEX para Zonas 1 e 2.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "id": "sa-lumin-worklight", "name": "SA LUMIN EX LED Worklight", "description": "Lanterna de trabalho LED certificada Ex, submetida a rigorosos testes de resistência incluindo teste de queda de 100 metros. Iluminação potente e portátil para inspeções e manutenção em áreas classificadas. Certificação ATEX para Zonas 1 e 2.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "id": "sa-lumin-portable", "name": "SA LUMIN Iluminação Portátil LED Ex", "description": "Linha de iluminação portátil LED certificada Ex para áreas classificadas. Soluções compactas e leves para iluminação temporária em tanques, espaços confinados e áreas de manutenção. Alimentação por bateria recarregável de longa duração. Certificação ATEX.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
+        { "id": "sa-transformador-ex", "name": "SA Transformador Ex", "description": "Transformador portátil certificado Ex para alimentação segura de equipamentos em atmosferas explosivas. Disponível em 400VA com carcaça robusta e proteção IP65. Projetado para uso em Zonas 1 e 2. Certificações ATEX, IECEx e UKEX.", "image": "images/sa-equip/SA_Transformador Ex_400VA.png" },
+        { "id": "sa-air-mover", "name": "SA CYCLONE EX Air Mover", "description": "Movimentador de ar portátil certificado Ex para ventilação e circulação de ar em espaços confinados e áreas classificadas. Compatível com dutos antiestáticos SA CYCLONE. Ideal para renovação de ar, resfriamento e extração de fumos. Certificação ATEX.", "image": "images/sa-equip/Ex AIR MOVER.png" }
       ]
     },
     {
-      "id": "polar-mineracao",
-      "name": "Polar Mineração",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Mineração atua na extração e beneficiamento de minérios essenciais para a indústria. Operamos com as mais rigorosas práticas de segurança e responsabilidade ambiental.\n\nNossas operações incluem minas de ferro, níquel e cobre, fornecendo matéria-prima para os setores siderúrgico, automotivo e de construção civil.",
-      "gallery": [],
+      "id": "stopdropp",
+      "name": "StopDropp",
+      "logo": "images/stopdropp/Logo Stopdrop - sem fundo.png",
+      "tagline": "Protegendo o invisível. Prevenindo o impensável.",
+      "description": "A StopDropp desenvolve ferramentas manuais projetadas especificamente para evitar quedas durante trabalhos em altura. Fundada em 2005, com sedes em Houston, Texas (EUA) e Dewsbury, West Yorkshire (Reino Unido), a empresa é referência global em tethered tools, tools at height e tools aloft.\n\nAtende setores de óleo e gás, petroquímica, construção, mineração, utilities, energia eólica e telecomunicações, com o objetivo de reduzir ocorrências de queda de objetos. É membro de organizações dedicadas à prevenção de quedas nos setores offshore e onshore.\n\nSeu ecossistema de produtos abrange: cordões e espirais de amarração com limites de carga de trabalho (WLL) explícitos para todos os tipos de ferramentas; pontos de ancoragem vestíveis (cintos e coletes com pontos de fixação reforçados) e estruturais; bolsas e mochilas com fechamentos magnéticos ou de fivelas, não condutivas e com múltiplos pontos de fixação; além de mosquetões, conectores, envoltórios para ferramentas e kits completos. Todos os produtos possuem certificações EN 13157, ANSI/ISEA 121, ASME B30.20 e API RP 2D, com testes de carga realizados por certificadoras terceirizadas e rastreabilidade total por serialização.",
+      "gallery": [
+        { "type": "video", "src": "videos/stopdropp/Stopdrop_ferramentas uso altura.mp4", "thumbnail": "images/stopdropp/Logo Stopdrop.jpg" }
+      ],
       "products": [
-        { "id": "min-1", "name": "Minério de Ferro", "description": "Extração e beneficiamento de minério de ferro para a indústria siderúrgica.", "image": "images/placeholder-logo.png" },
-        { "id": "min-2", "name": "Níquel e Cobre", "description": "Fornecimento de metais não ferrosos para os setores automotivo e eletrônico.", "image": "images/placeholder-logo.png" }
+        { "id": "stopdropp-cordoes-amarracao", "name": "Cordões e Espirais de Amarração", "description": "Cordões fixos e espirais retráteis para amarração de todos os tipos de ferramentas manuais. Fabricados em nylon de alta tenacidade, poliéster e opções reforçadas com Kevlar. Limites de carga de trabalho (WLL) explícitos.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
+        { "id": "stopdropp-ancoras-vestiveis", "name": "Âncoras Vestíveis", "description": "Cintos de ferramentas e coletes com pontos de fixação reforçados, projetados para trabalhos prolongados em altura. Compatíveis com equipamentos de proteção contra quedas. Ergonômicos e confortáveis.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
+        { "id": "stopdropp-bolsas-ferramentas", "name": "Bolsas para Ferramentas", "description": "Bolsas não condutivas essenciais para trabalhos em zonas elétricas e de telecomunicação. Sistemas de fechamento magnético ou de fivelas que impedem abertura acidental. Múltiplos pontos de fixação.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
+        { "id": "stopdropp-kits-completos", "name": "Kits Completos de Amarração", "description": "Kits completos seriados e embalados por equipe, disponíveis nas versões estática, móvel ou por função. Montados sob medida após avaliação do inventário de ferramentas do cliente. Rastreabilidade completa.", "image": "images/stopdropp/Logo Stopdrop.jpg" }
       ]
     },
     {
-      "id": "polar-aviacao",
-      "name": "Polar Aviação",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Aviação oferece serviços de táxi aéreo, manutenção aeronáutica e fretamento executivo. Nossa frota é composta por aeronaves modernas e nossa equipe por profissionais certificados.\n\nAtendemos clientes corporativos e particulares com agilidade, discrição e segurança, conectando destinos em todo o Brasil e América Latina.",
-      "gallery": [],
+      "id": "vantrunk",
+      "name": "Vantrunk",
+      "logo": "images/vantrunk/Logo Vantrunk - sem fundo.png",
+      "tagline": "Sistemas de gerenciamento de cabos para ambientes industriais e áreas classificadas",
+      "description": "A Vantrunk é referência mundial em sistemas de gerenciamento de cabos, oferecendo soluções inovadoras para os setores industrial e de áreas classificadas. Com décadas de experiência, nossos sistemas de leitos e eletrocalhas garantem segurança, durabilidade e eficiência nas instalações mais exigentes.\n\nDesenvolvemos produtos projetados para suportar ambientes agressivos, incluindo plataformas offshore, plantas petroquímicas, indústrias de mineração e instalações de energia, sempre em conformidade com as mais rigorosas normas internacionais.",
+      "gallery": [
+        { "type": "image", "src": "images/vantrunk/Intelok Sistrma.png", "alt": "Sistema Intelok Vantrunk" },
+        { "type": "video", "src": "videos/vantrunk/Speedway cable ladder system_24 seg.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" },
+        { "type": "video", "src": "videos/vantrunk/Vantrunk - Institucional  legenda port_2.23.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" },
+        { "type": "video", "src": "videos/vantrunk/Vantrunk - Speedway cable ladder  04 min.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" }
+      ],
       "products": [
-        { "id": "avi-1", "name": "Táxi Aéreo", "description": "Voos executivos sob demanda para destinos nacionais e internacionais.", "image": "images/placeholder-logo.png" },
-        { "id": "avi-2", "name": "Manutenção Aeronáutica", "description": "Serviços certificados de manutenção preventiva e corretiva para aeronaves.", "image": "images/placeholder-logo.png" }
-      ]
-    },
-    {
-      "id": "polar-seguros",
-      "name": "Polar Seguros",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Seguros é a corretora oficial do grupo, oferecendo proteção para todos os momentos da vida. De seguros automotivos a planos de previdência, temos a solução ideal para cada necessidade.\n\nTrabalhamos com as melhores seguradoras do mercado, garantindo cobertura abrangente, preços competitivos e atendimento personalizado.",
-      "gallery": [],
-      "products": [
-        { "id": "seg-1", "name": "Seguro Automotivo", "description": "Cobertura completa para veículos com assistência 24 horas em todo o Brasil.", "image": "images/placeholder-logo.png" },
-        { "id": "seg-2", "name": "Seguro de Vida", "description": "Planos de proteção financeira para você e sua família com coberturas flexíveis.", "image": "images/placeholder-logo.png" },
-        { "id": "seg-3", "name": "Previdência Privada", "description": "Planos de previdência complementar com rentabilidade competitiva.", "image": "images/placeholder-logo.png" }
-      ]
-    },
-    {
-      "id": "polar-construcao",
-      "name": "Polar Construção",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Construção é a construtora do grupo, responsável por grandes obras de infraestrutura como pontes, viadutos, barragens e rodovias. Nossa engenharia move o Brasil.\n\nCom equipamentos de última geração e uma equipe de profissionais experientes, entregamos projetos complexos dentro do prazo e do orçamento, sempre com foco na qualidade.",
-      "gallery": [],
-      "products": [
-        { "id": "con-1", "name": "Obras de Infraestrutura", "description": "Construção de pontes, viadutos, barragens e rodovias com engenharia de ponta.", "image": "images/placeholder-logo.png" },
-        { "id": "con-2", "name": "Obras Industriais", "description": "Montagem de plantas industriais e instalações de grande porte.", "image": "images/placeholder-logo.png" }
-      ]
-    },
-    {
-      "id": "polar-ambiental",
-      "name": "Polar Ambiental",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Ambiental é a empresa do grupo dedicada à gestão de resíduos, recuperação ambiental e consultoria em sustentabilidade. Cuidamos do planeta para as futuras gerações.\n\nDesenvolvemos projetos de economia circular, tratamento de efluentes e reflorestamento, ajudando empresas e governos a reduzir seu impacto ambiental.",
-      "gallery": [],
-      "products": [
-        { "id": "amb-1", "name": "Gestão de Resíduos", "description": "Coleta, tratamento e destinação adequada de resíduos industriais e urbanos.", "image": "images/placeholder-logo.png" },
-        { "id": "amb-2", "name": "Consultoria Ambiental", "description": "Licenciamento ambiental, estudos de impacto e planos de sustentabilidade corporativa.", "image": "images/placeholder-logo.png" },
-        { "id": "amb-3", "name": "Reflorestamento", "description": "Projetos de recuperação de áreas degradadas e compensação de carbono.", "image": "images/placeholder-logo.png" }
-      ]
-    },
-    {
-      "id": "polar-comunicacao",
-      "name": "Polar Comunicação",
-      "logo": "images/placeholder-logo.png",
-      "description": "A Polar Comunicação é a agência de publicidade e marketing do Grupo Polar. Criamos campanhas que conectam marcas a pessoas, gerando valor e resultados mensuráveis.\n\nNossa equipe é formada por estrategistas, designers, redatores e analistas de mídia que trabalham integrados para entregar comunicação de alto impacto em todos os canais.",
-      "gallery": [],
-      "products": [
-        { "id": "com-1", "name": "Marketing Digital", "description": "Gestão de mídias sociais, SEO e campanhas de performance para resultados mensuráveis.", "image": "images/placeholder-logo.png" },
-        { "id": "com-2", "name": "Produção Audiovisual", "description": "Criação de conteúdo em vídeo, motion graphics e campanhas publicitárias.", "image": "images/placeholder-logo.png" }
+        { "id": "vantrunk-speedway", "name": "Sistema Speedway Cable Ladder", "description": "Sistema de leito de cabos de alta resistência, projetado para instalações industriais pesadas e áreas classificadas. Oferece rápida instalação, excelente capacidade de carga e proteção contra corrosão para ambientes agressivos.", "image": "images/vantrunk/Intelok Sistrma.png" },
+        { "id": "vantrunk-intelok", "name": "Sistema Intelok", "description": "Sistema de travamento inteligente para eletrocalhas e leitos de cabos que garante conexões seguras e instalação simplificada. Ideal para aplicações em plantas petroquímicas, plataformas offshore e ambientes industriais de alta exigência.", "image": "images/vantrunk/Intelok Sistrma.png" }
       ]
     }
   ]

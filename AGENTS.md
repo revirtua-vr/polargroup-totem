@@ -51,7 +51,7 @@ polargroup-totem/
 │   ├── main.ts                 # Electron main — fullscreen, kiosk mode, no frame
 │   └── preload.ts              # Exposes platform info
 ├── scripts/
-│   └── translate.ts            # Reads pt-BR JSON, prompts OpenAI → writes en.json, es.json
+│   └── translate.ts            # Reads pt-BR JSON, prompts DeepSeek → writes en.json, es.json
 ├── public/
 │   └── images/                 # Company logos, gallery images/videos
 ├── forge.config.ts             # Electron Forge → Squirrel EXE
@@ -92,7 +92,7 @@ pnpm dev              # Vite dev server (localhost:5173)
 pnpm start            # Electron + Vite dev
 pnpm build            # Production Vite build → dist/
 pnpm make             # Electron Forge → EXE (out/make/)
-pnpm translate        # LLM translation (needs OPENAI_API_KEY)
+pnpm translate        # LLM translation (needs DEEPSEEK_API_KEY)
 pnpm lint             # ESLint
 pnpm type-check       # tsc --noEmit
 ```
@@ -117,7 +117,7 @@ pnpm build        # must succeed
 
 1. Edit `src/data/companies/pt-BR.json`, `src/data/quiz/pt-BR.json`, and `src/data/videos/pt-BR.json`
 2. Edit UI strings in `src/i18n/locales/pt-BR/common.json`
-3. Run `pnpm translate` (requires `OPENAI_API_KEY` env var)
+3. Run `pnpm translate` (requires `DEEPSEEK_API_KEY` env var)
 4. Manually review `en/common.json` and `es/common.json`
 
 ## Content Schema

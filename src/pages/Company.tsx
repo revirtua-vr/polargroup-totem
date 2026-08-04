@@ -2,7 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
-import { RibbonGallery } from '@/components/RibbonGallery'
+import { RibbonGallery, type GalleryItem } from '@/components/RibbonGallery'
 import companiesData from '@/data/companies/pt-BR.json'
 import { ArrowLeft } from 'lucide-react'
 
@@ -63,7 +63,7 @@ export default function Company() {
           )}
 
           {company.gallery && company.gallery.length > 0 && (
-            <RibbonGallery items={company.gallery} />
+            <RibbonGallery items={company.gallery as GalleryItem[]} />
           )}
         </div>
       </div>

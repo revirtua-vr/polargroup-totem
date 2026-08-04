@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "text": "¿Qué empresa del Grupo Polar está especializada en dispositivos móviles a prueba de explosión, convirtiendo iPhones y iPads para uso seguro en áreas clasificadas?",
+      "options": ["Atexxo", "Blinda", "Nightstick", "SA EQUIP"],
+      "correct": 0
+    },
+    {
+      "text": "¿Qué empresa del Grupo Polar es la única en Brasil autorizada a utilizar componentes CEAG en sus equipos a prueba de explosión?",
+      "options": ["Atexxo", "Chalmit", "Blinda", "Hawke"],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué empresa del Grupo Polar desarrolló el mosquetón Trisafe™, con mecanismo patentado de triple acción y bloqueo automático?",
+      "options": ["StopDropp", "Dropsafe", "Hi-Force", "Pelican"],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué empresa del Grupo Polar actúa en el sector de iluminación para áreas clasificadas desde 1910, siendo parte del grupo Hubbell?",
+      "options": ["Nightstick", "SA EQUIP", "Chalmit", "Atexxo"],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué empresa del Grupo Polar es referencia mundial en cases de protección de alto impacto y posee la línea Air Case, que reduce el peso hasta un 40%?",
+      "options": ["Pelican", "Dropsafe", "Vantrunk", "Parker"],
+      "correct": 0
+    },
+    {
+      "text": "Además de prensacables certificados para atmósferas explosivas, ¿qué empresa del Grupo Polar posee credenciales aeroespaciales con productos probados para aplicaciones espaciales?",
+      "options": ["Oliver Valves", "Hi-Force", "Hawke", "Blinda"],
+      "correct": 2
+    },
+    {
+      "text": "¿Qué empresa del Grupo Polar fabrica el SA CYCLONE EX, un aire acondicionado portátil certificado ATEX e IECEx para atmósferas explosivas?",
+      "options": ["Atexxo", "SA EQUIP", "Proserv", "Chalmit"],
+      "correct": 1
+    },
+    {
+      "text": "¿Qué empresa del Grupo Polar está especializada en sistemas de muestreo topside y subsea para la industria de petróleo y gas?",
+      "options": ["Oliver Valves", "Parker", "Hi-Force", "Proserv"],
+      "correct": 3
+    }
+  ]
+}

@@ -11,34 +11,20 @@ export default function QuemSomos() {
         <p className="text-xl text-muted-foreground mb-8">{t('quemSomos.subtitle')}</p>
 
         <div className="prose prose-lg max-w-none space-y-6">
-          <p>
-            O Grupo Polar é um dos maiores conglomerados empresariais do Brasil, com atuação em
-            mais de 18 setores estratégicos da economia. Fundado há mais de 30 anos, o grupo se
-            destaca pela inovação, sustentabilidade e compromisso com o desenvolvimento do país.
-          </p>
-          <p>
-            Com mais de 50 mil colaboradores, nossas empresas estão presentes em todo o território
-            nacional e em diversos países da América Latina, Europa e Ásia. Atuamos em setores que
-            vão desde engenharia e construção até tecnologia, saúde e educação.
-          </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">Missão</h2>
-          <p>
-            Desenvolver soluções inovadoras e sustentáveis que gerem valor para a sociedade,
-            conectando pessoas, empresas e comunidades através de produtos e serviços de excelência.
-          </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">Visão</h2>
-          <p>
-            Ser referência global em inovação e sustentabilidade empresarial, reconhecida pela
-            qualidade, ética e impacto positivo nas comunidades onde atuamos.
-          </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">Valores</h2>
+          <p>{t('quemSomos.paragraph1')}</p>
+          <p>{t('quemSomos.paragraph2')}</p>
+
+          <h2 className="text-2xl font-bold mt-8 mb-4">{t('quemSomos.missionTitle')}</h2>
+          <p>{t('quemSomos.missionText')}</p>
+
+          <h2 className="text-2xl font-bold mt-8 mb-4">{t('quemSomos.visionTitle')}</h2>
+          <p>{t('quemSomos.visionText')}</p>
+
+          <h2 className="text-2xl font-bold mt-8 mb-4">{t('quemSomos.valuesTitle')}</h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Excelência em tudo que fazemos</li>
-            <li>Inovação como motor de crescimento</li>
-            <li>Sustentabilidade em cada decisão</li>
-            <li>Ética e transparência nas relações</li>
-            <li>Valorização e respeito às pessoas</li>
-            <li>Compromisso com resultados</li>
+            {(t('quemSomos.values', { returnObjects: true }) as string[]).map((value, i) => (
+              <li key={i}>{value}</li>
+            ))}
           </ul>
         </div>
       </div>

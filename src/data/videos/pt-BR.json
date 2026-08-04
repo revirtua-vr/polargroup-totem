@@ -2,39 +2,21 @@
   "videos": [
     {
       "id": "v1",
-      "title": "Conheça o Grupo Polar",
-      "src": "public/videos/placeholder.mp4",
+      "title": "Polar Group — Institucional",
+      "src": "videos/institucional/POLAR (Institucional Reduzido) FullHD (EN).mp4",
       "thumbnail": "images/placeholder-logo.png"
     },
     {
       "id": "v2",
-      "title": "Nossa História",
-      "src": "public/videos/placeholder.mp4",
-      "thumbnail": "images/placeholder-logo.png"
+      "title": "Blinda 2026 — Full HD",
+      "src": "videos/institucional/FULLHD - BLINDA 2026 PORT.mp4",
+      "thumbnail": "images/blinda/key804.971.jpg"
     },
     {
       "id": "v3",
-      "title": "Sustentabilidade no Grupo Polar",
-      "src": "public/videos/placeholder.mp4",
-      "thumbnail": "images/placeholder-logo.png"
-    },
-    {
-      "id": "v4",
-      "title": "Inovação e Tecnologia",
-      "src": "public/videos/placeholder.mp4",
-      "thumbnail": "images/placeholder-logo.png"
-    },
-    {
-      "id": "v5",
-      "title": "Responsabilidade Social",
-      "src": "public/videos/placeholder.mp4",
-      "thumbnail": "images/placeholder-logo.png"
-    },
-    {
-      "id": "v6",
-      "title": "Expansão Internacional",
-      "src": "public/videos/placeholder.mp4",
-      "thumbnail": "images/placeholder-logo.png"
+      "title": "Blinda 2026 — Versão com Legenda",
+      "src": "videos/institucional/SD - BLINDA 2026 PORT com LEG_PORT.mp4",
+      "thumbnail": "images/blinda/key804.971.jpg"
     }
   ]
 }

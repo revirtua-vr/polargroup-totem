@@ -8,7 +8,22 @@
   },
   "quemSomos": {
     "title": "Polar Group",
-    "subtitle": "Innovation and excellence in every sector"
+    "subtitle": "Electrical, electronic and automation components since 1992",
+    "paragraph1": "Founded in 1992 in Macaé, Rio de Janeiro, Polar Group is a supplier of electrical, electronic and automation components, with specialized operations in hazardous areas and explosive atmospheres.",
+    "paragraph2": "We work with \"Ex\" materials from the world's leading manufacturers. Present in 3 Brazilian states and in Europe, our team is trained and committed to customer success, ready to deliver anywhere.",
+    "missionTitle": "Mission",
+    "missionText": "To supply excellence in electrical, electronic and automation components for hazardous areas, ensuring safety and reliability for our customers.",
+    "visionTitle": "Vision",
+    "visionText": "To be the national reference in supplying \"Ex\" materials, recognized for technical quality and commitment to the highest safety standards.",
+    "valuesTitle": "Values",
+    "values": [
+      "Safety as an absolute priority",
+      "Technical excellence in every supply",
+      "Commitment to the customer and on-time delivery",
+      "Ethics and transparency in relationships",
+      "Trained team in constant evolution",
+      "Responsibility towards people and communities"
+    ]
   },
   "marcas": {
     "title": "Our Brands",
@@ -23,7 +38,7 @@
   },
   "videos": {
     "title": "Videos",
-    "subtitle": "Experience Polar Group in motion"
+    "subtitle": "Discover Polar Group in motion"
   },
   "contato": {
     "title": "Contact",
@@ -39,7 +54,7 @@
     "question": "Question {{current}} of {{total}}",
     "next": "Next",
     "finish": "Finish",
-    "result": "You got {{score}} out of {{total}} correct!",
+    "result": "You got {{score}} out of {{total}} questions right!",
     "retry": "Try Again",
     "home": "Home"
   },
