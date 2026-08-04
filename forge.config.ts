@@ -7,6 +7,7 @@ const config: ForgeConfig = {
   packagerConfig: {
     name: 'PolarGroupTotem',
     executableName: 'polargroup-totem',
+    extraResource: ['./dist'],
   },
   makers: [
     new MakerSquirrel({
