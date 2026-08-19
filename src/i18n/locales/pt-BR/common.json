@@ -46,8 +46,13 @@
   },
   "company": {
     "back": "Voltar",
+    "catalog": "Catálogo",
     "gallery": "Galeria",
-    "products": "Produtos"
+    "products": "Produtos",
+    "viewCatalog": "Ver catálogo"
+  },
+  "pdfViewer": {
+    "index": "Índice"
   },
   "quiz": {
     "title": "Quiz Polar Group",

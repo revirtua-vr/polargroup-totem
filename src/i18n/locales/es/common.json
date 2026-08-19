@@ -47,7 +47,9 @@
   "company": {
     "back": "Volver",
     "gallery": "Galería",
-    "products": "Productos"
+    "products": "Productos",
+    "catalog": "Catálogo",
+    "viewCatalog": "Ver catálogo"
   },
   "quiz": {
     "title": "Quiz Polar Group",
@@ -60,5 +62,8 @@
   },
   "language": {
     "label": "Idioma"
+  },
+  "pdfViewer": {
+    "index": "Index"
   }
 }

@@ -55,7 +55,12 @@
         { "id": "bli-10", "name": "Unidades Seladoras Ex — USD_XH, USX_H e USX_V", "description": "Unidades seladoras à prova de explosão para barreira física contra propagação de chamas em eletrodutos e conexões de cabos. Fabricadas em alumínio e latão. Modelos horizontal e vertical. Utilizadas em conjunto com prensa-cabos e eletrodutos pesados NBR 5597. Certificação INMETRO.", "image": "images/blinda/key680.1009.jpg" },
         { "id": "bli-11", "name": "Conexões e Acessórios Ex — Uniões, Cotovelos, Niphes, Plugues e Buchas", "description": "Linha completa de conexões à prova de explosão: uniões macho-fêmea (UX-MF) e fêmea-fêmea (UX-FF), uniões de expansão (UEX), cotovelos 45° e 90° (CFX), niphes (NA-C e NA-L), luvas (LU), plugues (PR e PCS), drenos (DX), respiros (RX) e buchas de redução (BS-M40). Fabricadas em alumínio ou latão com roscas NPT. Certificadas para grupos IIB e IIIC.", "image": "images/blinda/key812.1001 (1).jpg" },
         { "id": "bli-12", "name": "Painéis de Comando e Controle Ex — BCX, BCDX e BCTX", "description": "Caixas de comando e controle à prova de explosão para botoeiras, sinaleiros, instrumentos e dispositivos de controle em áreas classificadas. Fabricadas em alumínio copper free com pintura eletrostática poliéster. Grau de proteção IP66W. Certificação Ex db IIB Gb e Ex tb IIIC Db. Customização com componentes CEAG originais.", "image": "images/blinda/key970.1095.jpg" }
-      ]
+      ],
+      "catalog": {
+        "title": "Catálogo Blinda",
+        "file": "pdfs/catalogo-blinda.pdf",
+        "indexPage": 5
+      }
     },
     {
       "id": "chalmit",

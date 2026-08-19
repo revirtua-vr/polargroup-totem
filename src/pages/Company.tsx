@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
 import { RibbonGallery, type GalleryItem } from '@/components/RibbonGallery'
 import companiesData from '@/data/companies/pt-BR.json'
-import { ArrowLeft } from 'lucide-react'
+import { ArrowLeft, BookOpen } from 'lucide-react'
 
 export default function Company() {
   const { id } = useParams<{ id: string }>()
@@ -21,6 +21,8 @@ export default function Company() {
       </div>
     )
   }
+
+  const catalog = 'catalog' in company ? company.catalog : undefined
 
   return (
     <div className="h-full flex flex-col">
@@ -45,6 +47,15 @@ export default function Company() {
               <p key={i} className="text-base leading-relaxed mb-4">{paragraph}</p>
             ))}
           </div>
+
+          {catalog && (
+            <div className="mb-8">
+              <Button size="lg" onClick={() => navigate(`/marcas/${company.id}/catalogo`)}>
+                <BookOpen className="w-5 h-5 mr-2" />
+                {t('company.viewCatalog')}
+              </Button>
+            </div>
+          )}
 
           {company.products && company.products.length > 0 && (
             <div className="mb-8">

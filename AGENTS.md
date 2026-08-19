@@ -25,16 +25,18 @@ polargroup-totem/
 │   ├── pages/
 │   │   ├── QuemSomos.tsx       # About Polar Group: mission, vision, values
 │   │   ├── Marcas.tsx          # Grid of 18 company cards + quiz card
-│   │   ├── Company.tsx         # Detail view: logo, description, products, ribbon gallery
+│   │   ├── Company.tsx         # Detail view: logo, description, products, ribbon gallery + catalog CTA
+│   │   ├── Catalogo.tsx        # Full-height PDF catalog page (/marcas/:id/catalogo) — single scroll via PdfViewer
 │   │   ├── Produtos.tsx        # All products aggregated from every company
 │   │   ├── Videos.tsx          # Dedicated Polar Group videos (not company galleries)
 │   │   ├── Contato.tsx         # Address, phone, email, social media
-│   │   └── Quiz.tsx            # 8 multiple-choice questions, scored, ephemeral
+│   │   ├── Quiz.tsx            # 8 multiple-choice questions, scored, ephemeral
 │   ├── components/
 │   │   ├── ui/                 # shadcn/ui primitives (button, card, dialog, scroll-area)
 │   │   ├── NavBar.tsx          # Top navigation: Quem Somos | Marcas | Produtos | Vídeos | Contato
 │   │   ├── LanguageSwitcher.tsx # PT/EN/ES toggle (top-right corner)
 │   │   └── RibbonGallery.tsx   # Horizontal scroll thumbnails → lightbox (images/videos)
+│   │   └── PdfViewer.tsx       # Full PDF renderer (react-pdf): all pages, zoom, index links scroll to target page
 │   ├── data/
 │   │   ├── companies/pt-BR.json # 18 companies: { id, name, logo, description, products[], gallery[] }
 │   │   ├── quiz/pt-BR.json     # 8 questions: { text, options[], correct }
@@ -53,7 +55,8 @@ polargroup-totem/
 ├── scripts/
 │   └── translate.ts            # Reads pt-BR JSON, prompts DeepSeek → writes en.json, es.json
 ├── public/
-│   └── images/                 # Company logos, gallery images/videos
+│   ├── images/                 # Company logos, gallery images/videos
+│   └── pdfs/                   # Embedded PDF catalogs (e.g. catalogo-blinda.pdf)
 ├── forge.config.ts             # Electron Forge → Squirrel EXE
 ├── .npmrc                       # node-linker=hoisted (required by Electron Forge)
 ├── Dockerfile                  # nginx:alpine serving dist/
@@ -69,6 +72,7 @@ polargroup-totem/
 | `/` | QuemSomos | About Polar Group (mission, vision, values) |
 | `/marcas` | Marcas | 18-company card grid + quiz entry |
 | `/marcas/:id` | Company | Company detail with products + gallery |
+| `/marcas/:id/catalogo` | Catalogo | Full-height PDF catalog (only when company has `catalog` field) |
 | `/produtos` | Produtos | All products from all companies aggregated |
 | `/videos` | Videos | Dedicated Polar Group videos (not company galleries) |
 | `/contato` | Contato | Address, phone, email, social media |
@@ -82,6 +86,7 @@ polargroup-totem/
 | Quiz persistence | Ephemeral (answer → score → done) | No user accounts, no leaderboard |
 | Languages | pt-BR authored, en/es via LLM script | Single source of truth + automated translation |
 | Kiosk behavior | Fullscreen, 180s idle → home, no browser chrome | Convention touchscreen UX |
+| PDF catalogs | Optional `catalog` field per company → CTA on Company page opens dedicated full-height `/marcas/:id/catalogo` page rendered by `PdfViewer` (react-pdf) | Blinda catalog: index links must jump to target page; react-pdf LinkService scrolls to target page. Keep this feature — it is data-driven and intentionally maintained |
 | Routing | HashRouter | Works offline in Electron without a server |
 | Project location | Standalone at `C:\Users\Lucas\polargroup-totem` | Not coupled to CRM monorepo |
 
@@ -134,6 +139,11 @@ pnpm build        # must succeed
       { "type": "image", "src": "images/photo.jpg", "alt": "Caption" },
       { "type": "video", "src": "videos/clip.mp4", "thumbnail": "images/thumb.jpg" }
     ],
+    "catalog": {
+      "title": "Catalog Title",
+      "file": "pdfs/catalog.pdf",
+      "indexPage": 5
+    },
     "products": [
       { "id": "prod-id", "name": "Product Name", "description": "...", "image": "images/prod.png" }
     ]
