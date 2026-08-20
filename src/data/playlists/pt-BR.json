@@ -1,0 +1,226 @@
+{
+  "playlists": [
+    {
+      "id": "chalmit",
+      "title": "Chalmit",
+      "videos": [
+        {
+          "id": "14cvh8LczrM",
+          "title": "PROTECTA X: UMA NOVA GERAÇÃO DE ILUMINAÇÃO LED PARA ÁREAS CLASSIFICADAS",
+          "src": "videos/playlists/chalmit/01 - PROTECTA_X_-_UMA_NOVA_GERACAO_DE_ILUMINACAO_LED_PARA_AREAS_CLASSIFICADAS.mp4",
+          "thumbnail": "videos/playlists/chalmit/01 - PROTECTA_X_-_UMA_NOVA_GERACAO_DE_ILUMINACAO_LED_PARA_AREAS_CLASSIFICADAS.jpg"
+        }
+      ]
+    },
+    {
+      "id": "atexxo",
+      "title": "Atexxo",
+      "videos": [
+        {
+          "id": "vAzEWZbTIvI",
+          "title": "iPhone Ex original da Apple para áreas classificadas | ATEXXO",
+          "src": "videos/playlists/atexxo/01 - iPhone_Ex_original_da_Apple_para_areas_classificadas_ATEXXO.mp4",
+          "thumbnail": "videos/playlists/atexxo/01 - iPhone_Ex_original_da_Apple_para_areas_classificadas_ATEXXO.jpg"
+        }
+      ]
+    },
+    {
+      "id": "nightstick",
+      "title": "Nightstick",
+      "videos": [
+        {
+          "id": "165-LVuk8Iw",
+          "title": "LANTERNA DE CABEÇA DUAL-LIGHT | XPP-5454G",
+          "src": "videos/playlists/nightstick/01 - LANTERNA_DE_CABECA_DUAL-LIGHT_XPP-5454G.mp4",
+          "thumbnail": "videos/playlists/nightstick/01 - LANTERNA_DE_CABECA_DUAL-LIGHT_XPP-5454G.jpg"
+        },
+        {
+          "id": "QNBog1bR6wg",
+          "title": "LANTERNA RECARREGÁVEL COM BASE MAGNÉTICA | XPR-5584GMX",
+          "src": "videos/playlists/nightstick/02 - LANTERNA_RECARREGAVEL_COM_BASE_MAGNETICA_XPR-5584GMX.mp4",
+          "thumbnail": "videos/playlists/nightstick/02 - LANTERNA_RECARREGAVEL_COM_BASE_MAGNETICA_XPR-5584GMX.jpg"
+        },
+        {
+          "id": "m5XALjnC_ts",
+          "title": "LANTERNA DE CABEÇA DE 90 LÚMENS | XPP-5450G",
+          "src": "videos/playlists/nightstick/03 - LANTERNA_DE_CABECA_DE_90_LUMENS_XPP-5450G.mp4",
+          "thumbnail": "videos/playlists/nightstick/03 - LANTERNA_DE_CABECA_DE_90_LUMENS_XPP-5450G.jpg"
+        },
+        {
+          "id": "oK1E1Kor6WY",
+          "title": "Lanterna Pronta Entrega | Nightstick XPP-5454G",
+          "src": "videos/playlists/nightstick/04 - Lanterna_Pronta_Entrega_Nightstick_XPP-5454G.mp4",
+          "thumbnail": "videos/playlists/nightstick/04 - Lanterna_Pronta_Entrega_Nightstick_XPP-5454G.jpg"
+        }
+      ]
+    },
+    {
+      "id": "vantrunk",
+      "title": "Vantrunk",
+      "videos": [
+        {
+          "id": "hj_TRgaBH68",
+          "title": "Vantrunk - Bandejamento de Cabos Speedway",
+          "src": "videos/playlists/vantrunk/01 - Vantrunk_-_Bandejamento_de_Cabos_Speedway.mp4",
+          "thumbnail": "videos/playlists/vantrunk/01 - Vantrunk_-_Bandejamento_de_Cabos_Speedway.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sa-equip",
+      "title": "SA Equip",
+      "videos": [
+        {
+          "id": "_AJ8H0Cf30U",
+          "title": "SA Equip EX LED  Worklight 200",
+          "src": "videos/playlists/sa-equip/01 - SA_Equip_EX_LED_Worklight_200.mp4",
+          "thumbnail": "videos/playlists/sa-equip/01 - SA_Equip_EX_LED_Worklight_200.jpg"
+        },
+        {
+          "id": "dejpJ0ZBB9A",
+          "title": "Projetor Ex Led Recarregável | SEGURANÇA EM ESPAÇO CONFINADO",
+          "src": "videos/playlists/sa-equip/02 - Projetor_Ex_Led_Recarregavel_SEGURANCA_EM_ESPACO_CONFINADO.mp4",
+          "thumbnail": "videos/playlists/sa-equip/02 - Projetor_Ex_Led_Recarregavel_SEGURANCA_EM_ESPACO_CONFINADO.jpg"
+        },
+        {
+          "id": "cUY-sY6zy_Y",
+          "title": "Sistemas de Iluminação, ventilação e energia Ex",
+          "src": "videos/playlists/sa-equip/03 - Sistemas_de_Iluminacao_ventilacao_e_energia_Ex.mp4",
+          "thumbnail": "videos/playlists/sa-equip/03 - Sistemas_de_Iluminacao_ventilacao_e_energia_Ex.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hawke",
+      "title": "Hawke",
+      "videos": [
+        {
+          "id": "AvgQcoq_mdc",
+          "title": "Ganhe tempo usando o acoplador 501/RCG da Hawke",
+          "src": "videos/playlists/hawke/01 - Ganhe_tempo_usando_o_acoplador_501_RCG_da_Hawke.mp4",
+          "thumbnail": "videos/playlists/hawke/01 - Ganhe_tempo_usando_o_acoplador_501_RCG_da_Hawke.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hi-force",
+      "title": "Hi-Force",
+      "videos": [
+        {
+          "id": "ykRkqTP_x3s",
+          "title": "Hi Force - Sistema de Elevação com Macaco Toughlift",
+          "src": "videos/playlists/hi-force/01 - Hi_Force_-_Sistema_de_Elevacao_com_Macaco_Toughlift.mp4",
+          "thumbnail": "videos/playlists/hi-force/01 - Hi_Force_-_Sistema_de_Elevacao_com_Macaco_Toughlift.jpg"
+        },
+        {
+          "id": "LHLv-XDrIHY",
+          "title": "Separador de Flange Hidráulico | HI-FORCE",
+          "src": "videos/playlists/hi-force/02 - Separador_de_Flange_Hidraulico_HI-FORCE.mp4",
+          "thumbnail": "videos/playlists/hi-force/02 - Separador_de_Flange_Hidraulico_HI-FORCE.jpg"
+        }
+      ]
+    },
+    {
+      "id": "dropsafe",
+      "title": "Dropsafe",
+      "videos": [
+        {
+          "id": "bo5OaJrMaTg",
+          "title": "Barreiras Dropsafe - Sistema de Prevenção de Queda de Objetos",
+          "src": "videos/playlists/dropsafe/01 - Barreiras_Dropsafe_-_Sistema_de_Prevencao_de_Queda_de_Objetos.mp4",
+          "thumbnail": "videos/playlists/dropsafe/01 - Barreiras_Dropsafe_-_Sistema_de_Prevencao_de_Queda_de_Objetos.jpg"
+        },
+        {
+          "id": "Bq0s2p3wqmU",
+          "title": "Redes de Segurança de Perímetros para Helidecks",
+          "src": "videos/playlists/dropsafe/02 - Redes_de_Seguranca_de_Perimetros_para_Helidecks.mp4",
+          "thumbnail": "videos/playlists/dropsafe/02 - Redes_de_Seguranca_de_Perimetros_para_Helidecks.jpg"
+        },
+        {
+          "id": "oDPJ8FcXqVw",
+          "title": "Redes DropSafe",
+          "src": "videos/playlists/dropsafe/03 - Redes_DropSafe.mp4",
+          "thumbnail": "videos/playlists/dropsafe/03 - Redes_DropSafe.jpg"
+        },
+        {
+          "id": "7ev6HFeJs1s",
+          "title": "Teste de Queda de Objeto: Dropsafe x Rede Não Aprovada",
+          "src": "videos/playlists/dropsafe/04 - Teste_de_Queda_de_Objeto_-_Dropsafe_x_Rede_Nao_Aprovada.mp4",
+          "thumbnail": "videos/playlists/dropsafe/04 - Teste_de_Queda_de_Objeto_-_Dropsafe_x_Rede_Nao_Aprovada.jpg"
+        },
+        {
+          "id": "Sm9-s5-K33Q",
+          "title": "BARREIRA DE SEGURANÇA CONTRA QUEDA DE OBJETOS | DROPSAFE",
+          "src": "videos/playlists/dropsafe/05 - BARREIRA_DE_SEGURANCA_CONTRA_QUEDA_DE_OBJETOS_DROPSAFE.mp4",
+          "thumbnail": "videos/playlists/dropsafe/05 - BARREIRA_DE_SEGURANCA_CONTRA_QUEDA_DE_OBJETOS_DROPSAFE.jpg"
+        }
+      ]
+    },
+    {
+      "id": "institucional",
+      "title": "INSTITUCIONAL",
+      "videos": [
+        {
+          "id": "nDTmT8cUhYo",
+          "title": "Polar - 3º Encontro Anual Abendi sobre Cert. de Competências Pessoais em Atmosferas Explosivas",
+          "src": "videos/playlists/institucional/01 - Polar_-_3o_Encontro_Anual_Abendi_sobre_Cert._de_Competencias_Pessoais_em_Atmosferas_Explosivas.mp4",
+          "thumbnail": "videos/playlists/institucional/01 - Polar_-_3o_Encontro_Anual_Abendi_sobre_Cert._de_Competencias_Pessoais_em_Atmosferas_Explosivas.jpg"
+        },
+        {
+          "id": "_4sYrj_VacQ",
+          "title": "Polar Group - Institucional",
+          "src": "videos/playlists/institucional/03 - Polar_Group_-_Institucional.mp4",
+          "thumbnail": "videos/playlists/institucional/03 - Polar_Group_-_Institucional.jpg"
+        },
+        {
+          "id": "iSuU_7i50wo",
+          "title": "Polar doa sensores para projeto de respiradores da UFRGS na luta contra o COVID-19",
+          "src": "videos/playlists/institucional/04 - Polar_doa_sensores_para_projeto_de_respiradores_da_UFRGS_na_luta_contra_o_COVID-19.mp4",
+          "thumbnail": "videos/playlists/institucional/04 - Polar_doa_sensores_para_projeto_de_respiradores_da_UFRGS_na_luta_contra_o_COVID-19.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pelican",
+      "title": "PELICAN",
+      "videos": [
+        {
+          "id": "HER43m2a5b4",
+          "title": "Pelican Air Case   The new lightweight Protector Cases H264 AAC 720p",
+          "src": "videos/playlists/pelican/01 - Pelican_Air_Case_The_new_lightweight_Protector_Cases_H264_AAC_720p.mp4",
+          "thumbnail": "videos/playlists/pelican/01 - Pelican_Air_Case_The_new_lightweight_Protector_Cases_H264_AAC_720p.jpg"
+        },
+        {
+          "id": "HER43m2a5b4",
+          "title": "Pelican Air Case   The new lightweight Protector Cases H264 AAC 720p",
+          "src": "videos/playlists/pelican/02 - Pelican_Air_Case_The_new_lightweight_Protector_Cases_H264_AAC_720p.mp4",
+          "thumbnail": "videos/playlists/pelican/02 - Pelican_Air_Case_The_new_lightweight_Protector_Cases_H264_AAC_720p.jpg"
+        },
+        {
+          "id": "HnKpgFzq2FY",
+          "title": "Pelican 30QT Elite Cooler H264 AAC 720p",
+          "src": "videos/playlists/pelican/03 - Pelican_30QT_Elite_Cooler_H264_AAC_720p.mp4",
+          "thumbnail": "videos/playlists/pelican/03 - Pelican_30QT_Elite_Cooler_H264_AAC_720p.jpg"
+        },
+        {
+          "id": "clNVcOhqx78",
+          "title": "LED Lighting Systems  Pelican 9480   9490 H264 AAC 720p",
+          "src": "videos/playlists/pelican/04 - LED_Lighting_Systems_Pelican_9480_9490_H264_AAC_720p.mp4",
+          "thumbnail": "videos/playlists/pelican/04 - LED_Lighting_Systems_Pelican_9480_9490_H264_AAC_720p.jpg"
+        },
+        {
+          "id": "YUs9abI3c6g",
+          "title": "Grizzly Bears vs Pelican Elite Cooler H264 AAC 720p",
+          "src": "videos/playlists/pelican/05 - Grizzly_Bears_vs_Pelican_Elite_Cooler_H264_AAC_720p.mp4",
+          "thumbnail": "videos/playlists/pelican/05 - Grizzly_Bears_vs_Pelican_Elite_Cooler_H264_AAC_720p.jpg"
+        },
+        {
+          "id": "SQ5JMPu20RI",
+          "title": "Pelican   Built to Protect",
+          "src": "videos/playlists/pelican/06 - Pelican_Built_to_Protect.mp4",
+          "thumbnail": "videos/playlists/pelican/06 - Pelican_Built_to_Protect.jpg"
+        }
+      ]
+    }
+  ]
+}

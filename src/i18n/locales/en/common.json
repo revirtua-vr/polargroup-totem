@@ -3,7 +3,6 @@
     "home": "Home",
     "marcas": "Brands",
     "produtos": "Products",
-    "videos": "Videos",
     "playlists": "Playlists",
     "contato": "Contact",
     "quiz": "Quiz"
@@ -43,10 +42,6 @@
     "subtitle": "Discover our products and services",
     "all": "All",
     "empty": "No products registered"
-  },
-  "videos": {
-    "title": "Videos",
-    "subtitle": "Discover Polar Group in motion"
   },
   "playlists": {
     "title": "Playlists",

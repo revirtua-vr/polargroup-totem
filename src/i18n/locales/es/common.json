@@ -3,7 +3,6 @@
     "home": "Inicio",
     "marcas": "Marcas",
     "produtos": "Productos",
-    "videos": "Vídeos",
     "playlists": "Playlists",
     "contato": "Contacto",
     "quiz": "Quiz"
@@ -43,10 +42,6 @@
     "subtitle": "Conozca nuestros productos y servicios",
     "all": "Todos",
     "empty": "Ningún producto registrado"
-  },
-  "videos": {
-    "title": "Vídeos",
-    "subtitle": "Conozca a Polar Group en movimiento"
   },
   "playlists": {
     "title": "Playlists",

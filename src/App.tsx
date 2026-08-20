@@ -11,7 +11,7 @@ import Marcas from '@/pages/Marcas'
 import Company from '@/pages/Company'
 import Catalogo from '@/pages/Catalogo'
 import Produtos from '@/pages/Produtos'
-import Videos from '@/pages/Videos'
+import Playlists from '@/pages/Playlists'
 import Contato from '@/pages/Contato'
 import Quiz from '@/pages/Quiz'
 
@@ -37,7 +37,7 @@ export default function App() {
               <Route path="/marcas/:id" element={<Company />} />
               <Route path="/marcas/:id/catalogo" element={<Catalogo />} />
               <Route path="/produtos" element={<Produtos />} />
-              <Route path="/videos" element={<Videos />} />
+              <Route path="/playlists" element={<Playlists />} />
               <Route path="/contato" element={<Contato />} />
               <Route path="/quiz" element={<Quiz />} />
             </Routes>
