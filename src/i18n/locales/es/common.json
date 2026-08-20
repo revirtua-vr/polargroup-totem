@@ -1,17 +1,25 @@
 {
   "nav": {
+    "home": "Inicio",
     "quemSomos": "Quiénes Somos",
     "marcas": "Marcas",
     "produtos": "Productos",
     "videos": "Vídeos",
+    "playlists": "Playlists",
     "contato": "Contacto",
     "quiz": "Quiz"
   },
+  "home": {
+    "brandsTitle": "Nuestras marcas en movimiento",
+    "brandsSubtitle": "Toque en un logo para abrir la marca o vea la lista completa",
+    "viewBrands": "Ver todas las marcas"
+  },
   "quemSomos": {
-    "title": "Grupo Polar",
+    "title": "Polar Group",
     "subtitle": "El producto adecuado cuando más lo necesitas",
-    "paragraph1": "Fundado en 1992 en Macaé, Río de Janeiro, el Grupo Polar es proveedor de componentes eléctricos, electrónicos y de automatización, con actuación especializada en áreas clasificadas y atmósferas explosivas.",
+    "paragraph1": "Fundada en 1992 en Macaé, Río de Janeiro, Polar Group es proveedora de componentes eléctricos, electrónicos y de automatización, con actuación especializada en áreas clasificadas y atmósferas explosivas.",
     "paragraph2": "Trabajamos con materiales \"Ex\" de los principales fabricantes mundiales. Presentes en 3 estados brasileños y en Europa, nuestro equipo está entrenado y comprometido con el éxito del cliente, listo para entregar en cualquier lugar.",
+    "institutionalVideo": "Video institucional",
     "missionTitle": "Misión",
     "missionText": "Suministrar componentes eléctricos, electrónicos y de automatización de excelencia para áreas clasificadas, garantizando seguridad y confiabilidad a nuestros clientes.",
     "visionTitle": "Visión",
@@ -39,11 +47,25 @@
   },
   "videos": {
     "title": "Vídeos",
-    "subtitle": "Conozca el Grupo Polar en movimiento"
+    "subtitle": "Conozca a Polar Group en movimiento"
+  },
+  "playlists": {
+    "title": "Playlists",
+    "subtitle": "Explora los videos de Polar Group organizados por playlist",
+    "empty": "No hay playlists disponibles"
   },
   "contato": {
-    "title": "Contacto",
-    "subtitle": "Hable con el Grupo Polar"
+    "title": "Contacto — Polar Group",
+    "subtitle": "Hable con Polar Group",
+    "addressTitle": "Dirección",
+    "address": "Av. Nossa Senhora da Glória, 1395\nCEP: 27920-360 – Cavaleiros, Macaé, RJ, Brasil",
+    "phoneTitle": "Teléfono",
+    "phone": "+55 (22) 2105-7777 — Macaé - RJ\n+55 (22) 2105-7777 — Serra - ES\n+44 20 7193-2280 — Londres – UK",
+    "emailTitle": "Correo electrónico",
+    "email": "vendas@polarb2b.com\nsales@polarb2b.com",
+    "socialTitle": "Redes Sociales",
+    "social": "@grupo_polar\n/grupopolaroficial",
+    "photoAlt": "Tienda de Polar Group"
   },
   "company": {
     "back": "Volver",

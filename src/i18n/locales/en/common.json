@@ -1,17 +1,25 @@
 {
   "nav": {
+    "home": "Home",
     "quemSomos": "About Us",
     "marcas": "Brands",
     "produtos": "Products",
     "videos": "Videos",
+    "playlists": "Playlists",
     "contato": "Contact",
     "quiz": "Quiz"
+  },
+  "home": {
+    "brandsTitle": "Our brands in motion",
+    "brandsSubtitle": "Tap a logo to open the brand or see the full list",
+    "viewBrands": "See all brands"
   },
   "quemSomos": {
     "title": "Polar Group",
     "subtitle": "The right product when you need it most",
     "paragraph1": "Founded in 1992 in Macaé, Rio de Janeiro, Polar Group is a supplier of electrical, electronic and automation components, with specialized operations in hazardous areas and explosive atmospheres.",
     "paragraph2": "We work with \"Ex\" materials from the world's leading manufacturers. Present in 3 Brazilian states and in Europe, our team is trained and committed to customer success, ready to deliver anywhere.",
+    "institutionalVideo": "Institutional video",
     "missionTitle": "Mission",
     "missionText": "To supply excellence in electrical, electronic and automation components for hazardous areas, ensuring safety and reliability for our customers.",
     "visionTitle": "Vision",
@@ -41,9 +49,23 @@
     "title": "Videos",
     "subtitle": "Discover Polar Group in motion"
   },
+  "playlists": {
+    "title": "Playlists",
+    "subtitle": "Explore Polar Group videos organized by playlist",
+    "empty": "No playlists available"
+  },
   "contato": {
-    "title": "Contact",
-    "subtitle": "Get in touch with Polar Group"
+    "title": "Contact — Polar Group",
+    "subtitle": "Get in touch with Polar Group",
+    "addressTitle": "Address",
+    "address": "Av. Nossa Senhora da Glória, 1395\nZIP: 27920-360 – Cavaleiros, Macaé, RJ, Brazil",
+    "phoneTitle": "Phone",
+    "phone": "+55 (22) 2105-7777 — Macaé - RJ\n+55 (22) 2105-7777 — Serra - ES\n+44 20 7193-2280 — London – UK",
+    "emailTitle": "E-mail",
+    "email": "vendas@polarb2b.com\nsales@polarb2b.com",
+    "socialTitle": "Social Media",
+    "social": "@grupo_polar\n/grupopolaroficial",
+    "photoAlt": "Polar Group store"
   },
   "company": {
     "back": "Back",
