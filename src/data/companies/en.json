@@ -7,54 +7,215 @@
       "tagline": "Explosion-proof mobile devices for hazardous areas",
       "description": "Atexxo Manufacturing is an international company specialized in the design and production of explosion-proof mobile devices with ATEX and IECEx certifications. Headquartered in the Netherlands, Atexxo converts premium Apple and Samsung devices — such as iPhones, iPads and Galaxy Tabs — into certified versions for safe use in hazardous areas, maintaining all original equipment functionality, including 5G, NFC, cameras, wireless charging, and Wi-Fi and Bluetooth connectivity.\n\nAtexxo products are certified for ATEX Zone 1 and 2 (gas explosion risk) and Zone 21 and 22 (dust explosion risk), with international IECEx and UKCA certifications, plus INMETRO certification available for selected models. All devices preserve the full user experience, including apps, interface, performance, and ecosystem of the original device, with no loss of performance.\n\nDesigned specifically for critical industries such as oil and gas, petrochemical, offshore, and pharmaceutical, Atexxo devices are ideal for connected workers, Industry 4.0, digital twins in hazardous areas, and safe photo and video capture in dangerous environments.",
       "gallery": [
-        { "type": "image", "src": "images/atexxo/iphone-15-2-240x300.png", "alt": "Explosion-proof iPhone 15 certified ATEX/IECEx/INMETRO for Zone 1 and Zone 2" },
-        { "type": "image", "src": "images/atexxo/ipad-mini-7-2-240x300.png", "alt": "Explosion-proof iPad mini 7 certified ATEX/IECEx/INMETRO for Zone 1 and Zone 2" },
-        { "type": "image", "src": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png", "alt": "Explosion-proof iPhone 17 certified ATEX/IECEx for Zone 1" },
-        { "type": "image", "src": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png", "alt": "Explosion-proof Galaxy S25 certified ATEX/IECEx for Zone 2" },
-        { "type": "image", "src": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png", "alt": "Explosion-proof iPad 11 certified ATEX/IECEx for Zone 1" },
-        { "type": "image", "src": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png", "alt": "Explosion-proof Galaxy Tab Active5 certified ATEX/IECEx for Zone 1" },
-        { "type": "video", "src": "videos/atexxo/ATX_iPhone_EXd-IPH-13.mp4", "thumbnail": "images/atexxo/MOB-EX-IPH-15-front-ex-621x1024.png" },
-        { "type": "video", "src": "videos/atexxo/ATX-Mini iPad-M6.mp4", "thumbnail": "images/atexxo/ipad-mini-7-2-240x300.png" }
+        {
+          "type": "image",
+          "src": "images/atexxo/iphone-15-2-240x300.png",
+          "alt": "Explosion-proof iPhone 15 certified ATEX/IECEx/INMETRO for Zone 1 and Zone 2"
+        },
+        {
+          "type": "image",
+          "src": "images/atexxo/ipad-mini-7-2-240x300.png",
+          "alt": "Explosion-proof iPad mini 7 certified ATEX/IECEx/INMETRO for Zone 1 and Zone 2"
+        },
+        {
+          "type": "image",
+          "src": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png",
+          "alt": "Explosion-proof iPhone 17 certified ATEX/IECEx for Zone 1"
+        },
+        {
+          "type": "image",
+          "src": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png",
+          "alt": "Explosion-proof Galaxy S25 certified ATEX/IECEx for Zone 2"
+        },
+        {
+          "type": "image",
+          "src": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png",
+          "alt": "Explosion-proof iPad 11 certified ATEX/IECEx for Zone 1"
+        },
+        {
+          "type": "image",
+          "src": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png",
+          "alt": "Explosion-proof Galaxy Tab Active5 certified ATEX/IECEx for Zone 1"
+        },
+        {
+          "type": "video",
+          "src": "videos/atexxo/ATX_iPhone_EXd-IPH-13.mp4",
+          "thumbnail": "images/atexxo/thumbs/ATX_iPhone_EXd-IPH-13.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/atexxo/ATX-Mini iPad-M6.mp4",
+          "thumbnail": "images/atexxo/thumbs/ATX-Mini iPad-M6.jpg"
+        }
       ],
       "products": [
-        { "id": "atx-iphone-15", "name": "iPhone 15 Ex", "description": "Apple iPhone 15 smartphone converted and certified for safe use in hazardous areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB. Maintains all original iPhone 15 features, including 5G, NFC, cameras, wireless charging, and physical buttons. INMETRO, ATEX, and IECEx certification. Marking: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.", "image": "images/atexxo/iphone-15-2-240x300.png" },
-        { "id": "atx-ipad-mini-7", "name": "iPad mini 7 Ex", "description": "Apple iPad mini 7th generation tablet converted and certified for safe use in hazardous areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB, in Wi-Fi or Wi-Fi+5G models with E-SIM. Maintains all original features except the fingerprint sensor. INMETRO, ATEX, and IECEx certification.", "image": "images/atexxo/ipad-mini-7-2-240x300.png" },
-        { "id": "atx-iphone-16", "name": "iPhone 16 Ex", "description": "Apple iPhone 16 smartphone converted and certified for safe use in hazardous areas Zone 1. Maintains all original device features, including 5G, NFC, cameras, wireless charging, and physical buttons. ATEX and IECEx certification.", "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png" },
-        { "id": "atx-iphone-17", "name": "iPhone 17 Ex", "description": "Apple iPhone 17 smartphone converted and certified for safe use in hazardous areas Zone 1. Maintains all original device features. ATEX and IECEx certification.", "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png" },
-        { "id": "atx-iphone-16e", "name": "iPhone 16E Ex", "description": "Apple iPhone 16E smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features. ATEX and IECEx certification.", "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png" },
-        { "id": "atx-samsung-s24", "name": "Galaxy S24 Ex", "description": "Samsung Galaxy S24 smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features, including 5G, cameras, and apps. ATEX and IECEx certification.", "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png" },
-        { "id": "atx-samsung-s25", "name": "Galaxy S25 Ex", "description": "Samsung Galaxy S25 smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features. ATEX and IECEx certification.", "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png" },
-        { "id": "atx-galaxy-tab-active5", "name": "Galaxy Tab Active5 Ex", "description": "Rugged Samsung Galaxy Tab Active5 tablet converted and certified for safe use in hazardous areas Zone 1. Ideal for connected workers and Industry 4.0 in harsh environments. ATEX and IECEx certification.", "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png" },
-        { "id": "atx-ipad-11", "name": "iPad 11 Ex", "description": "Apple iPad 11 tablet converted and certified for safe use in hazardous areas Zone 1. Maintains all original iPad features, including cameras, Wi-Fi, 5G, and full Apple ecosystem performance. ATEX and IECEx certification.", "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png" }
+        {
+          "id": "atx-iphone-15",
+          "name": "iPhone 15 Ex",
+          "description": "Apple iPhone 15 smartphone converted and certified for safe use in hazardous areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB. Maintains all original iPhone 15 features, including 5G, NFC, cameras, wireless charging, and physical buttons. INMETRO, ATEX, and IECEx certification. Marking: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.",
+          "image": "images/atexxo/iphone-15-2-240x300.png"
+        },
+        {
+          "id": "atx-ipad-mini-7",
+          "name": "iPad mini 7 Ex",
+          "description": "Apple iPad mini 7th generation tablet converted and certified for safe use in hazardous areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB, in Wi-Fi or Wi-Fi+5G models with E-SIM. Maintains all original features except the fingerprint sensor. INMETRO, ATEX, and IECEx certification.",
+          "image": "images/atexxo/ipad-mini-7-2-240x300.png"
+        },
+        {
+          "id": "atx-iphone-16",
+          "name": "iPhone 16 Ex",
+          "description": "Apple iPhone 16 smartphone converted and certified for safe use in hazardous areas Zone 1. Maintains all original device features, including 5G, NFC, cameras, wireless charging, and physical buttons. ATEX and IECEx certification.",
+          "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png"
+        },
+        {
+          "id": "atx-iphone-17",
+          "name": "iPhone 17 Ex",
+          "description": "Apple iPhone 17 smartphone converted and certified for safe use in hazardous areas Zone 1. Maintains all original device features. ATEX and IECEx certification.",
+          "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png"
+        },
+        {
+          "id": "atx-iphone-16e",
+          "name": "iPhone 16E Ex",
+          "description": "Apple iPhone 16E smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features. ATEX and IECEx certification.",
+          "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png"
+        },
+        {
+          "id": "atx-samsung-s24",
+          "name": "Galaxy S24 Ex",
+          "description": "Samsung Galaxy S24 smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features, including 5G, cameras, and apps. ATEX and IECEx certification.",
+          "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png"
+        },
+        {
+          "id": "atx-samsung-s25",
+          "name": "Galaxy S25 Ex",
+          "description": "Samsung Galaxy S25 smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features. ATEX and IECEx certification.",
+          "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png"
+        },
+        {
+          "id": "atx-galaxy-tab-active5",
+          "name": "Galaxy Tab Active5 Ex",
+          "description": "Rugged Samsung Galaxy Tab Active5 tablet converted and certified for safe use in hazardous areas Zone 1. Ideal for connected workers and Industry 4.0 in harsh environments. ATEX and IECEx certification.",
+          "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png"
+        },
+        {
+          "id": "atx-ipad-11",
+          "name": "iPad 11 Ex",
+          "description": "Apple iPad 11 tablet converted and certified for safe use in hazardous areas Zone 1. Maintains all original iPad features, including cameras, Wi-Fi, 5G, and full Apple ecosystem performance. ATEX and IECEx certification.",
+          "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png"
+        }
       ]
     },
     {
       "id": "blinda",
       "name": "Blinda",
-      "logo": "images/blinda/Logo Blinda PolarComponentsGroup.png",
+      "logo": "images/placeholder-logo.png",
       "tagline": "Explosion-proof equipment with international certification — the only Brazilian company authorized to use CEAG components",
       "description": "For over 60 years, Blinda has been a national reference in explosion-proof (Ex) electrical equipment, serving with excellence the oil and gas, petrochemical, steel, and mining sectors. Its portfolio encompasses junction boxes, control panels, push-button stations, cable glands, signaling devices, and a complete line of certified connections and accessories.\n\nWith INMETRO, IECEx, and ATEX certifications, Blinda is the only company in Brazil authorized to use CEAG components in its projects, ensuring an international standard of quality and safety. All products are manufactured with high-strength materials — copper-free aluminum, 304/316L stainless steel, and glass-reinforced polyester (GRP) — ensuring IP66/W protection and a temperature class from -60 °C to +110 °C.\n\nLocated in Votorantim (SP), Blinda is part of the Polar Components Group, offering complete solutions in Ex equipment for explosive atmospheres, with specialized technical support and custom manufacturing to meet the industry's most rigorous specifications.",
       "gallery": [
-        { "type": "image", "src": "images/blinda/key804.971.jpg", "alt": "Explosion-proof junction box CBX — manufactured in aluminum, IP66W protection rating, INMETRO certified" },
-        { "type": "image", "src": "images/blinda/key970.1095.jpg", "alt": "Blinda explosion-proof command and control panel for industrial applications in explosive atmospheres" },
-        { "type": "image", "src": "images/blinda/key862_Munsell.995.jpg", "alt": "Explosion-proof junction box CDWE with multiple cable gland entries" },
-        { "type": "image", "src": "images/blinda/key680.1009.jpg", "alt": "Ex sealing unit for cable glands — certified connections and accessories for hazardous areas" },
-        { "type": "video", "src": "videos/blinda/BL_Painel Carlos e Felipe_ jan2023.mp4", "thumbnail": "images/blinda/key804.971.jpg" },
-        { "type": "video", "src": "videos/blinda/BL_prensa cabos.mp4", "thumbnail": "images/blinda/key41_A2F.1117.jpg" }
+        {
+          "type": "image",
+          "src": "images/blinda/key804.971.jpg",
+          "alt": "Explosion-proof junction box CBX — manufactured in aluminum, IP66W protection rating, INMETRO certified"
+        },
+        {
+          "type": "image",
+          "src": "images/blinda/key970.1095.jpg",
+          "alt": "Blinda explosion-proof command and control panel for industrial applications in explosive atmospheres"
+        },
+        {
+          "type": "image",
+          "src": "images/blinda/key862_Munsell.995.jpg",
+          "alt": "Explosion-proof junction box CDWE with multiple cable gland entries"
+        },
+        {
+          "type": "image",
+          "src": "images/blinda/key680.1009.jpg",
+          "alt": "Ex sealing unit for cable glands — certified connections and accessories for hazardous areas"
+        },
+        {
+          "type": "video",
+          "src": "videos/blinda/BL_Painel Carlos e Felipe_ jan2023.mp4",
+          "thumbnail": "images/blinda/thumbs/BL_Painel Carlos e Felipe_ jan2023.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/blinda/BL_prensa cabos.mp4",
+          "thumbnail": "images/blinda/thumbs/BL_prensa cabos.jpg"
+        }
       ],
       "products": [
-        { "id": "bli-1", "name": "Ex Junction and Distribution Box — CBX Series", "description": "Explosion-proof junction and distribution boxes manufactured in copper-free aluminum with electrostatic polyester powder coating in Munsell gray N6.5. Certified Ex db IIB Gb and Ex tb IIIC Db with IP66W protection rating. Available in 13 sizes (CBX-01 to CBX-18), with viewing window option. Internal mounting plate in orange 2.5YR 6/14. Stainless steel 304 bolts per ANSI B 18.2.1.", "image": "images/blinda/key804.971.jpg" },
-        { "id": "bli-2", "name": "Ex Empty Junction Box — CBX-U Series", "description": "Empty explosion-proof junction and distribution boxes intended for customer equipment assembly. Certified for recertification per Annex D of ABNT NBR IEC 60079-1. Manufactured in aluminum, IP66W protection rating, sizes CBX-01U to CBX-18U.", "image": "images/blinda/key804.971.jpg" },
-        { "id": "bli-3", "name": "Ex Digital Grounding Controller — CBX-STR2", "description": "Explosion-proof digital grounding controller with solid-state technology, no moving parts. Full-range 110/220 Vac power supply. Detects capacitance between 470pF and 10,000pF. Includes flexible cable up to 8m, alligator clamp, and indicator light. Application in loading and transfer areas for flammable products.", "image": "images/blinda/key525.846 CBX STR2.jpg" },
-        { "id": "bli-4", "name": "Explosion-Proof Siren — BX6500", "description": "Explosion-proof electronic siren with microprocessor and 32 tone types. Sound level of 110dB at 1 meter. Manufactured in aluminum with electrostatic polyester coating. Certified Ex db IIB T6 Gb and Ex tb IIIC T85°C Db. Available in 220Vac, 127Vac, and 24Vdc voltages.", "image": "images/blinda/key43_Munsell_B.878 (1).jpg" },
-        { "id": "bli-5", "name": "GBOX Terminal Box — GRP (Glass-Reinforced Polyester)", "description": "Junction and terminal boxes in GRP with antistatic surface, resistant to atmospheric corrosion and chemical attack. Inmetro certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 protection rating. Service temperature from -60 °C to +110 °C. Rated voltage up to 690V, rated current up to 315A. Grounding plates in brass or stainless steel.", "image": "images/blinda/key1122.1039.jpg" },
-        { "id": "bli-6", "name": "Ex-Cell Terminal Box — Stainless Steel Ex-e / Ex-i", "description": "Terminal boxes in 316L or 304 stainless steel with electrochemical polishing. INMETRO certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 protection rating. Impact resistance of 7J. Rated voltage up to 750V, rated current up to 500A. Hinged cover with quarter-turn lock.", "image": "images/blinda/key970.1095.jpg" },
-        { "id": "bli-7", "name": "Ex Mobile Plug Cart — CTME", "description": "Increased safety mobile plug cart for powering equipment in hazardous areas. GRP body, carbon steel frame with blue electrostatic coating, and 8\" (200mm) casters. Certification Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. CEAG standard sockets. Includes 30mA RCD circuit breakers and LOTO device.", "image": "images/blinda/key1122.1039.jpg" },
-        { "id": "bli-8", "name": "Ex Safety Disconnect Switches — GHG 261 / GHG 262", "description": "Safety switches and disconnectors for hazardous areas. Model GHG 261 (10A) in polyamide and GHG 262 (20A) in GRP. Certification Ex ed IIC T6 / Ex ed ia IIC T6, IP66 protection rating. Locking device in OFF position for up to 3 padlocks. M20/M25/M32 cable glands included.", "image": "images/blinda/key742.702.jpg" },
-        { "id": "bli-9", "name": "Ex Cable Glands — A2F, E1F and A2F-EF Series", "description": "Explosion-proof cable glands Ex db IIC, manufactured in nickel-plated brass. Models A2F (standard), A2F-EF (with flange), and E1F (increased safety). Available in various sizes for cables from 1.5mm² to 240mm². Metric or NPT thread as required.", "image": "images/blinda/key41_A2F.1117.jpg" },
-        { "id": "bli-10", "name": "Ex Sealing Units — USD_XH, USX_H and USX_V", "description": "Explosion-proof sealing units for physical barrier against flame propagation in conduits and cable connections. Manufactured in aluminum and brass. Horizontal and vertical models. Used in conjunction with cable glands and NBR 5597 heavy-duty conduits. INMETRO certification.", "image": "images/blinda/key680.1009.jpg" },
-        { "id": "bli-11", "name": "Ex Connections and Accessories — Unions, Elbows, Nipples, Plugs and Bushings", "description": "Complete line of explosion-proof connections: male-female unions (UX-MF) and female-female unions (UX-FF), expansion unions (UEX), 45° and 90° elbows (CFX), nipples (NA-C and NA-L), couplings (LU), plugs (PR and PCS), drains (DX), breathers (RX), and reducing bushings (BS-M40). Manufactured in aluminum or brass with NPT threads. Certified for groups IIB and IIIC.", "image": "images/blinda/key812.1001 (1).jpg" },
-        { "id": "bli-12", "name": "Ex Command and Control Panels — BCX, BCDX and BCTX", "description": "Explosion-proof command and control boxes for push-buttons, indicator lights, instruments, and control devices in hazardous areas. Manufactured in copper-free aluminum with electrostatic polyester coating. IP66W protection rating. Certification Ex db IIB Gb and Ex tb IIIC Db. Customization with genuine CEAG components.", "image": "images/blinda/key970.1095.jpg" }
+        {
+          "id": "bli-1",
+          "name": "Ex Junction and Distribution Box — CBX Series",
+          "description": "Explosion-proof junction and distribution boxes manufactured in copper-free aluminum with electrostatic polyester powder coating in Munsell gray N6.5. Certified Ex db IIB Gb and Ex tb IIIC Db with IP66W protection rating. Available in 13 sizes (CBX-01 to CBX-18), with viewing window option. Internal mounting plate in orange 2.5YR 6/14. Stainless steel 304 bolts per ANSI B 18.2.1.",
+          "image": "images/blinda/key804.971.jpg"
+        },
+        {
+          "id": "bli-2",
+          "name": "Ex Empty Junction Box — CBX-U Series",
+          "description": "Empty explosion-proof junction and distribution boxes intended for customer equipment assembly. Certified for recertification per Annex D of ABNT NBR IEC 60079-1. Manufactured in aluminum, IP66W protection rating, sizes CBX-01U to CBX-18U.",
+          "image": "images/blinda/key804.971.jpg"
+        },
+        {
+          "id": "bli-3",
+          "name": "Ex Digital Grounding Controller — CBX-STR2",
+          "description": "Explosion-proof digital grounding controller with solid-state technology, no moving parts. Full-range 110/220 Vac power supply. Detects capacitance between 470pF and 10,000pF. Includes flexible cable up to 8m, alligator clamp, and indicator light. Application in loading and transfer areas for flammable products.",
+          "image": "images/blinda/key525.846 CBX STR2.jpg"
+        },
+        {
+          "id": "bli-4",
+          "name": "Explosion-Proof Siren — BX6500",
+          "description": "Explosion-proof electronic siren with microprocessor and 32 tone types. Sound level of 110dB at 1 meter. Manufactured in aluminum with electrostatic polyester coating. Certified Ex db IIB T6 Gb and Ex tb IIIC T85°C Db. Available in 220Vac, 127Vac, and 24Vdc voltages.",
+          "image": "images/blinda/key43_Munsell_B.878 (1).jpg"
+        },
+        {
+          "id": "bli-5",
+          "name": "GBOX Terminal Box — GRP (Glass-Reinforced Polyester)",
+          "description": "Junction and terminal boxes in GRP with antistatic surface, resistant to atmospheric corrosion and chemical attack. Inmetro certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 protection rating. Service temperature from -60 °C to +110 °C. Rated voltage up to 690V, rated current up to 315A. Grounding plates in brass or stainless steel.",
+          "image": "images/blinda/key1122.1039.jpg"
+        },
+        {
+          "id": "bli-6",
+          "name": "Ex-Cell Terminal Box — Stainless Steel Ex-e / Ex-i",
+          "description": "Terminal boxes in 316L or 304 stainless steel with electrochemical polishing. INMETRO certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 protection rating. Impact resistance of 7J. Rated voltage up to 750V, rated current up to 500A. Hinged cover with quarter-turn lock.",
+          "image": "images/blinda/key970.1095.jpg"
+        },
+        {
+          "id": "bli-7",
+          "name": "Ex Mobile Plug Cart — CTME",
+          "description": "Increased safety mobile plug cart for powering equipment in hazardous areas. GRP body, carbon steel frame with blue electrostatic coating, and 8\" (200mm) casters. Certification Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. CEAG standard sockets. Includes 30mA RCD circuit breakers and LOTO device.",
+          "image": "images/blinda/key1122.1039.jpg"
+        },
+        {
+          "id": "bli-8",
+          "name": "Ex Safety Disconnect Switches — GHG 261 / GHG 262",
+          "description": "Safety switches and disconnectors for hazardous areas. Model GHG 261 (10A) in polyamide and GHG 262 (20A) in GRP. Certification Ex ed IIC T6 / Ex ed ia IIC T6, IP66 protection rating. Locking device in OFF position for up to 3 padlocks. M20/M25/M32 cable glands included.",
+          "image": "images/blinda/key742.702.jpg"
+        },
+        {
+          "id": "bli-9",
+          "name": "Ex Cable Glands — A2F, E1F and A2F-EF Series",
+          "description": "Explosion-proof cable glands Ex db IIC, manufactured in nickel-plated brass. Models A2F (standard), A2F-EF (with flange), and E1F (increased safety). Available in various sizes for cables from 1.5mm² to 240mm². Metric or NPT thread as required.",
+          "image": "images/blinda/key41_A2F.1117.jpg"
+        },
+        {
+          "id": "bli-10",
+          "name": "Ex Sealing Units — USD_XH, USX_H and USX_V",
+          "description": "Explosion-proof sealing units for physical barrier against flame propagation in conduits and cable connections. Manufactured in aluminum and brass. Horizontal and vertical models. Used in conjunction with cable glands and NBR 5597 heavy-duty conduits. INMETRO certification.",
+          "image": "images/blinda/key680.1009.jpg"
+        },
+        {
+          "id": "bli-11",
+          "name": "Ex Connections and Accessories — Unions, Elbows, Nipples, Plugs and Bushings",
+          "description": "Complete line of explosion-proof connections: male-female unions (UX-MF) and female-female unions (UX-FF), expansion unions (UEX), 45° and 90° elbows (CFX), nipples (NA-C and NA-L), couplings (LU), plugs (PR and PCS), drains (DX), breathers (RX), and reducing bushings (BS-M40). Manufactured in aluminum or brass with NPT threads. Certified for groups IIB and IIIC.",
+          "image": "images/blinda/key812.1001 (1).jpg"
+        },
+        {
+          "id": "bli-12",
+          "name": "Ex Command and Control Panels — BCX, BCDX and BCTX",
+          "description": "Explosion-proof command and control boxes for push-buttons, indicator lights, instruments, and control devices in hazardous areas. Manufactured in copper-free aluminum with electrostatic polyester coating. IP66W protection rating. Certification Ex db IIB Gb and Ex tb IIIC Db. Customization with genuine CEAG components.",
+          "image": "images/blinda/key970.1095.jpg"
+        }
       ]
     },
     {
@@ -64,23 +225,86 @@
       "tagline": "Lighting for hazardous areas since 1910",
       "description": "Chalmit has been a specialist in lighting for hazardous areas since 1910, with over a century dedicated to lighting for explosive atmospheres, focusing on safety, reliability, and performance in harsh environments. Part of the Hubbell group and an IEC standard reference, Chalmit expands innovation, global standardization, and technical support in critical projects.\n\nWith presence in over 40 countries and alignment with ATEX, IECEx, and NEC certifications, Chalmit ensures safe specification in oil and gas, chemical, mining, energy, and marine segments. Its certified luminaires serve classified zones (Zone 1, 2, 21, and 22) on platforms, refineries, and storage areas.\n\nThe portfolio includes linear LED luminaires for process and offshore areas (Protecta X series), LED floodlights for outdoor areas and large spaces (Evolution X series), and bulkheads for walkways and technical rooms (NexLED / Neo X series), with emergency options. Construction in marine-grade die-cast aluminum, stainless steel, and anticorrosive coatings, with IP66/IP67 protection. High-efficiency LED with typical service life above 100,000 hours.",
       "gallery": [
-        { "type": "video", "src": "videos/chalmit/Chalmit - Protecta X.mp4", "thumbnail": "images/chalmit/04.01.2024 - Protecta X.png" },
-        { "type": "video", "src": "videos/chalmit/Como uma bateria de emergência pode reduzir os custos operacionais Protecta X.mp4", "thumbnail": "images/chalmit/CHL_Em protecta X view 1_1200.jpg" },
-        { "type": "video", "src": "videos/chalmit/Evolution X - versão curta.mp4", "thumbnail": "images/chalmit/CHL_EvolutionX_515.webp" },
-        { "type": "video", "src": "videos/chalmit/Evolution X.mp4", "thumbnail": "images/chalmit/evolution_x_evxb_20l_le_1_2.jpg" },
-        { "type": "image", "src": "images/chalmit/CHL_Em protecta X view 1_1200.jpg", "alt": "Chalmit Protecta X luminaire — linear lighting for hazardous areas" },
-        { "type": "image", "src": "images/chalmit/CHL_EvolutionX_515.webp", "alt": "Chalmit Evolution X LED floodlight for outdoor and offshore areas" },
-        { "type": "image", "src": "images/chalmit/CHL_H065550_Angle03_SECONDARY_PRODIMAGE_1200.webp", "alt": "Chalmit luminaire — industrial application" },
-        { "type": "image", "src": "images/chalmit/CHL_NeoX_PIrepresentative_515.webp", "alt": "Chalmit Neo X bulkhead for walkway areas" },
-        { "type": "image", "src": "images/chalmit/HubbellHQ1.jpg", "alt": "Hubbell group headquarters — Chalmit" },
-        { "type": "image", "src": "images/chalmit/Industrial-02-hero.jpg", "alt": "Industrial lighting application Chalmit" },
-        { "type": "image", "src": "images/chalmit/NexLEDIII_515.webp", "alt": "Chalmit NexLED luminaire for technical rooms" },
-        { "type": "image", "src": "images/chalmit/04.01.2024 - Protecta X.png", "alt": "Protecta X linear luminaire" }
+        {
+          "type": "video",
+          "src": "videos/chalmit/Chalmit - Protecta X.mp4",
+          "thumbnail": "images/chalmit/thumbs/Chalmit - Protecta X.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/chalmit/Como uma bateria de emergencia pode reduzir os custos operacionais Protecta X.mp4",
+          "thumbnail": "images/chalmit/thumbs/Como uma bateria de emergencia pode reduzir os custos operacionais Protecta X.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/chalmit/Evolution X - versao curta.mp4",
+          "thumbnail": "images/chalmit/thumbs/Evolution X - versao curta.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/chalmit/Evolution X.mp4",
+          "thumbnail": "images/chalmit/thumbs/Evolution X.jpg"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/CHL_Em protecta X view 1_1200.jpg",
+          "alt": "Chalmit Protecta X luminaire — linear lighting for hazardous areas"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/CHL_EvolutionX_515.webp",
+          "alt": "Chalmit Evolution X LED floodlight for outdoor and offshore areas"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/CHL_H065550_Angle03_SECONDARY_PRODIMAGE_1200.webp",
+          "alt": "Chalmit luminaire — industrial application"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/CHL_NeoX_PIrepresentative_515.webp",
+          "alt": "Chalmit Neo X bulkhead for walkway areas"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/HubbellHQ1.jpg",
+          "alt": "Hubbell group headquarters — Chalmit"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/Industrial-02-hero.jpg",
+          "alt": "Industrial lighting application Chalmit"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/NexLEDIII_515.webp",
+          "alt": "Chalmit NexLED luminaire for technical rooms"
+        },
+        {
+          "type": "image",
+          "src": "images/chalmit/04.01.2024 - Protecta X.png",
+          "alt": "Protecta X linear luminaire"
+        }
       ],
       "products": [
-        { "id": "protecta-x", "name": "Protecta X / Protecta III", "description": "Linear LED luminaires for process areas, industrial corridors, and offshore. High luminous efficiency and robust construction in marine-grade aluminum. ATEX, IECEx certification for Zones 1, 2, 21, and 22. IP66/IP67 protection. Available with integrated emergency battery.", "image": "images/chalmit/04.01.2024 - Protecta X.png" },
-        { "id": "evolution-x", "name": "Evolution X", "description": "LED floodlights for outdoor areas and large spaces. Asymmetric optics with high uniformity and glare control. Light pollution reduction. ATEX, IECEx certification for Zones 1, 2, 21, and 22.", "image": "images/chalmit/CHL_EvolutionX_515.webp" },
-        { "id": "nexled-neo-x", "name": "NexLED / Neo X", "description": "LED bulkheads for walkways and technical rooms. Options for Zone 1/2 and Zone 21/22, with emergency versions. Compact and robust design for installation in confined areas. Anticorrosive construction with IP66 protection.", "image": "images/chalmit/NexLEDIII_515.webp" }
+        {
+          "id": "protecta-x",
+          "name": "Protecta X / Protecta III",
+          "description": "Linear LED luminaires for process areas, industrial corridors, and offshore. High luminous efficiency and robust construction in marine-grade aluminum. ATEX, IECEx certification for Zones 1, 2, 21, and 22. IP66/IP67 protection. Available with integrated emergency battery.",
+          "image": "images/chalmit/04.01.2024 - Protecta X.png"
+        },
+        {
+          "id": "evolution-x",
+          "name": "Evolution X",
+          "description": "LED floodlights for outdoor areas and large spaces. Asymmetric optics with high uniformity and glare control. Light pollution reduction. ATEX, IECEx certification for Zones 1, 2, 21, and 22.",
+          "image": "images/chalmit/CHL_EvolutionX_515.webp"
+        },
+        {
+          "id": "nexled-neo-x",
+          "name": "NexLED / Neo X",
+          "description": "LED bulkheads for walkways and technical rooms. Options for Zone 1/2 and Zone 21/22, with emergency versions. Compact and robust design for installation in confined areas. Anticorrosive construction with IP66 protection.",
+          "image": "images/chalmit/NexLEDIII_515.webp"
+        }
       ]
     },
     {
@@ -90,82 +314,262 @@
       "tagline": "Global leader in dropped object prevention — protecting people, assets, and operations with passive 24/7 safety solutions",
       "description": "Dropsafe is the global leader in dropped object prevention, partnering with companies in high-risk sectors such as energy, oil and gas, mining, chemical, maritime, and renewables. With over 20 years of experience, it develops specialized solutions — nets, barriers, slings, and securing systems — to prevent objects from falling in industrial environments, ensuring safer operations and strengthening safety culture.\n\nUnlike active solutions that rely on daily human intervention, Dropsafe adopts a passive prevention philosophy: a single installation protects all assets 24 hours a day, 7 days a week, operating independently of human action. Its products are manufactured in SUS 316 stainless steel and high-strength polycarbonate, designed for harsh offshore environments with temperatures from -40 °C to 500 °C.\n\nThe patented Trisafe™ technology — a triple-action carabiner with automatic locking operable with one hand — eliminates human error and sets a new safety standard. With global certifications including DNVGL-RP-F107, ABS DOPP+, API RP 2D, NORSOK, and ISO 9001, Dropsafe protects people and equipment in the world's most demanding environments, backed by US$ 10 million product liability insurance.",
       "gallery": [
-        { "type": "video", "src": "videos/dropsafe/Introducing Dropsafe Nets with Trisafe Carabiner.mp4", "thumbnail": "images/dropsafe/Net_main_wm-2.webp" },
-        { "type": "video", "src": "videos/dropsafe/Trisafe Carabiner.mp4", "thumbnail": "images/dropsafe/dropsafe-tool-tethering-795.webp" },
-        { "type": "video", "src": "videos/dropsafe/Mosquetão Trisafe.mp4", "thumbnail": "images/dropsafe/dropsafe-tool-tethering-469.webp" },
-        { "type": "video", "src": "videos/dropsafe/Redes Dropsafe.mp4", "thumbnail": "images/dropsafe/dropsafe-nets-225.webp" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-798.webp", "alt": "Dropsafe barrier installed on industrial guardrail" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-864.webp", "alt": "Dropsafe barrier system with modular panels" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-barrier-902.webp", "alt": "Dropsafe barrier — installation and fastening detail" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-nets-782.webp", "alt": "Dropsafe net wrapping suspended equipment with Trisafe™" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-nets-818.webp", "alt": "Dropsafe retention net installed on industrial luminaire" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-slings-598.webp", "alt": "Dropsafe stainless steel sling with safety carabiner" },
-        { "type": "image", "src": "images/dropsafe/dropsafe-pouches-975.webp", "alt": "Dropsafe safety pouch for portable equipment" },
-        { "type": "image", "src": "images/dropsafe/Net_main_wm-2.webp", "alt": "Dropsafe net with Trisafe™ carabiner and RFID tag" },
-        { "type": "image", "src": "images/dropsafe/DROPSAFE-LED-Render-2.jpg", "alt": "Dropsafe LED render — lighting with protective net" }
+        {
+          "type": "video",
+          "src": "videos/dropsafe/Introducing Dropsafe Nets with Trisafe Carabiner.mp4",
+          "thumbnail": "images/dropsafe/thumbs/Introducing Dropsafe Nets with Trisafe Carabiner.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/dropsafe/Trisafe Carabiner.mp4",
+          "thumbnail": "images/dropsafe/thumbs/Trisafe Carabiner.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/dropsafe/Mosquetao Trisafe.mp4",
+          "thumbnail": "images/dropsafe/thumbs/Mosquetao Trisafe.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/dropsafe/Redes Dropsafe.mp4",
+          "thumbnail": "images/dropsafe/thumbs/Redes Dropsafe.jpg"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-barrier-798.webp",
+          "alt": "Dropsafe barrier installed on industrial guardrail"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-barrier-864.webp",
+          "alt": "Dropsafe barrier system with modular panels"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-barrier-902.webp",
+          "alt": "Dropsafe barrier — installation and fastening detail"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-nets-782.webp",
+          "alt": "Dropsafe net wrapping suspended equipment with Trisafe™"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-nets-818.webp",
+          "alt": "Dropsafe retention net installed on industrial luminaire"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-slings-598.webp",
+          "alt": "Dropsafe stainless steel sling with safety carabiner"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/dropsafe-pouches-975.webp",
+          "alt": "Dropsafe safety pouch for portable equipment"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/Net_main_wm-2.webp",
+          "alt": "Dropsafe net with Trisafe™ carabiner and RFID tag"
+        },
+        {
+          "type": "image",
+          "src": "images/dropsafe/DROPSAFE-LED-Render-2.jpg",
+          "alt": "Dropsafe LED render — lighting with protective net"
+        }
       ],
       "products": [
-        { "id": "dropsafe-nets", "name": "Dropsafe Nets", "description": "Secondary retention devices that wrap and securely fasten suspended equipment such as luminaires, CCTV cameras, speakers, and detectors. Manufactured in SUS 316 stainless steel, tested to over 5 times the Safe Working Load (SWL). Equipped with triple-action Trisafe™ carabiner and RFID tag for traceability. Available in over 100 sizes and custom designs.", "image": "images/dropsafe/dropsafe-nets-225.webp" },
-        { "id": "dropsafe-barrier", "name": "Dropsafe Barrier", "description": "Modular dropped object prevention system that attaches to the interior side of guardrails, scaffolding, or under stairs. Manufactured in recyclable polycarbonate, with three components: Large Panel (1675 x 800 mm), Small Panel (1100 x 800 mm), and Fastening Device. High impact resistance (63J), withstands CAT 5 winds (250 km/h). Tool-free installation.", "image": "images/dropsafe/dropsafe-barrier-798.webp" },
-        { "id": "dropsafe-slings", "name": "Dropsafe Slings", "description": "Secondary securing solution for equipment at height when it is not necessary to wrap internal components. Manufactured in SUS 316 stainless steel with double bolts. Available with traditional carabiner (screw lock) or patented triple-action Trisafe™ with automatic locking.", "image": "images/dropsafe/dropsafe-slings-598.webp" },
-        { "id": "dropsafe-trisafe-carabiner", "name": "Trisafe™ Carabiner", "description": "Patented technology: the world's first carabiner with triple-action mechanism and automatic locking, specifically designed to prevent dropped objects. Hook design, one-hand operation even while wearing gloves. Manufactured in 100% stainless steel.", "image": "images/dropsafe/dropsafe-tool-tethering-795.webp" },
-        { "id": "dropsafe-tool-tethering", "name": "Tool Tethering", "description": "Line of safety lanyards for securing tools at height, equipped with triple-action Trisafe™ carabiner. Options: stainless steel cable (SUS 316L, 3 mm), elastic bungee (1680D Polyester), and webbing. Meets ANSI/ISEA 121-2018. Integrated 360° swivel.", "image": "images/dropsafe/dropsafe-tool-tethering-469.webp" },
-        { "id": "dropsafe-pouches", "name": "Dropsafe Pouches", "description": "Devices that wrap and secure portable items used at height (radios, gas detectors, aerosol cans, multimeters). SUS 316 stainless steel net. Tested to over 2 times the SWL. Includes heavy-duty belt clip. Reusable and 100% recyclable.", "image": "images/dropsafe/dropsafe-pouches-975.webp" }
+        {
+          "id": "dropsafe-nets",
+          "name": "Dropsafe Nets",
+          "description": "Secondary retention devices that wrap and securely fasten suspended equipment such as luminaires, CCTV cameras, speakers, and detectors. Manufactured in SUS 316 stainless steel, tested to over 5 times the Safe Working Load (SWL). Equipped with triple-action Trisafe™ carabiner and RFID tag for traceability. Available in over 100 sizes and custom designs.",
+          "image": "images/dropsafe/dropsafe-nets-225.webp"
+        },
+        {
+          "id": "dropsafe-barrier",
+          "name": "Dropsafe Barrier",
+          "description": "Modular dropped object prevention system that attaches to the interior side of guardrails, scaffolding, or under stairs. Manufactured in recyclable polycarbonate, with three components: Large Panel (1675 x 800 mm), Small Panel (1100 x 800 mm), and Fastening Device. High impact resistance (63J), withstands CAT 5 winds (250 km/h). Tool-free installation.",
+          "image": "images/dropsafe/dropsafe-barrier-798.webp"
+        },
+        {
+          "id": "dropsafe-slings",
+          "name": "Dropsafe Slings",
+          "description": "Secondary securing solution for equipment at height when it is not necessary to wrap internal components. Manufactured in SUS 316 stainless steel with double bolts. Available with traditional carabiner (screw lock) or patented triple-action Trisafe™ with automatic locking.",
+          "image": "images/dropsafe/dropsafe-slings-598.webp"
+        },
+        {
+          "id": "dropsafe-trisafe-carabiner",
+          "name": "Trisafe™ Carabiner",
+          "description": "Patented technology: the world's first carabiner with triple-action mechanism and automatic locking, specifically designed to prevent dropped objects. Hook design, one-hand operation even while wearing gloves. Manufactured in 100% stainless steel.",
+          "image": "images/dropsafe/dropsafe-tool-tethering-795.webp"
+        },
+        {
+          "id": "dropsafe-tool-tethering",
+          "name": "Tool Tethering",
+          "description": "Line of safety lanyards for securing tools at height, equipped with triple-action Trisafe™ carabiner. Options: stainless steel cable (SUS 316L, 3 mm), elastic bungee (1680D Polyester), and webbing. Meets ANSI/ISEA 121-2018. Integrated 360° swivel.",
+          "image": "images/dropsafe/dropsafe-tool-tethering-469.webp"
+        },
+        {
+          "id": "dropsafe-pouches",
+          "name": "Dropsafe Pouches",
+          "description": "Devices that wrap and secure portable items used at height (radios, gas detectors, aerosol cans, multimeters). SUS 316 stainless steel net. Tested to over 2 times the SWL. Includes heavy-duty belt clip. Reusable and 100% recyclable.",
+          "image": "images/dropsafe/dropsafe-pouches-975.webp"
+        }
       ]
     },
     {
       "id": "hawke",
       "name": "Hawke",
-      "logo": "images/hawke/Logo Hawke - sem fundo.png",
+      "logo": "images/placeholder-logo.png",
       "tagline": "Certified cable glands for explosive atmospheres and critical applications",
       "description": "Hawke is a world-renowned British manufacturer specializing in cable glands and accessories for electrical installations in explosive atmospheres. With decades of experience, the brand is a reference in safety and reliability for the oil and gas, petrochemical, mining, and energy sectors.\n\nIts products are certified according to the most rigorous international standards (IECEx, ATEX), ensuring explosion protection in hazardous areas. The RCG (Resin Cable Gland) line is one of the brand's flagship products, offering resin sealing for critical applications where cable integrity is essential.\n\nHawke also holds aerospace credentials, with solutions tested and approved for use in extreme conditions — including space applications — proving the robustness and engineering quality that make its cable glands the preferred choice of integrators and electrical panel builders worldwide.",
       "gallery": [
-        { "type": "video", "src": "videos/hawke/Hawke - RCG 501 com legenda.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" },
-        { "type": "video", "src": "videos/hawke/Hawke no espaço.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" },
-        { "type": "video", "src": "videos/hawke/HK_prensa_cabos_estoque_41s.mp4", "thumbnail": "images/hawke/Logo Hawke.webp" }
+        {
+          "type": "video",
+          "src": "videos/hawke/Hawke - RCG 501 com legenda.mp4",
+          "thumbnail": "images/hawke/thumbs/Hawke - RCG 501 com legenda.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/hawke/Hawke no espaco.mp4",
+          "thumbnail": "images/hawke/thumbs/Hawke no espaco.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/hawke/HK_prensa_cabos_estoque_41s.mp4",
+          "thumbnail": "images/hawke/thumbs/HK_prensa_cabos_estoque_41s.jpg"
+        }
       ],
       "products": [
-        { "id": "hawke-1", "name": "RCG 501 Cable Gland", "description": "Resin-sealed cable gland from the RCG line, designed for installations in hazardous areas and explosive atmospheres. IECEx and ATEX certification. Ideal for critical applications in oil and gas, petrochemical, and mining.", "image": "images/hawke/Logo Hawke.webp" },
-        { "id": "hawke-2", "name": "Ex Cable Glands", "description": "Complete line of explosion-proof cable glands for Ex d, Ex e, and Ex nR environments. Meets international standards with robust construction in nickel-plated brass or stainless steel, ensuring safety and durability in extreme conditions.", "image": "images/hawke/Logo Hawke.webp" }
+        {
+          "id": "hawke-1",
+          "name": "RCG 501 Cable Gland",
+          "description": "Resin-sealed cable gland from the RCG line, designed for installations in hazardous areas and explosive atmospheres. IECEx and ATEX certification. Ideal for critical applications in oil and gas, petrochemical, and mining.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "hawke-2",
+          "name": "Ex Cable Glands",
+          "description": "Complete line of explosion-proof cable glands for Ex d, Ex e, and Ex nR environments. Meets international standards with robust construction in nickel-plated brass or stainless steel, ensuring safety and durability in extreme conditions.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
+      "logo": "images/placeholder-logo.png",
       "tagline": "High-torque hydraulic tools for critical industrial applications",
       "description": "Hi-Force is a world-leading British manufacturer of high-torque hydraulic tools for the industrial, offshore, and construction sectors. Founded in the United Kingdom, the company develops precision equipment for critical bolting, tensioning, lifting, and cutting applications.\n\nWith service and distribution centers in over 100 countries, Hi-Force offers cutting-edge technology in hydraulic torque wrenches, bolt tensioners, lifting jacks, and pumping systems, ensuring safety and productivity in the most demanding operations.",
       "gallery": [
-        { "type": "video", "src": "videos/hi-force/Basic Principles of Hydraulic Jack.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
-        { "type": "video", "src": "videos/hi-force/Hi-Force APP.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
-        { "type": "video", "src": "videos/hi-force/Hi-Force JAS.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
-        { "type": "video", "src": "videos/hi-force/Hi-Force TWH-N.mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" },
-        { "type": "video", "src": "videos/hi-force/Sistema de Elevação com Macaco Toughlift (Hi-Force).mp4", "thumbnail": "images/hi-force/Logo Hi-Force.jpg" }
+        {
+          "type": "video",
+          "src": "videos/hi-force/Basic Principles of Hydraulic Jack.mp4",
+          "thumbnail": "images/hi-force/thumbs/Basic Principles of Hydraulic Jack.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/hi-force/Hi-Force APP.mp4",
+          "thumbnail": "images/hi-force/thumbs/Hi-Force APP.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/hi-force/Hi-Force JAS.mp4",
+          "thumbnail": "images/hi-force/thumbs/Hi-Force JAS.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/hi-force/Hi-Force TWH-N.mp4",
+          "thumbnail": "images/hi-force/thumbs/Hi-Force TWH-N.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/hi-force/Sistema de Elevacao com Macaco Toughlift (Hi-Force).mp4",
+          "thumbnail": "images/hi-force/thumbs/Sistema de Elevacao com Macaco Toughlift (Hi-Force).jpg"
+        }
       ],
       "products": [
-        { "id": "hi-1", "name": "TWH-N Hydraulic Torque Wrench", "description": "Low-profile hydraulic torque wrench for industrial controlled bolting applications with high torque precision. Ideal for flanges, pressure vessels, and critical connections.", "image": "images/hi-force/Logo Hi-Force.jpg" },
-        { "id": "hi-2", "name": "Toughlift Lifting System", "description": "Self-contained controlled lifting hydraulic jack for heavy loads. Ideal for industrial and maintenance environments. Safe and precise operation with hydraulic drive.", "image": "images/hi-force/Logo Hi-Force.jpg" },
-        { "id": "hi-3", "name": "APP Tensioning System", "description": "High-pressure pump for simultaneous tensioning of multiple bolts in applications such as flanges and pressure vessels. Precision and control for critical bolting operations.", "image": "images/hi-force/Logo Hi-Force.jpg" },
-        { "id": "hi-4", "name": "JAS Lifting System", "description": "Modular synchronized hydraulic lifting system for precise movement and positioning of large structures. Centralized control of multiple lifting points.", "image": "images/hi-force/Logo Hi-Force.jpg" },
-        { "id": "hi-5", "name": "Industrial Hydraulic Jack", "description": "Single-acting and double-acting hydraulic cylinders with capacities from 10 to 1,000 tons for load lifting and positioning. Robust construction for continuous industrial use.", "image": "images/hi-force/Logo Hi-Force.jpg" }
+        {
+          "id": "hi-1",
+          "name": "TWH-N Hydraulic Torque Wrench",
+          "description": "Low-profile hydraulic torque wrench for industrial controlled bolting applications with high torque precision. Ideal for flanges, pressure vessels, and critical connections.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "hi-2",
+          "name": "Toughlift Lifting System",
+          "description": "Self-contained controlled lifting hydraulic jack for heavy loads. Ideal for industrial and maintenance environments. Safe and precise operation with hydraulic drive.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "hi-3",
+          "name": "APP Tensioning System",
+          "description": "High-pressure pump for simultaneous tensioning of multiple bolts in applications such as flanges and pressure vessels. Precision and control for critical bolting operations.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "hi-4",
+          "name": "JAS Lifting System",
+          "description": "Modular synchronized hydraulic lifting system for precise movement and positioning of large structures. Centralized control of multiple lifting points.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "hi-5",
+          "name": "Industrial Hydraulic Jack",
+          "description": "Single-acting and double-acting hydraulic cylinders with capacities from 10 to 1,000 tons for load lifting and positioning. Robust construction for continuous industrial use.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
       "id": "nightstick",
       "name": "Nightstick",
-      "logo": "images/nightstick/Logo Nightstick - sem fundo.png",
+      "logo": "images/placeholder-logo.png",
       "tagline": "Intrinsically safe flashlights for hazardous areas and rescue operations",
       "description": "Nightstick is the professional lighting brand of Bayco Products (USA), specializing in intrinsically safe (Ex) flashlights and headlamps for hazardous areas and risk environments.\n\nWith ATEX, IECEx, and Class I Division 1 certifications, Nightstick flashlights are designed for professionals working in explosive atmospheres, confined spaces, and rescue operations. The line includes rechargeable models, headlamps, and portable flashlights with high durability and luminous performance.\n\nManufactured with high-impact engineering-grade materials and waterproof, Nightstick flashlights offer safety and reliability for oil and gas industries, mining, firefighting, and emergency services.",
       "gallery": [
-        { "type": "video", "src": "videos/nightstick/08.04.2024 - XPP-5454G lanterna cabeça_30 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
-        { "type": "video", "src": "videos/nightstick/14.05.2024 - XPR-5584 GMX lanterna recarregável_48 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
-        { "type": "video", "src": "videos/nightstick/16.04.2024 - embalando lanterna nightstick_40s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" },
-        { "type": "video", "src": "videos/nightstick/NS_Lanternas diversas Ex 24 s.mp4", "thumbnail": "images/nightstick/Logo Nightstick.jpg" }
+        {
+          "type": "video",
+          "src": "videos/nightstick/08.04.2024 - XPP-5454G lanterna cabeca_30 s.mp4",
+          "thumbnail": "images/nightstick/thumbs/08.04.2024 - XPP-5454G lanterna cabeca_30 s.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/nightstick/14.05.2024 - XPR-5584 GMX lanterna recarregavel_48 s.mp4",
+          "thumbnail": "images/nightstick/thumbs/14.05.2024 - XPR-5584 GMX lanterna recarregavel_48 s.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/nightstick/16.04.2024 - embalando lanterna nightstick_40s.mp4",
+          "thumbnail": "images/nightstick/thumbs/16.04.2024 - embalando lanterna nightstick_40s.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/nightstick/NS_Lanternas diversas Ex 24 s.mp4",
+          "thumbnail": "images/nightstick/thumbs/NS_Lanternas diversas Ex 24 s.jpg"
+        }
       ],
       "products": [
-        { "id": "xpp-5454g", "name": "XPP-5454G Headlamp", "description": "Intrinsically safe headlamp with Class I Division 1 certification. Designed for work in confined spaces and hazardous areas with explosion risk. Hands-free with high luminous performance.", "image": "images/nightstick/Logo Nightstick.jpg" },
-        { "id": "xpr-5584-gmx", "name": "XPR-5584 GMX Rechargeable Flashlight", "description": "Intrinsically safe portable rechargeable flashlight with ATEX/IECEx certification. Long-lasting battery with high luminous performance for operations in explosive atmospheres.", "image": "images/nightstick/Logo Nightstick.jpg" },
-        { "id": "lanternas-ex", "name": "Explosion-Proof Ex Flashlights", "description": "Complete line of portable flashlights certified for explosive atmospheres (Ex). Models with different power levels and runtimes for oil and gas, mining, and rescue applications.", "image": "images/nightstick/Logo Nightstick.jpg" }
+        {
+          "id": "xpp-5454g",
+          "name": "XPP-5454G Headlamp",
+          "description": "Intrinsically safe headlamp with Class I Division 1 certification. Designed for work in confined spaces and hazardous areas with explosion risk. Hands-free with high luminous performance.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "xpr-5584-gmx",
+          "name": "XPR-5584 GMX Rechargeable Flashlight",
+          "description": "Intrinsically safe portable rechargeable flashlight with ATEX/IECEx certification. Long-lasting battery with high luminous performance for operations in explosive atmospheres.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "lanternas-ex",
+          "name": "Explosion-Proof Ex Flashlights",
+          "description": "Complete line of portable flashlights certified for explosive atmospheres (Ex). Models with different power levels and runtimes for oil and gas, mining, and rescue applications.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
@@ -176,9 +580,24 @@
       "description": "Oliver Valves is a British manufacturer of instrumentation valves for the oil and gas, petrochemical, and energy sectors. Specialized in needle valves, ball valves, manifold valves, and check valves, the company supplies high-precision solutions for flow control in critical applications.\n\nWith decades of experience in valve engineering, Oliver Valves is recognized for the reliability and durability of its products in the world's most demanding environments.",
       "gallery": [],
       "products": [
-        { "id": "oli-1", "name": "Needle Valves", "description": "Instrumentation needle valves for precise flow control in high-pressure applications. Designed for the oil and gas and petrochemical sectors.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" },
-        { "id": "oli-2", "name": "Manifold Valves", "description": "Instrumentation manifolds for pressure transmitter mounting. 2, 3, and 5-way configurations to meet different installation requirements.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" },
-        { "id": "oli-3", "name": "Check Valves", "description": "High-performance check valves for reverse flow protection in industrial instrumentation systems.", "image": "images/oliver/Logo Oliver Valves - Sem fundo.png" }
+        {
+          "id": "oli-1",
+          "name": "Needle Valves",
+          "description": "Instrumentation needle valves for precise flow control in high-pressure applications. Designed for the oil and gas and petrochemical sectors.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "oli-2",
+          "name": "Manifold Valves",
+          "description": "Instrumentation manifolds for pressure transmitter mounting. 2, 3, and 5-way configurations to meet different installation requirements.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "oli-3",
+          "name": "Check Valves",
+          "description": "High-performance check valves for reverse flow protection in industrial instrumentation systems.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
@@ -189,9 +608,24 @@
       "description": "Parker Hannifin is a global leader in motion and control technologies, providing hydraulic, pneumatic, and electromechanical solutions for a wide range of industries. With presence in over 50 countries, Parker develops components and systems that increase productivity and efficiency of machines and equipment.\n\nIn the Polar Group portfolio, Parker products include hoses, fittings, valves, and filtration systems for industrial applications, meeting the most rigorous quality and safety standards.",
       "gallery": [],
       "products": [
-        { "id": "par-1", "name": "Hydraulic Hoses and Fittings", "description": "High-pressure hoses and fittings for industrial and mobile hydraulic systems. Wide range of diameters and materials for different fluids and temperatures.", "image": "images/parker/Logo Parker - Sem fundo.png" },
-        { "id": "par-2", "name": "Valves and Actuators", "description": "Directional and proportional valves and pneumatic and hydraulic actuators for precise motion control in machines and industrial processes.", "image": "images/parker/Logo Parker - Sem fundo.png" },
-        { "id": "par-3", "name": "Filtration Systems", "description": "Hydraulic filters and contamination monitoring systems to ensure the service life and reliability of hydraulic systems.", "image": "images/parker/Logo Parker - Sem fundo.png" }
+        {
+          "id": "par-1",
+          "name": "Hydraulic Hoses and Fittings",
+          "description": "High-pressure hoses and fittings for industrial and mobile hydraulic systems. Wide range of diameters and materials for different fluids and temperatures.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "par-2",
+          "name": "Valves and Actuators",
+          "description": "Directional and proportional valves and pneumatic and hydraulic actuators for precise motion control in machines and industrial processes.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "par-3",
+          "name": "Filtration Systems",
+          "description": "Hydraulic filters and contamination monitoring systems to ensure the service life and reliability of hydraulic systems.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
@@ -201,14 +635,41 @@
       "tagline": "Legendary protective cases — waterproof, dustproof, and crushproof",
       "description": "Pelican is a world reference in high-performance protective cases, tactical flashlights, and professional coolers. Its products are used by armed forces, first responders, photographers, and adventurers in the most extreme environments on the planet.\n\nRecognized for legendary durability, each Pelican case features IP67 certification against water and dust, in addition to withstanding severe drops and impacts. The Air Case line revolutionized the market by offering the same protection with significant weight reduction, ideal for electronic equipment and professionals who need mobility without compromising safety.",
       "gallery": [
-        { "type": "video", "src": "videos/pelican/CASES DE PROTEÇÃO.mp4", "thumbnail": "images/pelican/Pelican .png" },
-        { "type": "video", "src": "videos/pelican/Pelican - Air Case.mp4", "thumbnail": "images/pelican/Pelican .png" },
-        { "type": "video", "src": "videos/pelican/Pelican 7610.mp4", "thumbnail": "images/pelican/Pelican .png" }
+        {
+          "type": "video",
+          "src": "videos/pelican/CASES DE PROTECAO.mp4",
+          "thumbnail": "images/pelican/thumbs/CASES DE PROTECAO.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/pelican/Pelican - Air Case.mp4",
+          "thumbnail": "images/pelican/thumbs/Pelican - Air Case.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/pelican/Pelican 7610.mp4",
+          "thumbnail": "images/pelican/thumbs/Pelican 7610.jpg"
+        }
       ],
       "products": [
-        { "id": "pel-1", "name": "Protective Cases", "description": "High-impact cases with IP67 certification, waterproof, dustproof, and crushproof. Ultimate protection for electronic equipment, firearms, scientific instruments, and photographic equipment.", "image": "images/pelican/Logo Pelican - Sem fundo.png" },
-        { "id": "pel-2", "name": "Air Case", "description": "Revolutionary line of ultra-lightweight cases that maintains legendary Pelican strength with up to 40% less weight. Ideal for protecting drones, notebooks, and portable equipment in the field.", "image": "images/pelican/Logo Pelican - Sem fundo.png" },
-        { "id": "pel-3", "name": "Tactical Flashlight 7610", "description": "High-performance compact rechargeable LED tactical flashlight with adjustable beam and impact-resistant body. Designed for security forces, firefighters, and emergency situations.", "image": "images/pelican/Logo Pelican - Sem fundo.png" }
+        {
+          "id": "pel-1",
+          "name": "Protective Cases",
+          "description": "High-impact cases with IP67 certification, waterproof, dustproof, and crushproof. Ultimate protection for electronic equipment, firearms, scientific instruments, and photographic equipment.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "pel-2",
+          "name": "Air Case",
+          "description": "Revolutionary line of ultra-lightweight cases that maintains legendary Pelican strength with up to 40% less weight. Ideal for protecting drones, notebooks, and portable equipment in the field.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "pel-3",
+          "name": "Tactical Flashlight 7610",
+          "description": "High-performance compact rechargeable LED tactical flashlight with adjustable beam and impact-resistant body. Designed for security forces, firefighters, and emergency situations.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
@@ -218,14 +679,41 @@
       "tagline": "Control technology and sampling systems for the energy industry",
       "description": "Proserv is a global control technology company serving the energy industry. With international operations, we are specialists in topside and subsea sampling systems for the oil and gas sector.\n\nWith our new brand identity, we reaffirm our commitment to innovation and operational excellence, providing advanced control solutions that ensure safety, efficiency, and reliability in our clients' operations worldwide.",
       "gallery": [
-        { "type": "image", "src": "images/proserv/Proserv_empresa global.png", "alt": "Proserv — Global control technology company" },
-        { "type": "image", "src": "images/proserv/Proserv_new brand.png", "alt": "Proserv new visual identity" },
-        { "type": "image", "src": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png", "alt": "Proserv topside and subsea sampling systems" }
+        {
+          "type": "image",
+          "src": "images/proserv/Proserv_empresa global.png",
+          "alt": "Proserv — Global control technology company"
+        },
+        {
+          "type": "image",
+          "src": "images/proserv/Proserv_new brand.png",
+          "alt": "Proserv new visual identity"
+        },
+        {
+          "type": "image",
+          "src": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png",
+          "alt": "Proserv topside and subsea sampling systems"
+        }
       ],
       "products": [
-        { "id": "proserv-1", "name": "Topside Sampling Systems", "description": "Complete sampling solutions for platforms and surface installations, ensuring precision and operational compliance.", "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png" },
-        { "id": "proserv-2", "name": "Subsea Sampling Systems", "description": "Advanced subsea sampling technology for deepwater operations with maximum reliability.", "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png" },
-        { "id": "proserv-3", "name": "Control Technology", "description": "Control and automation systems for the energy industry, optimizing processes and reducing operational risks.", "image": "images/proserv/Proserv_empresa global.png" }
+        {
+          "id": "proserv-1",
+          "name": "Topside Sampling Systems",
+          "description": "Complete sampling solutions for platforms and surface installations, ensuring precision and operational compliance.",
+          "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png"
+        },
+        {
+          "id": "proserv-2",
+          "name": "Subsea Sampling Systems",
+          "description": "Advanced subsea sampling technology for deepwater operations with maximum reliability.",
+          "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png"
+        },
+        {
+          "id": "proserv-3",
+          "name": "Control Technology",
+          "description": "Control and automation systems for the energy industry, optimizing processes and reducing operational risks.",
+          "image": "images/proserv/Proserv_empresa global.png"
+        }
       ]
     },
     {
@@ -235,28 +723,119 @@
       "tagline": "Certified Ex equipment for the most extreme conditions",
       "description": "SA Equipment designs and manufactures Ex certified equipment (ATEX, IECEx, and UKEX) for explosive atmospheres. Our product line serves the oil and gas, mining, chemical, and industrial sectors, with robust high-performance equipment for the most extreme environments.\n\nWith UK manufacturing and marine-grade quality materials, our products are designed for continuous operation in temperatures from -20 °C to +50 °C, with IP65 protection. Each piece of equipment is individually tested and certified, ensuring safety and reliability in Zones 1 and 2 (gases) and Zones 21 and 22 (dusts).",
       "gallery": [
-        { "type": "image", "src": "images/sa-equip/Air_Conditioner_Hero.png", "alt": "SA CYCLONE EX Air Conditioner — Front view" },
-        { "type": "image", "src": "images/sa-equip/SA_CYCLONE_40CM_3_SIDE.png", "alt": "SA CYCLONE with 40 cm duct — Side view" },
-        { "type": "image", "src": "images/sa-equip/AIR_CONDITIONER_2025_2.png", "alt": "SA CYCLONE EX — Field view" },
-        { "type": "image", "src": "images/sa-equip/AIR_CONDITIONER_2025_3.png", "alt": "SA CYCLONE EX — Industrial application" },
-        { "type": "image", "src": "images/sa-equip/Ex AIR MOVER.png", "alt": "SA CYCLONE EX Air Mover — Ex air mover" },
-        { "type": "image", "src": "images/sa-equip/Iluminação portátil LED Ex.png", "alt": "SA LUMIN — Ex portable LED lighting" },
-        { "type": "image", "src": "images/sa-equip/SA_Transformador Ex_400VA.png", "alt": "SA Ex Transformer 400VA" },
-        { "type": "video", "src": "videos/sa-equip/SA_Cyclone_42 s.mp4", "thumbnail": "images/sa-equip/Air_Conditioner_Hero.png" },
-        { "type": "video", "src": "videos/sa-equip/SA_Cyclone_Sistema_Ventilação_07 s.mp4", "thumbnail": "images/sa-equip/SA_CYCLONE_30CM_2_FRONT.png" },
-        { "type": "video", "src": "videos/sa-equip/SA LUMIN EX LED FLOODLIGHT Product Application - SA Equip (1080p).mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
-        { "type": "video", "src": "videos/sa-equip/SA LUMIN EX LED WORKLIGHT 100 DROP TEST - SA Equip (1080p).mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
-        { "type": "video", "src": "videos/sa-equip/SA_Projetor LED Ex.mp4", "thumbnail": "images/sa-equip/Iluminação portátil LED Ex.png" },
-        { "type": "video", "src": "videos/sa-equip/SA_Transformador Ex_4 s.mp4", "thumbnail": "images/sa-equip/SA_Transformador Ex_400VA.png" },
-        { "type": "video", "src": "videos/sa-equip/SA_portifólio.mp4", "thumbnail": "images/sa-equip/Logo SA Equip.jpg" }
+        {
+          "type": "image",
+          "src": "images/sa-equip/Air_Conditioner_Hero.png",
+          "alt": "SA CYCLONE EX Air Conditioner — Front view"
+        },
+        {
+          "type": "image",
+          "src": "images/sa-equip/SA_CYCLONE_40CM_3_SIDE.png",
+          "alt": "SA CYCLONE with 40 cm duct — Side view"
+        },
+        {
+          "type": "image",
+          "src": "images/sa-equip/AIR_CONDITIONER_2025_2.png",
+          "alt": "SA CYCLONE EX — Field view"
+        },
+        {
+          "type": "image",
+          "src": "images/sa-equip/AIR_CONDITIONER_2025_3.png",
+          "alt": "SA CYCLONE EX — Industrial application"
+        },
+        {
+          "type": "image",
+          "src": "images/sa-equip/Ex AIR MOVER.png",
+          "alt": "SA CYCLONE EX Air Mover — Ex air mover"
+        },
+        {
+          "type": "image",
+          "src": "images/sa-equip/Iluminação portátil LED Ex.png",
+          "alt": "SA LUMIN — Ex portable LED lighting"
+        },
+        {
+          "type": "image",
+          "src": "images/sa-equip/SA_Transformador Ex_400VA.png",
+          "alt": "SA Ex Transformer 400VA"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA_Cyclone_42 s.mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA_Cyclone_42 s.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA_Cyclone_Sistema_Ventilacao_07 s.mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA_Cyclone_Sistema_Ventilacao_07 s.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA LUMIN EX LED FLOODLIGHT Product Application - SA Equip (1080p).mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA LUMIN EX LED FLOODLIGHT Product Application - SA Equip (1080p).jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA LUMIN EX LED WORKLIGHT 100 DROP TEST - SA Equip (1080p).mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA LUMIN EX LED WORKLIGHT 100 DROP TEST - SA Equip (1080p).jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA_Projetor LED Ex.mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA_Projetor LED Ex.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA_Transformador Ex_4 s.mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA_Transformador Ex_4 s.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA_portifolio.mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA_portifolio.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/sa-equip/SA_em estoque.mp4",
+          "thumbnail": "images/sa-equip/thumbs/SA_em estoque.jpg"
+        }
       ],
       "products": [
-        { "id": "sa-cyclone-ac", "name": "SA CYCLONE EX Air Conditioner", "description": "Ex certified portable air conditioner for Zones 1 and 2 (gases) and Zones 21 and 22 (dusts). Cooling capacity of 11 kW at 400-440V three-phase 50/60Hz. Airflow of 690 m³/h with typical temperature reduction of 10-20 °C. Cooled area of 240 m³. Dimensions: 800 × 700 × 1290 mm, 200 kg. IP65 protection. ATEX, IECEx, and UKEX certifications. Tropical (HT30) and Temperate (LT30) models.", "image": "images/sa-equip/Air_Conditioner_Hero.png" },
-        { "id": "sa-lumin-floodlight", "name": "SA LUMIN EX LED Floodlight", "description": "Ex certified LED floodlight for lighting large areas in explosive atmospheres. High luminous efficiency with low energy consumption. Robust aluminum construction with anticorrosive protection. ATEX certification for Zones 1 and 2.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
-        { "id": "sa-lumin-worklight", "name": "SA LUMIN EX LED Worklight", "description": "Ex certified LED worklight, subjected to rigorous resistance tests including a 100-meter drop test. Powerful and portable lighting for inspections and maintenance in hazardous areas. ATEX certification for Zones 1 and 2.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
-        { "id": "sa-lumin-portable", "name": "SA LUMIN Ex Portable LED Lighting", "description": "Ex certified portable LED lighting line for hazardous areas. Compact and lightweight solutions for temporary lighting in tanks, confined spaces, and maintenance areas. Long-lasting rechargeable battery power. ATEX certification.", "image": "images/sa-equip/Iluminação portátil LED Ex.png" },
-        { "id": "sa-transformador-ex", "name": "SA Ex Transformer", "description": "Ex certified portable transformer for safe power supply of equipment in explosive atmospheres. Available in 400VA with robust housing and IP65 protection. Designed for use in Zones 1 and 2. ATEX, IECEx, and UKEX certifications.", "image": "images/sa-equip/SA_Transformador Ex_400VA.png" },
-        { "id": "sa-air-mover", "name": "SA CYCLONE EX Air Mover", "description": "Ex certified portable air mover for ventilation and air circulation in confined spaces and hazardous areas. Compatible with SA CYCLONE antistatic ducts. Ideal for air renewal, cooling, and fume extraction. ATEX certification.", "image": "images/sa-equip/Ex AIR MOVER.png" }
+        {
+          "id": "sa-cyclone-ac",
+          "name": "SA CYCLONE EX Air Conditioner",
+          "description": "Ex certified portable air conditioner for Zones 1 and 2 (gases) and Zones 21 and 22 (dusts). Cooling capacity of 11 kW at 400-440V three-phase 50/60Hz. Airflow of 690 m³/h with typical temperature reduction of 10-20 °C. Cooled area of 240 m³. Dimensions: 800 × 700 × 1290 mm, 200 kg. IP65 protection. ATEX, IECEx, and UKEX certifications. Tropical (HT30) and Temperate (LT30) models.",
+          "image": "images/sa-equip/Air_Conditioner_Hero.png"
+        },
+        {
+          "id": "sa-lumin-floodlight",
+          "name": "SA LUMIN EX LED Floodlight",
+          "description": "Ex certified LED floodlight for lighting large areas in explosive atmospheres. High luminous efficiency with low energy consumption. Robust aluminum construction with anticorrosive protection. ATEX certification for Zones 1 and 2.",
+          "image": "images/sa-equip/Iluminação portátil LED Ex.png"
+        },
+        {
+          "id": "sa-lumin-worklight",
+          "name": "SA LUMIN EX LED Worklight",
+          "description": "Ex certified LED worklight, subjected to rigorous resistance tests including a 100-meter drop test. Powerful and portable lighting for inspections and maintenance in hazardous areas. ATEX certification for Zones 1 and 2.",
+          "image": "images/sa-equip/Iluminação portátil LED Ex.png"
+        },
+        {
+          "id": "sa-lumin-portable",
+          "name": "SA LUMIN Ex Portable LED Lighting",
+          "description": "Ex certified portable LED lighting line for hazardous areas. Compact and lightweight solutions for temporary lighting in tanks, confined spaces, and maintenance areas. Long-lasting rechargeable battery power. ATEX certification.",
+          "image": "images/sa-equip/Iluminação portátil LED Ex.png"
+        },
+        {
+          "id": "sa-transformador-ex",
+          "name": "SA Ex Transformer",
+          "description": "Ex certified portable transformer for safe power supply of equipment in explosive atmospheres. Available in 400VA with robust housing and IP65 protection. Designed for use in Zones 1 and 2. ATEX, IECEx, and UKEX certifications.",
+          "image": "images/sa-equip/SA_Transformador Ex_400VA.png"
+        },
+        {
+          "id": "sa-air-mover",
+          "name": "SA CYCLONE EX Air Mover",
+          "description": "Ex certified portable air mover for ventilation and air circulation in confined spaces and hazardous areas. Compatible with SA CYCLONE antistatic ducts. Ideal for air renewal, cooling, and fume extraction. ATEX certification.",
+          "image": "images/sa-equip/Ex AIR MOVER.png"
+        }
       ]
     },
     {
@@ -266,13 +845,37 @@
       "tagline": "Protecting the invisible. Preventing the unthinkable.",
       "description": "StopDropp develops hand tools specifically designed to prevent drops during work at height. Founded in 2005, with headquarters in Houston, Texas (USA) and Dewsbury, West Yorkshire (UK), the company is a global reference in tethered tools, tools at height, and tools aloft.\n\nIt serves the oil and gas, petrochemical, construction, mining, utilities, wind energy, and telecommunications sectors, with the goal of reducing dropped object occurrences. It is a member of organizations dedicated to drop prevention in offshore and onshore sectors.\n\nIts product ecosystem encompasses: fixed lanyards and retractable coils with explicit Working Load Limits (WLL) for all types of tools; wearable anchor points (belts and vests with reinforced attachment points) and structural anchors; pouches and backpacks with magnetic or buckle closures, non-conductive and with multiple attachment points; plus carabiners, connectors, tool wraps, and complete kits. All products have EN 13157, ANSI/ISEA 121, ASME B30.20, and API RP 2D certifications, with load tests performed by third-party certifiers and full traceability through serialization.",
       "gallery": [
-        { "type": "video", "src": "videos/stopdropp/Stopdrop_ferramentas uso altura.mp4", "thumbnail": "images/stopdropp/Logo Stopdrop.jpg" }
+        {
+          "type": "video",
+          "src": "videos/stopdropp/Stopdrop_ferramentas uso altura.mp4",
+          "thumbnail": "images/stopdropp/thumbs/Stopdrop_ferramentas uso altura.jpg"
+        }
       ],
       "products": [
-        { "id": "stopdropp-cordoes-amarracao", "name": "Lanyards and Retractable Coils", "description": "Fixed lanyards and retractable coils for tethering all types of hand tools. Manufactured in high-tenacity nylon, polyester, and Kevlar-reinforced options. Explicit Working Load Limits (WLL).", "image": "images/stopdropp/Logo Stopdrop.jpg" },
-        { "id": "stopdropp-ancoras-vestiveis", "name": "Wearable Anchors", "description": "Tool belts and vests with reinforced attachment points, designed for prolonged work at height. Compatible with fall protection equipment. Ergonomic and comfortable.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
-        { "id": "stopdropp-bolsas-ferramentas", "name": "Tool Pouches", "description": "Essential non-conductive pouches for work in electrical and telecommunications zones. Magnetic or buckle closure systems that prevent accidental opening. Multiple attachment points.", "image": "images/stopdropp/Logo Stopdrop.jpg" },
-        { "id": "stopdropp-kits-completos", "name": "Complete Tethering Kits", "description": "Complete serialized kits packed by crew, available in static, mobile, or role-based versions. Custom-assembled after evaluation of the client's tool inventory. Full traceability.", "image": "images/stopdropp/Logo Stopdrop.jpg" }
+        {
+          "id": "stopdropp-cordoes-amarracao",
+          "name": "Lanyards and Retractable Coils",
+          "description": "Fixed lanyards and retractable coils for tethering all types of hand tools. Manufactured in high-tenacity nylon, polyester, and Kevlar-reinforced options. Explicit Working Load Limits (WLL).",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "stopdropp-ancoras-vestiveis",
+          "name": "Wearable Anchors",
+          "description": "Tool belts and vests with reinforced attachment points, designed for prolonged work at height. Compatible with fall protection equipment. Ergonomic and comfortable.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "stopdropp-bolsas-ferramentas",
+          "name": "Tool Pouches",
+          "description": "Essential non-conductive pouches for work in electrical and telecommunications zones. Magnetic or buckle closure systems that prevent accidental opening. Multiple attachment points.",
+          "image": "images/placeholder-logo.png"
+        },
+        {
+          "id": "stopdropp-kits-completos",
+          "name": "Complete Tethering Kits",
+          "description": "Complete serialized kits packed by crew, available in static, mobile, or role-based versions. Custom-assembled after evaluation of the client's tool inventory. Full traceability.",
+          "image": "images/placeholder-logo.png"
+        }
       ]
     },
     {
@@ -282,14 +885,40 @@
       "tagline": "Cable management systems for industrial environments and hazardous areas",
       "description": "Vantrunk is a world reference in cable management systems, offering innovative solutions for industrial and hazardous area sectors. With decades of experience, our cable ladder and tray systems ensure safety, durability, and efficiency in the most demanding installations.\n\nWe develop products designed to withstand harsh environments, including offshore platforms, petrochemical plants, mining industries, and energy installations, always in compliance with the most rigorous international standards.",
       "gallery": [
-        { "type": "image", "src": "images/vantrunk/Intelok Sistrma.png", "alt": "Vantrunk Intelok System" },
-        { "type": "video", "src": "videos/vantrunk/Speedway cable ladder system_24 seg.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" },
-        { "type": "video", "src": "videos/vantrunk/Vantrunk - Institucional  legenda port_2.23.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" },
-        { "type": "video", "src": "videos/vantrunk/Vantrunk - Speedway cable ladder  04 min.mp4", "thumbnail": "images/vantrunk/Intelok Sistrma.png" }
+        {
+          "type": "image",
+          "src": "images/vantrunk/Intelok Sistrma.png",
+          "alt": "Vantrunk Intelok System"
+        },
+        {
+          "type": "video",
+          "src": "videos/vantrunk/Speedway cable ladder system_24 seg.mp4",
+          "thumbnail": "images/vantrunk/thumbs/Speedway cable ladder system_24 seg.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/vantrunk/Vantrunk - Institucional legenda port_2.23.mp4",
+          "thumbnail": "images/vantrunk/thumbs/Vantrunk - Institucional legenda port_2.23.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/vantrunk/Vantrunk - Speedway cable ladder 04 min.mp4",
+          "thumbnail": "images/vantrunk/thumbs/Vantrunk - Speedway cable ladder 04 min.jpg"
+        }
       ],
       "products": [
-        { "id": "vantrunk-speedway", "name": "Speedway Cable Ladder System", "description": "High-strength cable ladder system designed for heavy industrial installations and hazardous areas. Offers fast installation, excellent load capacity, and corrosion protection for harsh environments.", "image": "images/vantrunk/Intelok Sistrma.png" },
-        { "id": "vantrunk-intelok", "name": "Intelok System", "description": "Smart locking system for cable trays and cable ladders that ensures secure connections and simplified installation. Ideal for applications in petrochemical plants, offshore platforms, and high-demand industrial environments.", "image": "images/vantrunk/Intelok Sistrma.png" }
+        {
+          "id": "vantrunk-speedway",
+          "name": "Speedway Cable Ladder System",
+          "description": "High-strength cable ladder system designed for heavy industrial installations and hazardous areas. Offers fast installation, excellent load capacity, and corrosion protection for harsh environments.",
+          "image": "images/vantrunk/Intelok Sistrma.png"
+        },
+        {
+          "id": "vantrunk-intelok",
+          "name": "Intelok System",
+          "description": "Smart locking system for cable trays and cable ladders that ensures secure connections and simplified installation. Ideal for applications in petrochemical plants, offshore platforms, and high-demand industrial environments.",
+          "image": "images/vantrunk/Intelok Sistrma.png"
+        }
       ]
     }
   ]
