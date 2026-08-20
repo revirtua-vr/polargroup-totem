@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
@@ -15,9 +15,55 @@ const quizByLanguage = {
   'pt-BR': quizDataPt,
 }
 
+function useCountUp(target: number, duration = 800) {
+  const [value, setValue] = useState(0)
+
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setValue(target)
+      return
+    }
+    let raf: number
+    const start = performance.now()
+    const tick = (now: number) => {
+      const progress = Math.min((now - start) / duration, 1)
+      const eased = 1 - Math.pow(1 - progress, 3)
+      setValue(Math.round(target * eased))
+      if (progress < 1) raf = requestAnimationFrame(tick)
+    }
+    raf = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(raf)
+  }, [target, duration])
+
+  return value
+}
+
+function QuizResult({ score, total, onRetry }: { score: number; total: number; onRetry: () => void }) {
+  const { t } = useTranslation()
+  const navigate = useNavigate()
+  const displayedScore = useCountUp(score)
+
+  return (
+    <div className="h-full flex flex-col items-center justify-center gap-8 px-6 animate-page-in motion-reduce:animate-none">
+      <h2 className="text-3xl font-bold text-center">{t('quiz.title')}</h2>
+      <p className="text-xl text-center">{t('quiz.result', { score: displayedScore, total })}</p>
+      <p className="text-2xl font-semibold text-center">
+        {score === total ? t('quiz.prize') : t('quiz.noPrize')}
+      </p>
+      <div className="flex gap-4">
+        <Button size="lg" variant="outline" onClick={() => navigate('/marcas')}>
+          {t('quiz.home')}
+        </Button>
+        <Button size="lg" onClick={onRetry}>
+          {t('quiz.retry')}
+        </Button>
+      </div>
+    </div>
+  )
+}
+
 export default function Quiz() {
   const { t, i18n } = useTranslation()
-  const navigate = useNavigate()
 
   const [current, setCurrent] = useState(0)
   const [score, setScore] = useState(0)
@@ -49,36 +95,19 @@ export default function Quiz() {
     }
   }
 
-  if (finished) {
-    return (
-      <div className="h-full flex flex-col items-center justify-center gap-8 px-6">
-        <h2 className="text-3xl font-bold text-center">{t('quiz.title')}</h2>
-        <p className="text-xl text-center">
-          {t('quiz.result', { score, total })}
-        </p>
-        <p className="text-2xl font-semibold text-center">
-          {score === total ? t('quiz.prize') : t('quiz.noPrize')}
-        </p>
-        <div className="flex gap-4">
-          <Button size="lg" variant="outline" onClick={() => navigate('/marcas')}>
-            {t('quiz.home')}
-          </Button>
-          <Button
-            size="lg"
-            onClick={() => {
-              setCurrent(0)
-              setScore(0)
-              setSelected(null)
-              setAnswered(false)
-              setFinished(false)
-            }}
-          >
-            {t('quiz.retry')}
-          </Button>
-        </div>
-      </div>
-    )
+  const reset = () => {
+    setCurrent(0)
+    setScore(0)
+    setSelected(null)
+    setAnswered(false)
+    setFinished(false)
   }
+
+  if (finished) {
+    return <QuizResult score={score} total={total} onRetry={reset} />
+  }
+
+  const progress = ((current + (answered ? 1 : 0)) / total) * 100
 
   return (
     <div className="h-full flex flex-col">
@@ -87,11 +116,17 @@ export default function Quiz() {
         <p className="text-muted-foreground mt-1">
           {t('quiz.question', { current: current + 1, total })}
         </p>
+        <div className="h-2 w-full max-w-md mx-auto mt-4 rounded-full bg-muted overflow-hidden">
+          <div
+            className="h-full rounded-full bg-primary transition-[width] duration-500 ease-out motion-reduce:transition-none"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
       </header>
 
       <div className="flex-1 overflow-y-auto px-4 pb-24">
         <div className="max-w-2xl mx-auto">
-          <Card className="mb-6">
+          <Card key={current} className="mb-6 animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6">
               <p className="text-lg font-medium mb-6">{question.text}</p>
               <div className="flex flex-col gap-3">
@@ -107,8 +142,10 @@ export default function Quiz() {
                       variant="outline"
                       className={cn(
                         'justify-between h-auto py-4 px-4 text-left whitespace-normal gap-3',
-                        isCorrect && 'bg-emerald-600 hover:bg-emerald-600 text-white border-emerald-600',
-                        isWrongPick && 'bg-red-500 hover:bg-red-500 text-white border-red-500',
+                        isCorrect &&
+                          'bg-emerald-600 hover:bg-emerald-600 text-white border-emerald-600 animate-pop-in motion-reduce:animate-none',
+                        isWrongPick &&
+                          'bg-red-500 hover:bg-red-500 text-white border-red-500 animate-shake motion-reduce:animate-none',
                         dimmed && 'opacity-50',
                       )}
                       onClick={() => handleSelect(i)}
@@ -138,7 +175,7 @@ export default function Quiz() {
           </Card>
 
           {answered && (
-            <div className="flex justify-center">
+            <div className="flex justify-center animate-page-in motion-reduce:animate-none">
               <Button size="lg" onClick={handleNext}>
                 {current + 1 < total ? t('quiz.next') : t('quiz.finish')}
               </Button>
