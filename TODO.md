@@ -47,6 +47,7 @@
 - [ ] **Conteúdo menor ausente** — Pelican "projetores Ex", SA EQUIP "aquecimento", Hi-Force cilindros/tensionadores explícitos (planilha cita; sem material recebido).
 - [ ] **Contagem inconsistente no doc Oliver** — 3V manifolds: doc diz 4, lista tem 5; DBB: doc diz 6 imagens, lista tem 7 (incluímos todos; confirmar com cliente se necessário).
 - [ ] **Traduções en/es** — regeneradas via `pnpm translate`; revisar manualmente (`en.json`, `es.json`) antes de publicar em idioma estrangeiro.
+- [ ] **QR Code do kiosk → publicação web** — o QR flutuante (`KioskQrCode`) já aponta para `https://polar.revirtua.com/#<rota-atual>?lng=<idioma>`; só passa a funcionar de verdade quando o web app for publicado em `polar.revirtua.com` (pendente). Testar scan com o EXE após a publicação.
 
 ## Resolvidos (histórico)
 

@@ -84,5 +84,8 @@
   },
   "pdfViewer": {
     "index": "Index"
+  },
+  "kioskQr": {
+    "label": "Open on your phone"
   }
 }

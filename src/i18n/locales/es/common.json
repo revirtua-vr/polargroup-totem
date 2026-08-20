@@ -84,5 +84,8 @@
   },
   "pdfViewer": {
     "index": "Index"
+  },
+  "kioskQr": {
+    "label": "Accede desde tu celular"
   }
 }

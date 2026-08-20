@@ -84,5 +84,8 @@
   },
   "language": {
     "label": "Idioma"
+  },
+  "kioskQr": {
+    "label": "Acesse no seu celular"
   }
 }
