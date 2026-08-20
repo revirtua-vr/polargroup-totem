@@ -69,6 +69,10 @@ export default {
           '60%': { transform: 'translateX(-4px)' },
           '80%': { transform: 'translateX(4px)' },
         },
+        'cta-pulse': {
+          '0%, 100%': { boxShadow: '0 0 0 0 hsl(var(--ring) / 0.45)' },
+          '50%': { boxShadow: '0 0 0 10px hsl(var(--ring) / 0)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -76,6 +80,7 @@ export default {
         'page-in': 'page-in 0.35s ease-out backwards',
         'pop-in': 'pop-in 0.35s ease-out',
         shake: 'shake 0.4s ease-in-out',
+        'cta-pulse': 'cta-pulse 2.4s ease-in-out infinite',
       },
     },
   },

@@ -54,7 +54,7 @@ function QuizResult({ score, total, onRetry }: { score: number; total: number; o
         <Button size="lg" variant="outline" onClick={() => navigate('/marcas')}>
           {t('quiz.home')}
         </Button>
-        <Button size="lg" onClick={onRetry}>
+        <Button size="lg" className="animate-cta-pulse motion-reduce:animate-none" onClick={onRetry}>
           {t('quiz.retry')}
         </Button>
       </div>
@@ -176,7 +176,7 @@ export default function Quiz() {
 
           {answered && (
             <div className="flex justify-center animate-page-in motion-reduce:animate-none">
-              <Button size="lg" onClick={handleNext}>
+              <Button size="lg" className="animate-cta-pulse motion-reduce:animate-none" onClick={handleNext}>
                 {current + 1 < total ? t('quiz.next') : t('quiz.finish')}
               </Button>
             </div>
