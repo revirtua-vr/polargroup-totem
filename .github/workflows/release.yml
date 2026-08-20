@@ -225,4 +225,4 @@ jobs:
             --title "Latest build" \
             --latest \
             --notes-file release-notes.md \
-            ${{ steps.exe.outputs.path }}
+            "${{ steps.exe.outputs.path }}"
