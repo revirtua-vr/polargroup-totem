@@ -318,23 +318,25 @@ export default function Quiz() {
             </CardContent>
           </Card>
 
-          {answered && (
-            <div className="flex items-center justify-center gap-4 animate-page-in motion-reduce:animate-none">
-              <div
-                role="timer"
-                aria-label={t('quiz.autoAdvance', { seconds: countdown })}
-                className={cn(
-                  'w-12 h-12 shrink-0 rounded-full border border-dashed border-brand-gray-2 flex items-center justify-center font-mono text-lg',
-                  countdown <= 3 ? 'text-brand-red' : 'text-brand-gray-1',
-                )}
-              >
-                {countdown}
+          <div className="h-24 flex items-center justify-center">
+            {answered && (
+              <div className="flex items-center justify-center gap-4 animate-page-in motion-reduce:animate-none">
+                <div
+                  role="timer"
+                  aria-label={t('quiz.autoAdvance', { seconds: countdown })}
+                  className={cn(
+                    'w-12 h-12 shrink-0 rounded-full border border-dashed border-brand-gray-2 flex items-center justify-center font-mono text-lg',
+                    countdown <= 3 ? 'text-brand-red' : 'text-brand-gray-1',
+                  )}
+                >
+                  {countdown}
+                </div>
+                <Button size="lg" className="animate-cta-pulse motion-reduce:animate-none" onClick={handleNext}>
+                  {current + 1 < total ? t('quiz.next') : t('quiz.finish')}
+                </Button>
               </div>
-              <Button size="lg" className="animate-cta-pulse motion-reduce:animate-none" onClick={handleNext}>
-                {current + 1 < total ? t('quiz.next') : t('quiz.finish')}
-              </Button>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </div>
