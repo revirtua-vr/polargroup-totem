@@ -58,6 +58,7 @@ export function NavBar() {
             key={item.path}
             to={item.path}
             ref={isActive ? activeRef : undefined}
+            aria-current={isActive ? 'page' : undefined}
             className={cn(
               'relative z-10 px-4 py-2 rounded-md text-sm font-medium transition-colors min-h-[44px] flex items-center',
               isActive
