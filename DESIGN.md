@@ -86,6 +86,9 @@ Palette rules:
 - **Quiz**: correct = `bg-primary` red + `glow-red` + `animate-pop-in`; wrong pick =
   `bg-secondary` gray + `animate-shake`; progress bar is red with glow; option letters
   (`A. B. …`) are `text-brand-red`.
+- **Quiz lead form**: Card `hud-corners hud-corners-visible`; inputs `bg-muted border-border
+  rounded-md` with `primary/40` focus ring; validation errors use `text-brand-yellow` (red is
+  never used for errors).
 - **Dialogs/lightbox**: black (`bg-black/95`), unchanged — media should not be tinted.
 - **PdfViewer**: dark chrome; PDF canvas area uses `bg-brand-gray-5/40` so white PDF pages pop
   with a dark shadow.

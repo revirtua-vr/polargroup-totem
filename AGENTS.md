@@ -50,7 +50,8 @@ polargroup-totem/
 │   ├── hooks/
 │   │   └── useIdleTimer.ts     # 180s inactivity → navigate to / (QuemSomos)
 │   ├── lib/
-│   │   └── utils.ts            # cn() helper
+│   │   ├── utils.ts            # cn() helper
+│   │   └── leadStore.ts        # Quiz lead persistence: Electron IPC → CSV (userData/leads.csv), web fallback → localStorage
 │   └── index.css               # Tailwind + shadcn CSS variables
 ├── electron/
 │   ├── main.ts                 # Electron main — fullscreen, kiosk mode, no frame
@@ -80,14 +81,15 @@ polargroup-totem/
 | `/produtos` | Produtos | All products from all companies aggregated |
 | `/videos` | Videos | Dedicated Polar Group videos (not company galleries) |
 | `/contato` | Contato | Address, phone, email, social media |
-| `/quiz` | Quiz | Multiple-choice quiz (ephemeral, no persistence) |
+| `/quiz` | Quiz | Lead form (name/phone/email) → multiple-choice quiz → result screen showing the person's name; lead saved to local CSV (see Key Decisions) |
 
 ## Key Decisions
 
 | Decision | Choice | Reason |
 |---|---|---|
 | Content source | Static JSON bundled in app | No backend needed, fully offline |
-| Quiz persistence | Ephemeral (answer → score → done) | No user accounts, no leaderboard |
+| Quiz leads | Pre-quiz form (name/phone/email) → Electron IPC appends to CSV at `userData/leads.csv`; web fallback → localStorage | Client wants lead capture at the kiosk; cloud integration planned later (see TODO.md) |
+| Quiz scoring | Ephemeral (answer → score → done) | No user accounts, no leaderboard |
 | Languages | pt-BR authored, en/es via LLM script | Single source of truth + automated translation |
 | Kiosk behavior | Fullscreen, 180s idle → home, no browser chrome | Convention touchscreen UX |
 | Brand browsing | Flat grid of 17 brands + 12 category filter chips (data-driven from `categories` array in companies pt-BR.json, labels translated via translate.ts) | Client-defined category map from "Planilha de marcas"; a brand may belong to multiple categories (e.g. Blinda) |
