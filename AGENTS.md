@@ -35,7 +35,10 @@ polargroup-totem/
 │   │   ├── ui/                 # shadcn/ui primitives (button, card, dialog, scroll-area)
 │   │   ├── NavBar.tsx          # Top navigation: Quem Somos | Marcas | Produtos | Vídeos | Contato
 │   │   ├── LanguageSwitcher.tsx # PT/EN/ES toggle (top-right corner)
-│   │   └── RibbonGallery.tsx   # Horizontal scroll thumbnails → lightbox (images/videos)
+│   │   ├── BrandBackground.tsx # Full-screen constellation canvas + brand glow blobs (design)
+│   │   ├── BrandDecor.tsx      # SectionDivider + TargetRings decorative primitives (design)
+│   │   ├── PageTransition.tsx  # Route change fade/slide-up wrapper
+│   │   ├── RibbonGallery.tsx   # Horizontal scroll thumbnails → lightbox (images/videos)
 │   │   └── PdfViewer.tsx       # Full PDF renderer (react-pdf): all pages, zoom, index links scroll to target page
 │   ├── data/
 │   │   ├── companies/pt-BR.json # 18 companies: { id, name, logo, description, products[], gallery[] }
@@ -61,7 +64,8 @@ polargroup-totem/
 ├── .npmrc                       # node-linker=hoisted (required by Electron Forge)
 ├── Dockerfile                  # nginx:alpine serving dist/
 ├── vite.config.ts              # @ alias, base: './' for file:// in Electron
-├── tailwind.config.ts          # shadcn theme + tailwindcss-animate
+├── tailwind.config.ts          # shadcn theme + brand colors + tailwindcss-animate
+├── DESIGN.md                   # Design system: brand palette, typography, tokens, background/decoration patterns, motion rules
 └── package.json
 ```
 
@@ -125,6 +129,15 @@ pnpm lint         # 0 errors, 0 warnings required
 pnpm type-check   # clean required
 pnpm build        # must succeed
 ```
+
+## Design
+
+**Read `DESIGN.md` before touching any styling.** It documents the visual system derived from
+the client's brand folder: color palette (dark gray `#1A1C20` bg, brand red `#CE1F2E` accent,
+white type), Exo 2 typography, CSS/Tailwind tokens, the `BrandBackground` constellation effect
+(tuning knobs included), decorative patterns (`SectionDivider`, `TargetRings`, `.hud-corners`,
+`.micro-label`), motion rules for the kiosk, and design do/don'ts. Keep DESIGN.md updated when
+the look changes.
 
 ## i18n Content Workflow
 
