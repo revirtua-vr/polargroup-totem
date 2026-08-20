@@ -8,6 +8,15 @@ const config: ForgeConfig = {
     name: 'PolarGroupTotem',
     executableName: 'polargroup-totem',
     extraResource: ['./dist'],
+    win32metadata: {
+      CompanyName: 'Polar Group',
+      FileDescription: 'Polar Group Totem Kiosk',
+      ProductName: 'PolarGroupTotem',
+      FileVersion: '1.0.0.0',
+      ProductVersion: '1.0.0.0',
+      OriginalFilename: 'polargroup-totem.exe',
+      InternalName: 'polargroup-totem',
+    },
   },
   makers: [
     new MakerSquirrel({

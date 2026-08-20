@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make",
+    "make": "node scripts/patch-squirrel-laa.mjs && electron-forge make",
+    "postinstall": "node scripts/patch-squirrel-laa.mjs",
     "translate": "tsx scripts/translate.ts",
     "lint": "eslint src --ext .ts,.tsx",
     "type-check": "tsc --noEmit"
