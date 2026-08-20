@@ -195,6 +195,16 @@
           "type": "video",
           "src": "videos/blinda/BL_prensa cabos.mp4",
           "thumbnail": "images/blinda/thumbs/BL_prensa cabos.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/institucional/FULLHD - BLINDA 2026 PORT.mp4",
+          "thumbnail": "images/institucional/thumbs/FULLHD - BLINDA 2026 PORT.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/institucional/SD - BLINDA 2026 PORT com LEG_PORT.mp4",
+          "thumbnail": "images/institucional/thumbs/SD - BLINDA 2026 PORT com LEG_PORT.jpg"
         }
       ],
       "products": [
