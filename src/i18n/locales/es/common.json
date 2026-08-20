@@ -4,7 +4,8 @@
     "marcas": "Marcas",
     "produtos": "Productos",
     "videos": "Vídeos",
-    "contato": "Contacto"
+    "contato": "Contacto",
+    "quiz": "Quiz"
   },
   "quemSomos": {
     "title": "Grupo Polar",
@@ -27,8 +28,7 @@
   },
   "marcas": {
     "title": "Nuestras Marcas",
-    "subtitle": "Toque en una empresa para saber más",
-    "quizButton": "Quiz"
+    "subtitle": "Toque en una empresa para saber más"
   },
   "produtos": {
     "title": "Productos",
@@ -56,6 +56,9 @@
     "question": "Pregunta {{current}} de {{total}}",
     "next": "Siguiente",
     "finish": "Finalizar",
+    "correct": "Correcto",
+    "wrong": "Incorrecto",
+    "yourAnswer": "Tu respuesta",
     "result": "¡Acertaste {{score}} de {{total}} preguntas!",
     "prize": "¡Felicitaciones! Ganaste un regalo de Polar Group",
     "noPrize": "Qué pena, será la próxima",

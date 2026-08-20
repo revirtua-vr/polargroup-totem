@@ -4,7 +4,8 @@
     "marcas": "Brands",
     "produtos": "Products",
     "videos": "Videos",
-    "contato": "Contact"
+    "contato": "Contact",
+    "quiz": "Quiz"
   },
   "quemSomos": {
     "title": "Polar Group",
@@ -27,8 +28,7 @@
   },
   "marcas": {
     "title": "Our Brands",
-    "subtitle": "Tap a company to learn more",
-    "quizButton": "Quiz"
+    "subtitle": "Tap a company to learn more"
   },
   "produtos": {
     "title": "Products",
@@ -56,6 +56,9 @@
     "question": "Question {{current}} of {{total}}",
     "next": "Next",
     "finish": "Finish",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "yourAnswer": "Your answer",
     "result": "You got {{score}} out of {{total}} questions right!",
     "prize": "Congratulations! You won a Polar Group gift",
     "noPrize": "Too bad, better luck next time",

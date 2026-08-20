@@ -8,6 +8,7 @@ const navItems = [
   { path: '/produtos', labelKey: 'produtos' },
   { path: '/videos', labelKey: 'videos' },
   { path: '/contato', labelKey: 'contato' },
+  { path: '/quiz', labelKey: 'quiz' },
 ] as const
 
 export function NavBar() {

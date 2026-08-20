@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
+import { Check, X } from 'lucide-react'
+import { cn } from '@/lib/utils'
 import quizDataPt from '@/data/quiz/pt-BR.json'
 import quizDataEn from '@/data/quiz/en.json'
 import quizDataEs from '@/data/quiz/es.json'
@@ -94,21 +96,40 @@ export default function Quiz() {
               <p className="text-lg font-medium mb-6">{question.text}</p>
               <div className="flex flex-col gap-3">
                 {question.options.map((option, i) => {
-                  let variant: 'outline' | 'default' | 'secondary' = 'outline'
-                  if (answered) {
-                    if (i === question.correct) variant = 'default'
-                    else if (i === selected) variant = 'secondary'
-                  }
+                  const isCorrect = answered && i === question.correct
+                  const isWrongPick = answered && i === selected && i !== question.correct
+                  const isRightPick = answered && i === selected && i === question.correct
+                  const dimmed = answered && !isCorrect && !isWrongPick
                   return (
                     <Button
                       key={i}
                       size="lg"
-                      variant={variant}
-                      className="justify-start h-auto py-4 px-4 text-left whitespace-normal"
+                      variant="outline"
+                      className={cn(
+                        'justify-between h-auto py-4 px-4 text-left whitespace-normal gap-3',
+                        isCorrect && 'bg-emerald-600 hover:bg-emerald-600 text-white border-emerald-600',
+                        isWrongPick && 'bg-red-500 hover:bg-red-500 text-white border-red-500',
+                        dimmed && 'opacity-50',
+                      )}
                       onClick={() => handleSelect(i)}
                     >
-                      <span className="font-mono mr-3">{String.fromCharCode(65 + i)}.</span>
-                      {option}
+                      <span className="flex items-start gap-3 min-w-0">
+                        <span className="font-mono shrink-0">{String.fromCharCode(65 + i)}.</span>
+                        <span>{option}</span>
+                      </span>
+                      {answered && (isCorrect || isWrongPick) && (
+                        <span
+                          className={cn(
+                            'shrink-0 flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold',
+                            isCorrect ? 'bg-white/20' : 'bg-black/10',
+                          )}
+                        >
+                          {isCorrect && <Check className="w-4 h-4" />}
+                          {isWrongPick && <X className="w-4 h-4" />}
+                          {isCorrect ? t('quiz.correct') : t('quiz.wrong')}
+                          {isRightPick && ` · ${t('quiz.yourAnswer')}`}
+                        </span>
+                      )}
                     </Button>
                   )
                 })}
