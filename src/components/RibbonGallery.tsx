@@ -29,7 +29,7 @@ export function RibbonGallery({ items }: RibbonGalleryProps) {
             <button
               key={i}
               onClick={() => setSelectedIndex(i)}
-              className="flex-shrink-0 w-40 h-28 rounded-lg overflow-hidden border-2 border-transparent hover:border-primary transition-colors focus:outline-none focus:border-primary"
+              className="flex-shrink-0 w-40 h-28 rounded-lg overflow-hidden border-2 border-transparent hover:border-primary transition-all focus:outline-none focus:border-primary motion-safe:hover:scale-105 motion-safe:active:scale-95"
             >
               {item.type === 'video' ? (
                 <div className="relative w-full h-full bg-muted flex items-center justify-center">
@@ -61,7 +61,7 @@ export function RibbonGallery({ items }: RibbonGalleryProps) {
       <Dialog open={selectedIndex !== null} onOpenChange={() => setSelectedIndex(null)}>
         <DialogContent className="max-w-[90vw] max-h-[90vh] p-0 bg-black/95 border-none">
           {selectedIndex !== null && items[selectedIndex] && (
-            <div className="flex items-center justify-center w-full h-full min-h-[50vh]">
+            <div className="flex items-center justify-center w-full h-full min-h-[50vh] animate-in fade-in-0 zoom-in-95 duration-300 fill-mode-both motion-reduce:animate-none">
               {items[selectedIndex].type === 'video' ? (
                 <video
                   src={items[selectedIndex].src}

@@ -17,10 +17,11 @@ export default function Marcas() {
         </div>
 
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3 max-w-7xl mx-auto pb-8">
-          {companiesData.companies.map((company) => (
+          {companiesData.companies.map((company, i) => (
             <Card
               key={company.id}
-              className="cursor-pointer hover:shadow-md hover:border-primary/50 transition-all active:scale-95 p-3 flex flex-col items-center text-center"
+              className="cursor-pointer hover:shadow-md hover:border-primary/50 transition-all active:scale-95 p-3 flex flex-col items-center text-center animate-page-in motion-reduce:animate-none"
+              style={{ animationDelay: `${i * 30}ms` }}
               onClick={() => navigate(`/marcas/${company.id}`)}
             >
               <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-muted mb-2 flex items-center justify-center">
