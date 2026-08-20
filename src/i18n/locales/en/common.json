@@ -57,6 +57,8 @@
     "next": "Next",
     "finish": "Finish",
     "result": "You got {{score}} out of {{total}} questions right!",
+    "prize": "Congratulations! You won a Polar Group gift",
+    "noPrize": "Too bad, better luck next time",
     "retry": "Try Again",
     "home": "Home"
   },

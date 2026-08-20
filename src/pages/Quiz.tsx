@@ -3,10 +3,18 @@ import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import quizData from '@/data/quiz/pt-BR.json'
+import quizDataPt from '@/data/quiz/pt-BR.json'
+import quizDataEn from '@/data/quiz/en.json'
+import quizDataEs from '@/data/quiz/es.json'
+
+const quizByLanguage = {
+  en: quizDataEn,
+  es: quizDataEs,
+  'pt-BR': quizDataPt,
+}
 
 export default function Quiz() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const navigate = useNavigate()
 
   const [current, setCurrent] = useState(0)
@@ -15,6 +23,7 @@ export default function Quiz() {
   const [answered, setAnswered] = useState(false)
   const [finished, setFinished] = useState(false)
 
+  const quizData = quizByLanguage[i18n.language as keyof typeof quizByLanguage] ?? quizDataPt
   const questions = quizData.questions
   const total = questions.length
   const question = questions[current]
@@ -44,6 +53,9 @@ export default function Quiz() {
         <h2 className="text-3xl font-bold text-center">{t('quiz.title')}</h2>
         <p className="text-xl text-center">
           {t('quiz.result', { score, total })}
+        </p>
+        <p className="text-2xl font-semibold text-center">
+          {score === total ? t('quiz.prize') : t('quiz.noPrize')}
         </p>
         <div className="flex gap-4">
           <Button size="lg" variant="outline" onClick={() => navigate('/marcas')}>

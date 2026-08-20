@@ -1,44 +1,44 @@
 {
   "questions": [
     {
-      "text": "Qual empresa do Grupo Polar é especializada em dispositivos móveis à prova de explosão, convertendo iPhones e iPads para uso seguro em áreas classificadas?",
-      "options": ["Atexxo", "Blinda", "Nightstick", "SA EQUIP"],
-      "correct": 0
-    },
-    {
-      "text": "Qual empresa do Grupo Polar é a única no Brasil autorizada a utilizar componentes CEAG em seus equipamentos à prova de explosão?",
-      "options": ["Atexxo", "Chalmit", "Blinda", "Hawke"],
-      "correct": 2
-    },
-    {
-      "text": "Qual empresa do Grupo Polar desenvolveu o mosquetão Trisafe™, com mecanismo patenteado de tripla ação e travamento automático?",
-      "options": ["StopDropp", "Dropsafe", "Hi-Force", "Pelican"],
+      "text": "Há mais de 30 anos no mercado, em que ano a Polar Group foi fundada?",
+      "options": ["1988", "1992", "1996", "2000"],
       "correct": 1
     },
     {
-      "text": "Qual empresa do Grupo Polar atua no setor de iluminação para áreas classificadas desde 1910, sendo parte do grupo Hubbell?",
-      "options": ["Nightstick", "SA EQUIP", "Chalmit", "Atexxo"],
-      "correct": 2
-    },
-    {
-      "text": "Qual empresa do Grupo Polar é referência mundial em cases de proteção de alto impacto e possui a linha Air Case, que reduz o peso em até 40%?",
-      "options": ["Pelican", "Dropsafe", "Vantrunk", "Parker"],
-      "correct": 0
-    },
-    {
-      "text": "Além de prensa-cabos certificados para atmosferas explosivas, qual empresa do Grupo Polar possui credenciais aeroespaciais com produtos testados para aplicações espaciais?",
-      "options": ["Oliver Valves", "Hi-Force", "Hawke", "Blinda"],
-      "correct": 2
-    },
-    {
-      "text": "Qual empresa do Grupo Polar fabrica o SA CYCLONE EX, um ar-condicionado portátil certificado ATEX e IECEx para atmosferas explosivas?",
-      "options": ["Atexxo", "SA EQUIP", "Proserv", "Chalmit"],
+      "text": "O que é atmosfera explosiva de acordo com a NR-10?",
+      "options": [
+        "É uma área onde há risco de incêndio por superaquecimento de equipamentos",
+        "É uma mistura de ar com substâncias inflamáveis (gases, vapores, névoas ou poeiras) que pode propagar uma combustão após entrar em contato com uma fonte de ignição",
+        "É qualquer ambiente industrial com presença de gases tóxicos",
+        "É uma área de armazenamento de produtos químicos inflamáveis"
+      ],
       "correct": 1
     },
     {
-      "text": "Qual empresa do Grupo Polar é especializada em sistemas de amostragem topside e subsea para a indústria de óleo e gás?",
-      "options": ["Oliver Valves", "Parker", "Hi-Force", "Proserv"],
-      "correct": 3
+      "text": "Qual a diferença entre equipamento \"Ex d\" à prova de explosão e \"Ex e\" de segurança aumentada?",
+      "options": [
+        "\"Ex d\" contém a explosão internamente; \"Ex e\" evita que a ignição ocorra",
+        "\"Ex d\" é mais caro; \"Ex e\" é mais barato",
+        "Não há diferença, são sinônimos",
+        "\"Ex d\" é para gases; \"Ex e\" é para poeiras"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Qual norma é referência para atmosferas explosivas no Brasil?",
+      "options": ["ABNT NBR IEC 60079", "ISO 9001", "NR-10", "ABNT NBR 5410"],
+      "correct": 0
+    },
+    {
+      "text": "Quais são os diferenciais competitivos da Polar Group?",
+      "options": [
+        "Qualidade de produtos, certificação ISO 9001 e total comprometimento com o cliente",
+        "Tem o menor preço do mercado",
+        "Venda exclusivamente online",
+        "Produtos com garantia"
+      ],
+      "correct": 0
     }
   ]
 }

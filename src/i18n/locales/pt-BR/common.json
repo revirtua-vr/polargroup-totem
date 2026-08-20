@@ -60,6 +60,8 @@
     "next": "Próxima",
     "finish": "Finalizar",
     "result": "Você acertou {{score}} de {{total}} perguntas!",
+    "prize": "Parabéns! Você ganhou um brinde da Polar Group",
+    "noPrize": "Que pena, fica pra próxima",
     "retry": "Tentar Novamente",
     "home": "Início"
   },
