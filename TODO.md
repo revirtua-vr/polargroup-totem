@@ -34,6 +34,7 @@
 
 ## 3. Melhorias / acompanhamentos
 
+- [ ] **Integração em nuvem dos leads do quiz** — cadastro pré-quiz (nome/telefone/e-mail) salvo hoje em `leads.csv` local (Electron, pasta userData) ou localStorage (web); depois integrar com sistema em nuvem.
 - [ ] **Estrutura de categorias** — cliente pediu na planilha: 12 categorias na 1ª página → subcategorias após clique. Implementado como filtros na página Marcas; se o cliente quiser o fluxo literal (categoria → lista de subcategorias → marca), reavaliar.
 - [ ] **Vídeo institucional Polar Group na Home** — planilha define Home = vídeo institucional + tagline; a tagline "O produto certo quando você mais precisa" já está no subtítulo da Home, mas o vídeo ainda aparece só na página Vídeos.
 - [ ] **Strings de tela RS** — doc define CTA "Toque para explorar as categorias", cabeçalho "Explore as categorias RS" e aviso "Produto representativo — consulte especificações e disponibilidade no site"; não implementados (aplicável se o cliente pedir o fluxo de vitrine da RS).
