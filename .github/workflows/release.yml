@@ -69,6 +69,10 @@ jobs:
   build-exe:
     name: Build Windows EXE
     runs-on: windows-latest
+    needs: next-version
+    if: ${{ always() && needs.next-version.result != 'failure' }}
+    env:
+      APP_VERSION: ${{ github.ref_type == 'tag' && github.ref_name || needs.next-version.outputs.version }}
 
     steps:
       - uses: actions/checkout@v4
@@ -85,6 +89,14 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
+
+      - name: Sync app version
+        shell: pwsh
+        run: |
+          if (-not [string]::IsNullOrEmpty($env:APP_VERSION)) {
+            $v = $env:APP_VERSION.TrimStart('v')
+            pnpm pkg set version=$v
+          }
 
       - run: pnpm build
 

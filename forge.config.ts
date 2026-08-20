@@ -2,6 +2,12 @@ import type { ForgeConfig } from '@electron-forge/shared-types'
 import { MakerSquirrel } from '@electron-forge/maker-squirrel'
 import { MakerZIP } from '@electron-forge/maker-zip'
 import { VitePlugin } from '@electron-forge/plugin-vite'
+import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
+
+const appVersion = JSON.parse(
+  readFileSync(join(process.cwd(), 'package.json'), 'utf-8')
+).version as string
 
 const config: ForgeConfig = {
   packagerConfig: {
@@ -12,8 +18,8 @@ const config: ForgeConfig = {
       CompanyName: 'Polar Group',
       FileDescription: 'Polar Group Totem Kiosk',
       ProductName: 'PolarGroupTotem',
-      FileVersion: '1.0.0.0',
-      ProductVersion: '1.0.0.0',
+      FileVersion: `${appVersion}.0`,
+      ProductVersion: `${appVersion}.0`,
       OriginalFilename: 'polargroup-totem.exe',
       InternalName: 'polargroup-totem',
     },

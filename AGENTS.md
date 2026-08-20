@@ -219,8 +219,9 @@ Two workflows in `.github/workflows/`:
 
 Every commit pushed to `main` automatically:
 1. Computes the next semver version from conventional commits since the last `v*` tag: `feat:` → minor bump, anything else → patch bump, `BREAKING CHANGE:` or `type!:` → major bump
-2. Creates and pushes the tag `vX.Y.Z` and publishes a GitHub Release with the Windows EXE attached and the commit changelog (tag pushes via `GITHUB_TOKEN` do not re-trigger the workflow, so no duplicate build)
-3. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `main`, `sha-<short>`, `latest`, `vX.Y.Z`, `X.Y`
+2. Syncs `package.json` version (and `forge.config.ts` `win32metadata`) to the computed version before `pnpm make`, so the Squirrel installer EXE carries the release version — never edit the version manually
+3. Creates and pushes the tag `vX.Y.Z` and publishes a GitHub Release with the Windows EXE attached and the commit changelog (tag pushes via `GITHUB_TOKEN` do not re-trigger the workflow, so no duplicate build)
+4. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `main`, `sha-<short>`, `latest`, `vX.Y.Z`, `X.Y`
 
 Release history is preserved — releases are never overwritten or deleted.
 
