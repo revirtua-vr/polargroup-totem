@@ -35,11 +35,11 @@ export function NavBar() {
   }, [pathname, t])
 
   return (
-    <nav className="relative flex items-center justify-center gap-1 px-4 py-2 border-b flex-shrink-0 bg-background">
+    <nav className="relative flex items-center justify-center gap-1 px-4 py-2 border-b border-dashed border-brand-gray-4 flex-shrink-0 bg-background/80 backdrop-blur">
       {indicator && (
         <span
           aria-hidden
-          className="absolute rounded-md bg-primary transition-all duration-300 ease-out motion-reduce:transition-none"
+          className="absolute rounded-md bg-primary glow-red transition-all duration-300 ease-out motion-reduce:transition-none"
           style={{
             left: indicator.left,
             top: indicator.top,

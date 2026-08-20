@@ -64,7 +64,7 @@ export function PdfViewer({ file, className, indexPage }: PdfViewerProps) {
 
   return (
     <div ref={containerRef} className={cn('flex flex-col', className)}>
-      <div className="flex flex-shrink-0 items-center justify-between gap-4 border-b px-4 py-2">
+      <div className="flex flex-shrink-0 items-center justify-between gap-4 border-b border-dashed border-brand-gray-4 px-4 py-2">
         <p className="text-sm text-muted-foreground">
           {numPages > 0 ? `${numPages} páginas` : 'Carregando…'}
         </p>
@@ -97,7 +97,7 @@ export function PdfViewer({ file, className, indexPage }: PdfViewerProps) {
         </div>
       </div>
 
-      <ScrollArea className="min-h-0 flex-1 bg-muted/40">
+      <ScrollArea className="min-h-0 flex-1 bg-brand-gray-5/40">
         <div className="mx-auto flex max-w-fit flex-col items-center gap-4 py-6">
           {containerWidth > 0 && (
             <Document
@@ -117,7 +117,7 @@ export function PdfViewer({ file, className, indexPage }: PdfViewerProps) {
                   pageNumber={index + 1}
                   width={pageWidth}
                   renderTextLayer={false}
-                  className="shadow-md"
+                  className="shadow-lg shadow-black/40"
                   inputRef={(el) => {
                     pageRefs.current[index] = el
                   }}

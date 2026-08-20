@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
 import { RibbonGallery, type GalleryItem } from '@/components/RibbonGallery'
+import { SectionDivider } from '@/components/BrandDecor'
 import companiesData from '@/data/companies/pt-BR.json'
 import { ArrowLeft, BookOpen, ExternalLink } from 'lucide-react'
 
@@ -27,7 +28,7 @@ export default function Company() {
 
   return (
     <div className="h-full flex flex-col">
-      <header className="flex items-center gap-4 px-6 py-4 border-b flex-shrink-0">
+      <header className="flex items-center gap-4 px-6 py-4 border-b border-dashed border-brand-gray-4 flex-shrink-0">
         <Button variant="ghost" size="lg" onClick={() => navigate('/marcas')}>
           <ArrowLeft className="w-5 h-5 mr-2" />
           {t('company.back')}
@@ -37,10 +38,13 @@ export default function Company() {
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-4xl mx-auto px-6 py-8">
           <div className="flex items-center gap-6 mb-8">
-            <div className="w-24 h-24 rounded-full overflow-hidden bg-muted flex-shrink-0">
-              <img src={company.logo} alt={company.name} className="w-full h-full object-cover" />
+            <div className="w-24 h-24 rounded-full overflow-hidden bg-white border border-brand-gray-5 flex-shrink-0 p-2">
+              <img src={company.logo} alt={company.name} className="w-full h-full object-contain" />
             </div>
-            <h1 className="text-3xl font-bold">{company.name}</h1>
+            <div>
+              <h1 className="text-3xl font-bold">{company.name}</h1>
+              <SectionDivider className="mt-3" />
+            </div>
           </div>
 
           {company.tagline && (
@@ -75,10 +79,13 @@ export default function Company() {
 
           {company.products && company.products.length > 0 && (
             <div className="mb-8">
-              <h2 className="text-xl font-bold mb-4">{t('company.products')}</h2>
+              <h2 className="mb-4 flex items-center gap-3 text-xl font-bold">
+                <span aria-hidden className="h-2.5 w-2.5 flex-shrink-0 bg-brand-red" />
+                {t('company.products')}
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {company.products.map((product) => (
-                  <Card key={product.id}>
+                  <Card key={product.id} className="hud-corners hover:glow-red hover:border-brand-red/60 transition-all">
                     <CardContent className="pt-6">
                       <CardTitle className="text-base mb-1">{product.name}</CardTitle>
                       <CardDescription className="text-sm">{product.description}</CardDescription>

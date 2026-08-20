@@ -45,9 +45,10 @@ function QuizResult({ score, total, onRetry }: { score: number; total: number; o
 
   return (
     <div className="h-full flex flex-col items-center justify-center gap-8 px-6 animate-page-in motion-reduce:animate-none">
+      <p className="micro-label">{t('nav.quiz')}</p>
       <h2 className="text-3xl font-bold text-center">{t('quiz.title')}</h2>
       <p className="text-xl text-center">{t('quiz.result', { score: displayedScore, total })}</p>
-      <p className="text-2xl font-semibold text-center">
+      <p className="text-2xl font-semibold text-center text-brand-red text-glow">
         {score === total ? t('quiz.prize') : t('quiz.noPrize')}
       </p>
       <div className="flex gap-4">
@@ -112,13 +113,14 @@ export default function Quiz() {
   return (
     <div className="h-full flex flex-col">
       <header className="text-center pt-12 pb-6 px-4 flex-shrink-0">
+        <p className="micro-label mb-3">{t('nav.quiz')}</p>
         <h1 className="text-2xl font-bold">{t('quiz.title')}</h1>
         <p className="text-muted-foreground mt-1">
           {t('quiz.question', { current: current + 1, total })}
         </p>
-        <div className="h-2 w-full max-w-md mx-auto mt-4 rounded-full bg-muted overflow-hidden">
+        <div className="h-2 w-full max-w-md mx-auto mt-4 rounded-full bg-secondary overflow-hidden">
           <div
-            className="h-full rounded-full bg-primary transition-[width] duration-500 ease-out motion-reduce:transition-none"
+            className="h-full rounded-full bg-primary glow-red transition-[width] duration-500 ease-out motion-reduce:transition-none"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -126,7 +128,7 @@ export default function Quiz() {
 
       <div className="flex-1 overflow-y-auto px-4 pb-24">
         <div className="max-w-2xl mx-auto">
-          <Card key={current} className="mb-6 animate-page-in motion-reduce:animate-none">
+          <Card key={current} className="mb-6 hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6">
               <p className="text-lg font-medium mb-6">{question.text}</p>
               <div className="flex flex-col gap-3">
@@ -143,22 +145,22 @@ export default function Quiz() {
                       className={cn(
                         'justify-between h-auto py-4 px-4 text-left whitespace-normal gap-3',
                         isCorrect &&
-                          'bg-emerald-600 hover:bg-emerald-600 text-white border-emerald-600 animate-pop-in motion-reduce:animate-none',
+                          'bg-primary hover:bg-primary text-primary-foreground border-primary glow-red animate-pop-in motion-reduce:animate-none',
                         isWrongPick &&
-                          'bg-red-500 hover:bg-red-500 text-white border-red-500 animate-shake motion-reduce:animate-none',
+                          'bg-secondary hover:bg-secondary text-secondary-foreground border-secondary animate-shake motion-reduce:animate-none',
                         dimmed && 'opacity-50',
                       )}
                       onClick={() => handleSelect(i)}
                     >
                       <span className="flex items-start gap-3 min-w-0">
-                        <span className="font-mono shrink-0">{String.fromCharCode(65 + i)}.</span>
+                        <span className="font-mono shrink-0 text-brand-red">{String.fromCharCode(65 + i)}.</span>
                         <span>{option}</span>
                       </span>
                       {answered && (isCorrect || isWrongPick) && (
                         <span
                           className={cn(
                             'shrink-0 flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold',
-                            isCorrect ? 'bg-white/20' : 'bg-black/10',
+                            isCorrect ? 'bg-white/20' : 'bg-white/10',
                           )}
                         >
                           {isCorrect && <Check className="w-4 h-4" />}

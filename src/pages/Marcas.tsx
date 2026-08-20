@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { Card, CardTitle } from '@/components/ui/card'
 import { ScrollArea } from '@/components/ui/scroll-area'
+import { SectionDivider } from '@/components/BrandDecor'
 import companiesData from '@/data/companies/pt-BR.json'
 
 export default function Marcas() {
@@ -19,8 +20,10 @@ export default function Marcas() {
     <ScrollArea className="h-full">
       <div className="px-4 py-8">
         <div className="text-center mb-6">
+          <p className="micro-label mb-3">{t('nav.marcas')}</p>
           <h1 className="text-2xl font-bold">{t('marcas.title')}</h1>
           <p className="text-muted-foreground mt-2 text-lg">{t('marcas.subtitle')}</p>
+          <SectionDivider className="mx-auto mt-5" />
         </div>
 
         <div className="flex flex-wrap justify-center gap-2 mb-8 max-w-5xl mx-auto">
@@ -28,8 +31,8 @@ export default function Marcas() {
             type="button"
             className={`px-4 py-2 rounded-full text-sm font-medium transition-colors border ${
               selectedCategory === 'all'
-                ? 'bg-primary text-primary-foreground border-primary'
-                : 'bg-background text-muted-foreground border-border hover:border-primary/50 hover:text-foreground'
+                ? 'bg-primary text-primary-foreground border-primary glow-red'
+                : 'bg-background text-muted-foreground border-dashed border-brand-gray-4 hover:border-primary/50 hover:text-foreground'
             }`}
             onClick={() => setSelectedCategory('all')}
           >
@@ -41,8 +44,8 @@ export default function Marcas() {
               type="button"
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors border ${
                 selectedCategory === category.id
-                  ? 'bg-primary text-primary-foreground border-primary'
-                  : 'bg-background text-muted-foreground border-border hover:border-primary/50 hover:text-foreground'
+                  ? 'bg-primary text-primary-foreground border-primary glow-red'
+                  : 'bg-background text-muted-foreground border-dashed border-brand-gray-4 hover:border-primary/50 hover:text-foreground'
               }`}
               onClick={() => setSelectedCategory(category.id)}
             >
@@ -55,15 +58,15 @@ export default function Marcas() {
           {filteredCompanies.map((company, i) => (
             <Card
               key={company.id}
-              className="cursor-pointer hover:shadow-md hover:border-primary/50 transition-all active:scale-95 p-3 flex flex-col items-center text-center animate-page-in motion-reduce:animate-none"
+              className="cursor-pointer hud-corners hover:glow-red hover:border-brand-red/60 transition-all active:scale-95 p-3 flex flex-col items-center text-center animate-page-in motion-reduce:animate-none"
               style={{ animationDelay: `${i * 30}ms` }}
               onClick={() => navigate(`/marcas/${company.id}`)}
             >
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-muted mb-2 flex items-center justify-center">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden bg-white border border-brand-gray-5 mb-2 flex items-center justify-center p-1.5">
                 <img
                   src={company.logo}
                   alt={company.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <CardTitle className="text-xs sm:text-sm line-clamp-2">{company.name}</CardTitle>

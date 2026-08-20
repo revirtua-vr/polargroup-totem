@@ -22,7 +22,10 @@ export function RibbonGallery({ items }: RibbonGalleryProps) {
 
   return (
     <div>
-      <h3 className="text-lg font-semibold mb-3">{t('company.gallery')}</h3>
+      <h3 className="mb-3 flex items-center gap-3 text-lg font-semibold">
+        <span aria-hidden className="h-2.5 w-2.5 flex-shrink-0 bg-brand-red" />
+        {t('company.gallery')}
+      </h3>
       <ScrollArea className="w-full">
         <div className="flex gap-3 pb-2">
           {items.map((item, i) => (
