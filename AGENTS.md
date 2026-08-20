@@ -212,26 +212,33 @@ Two workflows in `.github/workflows/`:
 | Workflow | Trigger | What it does |
 |---|---|---|
 | `ci.yml` | push/PR to `main` | lint → type-check → Vite build |
-| `release.yml` | push to `main` | Builds EXE (Windows) + Docker image, updates the rolling "Latest build" GitHub Release with EXE attached. Docker tags: `main`, `sha-<short>`, `latest` |
-| `release.yml` | `v*` tag push | Same as above, but creates a versioned GitHub Release. Docker tags: `v1.0.0`, `1.0`, `latest` |
+| `release.yml` | push to `main` | Builds EXE (Windows) + Docker image, computes the next semver version, pushes tag `vX.Y.Z`, creates a versioned GitHub Release with changelog + EXE. Docker tags: `main`, `sha-<short>`, `latest`, `vX.Y.Z`, `X.Y` |
+| `release.yml` | `v*` tag push | Builds EXE (Windows) + Docker image and creates a GitHub Release for the pushed tag. Docker tags: `v1.0.0`, `1.0`, `latest` |
 
-### Automatic Releases
+### Automatic Releases (versioned)
 
 Every commit pushed to `main` automatically:
-1. Builds the Windows EXE via Electron Forge → attaches to the rolling ["Latest build"](https://github.com/revirtua-vr/polargroup-totem/releases/tag/latest) release (tag `latest` is force-moved to the new commit)
-2. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `main`, `sha-<short>`, `latest`
+1. Computes the next semver version from conventional commits since the last `v*` tag: `feat:` → minor bump, anything else → patch bump, `BREAKING CHANGE:` or `type!:` → major bump
+2. Creates and pushes the tag `vX.Y.Z` and publishes a GitHub Release with the Windows EXE attached and the commit changelog (tag pushes via `GITHUB_TOKEN` do not re-trigger the workflow, so no duplicate build)
+3. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `main`, `sha-<short>`, `latest`, `vX.Y.Z`, `X.Y`
 
-### Creating a Versioned Release
+Release history is preserved — releases are never overwritten or deleted.
+
+### Creating a Versioned Release Manually
+
+For major bumps or full control, push a tag directly (the version must be higher than the latest one):
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git tag v2.0.0
+git push origin v2.0.0
 ```
 
 This triggers `release.yml` which:
 1. Builds the Windows EXE via Electron Forge → attaches to GitHub Release
-2. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `v1.0.0`, `1.0`, `latest`
+2. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `v2.0.0`, `2.0`, `latest`
 3. Creates a GitHub Release at `https://github.com/revirtua-vr/polargroup-totem/releases` with release notes containing both download links
+
+> Legacy note: the old rolling release used a force-moved `latest` git tag. It is gone — if your local clone still has a stale `latest` tag that breaks `git push`, run `git tag -d latest && git fetch --prune --tags` once.
 
 ### Docker
 
