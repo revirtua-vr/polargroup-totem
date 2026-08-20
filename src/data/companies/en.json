@@ -162,7 +162,7 @@
     {
       "id": "blinda",
       "name": "Blinda",
-      "logo": "",
+      "logo": "images/blinda/Logo Blinda - sem fundo.png",
       "tagline": "Count on Blinda and its portfolio of solutions for explosive atmospheres",
       "description": "For over 60 years, Blinda has been a national reference in explosion-proof (Ex) electrical equipment, serving with excellence the oil and gas, petrochemical, steel, and mining sectors. Its portfolio includes junction boxes, control panels, push buttons, cable glands, signaling devices, and a complete line of certified connections and accessories.\n\nWith INMETRO, IECEx, and ATEX certifications, Blinda is the only company in Brazil authorized to use CEAG components in its projects, ensuring an international standard of quality and safety. All products are manufactured with high-resistance materials — copper-free aluminum, stainless steel 304/316L, and glass fiber reinforced polyester (GRP) — ensuring IP66/W protection and a temperature class from -60 °C to +110 °C.\n\nLocated in Votorantim (SP), Blinda is part of the Polar Components Group, offering complete solutions in Ex equipment for explosive atmospheres, with specialized technical support and custom manufacturing to meet the most rigorous industry specifications.",
       "gallery": [
@@ -500,7 +500,7 @@
     {
       "id": "eaton",
       "name": "Eaton",
-      "logo": "",
+      "logo": "images/eaton/Logo Eaton - sem fundo.png",
       "site": "https://www.eaton.com/",
       "categories": [
         "explosion-proof-lighting"
@@ -574,7 +574,7 @@
     {
       "id": "hawke",
       "name": "Hawke",
-      "logo": "",
+      "logo": "images/hawke/Logo Hawke - sem fundo.png",
       "tagline": "Electrify and Energize — reliable solutions for critical infrastructure since 1888",
       "description": "Hawke is a world-renowned British manufacturer specializing in cable glands and accessories for electrical installations in explosive atmospheres. With decades of experience, the brand is a benchmark in safety and reliability for the oil and gas, petrochemical, mining, and energy sectors.\n\nIts products are certified according to the most stringent international standards (IECEx, ATEX), ensuring protection against explosions in classified areas. The RCG (Resin Cable Gland) line is one of the brand's flagship products, offering resin sealing for critical applications where cable integrity is essential.\n\nHawke also has aerospace credentials, with solutions tested and approved for use in extreme conditions — including space applications — proving the robustness and engineering quality that make its cable glands the preferred choice for integrators and electrical panel manufacturers worldwide.",
       "gallery": [
@@ -616,7 +616,7 @@
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "",
+      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
       "tagline": "British leader in high-pressure industrial hydraulic solutions: tools, lifting systems and torque equipment",
       "description": "Hi-Force is a leading British manufacturer of high-torque hydraulic tools for the industrial, offshore and construction sectors. Founded in the United Kingdom, the company develops precision equipment for critical bolting, tensioning, lifting and cutting applications.\n\nWith service centers and distribution in more than 100 countries, Hi-Force offers cutting-edge technology in hydraulic torque wrenches, bolt tensioners, lifting jacks and pumping systems, ensuring safety and productivity in the most demanding operations.",
       "gallery": [
@@ -686,7 +686,7 @@
     {
       "id": "nightstick",
       "name": "Nightstick",
-      "logo": "",
+      "logo": "images/nightstick/Logo Nightstick - sem fundo.png",
       "tagline": "The choice of security professionals worldwide in extreme risk environments",
       "description": "Nightstick is the professional lighting brand of Bayco Products (USA), specializing in intrinsically safe (Ex) flashlights and headlamps for classified areas and hazardous environments.\n\nWith ATEX, IECEx, and Class I Division 1 certifications, Nightstick flashlights are designed for professionals working in explosive atmospheres, confined spaces, and rescue operations. The line includes rechargeable models, headlamps, and portable flashlights with high durability and luminous performance.\n\nManufactured with high-impact engineering materials and waterproof, Nightstick flashlights offer safety and reliability for the oil and gas, mining, firefighting, and emergency services industries.",
       "gallery": [
@@ -1230,7 +1230,7 @@
     {
       "id": "rs",
       "name": "RS Components",
-      "logo": "",
+      "logo": "images/rs/Logo RS Components.png",
       "site": "https://br.rsdelivers.com/",
       "categories": [
         "mro"
@@ -1486,7 +1486,7 @@
     {
       "id": "stahl",
       "name": "R. STAHL",
-      "logo": "",
+      "logo": "images/stahl/Logo R. STAHL - sem fundo.png",
       "site": "https://r-stahl.com/en/us/home/",
       "categories": [
         "ex-lighting"

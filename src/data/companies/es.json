@@ -162,7 +162,7 @@
     {
       "id": "blinda",
       "name": "Blinda",
-      "logo": "",
+      "logo": "images/blinda/Logo Blinda - sem fundo.png",
       "tagline": "Cuente con Blinda y su portafolio de soluciones para atmósferas explosivas",
       "description": "Durante más de 60 años, Blinda ha sido referencia nacional en equipos eléctricos a prueba de explosión (Ex), atendiendo con excelencia a los sectores de petróleo y gas, petroquímico, siderúrgico y minero. Su portafolio abarca cajas de conexión, paneles de control, pulsadores, prensacables, señalizadores y una línea completa de conexiones y accesorios certificados.\n\nCon certificaciones INMETRO, IECEx y ATEX, Blinda es la única empresa en Brasil autorizada a utilizar componentes CEAG en sus proyectos, garantizando un estándar internacional de calidad y seguridad. Todos los productos se fabrican con materiales de alta resistencia — aluminio libre de cobre, acero inoxidable 304/316L y poliéster reforzado con fibra de vidrio (GRP) — asegurando protección IP66/W y clase de temperatura de -60 °C a +110 °C.\n\nUbicada en Votorantim (SP), Blinda integra el Polar Components Group, ofreciendo soluciones completas en equipos Ex para atmósferas explosivas, con soporte técnico especializado y fabricación bajo pedido para cumplir con las especificaciones más rigurosas de la industria.",
       "gallery": [
@@ -500,7 +500,7 @@
     {
       "id": "eaton",
       "name": "Eaton",
-      "logo": "",
+      "logo": "images/eaton/Logo Eaton - sem fundo.png",
       "site": "https://www.eaton.com/",
       "categories": [
         "iluminacao-ex"
@@ -574,7 +574,7 @@
     {
       "id": "hawke",
       "name": "Hawke",
-      "logo": "",
+      "logo": "images/hawke/Logo Hawke - sem fundo.png",
       "tagline": "Electrifique y Energice — soluciones confiables para infraestructura crítica desde 1888",
       "description": "Hawke es un fabricante británico de renombre mundial, especializado en prensaestopas y accesorios para instalaciones eléctricas en atmósferas explosivas. Con décadas de experiencia, la marca es referencia en seguridad y confiabilidad para los sectores de petróleo y gas, petroquímico, minería y energía.\n\nSus productos están certificados según las normas internacionales más rigurosas (IECEx, ATEX), garantizando protección contra explosiones en ambientes clasificados. La línea RCG (Resin Cable Gland) es uno de los buques insignia de la marca, ofreciendo sellado con resina para aplicaciones críticas donde la integridad del cable es esencial.\n\nHawke también posee credenciales aeroespaciales, con soluciones probadas y aprobadas para uso en condiciones extremas — incluyendo aplicaciones espaciales — lo que demuestra la robustez y la calidad de ingeniería que hacen de sus prensaestopas la elección preferida de integradores y fabricantes de paneles eléctricos en todo el mundo.",
       "gallery": [
@@ -616,7 +616,7 @@
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "",
+      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
       "tagline": "Líder británica en soluciones hidráulicas industriales de alta presión: herramientas, sistemas de elevación y equipos de torque",
       "description": "Hi-Force es un fabricante británico líder mundial en herramientas hidráulicas de alto torque para los sectores industrial, offshore y de construcción. Fundada en el Reino Unido, la empresa desarrolla equipos de precisión para aplicaciones críticas de atornillado, tensionado, elevación y corte.\n\nCon centros de servicio y distribución en más de 100 países, Hi-Force ofrece tecnología de punta en torquímetros hidráulicos, tensionadores de pernos, gatos de elevación y sistemas de bombeo, garantizando seguridad y productividad en las operaciones más exigentes.",
       "gallery": [
@@ -686,7 +686,7 @@
     {
       "id": "nightstick",
       "name": "Nightstick",
-      "logo": "",
+      "logo": "images/nightstick/Logo Nightstick - sem fundo.png",
       "tagline": "La elección de profesionales de seguridad en todo el mundo en entornos de riesgo extremo",
       "description": "Nightstick es la marca de iluminación profesional de Bayco Products (EE. UU.), especializada en linternas y linternas frontales intrínsecamente seguras (Ex) para áreas clasificadas y entornos de riesgo.\n\nCon certificaciones ATEX, IECEx y Clase I División 1, las linternas Nightstick están diseñadas para profesionales que trabajan en atmósferas explosivas, espacios confinados y operaciones de rescate. La línea incluye modelos recargables, linternas frontales y linternas portátiles con alta durabilidad y rendimiento luminoso.\n\nFabricadas con materiales de ingeniería de alto impacto y resistentes al agua, las linternas Nightstick ofrecen seguridad y confiabilidad para industrias de petróleo y gas, minería, extinción de incendios y servicios de emergencia.",
       "gallery": [
@@ -1230,7 +1230,7 @@
     {
       "id": "rs",
       "name": "RS Components",
-      "logo": "",
+      "logo": "images/rs/Logo RS Components.png",
       "site": "https://br.rsdelivers.com/",
       "categories": [
         "mro"
@@ -1486,7 +1486,7 @@
     {
       "id": "stahl",
       "name": "R. STAHL",
-      "logo": "",
+      "logo": "images/stahl/Logo R. STAHL - sem fundo.png",
       "site": "https://r-stahl.com/en/us/home/",
       "categories": [
         "iluminacao-ex"

@@ -5,11 +5,6 @@
 ## 1. Pendências com o cliente (entregas aguardando arquivos)
 
 ### Atualização de conteúdo — agosto de 2026 (Eaton, R. STAHL, RS, Oliver)
-- [ ] **Logo R. STAHL** (vetor/alta resolução) — aguardando arquivo; fallback textual no app
-- [ ] **Logo RS Components** (vetor/alta resolução) — aguardando arquivo; fallback textual no app
-- [ ] **Logos reais Blinda, Hawke, Hi-Force e Nightstick** — solicitar os arquivos ao cliente; fallback textual no app
-- [ ] **Logo Eaton real** — o arquivo enviado como "logo-eaton.png" era na verdade a logo do Polar Group (agora em images/logo-polar-group.png); Eaton está com fallback textual até o cliente enviar a logo correta
-- [ ] **Logos Blinda, Hawke, Hi-Force, Nightstick, RS e R. STAHL** — `images/placeholder-logo.png` estava corrompido; app agora usa fallback textual (logo vazia nos dados) até o cliente enviar os arquivos reais
 - [ ] **Imagens de produtos faltantes** — ~20 produtos (Hawke, Hi-Force, Nightstick, Parker, Pelican, StopDropp) sem foto real; app usa placeholder animado até envio
 - [ ] **Tagline Chalmit duplicada** — Chalmit usa a mesma tagline da Hawke ("Eletrifique e Energize… desde 1888"), mas a descrição da Chalmit diz "desde 1910"; confirmar com o cliente qual é a tagline correta da Chalmit
 - [ ] **Datasheets Oliver Valves** (~20 PDFs referenciados no doc de conteúdo, ex.: `B10F-Ball-Valve.pdf`, `Y24-Y25-Type.pdf`) — nunca enviados
@@ -56,5 +51,6 @@
 - [x] ~~Vídeo Chalmit (nome com espaço duplo)~~ → resolvido no main com transcodificação/renomeação dos vídeos (nomes ASCII)
 - [x] ~~Vídeo Hi-Force TWH-N (espaço no nome)~~ → resolvido no main com transcodificação/renomeação dos vídeos
 - [x] ~~Logos Blinda/Hawke/Hi-Force/Nightstick quebrados~~ → resolvido no main (placeholder-logo.png até receber os logos reais)
+- [x] ~~Logos faltantes (Blinda, Eaton, Hawke, Hi-Force, Nightstick, RS, R. STAHL)~~ → baixados dos sites oficiais (wikimedia para Eaton, hi-force.com, nightstick.com, us.rs-online.com, r-stahl.com, polarb2b.com para Blinda, ctfassets para Hawke); Nightstick invertido (branco → preto), Hi-Force com fundo removido; dados preenchidos em `companies/pt-BR.json`, `en.json` e `es.json`
 - [x] ~~Auditoria 5 arquivos do cliente~~ → gaps corrigidos: "Powering Business Worldwide" + subtítulo Eaton, recursos inteligentes (Brightlayer/BLE), aplicações e detalhes de engenharia do GHG51, portfólio elétrico Eaton (disjuntores/painéis/proteção), público-alvo R. STAHL, linha Eclipse X (Chalmit), specs completas das válvulas pipeline Oliver (materiais, fire safe, vent, XM-19), tagline Atexxo completa, tagline Home "O produto certo quando você mais precisa"
 - [x] ~~Installer Squirrel truncado (~600 MB)~~ → root cause: `rcedit.exe` (x86) corrompia o `Setup.exe` de ~1,2 GB após o embed do zip (exit 0, zip descartado); corrigido adicionando `rcedit.exe` ao patch LAA em `scripts/patch-squirrel-laa.mjs` (commit `840743a`, já no `main`)
