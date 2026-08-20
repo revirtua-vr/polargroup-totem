@@ -23,17 +23,19 @@ polargroup-totem/
 │   ├── main.tsx                 # Entry — HashRouter wraps App
 │   ├── App.tsx                  # Routes + NavBar + LanguageSwitcher layout
 │   ├── pages/
-│   │   ├── QuemSomos.tsx       # About Polar Group: mission, vision, values
+│   │   ├── Home.tsx             # Home: shared intro column (logo, texts, mission/vision/values popups) + institutional video + animated logo marquee + CTA to Marcas
 │   │   ├── Marcas.tsx          # Grid of 17 company cards with 12 category filter chips (quiz lives in the nav bar)
 │   │   ├── Company.tsx         # Detail view: logo, tagline, description, site link, products, ribbon gallery + catalog CTA
 │   │   ├── Catalogo.tsx        # Full-height PDF catalog page (/marcas/:id/catalogo) — single scroll via PdfViewer
-│   │   ├── Produtos.tsx        # All products aggregated from every company
-│   │   ├── Videos.tsx          # Dedicated Polar Group videos (not company galleries)
-│   │   ├── Contato.tsx         # Address, phone, email, social media
+│   │   ├── Produtos.tsx        # All products aggregated from every company, filtered by the 12 company categories
+│   │   ├── Playlists.tsx       # YouTube-channel-style playlists: player with autoplay sequence + playlist selector + queue
+│   │   ├── Contato.tsx         # Store photo + address, phone, email, social media
 │   │   ├── Quiz.tsx            # 8 multiple-choice questions, scored, ephemeral
 │   ├── components/
 │   │   ├── ui/                 # shadcn/ui primitives (button, card, dialog, scroll-area)
-│   │   ├── NavBar.tsx          # Top navigation: Quem Somos | Marcas | Produtos | Vídeos | Contato
+│   │   ├── NavBar.tsx          # Top navigation: Início | Marcas | Produtos | Playlists | Contato | Quiz
+│   │   ├── PolarIntroColumn.tsx # Intro column on Home: logo, texts, mission/vision/values icon popups (Dialog)
+│   │   ├── LogoMarquee.tsx     # Slow infinite horizontal marquee of company logo chips (click → brand)
 │   │   ├── LanguageSwitcher.tsx # PT/EN/ES toggle (top-right corner)
 │   │   ├── BrandBackground.tsx # Full-screen constellation canvas + brand glow blobs (design)
 │   │   ├── BrandDecor.tsx      # SectionDivider + TargetRings decorative primitives (design)
@@ -43,21 +45,23 @@ polargroup-totem/
 │   ├── data/
 │   │   ├── companies/pt-BR.json # 18 companies: { id, name, logo, description, products[], gallery[] }
 │   │   ├── quiz/pt-BR.json     # 8 questions: { text, options[], correct }
-│   │   └── videos/pt-BR.json   # Dedicated videos: { id, title, src, thumbnail }
+│   │   └── playlists/pt-BR.json # Playlists mirroring the YouTube channel: { playlists: [{ id, title, videos: [{ id, title, src, thumbnail }] }] }
 │   ├── i18n/
 │   │   ├── index.ts            # react-i18next config, loads locale JSON files
 │   │   └── locales/{pt-BR,en,es}/common.json
 │   ├── hooks/
-│   │   └── useIdleTimer.ts     # 180s inactivity → navigate to / (QuemSomos)
+│   │   └── useIdleTimer.ts     # 180s inactivity → navigate to / (Home)
 │   ├── lib/
 │   │   ├── utils.ts            # cn() helper
 │   │   └── leadStore.ts        # Quiz lead persistence: Electron IPC → CSV (userData/leads.csv), web fallback → localStorage
-│   └── index.css               # Tailwind + shadcn CSS variables
+│   └── index.css               # Tailwind + shadcn CSS variables (+ logo-marquee keyframes)
 ├── electron/
 │   ├── main.ts                 # Electron main — fullscreen, kiosk mode, no frame
 │   └── preload.ts              # Exposes platform info
 ├── scripts/
-│   └── translate.ts            # Reads pt-BR JSON, prompts DeepSeek → writes en.json, es.json
+│   ├── translate.ts            # Reads pt-BR JSON, prompts DeepSeek → writes en.json, es.json
+│   ├── download-playlists.ps1  # yt-dlp: downloads all public playlists of the Polar channel → public/videos/playlists/<slug>/
+│   └── compress-videos.ps1     # ffmpeg 2-pass h264 transcode, keeps every video ≤ 24 MiB (Cloudflare Pages limit)
 ├── public/
 │   ├── images/                 # Company logos, gallery images/videos
 │   └── pdfs/                   # Embedded PDF catalogs (e.g. catalogo-blinda.pdf)
@@ -74,13 +78,13 @@ polargroup-totem/
 
 | Path | Page | Description |
 |---|---|---|
-| `/` | QuemSomos | About Polar Group (mission, vision, values) |
+| `/` | Home | Intro column (mission/vision/values popups) + institutional video + animated logo marquee + CTA to Marcas |
 | `/marcas` | Marcas | 17-company card grid with 12 category filter chips (client-defined categories); quiz is a nav tab |
 | `/marcas/:id` | Company | Company detail with products + gallery |
 | `/marcas/:id/catalogo` | Catalogo | Full-height PDF catalog (only when company has `catalog` field) |
-| `/produtos` | Produtos | All products from all companies aggregated |
-| `/videos` | Videos | Dedicated Polar Group videos (not company galleries) |
-| `/contato` | Contato | Address, phone, email, social media |
+| `/produtos` | Produtos | All products from all companies aggregated, filtered by the 12 company categories |
+| `/playlists` | Playlists | YouTube-channel-style playlists: player with autoplay sequence + playlist selector + queue |
+| `/contato` | Contato | Store photo + address, phone, email, social media |
 | `/quiz` | Quiz | Lead form (name/phone/email) → multiple-choice quiz → result screen showing the person's name; lead saved to local CSV (see Key Decisions) |
 
 ## Key Decisions
@@ -95,6 +99,8 @@ polargroup-totem/
 | Brand browsing | Flat grid of 17 brands + 12 category filter chips (data-driven from `categories` array in companies pt-BR.json, labels translated via translate.ts) | Client-defined category map from "Planilha de marcas"; a brand may belong to multiple categories (e.g. Blinda) |
 | PDF catalogs | Optional `catalog` field per company → CTA on Company page opens dedicated full-height `/marcas/:id/catalogo` page rendered by `PdfViewer` (react-pdf) | Blinda catalog: index links must jump to target page; react-pdf LinkService scrolls to target page. Keep this feature — it is data-driven and intentionally maintained |
 | Routing | HashRouter | Works offline in Electron without a server |
+| Playlists | `/playlists` page mirrors the public playlists of the Polar YouTube channel (@PolarComponentesBrasil): player with autoplay sequence, playlist selector and queue; videos downloaded with yt-dlp into `public/videos/playlists/<slug>/` and transcoded via `compress-videos.ps1` (≤24 MiB each) | Client asked for the same structure as the channel; kiosk must stay fully offline |
+| Branding | Visible strings always use "Polar Group" (never "Grupo Polar"), page titles include the brand (e.g. "Contato — Polar Group") | Client feedback: brand consistency |
 | Project location | Standalone at `C:\Users\Lucas\polargroup-totem` | Not coupled to CRM monorepo |
 
 ## Scripts
@@ -143,7 +149,7 @@ the look changes.
 
 ## i18n Content Workflow
 
-1. Edit `src/data/companies/pt-BR.json`, `src/data/quiz/pt-BR.json`, and `src/data/videos/pt-BR.json`
+1. Edit `src/data/companies/pt-BR.json`, `src/data/quiz/pt-BR.json`, and `src/data/playlists/pt-BR.json` (playlist/video titles mirror the YouTube channel and are not translated)
 2. Edit UI strings in `src/i18n/locales/pt-BR/common.json`
 3. Run `pnpm translate` (requires `DEEPSEEK_API_KEY` env var)
 4. Manually review `en/common.json` and `es/common.json`
@@ -193,14 +199,18 @@ Notes: 17 companies (Eaton, R. STAHL and RS Components included; "Oliver Twinsaf
 }
 ```
 
-**Videos data shape** (`src/data/videos/pt-BR.json`):
+**Playlists data shape** (`src/data/playlists/pt-BR.json`):
 ```json
 {
-  "videos": [{
-    "id": "v1",
-    "title": "Video Title",
-    "src": "videos/clip.mp4",
-    "thumbnail": "images/thumb.jpg"
+  "playlists": [{
+    "id": "playlist-slug",
+    "title": "Playlist Title (mirrors YouTube channel)",
+    "videos": [{
+      "id": "video-slug",
+      "title": "Video Title",
+      "src": "videos/playlists/<slug>/clip.mp4",
+      "thumbnail": "videos/playlists/<slug>/clip.jpg"
+    }]
   }]
 }
 ```
