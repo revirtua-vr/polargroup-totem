@@ -1,7 +1,6 @@
 {
   "nav": {
     "home": "Inicio",
-    "quemSomos": "Quiénes Somos",
     "marcas": "Marcas",
     "produtos": "Productos",
     "videos": "Vídeos",
@@ -12,14 +11,14 @@
   "home": {
     "brandsTitle": "Nuestras marcas en movimiento",
     "brandsSubtitle": "Toque en un logo para abrir la marca o vea la lista completa",
-    "viewBrands": "Ver todas las marcas"
+    "viewBrands": "Ver todas las marcas",
+    "institutionalVideo": "Video institucional"
   },
   "quemSomos": {
     "title": "Polar Group",
     "subtitle": "El producto adecuado cuando más lo necesitas",
     "paragraph1": "Fundada en 1992 en Macaé, Río de Janeiro, Polar Group es proveedora de componentes eléctricos, electrónicos y de automatización, con actuación especializada en áreas clasificadas y atmósferas explosivas.",
     "paragraph2": "Trabajamos con materiales \"Ex\" de los principales fabricantes mundiales. Presentes en 3 estados brasileños y en Europa, nuestro equipo está entrenado y comprometido con el éxito del cliente, listo para entregar en cualquier lugar.",
-    "institutionalVideo": "Video institucional",
     "missionTitle": "Misión",
     "missionText": "Suministrar componentes eléctricos, electrónicos y de automatización de excelencia para áreas clasificadas, garantizando seguridad y confiabilidad a nuestros clientes.",
     "visionTitle": "Visión",

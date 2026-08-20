@@ -69,14 +69,14 @@ function LeadForm({ onStart }: { onStart: (data: Omit<QuizLead, 'timestamp'>) =>
 
   return (
     <div className="h-full flex flex-col">
-      <header className="text-center pt-12 pb-6 px-4 flex-shrink-0">
+      <header className="text-center pt-10 pb-6 px-4 flex-shrink-0">
         <p className="micro-label mb-3">{t('nav.quiz')}</p>
-        <h1 className="text-2xl font-bold">{t('quiz.title')}</h1>
-        <p className="text-muted-foreground mt-1">{t('quiz.leadSubtitle')}</p>
+        <h1 className="text-3xl font-bold">{t('quiz.title')}</h1>
+        <p className="text-muted-foreground mt-2 text-lg">{t('quiz.leadSubtitle')}</p>
       </header>
 
-      <div className="flex-1 overflow-y-auto px-4 pb-24">
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto" noValidate>
+      <div className="flex-1 min-h-0 overflow-y-auto flex px-4 pb-10">
+        <form onSubmit={handleSubmit} className="m-auto w-full max-w-lg" noValidate>
           <Card className="hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6 flex flex-col gap-5">
               <div className="flex flex-col gap-2">
@@ -268,8 +268,8 @@ export default function Quiz() {
         </div>
       </header>
 
-      <div className="flex-1 overflow-y-auto px-4 pb-6">
-        <div className="max-w-2xl mx-auto">
+      <div className="flex-1 min-h-0 overflow-y-auto flex px-4 pb-8">
+        <div className="m-auto w-full max-w-2xl">
           <Card key={current} className="mb-4 hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6">
               <p className="text-lg font-medium mb-4">{question.text}</p>

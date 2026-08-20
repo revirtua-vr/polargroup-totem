@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 
 const navItems = [
-  { path: '/', labelKey: 'quemSomos' },
+  { path: '/', labelKey: 'home' },
   { path: '/marcas', labelKey: 'marcas' },
   { path: '/produtos', labelKey: 'produtos' },
   { path: '/videos', labelKey: 'videos' },

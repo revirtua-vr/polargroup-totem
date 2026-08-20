@@ -49,6 +49,7 @@ export function BrandLogo({ src, name, className, imageClassName }: BrandLogoPro
       <img
         src={src}
         alt={name}
+        draggable={false}
         onError={() => setFailed(true)}
         className={cn('h-full w-full object-contain', imageClassName)}
       />
