@@ -1,6 +1,7 @@
 import { app, BrowserWindow, ipcMain, screen } from 'electron'
 import fs from 'fs'
 import path from 'path'
+import { execFile } from 'child_process'
 
 let mainWindow: BrowserWindow | null = null
 
@@ -38,6 +39,36 @@ function registerLeadHandlers() {
   })
 }
 
+function ensureOskAutoInvoke() {
+  if (process.platform !== 'win32') return
+
+  execFile(
+    'reg',
+    [
+      'add',
+      'HKCU\\Software\\Microsoft\\TabletTip\\1.7',
+      '/v',
+      'EnableDesktopModeAutoInvoke',
+      '/t',
+      'REG_DWORD',
+      '/d',
+      '1',
+      '/f',
+    ],
+    (error) => {
+      if (error) {
+        console.error('OSK auto-invoke registry write failed:', error.message)
+        return
+      }
+      execFile('taskkill', ['/IM', 'TabTip.exe', '/F'], (killError) => {
+        if (killError && !killError.message.includes('not found')) {
+          console.error('Failed to restart TabTip.exe:', killError.message)
+        }
+      })
+    },
+  )
+}
+
 function createWindow() {
   const { width, height } = screen.getPrimaryDisplay().workAreaSize
 
@@ -69,6 +100,7 @@ function createWindow() {
 
 app.whenReady().then(() => {
   registerLeadHandlers()
+  ensureOskAutoInvoke()
   createWindow()
 })
 

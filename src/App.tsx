@@ -5,6 +5,7 @@ import { NavBar } from '@/components/NavBar'
 import { PageTransition } from '@/components/PageTransition'
 import { BrandBackground } from '@/components/BrandBackground'
 import { KioskQrCode } from '@/components/KioskQrCode'
+import { OskBridge } from '@/components/OskBridge'
 import QuemSomos from '@/pages/QuemSomos'
 import Marcas from '@/pages/Marcas'
 import Company from '@/pages/Company'
@@ -22,6 +23,7 @@ export default function App() {
     <div className="h-full flex flex-col">
       <BrandBackground />
       <KioskQrCode />
+      <OskBridge />
       <div className="relative z-10 flex flex-col h-full">
         <div className="relative">
           <LanguageSwitcher />
