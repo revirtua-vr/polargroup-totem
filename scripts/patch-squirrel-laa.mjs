@@ -5,6 +5,7 @@ const TARGETS = [
   'node_modules/electron-winstaller/vendor/WriteZipToSetup.exe',
   'node_modules/electron-winstaller/vendor/Setup.exe',
   'node_modules/electron-winstaller/vendor/StubExecutable.exe',
+  'node_modules/electron-winstaller/vendor/rcedit.exe',
 ]
 
 const LAA_FLAG = 0x0020
