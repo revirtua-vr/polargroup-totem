@@ -26,6 +26,7 @@
 - [ ] **Material Proserv** — planilha marca "Não usar o enviado"
 - [ ] **Material Oliver** — planilha marca "Material a ser enviado" (recebido depois via docx — confirmar se cobre tudo)
 - [ ] **Vídeos adicionais** — planilha menciona vídeos a enviar para algumas marcas (ex.: Pelican "vídeos a enviar", Blinda "Usar o vídeo institucional Blinda")
+- [ ] **Playlists para marcas ainda sem playlist no canal YouTube** — a página Playlists espelha as playlists públicas de @PolarComponentesBrasil, mas Blinda, Eaton, Oliver, Parker, Proserv, RS, R. STAHL e Stopdropp ainda não têm playlist própria no canal; confirmar com o cliente se serão criadas
 
 ## 2. Ativos quebrados pré-existentes (faltando no repositório)
 
@@ -35,7 +36,6 @@
 
 - [ ] **Integração em nuvem dos leads do quiz** — cadastro pré-quiz (nome/telefone/e-mail) salvo hoje em `leads.csv` local (Electron, pasta userData) ou localStorage (web); depois integrar com sistema em nuvem.
 - [ ] **Estrutura de categorias** — cliente pediu na planilha: 12 categorias na 1ª página → subcategorias após clique. Implementado como filtros na página Marcas; se o cliente quiser o fluxo literal (categoria → lista de subcategorias → marca), reavaliar.
-- [ ] **Vídeo institucional Polar Group na Home** — planilha define Home = vídeo institucional + tagline; a tagline "O produto certo quando você mais precisa" já está no subtítulo da Home, mas o vídeo ainda aparece só na página Vídeos.
 - [ ] **Strings de tela RS** — doc define CTA "Toque para explorar as categorias", cabeçalho "Explore as categorias RS" e aviso "Produto representativo — consulte especificações e disponibilidade no site"; não implementados (aplicável se o cliente pedir o fluxo de vitrine da RS).
 - [ ] **Tabela de especificações R. STAHL "colorida"** — specs estão em texto nas descrições dos produtos; cliente pediu tabela visual.
 - [ ] **Categoria do R. STAHL** — planilha coloca Stahl em "Iluminação Ex" (bloco 3); auditores apontaram que plugues/tomadas talvez fiquem melhor em "Equipamentos Ex" — confirmar com cliente.
@@ -55,3 +55,9 @@
 - [x] ~~Auditoria 5 arquivos do cliente~~ → gaps corrigidos: "Powering Business Worldwide" + subtítulo Eaton, recursos inteligentes (Brightlayer/BLE), aplicações e detalhes de engenharia do GHG51, portfólio elétrico Eaton (disjuntores/painéis/proteção), público-alvo R. STAHL, linha Eclipse X (Chalmit), specs completas das válvulas pipeline Oliver (materiais, fire safe, vent, XM-19), tagline Atexxo completa, tagline Home "O produto certo quando você mais precisa"
 - [x] ~~Installer Squirrel truncado (~600 MB)~~ → root cause: `rcedit.exe` (x86) corrompia o `Setup.exe` de ~1,2 GB após o embed do zip (exit 0, zip descartado); corrigido adicionando `rcedit.exe` ao patch LAA em `scripts/patch-squirrel-laa.mjs` (commit `840743a`, já no `main`)
 - [x] ~~12 vídeos acima de 25 MiB bloqueavam o deploy do Cloudflare Pages~~ → limite do Pages é 25 MiB por arquivo; transcodificados com `scripts/compress-videos.ps1` (h264 two-pass, ≤24 MB, 720p para clipes longos). **Novos vídeos do cliente devem passar por esse script antes de commit** — caso contrário o deploy web falha na validação de assets.
+- [x] ~~Vídeo institucional Polar Group fora da Home~~ → nova Home com coluna compartilhada + marquee de logos; Quem Somos reformulado em duas colunas com vídeo institucional à direita e popups de Missão/Visão/Valores à esquerda
+- [x] ~~Vídeos Blinda na página Vídeos~~ → os 2 vídeos "Blinda 2026" (FULLHD + legenda) foram movidos para a galeria da Blinda
+- [x] ~~Página Vídeos~~ → substituída pela página Playlists, que espelha as playlists públicas do canal @PolarComponentesBrasil (vídeos baixados com `scripts/download-playlists.ps1` + yt-dlp e transcodificados para ≤24 MiB)
+- [x] ~~Dados de contato desatualizados~~ → atualizados com endereço/telefones/e-mails reais do site polarb2b.com + foto da loja
+- [x] ~~"Grupo Polar" em strings visíveis~~ → padronizado "Polar Group" (pt-BR, en, es)
+- [x] ~~Logos com problema~~ → Parker e Hi-Force substituídos pelos arquivos oficiais originais sem efeitos (parker.com `parker_logo.png` e hi-force.com `logo-white.jpg`); margens transparentes verticais/horizontais removidas de Chalmit, Dropsafe, Oliver, Proserv, Pelican, SA Equip, Stopdropp e Vantrunk

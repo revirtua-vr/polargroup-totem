@@ -54,6 +54,10 @@
     user-select: none;
     overscroll-behavior: none;
   }
+  img {
+    -webkit-user-drag: none;
+    user-drag: none;
+  }
   ::selection {
     background: var(--brand-red);
     color: #ffffff;
@@ -145,6 +149,14 @@
   to {
     background-position: 68px 68px;
   }
+}
+
+.logo-marquee {
+  touch-action: pan-y;
+}
+
+.logo-marquee-track {
+  will-change: transform;
 }
 
 @media (prefers-reduced-motion: reduce) {

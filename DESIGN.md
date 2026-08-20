@@ -63,7 +63,9 @@ Palette rules:
 |---|---|---|
 | `BrandBackground` | `src/components/BrandBackground.tsx` | Fixed full-screen canvas behind the app: drifting dots ("constellation") with distance-linked lines, ~12% red + ~4% white glowing nodes, plus two radial glow blobs (red top-left, navy bottom-right). Mounted once in `App.tsx`. |
 | `SectionDivider` | `src/components/BrandDecor.tsx` | Dashed horizontal line ending in a red dot + short gray dash. Use under page titles and section headers. |
-| `TargetRings` | `src/components/BrandDecor.tsx` | Concentric dashed/solid circles (one slowly rotating) with a red center dot. Used behind the QuemSomos hero. |
+| `TargetRings` | `src/components/BrandDecor.tsx` | Concentric dashed/solid circles (one slowly rotating) with a red center dot. Decorative option for hero areas. |
+| `PolarIntroColumn` | `src/components/PolarIntroColumn.tsx` | Intro column on Home: Polar logo, tagline, two paragraphs and three icon buttons (Missão `Target`, Visão `Eye`, Valores `HeartHandshake`) opening content popups via `Dialog`. |
+| `LogoMarquee` | `src/components/LogoMarquee.tsx` | Horizontal marquee of company logo chips (click → brand page). JS-driven: rAF auto-scroll at 40 px/s, pointer drag on touch/mouse (click suppressed after drag >8 px), pauses on hover, static under `prefers-reduced-motion` (drag still works). |
 | `.hud-corners` | utility in `src/index.css` | Red corner brackets on cards via pseudo-elements. `hud-corners` = on hover; add `hud-corners-visible` to always show. |
 | `.glow-red` | utility | Soft red box-shadow for active/hover emphasis (nav indicator, quiz buttons, video play badge). |
 | `.text-glow` | utility | Red text-shadow for emphasized text (quiz result line). |
@@ -90,6 +92,21 @@ Palette rules:
   rounded-md` with `primary/40` focus ring; validation errors use `text-brand-yellow` (red is
   never used for errors).
 - **Dialogs/lightbox**: black (`bg-black/95`), unchanged — media should not be tinted.
+- **Two-column Home**: `min-h-full flex flex-col justify-center` inside the page
+  `ScrollArea` so content is vertically centered on big kiosk screens (70") with no visible
+  scrollbar, but still scrolls on small screens; content capped at `max-w-[1800px]` and scaled up
+  (logo `h-40`, headings `text-3xl`, body `text-lg/xl`). `PolarIntroColumn` on the left; on the
+  right, top to bottom: institutional video, "Nossas marcas em movimento" heading, logo marquee
+  and the Marcas CTA.
+- **Icon popups** (Missão/Visão/Valores): three equal `hud-corners` icon buttons in a
+  `grid-cols-3` row inside `PolarIntroColumn`; tapping opens a standard (dark) `Dialog` with
+  the section title (red square bullet) and full text.
+- **Playlists page**: player fills the remaining space on the left (`flex-1`, `object-contain` on
+  black) with prev/next controls below; a right sidebar (fixed ~420px) holds the playlist chips +
+  scrollable queue (current item gets `border-brand-red/60 glow-red`). No page-level scrollbar.
+- **Contato**: portrait store photo on the left (`max-h-[62vh]`), right column is a 2-col grid of
+  info chips — `hud-corners-visible` cards with a round `bg-primary/10 ring-primary/40` icon chip
+  (MapPin/Building2/Globe/Phone/Mail/MessageCircle) + title + text.
 - **PdfViewer**: dark chrome; PDF canvas area uses `bg-brand-gray-5/40` so white PDF pages pop
   with a dark shadow.
 
@@ -97,8 +114,10 @@ Palette rules:
 
 - The kiosk runs all day on a touchscreen — keep animations **slow and subtle**.
   - Background dots drift at ~0.04–0.14 px/frame; anything faster feels jittery.
+  - Logo marquee: JS-driven at 40 px/s, pauses on hover and while dragging.
   - Canvas pauses when `document.hidden`; DPR capped at 2; dot count scales with viewport area.
-- Respect `prefers-reduced-motion` (`motion-reduce:` variants on animations).
+- Respect `prefers-reduced-motion` (`motion-reduce:` variants on animations; the marquee
+  auto-scroll is disabled but touch drag still works).
 - The existing 180s idle timer (→ home) already mitigates burn-in; don't add bright
   high-contrast static elements.
 - Touch targets stay ≥44px (Button min-height is enforced in the button variant).

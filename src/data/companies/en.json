@@ -195,6 +195,16 @@
           "type": "video",
           "src": "videos/blinda/BL_prensa cabos.mp4",
           "thumbnail": "images/blinda/thumbs/BL_prensa cabos.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/institucional/FULLHD - BLINDA 2026 PORT.mp4",
+          "thumbnail": "images/institucional/thumbs/FULLHD - BLINDA 2026 PORT.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/institucional/SD - BLINDA 2026 PORT com LEG_PORT.mp4",
+          "thumbnail": "images/institucional/thumbs/SD - BLINDA 2026 PORT com LEG_PORT.jpg"
         }
       ],
       "catalog": {
@@ -616,7 +626,7 @@
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
+      "logo": "images/hi-force/logo-white.jpg",
       "tagline": "British leader in high-pressure industrial hydraulic solutions: tools, lifting systems and torque equipment",
       "description": "Hi-Force is a leading British manufacturer of high-torque hydraulic tools for the industrial, offshore and construction sectors. Founded in the United Kingdom, the company develops precision equipment for critical bolting, tensioning, lifting and cutting applications.\n\nWith service centers and distribution in more than 100 countries, Hi-Force offers cutting-edge technology in hydraulic torque wrenches, bolt tensioners, lifting jacks and pumping systems, ensuring safety and productivity in the most demanding operations.",
       "gallery": [
@@ -1102,7 +1112,7 @@
     {
       "id": "parker",
       "name": "Parker",
-      "logo": "images/parker/Logo Parker - Sem fundo.png",
+      "logo": "images/parker/parker_logo.png",
       "tagline": "Versatility and reliability in high-pressure connections",
       "description": "Parker Hannifin is a global leader in motion and control technologies, providing hydraulic, pneumatic, and electromechanical solutions for a wide range of industries. With a presence in more than 50 countries, Parker develops components and systems that increase the productivity and efficiency of machines and equipment.\n\nIn Grupo Polar's portfolio, Parker products include hoses, fittings, valves, and filtration systems for industrial applications, meeting the most rigorous quality and safety standards.",
       "gallery": [],

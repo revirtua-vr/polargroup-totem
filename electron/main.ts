@@ -7,6 +7,8 @@ let mainWindow: BrowserWindow | null = null
 
 const isDev = !app.isPackaged
 
+app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required')
+
 interface QuizLeadPayload {
   name?: unknown
   phone?: unknown

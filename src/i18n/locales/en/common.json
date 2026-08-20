@@ -1,11 +1,17 @@
 {
   "nav": {
-    "quemSomos": "About Us",
+    "home": "Home",
     "marcas": "Brands",
     "produtos": "Products",
-    "videos": "Videos",
+    "playlists": "Playlists",
     "contato": "Contact",
     "quiz": "Quiz"
+  },
+  "home": {
+    "brandsTitle": "Our brands in motion",
+    "brandsSubtitle": "Tap a logo to open the brand or see the full list",
+    "viewBrands": "See all brands",
+    "institutionalVideo": "Institutional video"
   },
   "quemSomos": {
     "title": "Polar Group",
@@ -37,13 +43,27 @@
     "all": "All",
     "empty": "No products registered"
   },
-  "videos": {
-    "title": "Videos",
-    "subtitle": "Discover Polar Group in motion"
+  "playlists": {
+    "title": "Playlists",
+    "subtitle": "Explore Polar Group videos organized by playlist",
+    "empty": "No playlists available"
   },
   "contato": {
-    "title": "Contact",
-    "subtitle": "Get in touch with Polar Group"
+    "title": "Contact — Polar Group",
+    "subtitle": "Get in touch with Polar Group",
+    "matrizTitle": "Headquarters — Macaé, RJ",
+    "matrizAddress": "Av. Nossa Senhora da Glória, 1395\nZIP: 27920-360 – Cavaleiros\nMacaé – RJ, Brazil",
+    "serraTitle": "Branch — Serra, ES",
+    "serraAddress": "Av. Talma Rodrigues Ribeiro, 1781\nZIP: 28168-089 – Bela Vista\nSerra – ES, Brazil",
+    "ukTitle": "Polar Europe — London, UK",
+    "ukAddress": "48 Warwick Street\nLondon, England – W1B 5AW",
+    "phoneTitle": "Phones",
+    "phone": "+55 (22) 2105-7777 — Macaé - RJ\n+55 (22) 2105-7777 — Serra - ES\n+44 20 7193-2280 — London – UK",
+    "emailTitle": "E-mails",
+    "email": "vendas@polarb2b.com — quotes\nsales@polarb2b.com — international",
+    "webTitle": "Digital channels",
+    "web": "WhatsApp: +55 22 99205-1539\nE-commerce: polarb2b.store\nWebsite: polarb2b.com",
+    "photoAlt": "Polar Group store"
   },
   "company": {
     "back": "Back",

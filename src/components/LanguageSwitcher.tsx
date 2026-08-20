@@ -13,7 +13,7 @@ function FlagFrame({ children }: { children: ReactNode }) {
     <svg
       viewBox="0 0 24 18"
       aria-hidden="true"
-      className="h-4 w-5 shrink-0 rounded-[3px] ring-1 ring-black/20"
+      className="h-5 w-7 shrink-0 rounded-[3px] ring-1 ring-black/20"
     >
       {children}
     </svg>
@@ -77,15 +77,15 @@ export function LanguageSwitcher() {
   const { i18n } = useTranslation()
 
   return (
-    <div className="absolute top-4 right-4 z-50 flex gap-1">
+    <div className="absolute top-4 right-4 z-50 flex gap-1.5">
       {languages.map((lang) => (
         <button
           key={lang.code}
           onClick={() => i18n.changeLanguage(lang.code)}
           className={cn(
-            'flex items-center gap-1.5 px-2 py-1 text-xs font-medium rounded-md transition-colors',
+            'flex items-center gap-1.5 px-3 py-1.5 text-sm font-semibold rounded-md transition-colors min-h-[36px]',
             i18n.language === lang.code
-              ? 'bg-primary text-primary-foreground'
+              ? 'bg-primary text-primary-foreground glow-red'
               : 'bg-muted text-muted-foreground hover:bg-accent',
           )}
         >

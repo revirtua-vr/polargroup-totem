@@ -195,6 +195,16 @@
           "type": "video",
           "src": "videos/blinda/BL_prensa cabos.mp4",
           "thumbnail": "images/blinda/thumbs/BL_prensa cabos.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/institucional/FULLHD - BLINDA 2026 PORT.mp4",
+          "thumbnail": "images/institucional/thumbs/FULLHD - BLINDA 2026 PORT.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/institucional/SD - BLINDA 2026 PORT com LEG_PORT.mp4",
+          "thumbnail": "images/institucional/thumbs/SD - BLINDA 2026 PORT com LEG_PORT.jpg"
         }
       ],
       "products": [
@@ -616,7 +626,7 @@
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "images/hi-force/Logo Hi-Force - sem fundo.png",
+      "logo": "images/hi-force/logo-white.jpg",
       "tagline": "Líder britânica em soluções hidráulicas industriais de alta pressão: ferramentas, sistemas de elevação e equipamentos de torque",
       "description": "A Hi-Force é fabricante britânica líder mundial em ferramentas hidráulicas de alto torque para os setores industrial, offshore e de construção. Fundada no Reino Unido, a empresa desenvolve equipamentos de precisão para aplicações críticas de aparafusamento, tensionamento, elevação e corte.\n\nCom centros de serviço e distribuição em mais de 100 países, a Hi-Force oferece tecnologia de ponta em torquímetros hidráulicos, tensionadores de parafusos, macacos de elevação e sistemas de bombeamento, garantindo segurança e produtividade nas operações mais exigentes.",
       "gallery": [
@@ -1102,7 +1112,7 @@
     {
       "id": "parker",
       "name": "Parker",
-      "logo": "images/parker/Logo Parker - Sem fundo.png",
+      "logo": "images/parker/parker_logo.png",
       "tagline": "Versatilidade e confiabilidade em conexões de alta pressão",
       "description": "A Parker Hannifin é líder global em tecnologias de movimento e controle, fornecendo soluções hidráulicas, pneumáticas e eletromecânicas para uma ampla gama de indústrias. Com presença em mais de 50 países, a Parker desenvolve componentes e sistemas que aumentam a produtividade e a eficiência de máquinas e equipamentos.\n\nNo portfólio do Grupo Polar, os produtos Parker incluem mangueiras, conexões, válvulas e sistemas de filtragem para aplicações industriais, atendendo aos mais rigorosos padrões de qualidade e segurança.",
       "gallery": [],
