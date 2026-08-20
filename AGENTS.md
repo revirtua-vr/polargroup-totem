@@ -181,9 +181,16 @@ Two workflows in `.github/workflows/`:
 | Workflow | Trigger | What it does |
 |---|---|---|
 | `ci.yml` | push/PR to `main` | lint → type-check → Vite build |
-| `release.yml` | `v*` tag push | Builds EXE (Windows) + Docker image (Linux), creates GitHub Release with EXE attached |
+| `release.yml` | push to `main` | Builds EXE (Windows) + Docker image, updates the rolling "Latest build" GitHub Release with EXE attached. Docker tags: `main`, `sha-<short>`, `latest` |
+| `release.yml` | `v*` tag push | Same as above, but creates a versioned GitHub Release. Docker tags: `v1.0.0`, `1.0`, `latest` |
 
-### Creating a Release
+### Automatic Releases
+
+Every commit pushed to `main` automatically:
+1. Builds the Windows EXE via Electron Forge → attaches to the rolling ["Latest build"](https://github.com/revirtua-vr/polargroup-totem/releases/tag/latest) release (tag `latest` is force-moved to the new commit)
+2. Builds & pushes Docker image to `ghcr.io/revirtua-vr/polargroup-totem` with tags: `main`, `sha-<short>`, `latest`
+
+### Creating a Versioned Release
 
 ```bash
 git tag v1.0.0
