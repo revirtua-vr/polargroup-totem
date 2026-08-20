@@ -162,7 +162,7 @@
     {
       "id": "blinda",
       "name": "Blinda",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "Conte com a Blinda e seu portfólio de soluções para atmosferas explosivas",
       "description": "Há mais de 60 anos, a Blinda é referência nacional em equipamentos elétricos à prova de explosão (Ex), atendendo com excelência os setores de óleo e gás, petroquímico, siderúrgico e de mineração. Seu portfólio abrange caixas de ligação, painéis de comando, botoeiras, prensa-cabos, sinalizadores e uma linha completa de conexões e acessórios certificados.\n\nCom certificações INMETRO, IECEx e ATEX, a Blinda é a única empresa no Brasil autorizada a utilizar componentes CEAG em seus projetos, garantindo padrão internacional de qualidade e segurança. Todos os produtos são fabricados com materiais de alta resistência — alumínio copper free, aço inoxidável 304/316L e poliéster reforçado com fibra de vidro (GRP) — assegurando proteção IP66/W e classe de temperatura de -60 °C a +110 °C.\n\nLocalizada em Votorantim (SP), a Blinda integra o Polar Components Group, oferecendo soluções completas em equipamentos Ex para atmosferas explosivas, com suporte técnico especializado e fabricação sob encomenda para atender às mais rigorosas especificações da indústria.",
       "gallery": [
@@ -500,7 +500,7 @@
     {
       "id": "eaton",
       "name": "Eaton",
-      "logo": "images/eaton/logo-eaton.png",
+      "logo": "",
       "site": "https://www.eaton.com/",
       "categories": [
         "iluminacao-ex"
@@ -574,7 +574,7 @@
     {
       "id": "hawke",
       "name": "Hawke",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "Eletrifique e Energize — soluções confiáveis para infraestrutura crítica desde 1888",
       "description": "A Hawke é uma fabricante britânica de renome mundial, especializada em prensa-cabos e acessórios para instalações elétricas em atmosferas explosivas. Com décadas de experiência, a marca é referência em segurança e confiabilidade para os setores de óleo e gás, petroquímico, mineração e energia.\n\nSeus produtos são certificados conforme as normas internacionais mais rigorosas (IECEx, ATEX), garantindo proteção contra explosões em ambientes classificados. A linha RCG (Resin Cable Gland) é um dos carros-chefe da marca, oferecendo vedação com resina para aplicações críticas onde a integridade do cabo é essencial.\n\nA Hawke também possui credenciais aeroespaciais, com soluções testadas e aprovadas para uso em condições extremas — incluindo aplicações espaciais — comprovando a robustez e a qualidade de engenharia que tornam seus prensa-cabos a escolha preferida de integradores e montadoras de painéis elétricos em todo o mundo.",
       "gallery": [
@@ -599,13 +599,13 @@
           "id": "hawke-1",
           "name": "Prensa-Cabos RCG 501",
           "description": "Prensa-cabos com vedação em resina da linha RCG, projetado para instalações em áreas classificadas e atmosferas explosivas. Certificação IECEx e ATEX. Ideal para aplicações críticas em óleo e gás, petroquímica e mineração.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hawke-2",
           "name": "Prensa-Cabos Ex",
           "description": "Linha completa de prensa-cabos à prova de explosão para ambientes Ex d, Ex e e Ex nR. Atende normas internacionais com construção robusta em latão niquelado ou aço inoxidável, garantindo segurança e durabilidade em condições extremas.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ],
       "site": "https://www.hubbell.com/hawke/en",
@@ -616,7 +616,7 @@
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "Líder britânica em soluções hidráulicas industriais de alta pressão: ferramentas, sistemas de elevação e equipamentos de torque",
       "description": "A Hi-Force é fabricante britânica líder mundial em ferramentas hidráulicas de alto torque para os setores industrial, offshore e de construção. Fundada no Reino Unido, a empresa desenvolve equipamentos de precisão para aplicações críticas de aparafusamento, tensionamento, elevação e corte.\n\nCom centros de serviço e distribuição em mais de 100 países, a Hi-Force oferece tecnologia de ponta em torquímetros hidráulicos, tensionadores de parafusos, macacos de elevação e sistemas de bombeamento, garantindo segurança e produtividade nas operações mais exigentes.",
       "gallery": [
@@ -651,31 +651,31 @@
           "id": "hi-1",
           "name": "Torquímetro Hidráulico TWH-N",
           "description": "Torquímetro hidráulico de baixo perfil para aplicações industriais de aparafusamento controlado com alta precisão de torque. Ideal para flanges, vasos de pressão e conexões críticas.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-2",
           "name": "Sistema de Elevação Toughlift",
           "description": "Macaco hidráulico autônomo de elevação controlada para cargas pesadas. Ideal para ambientes industriais e de manutenção. Operação segura e precisa com acionamento hidráulico.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-3",
           "name": "Sistema de Tensionamento APP",
           "description": "Bomba de alta pressão para tensionamento simultâneo de múltiplos parafusos em aplicações como flanges e vasos de pressão. Precisão e controle para operações críticas de boltagem.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-4",
           "name": "Sistema de Levantamento JAS",
           "description": "Sistema modular de elevação hidráulica sincronizada para movimentação e posicionamento preciso de grandes estruturas. Controle centralizado de múltiplos pontos de elevação.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-5",
           "name": "Macaco Hidráulico Industrial",
           "description": "Cilindros hidráulicos de simples e dupla ação com capacidades de 10 a 1.000 toneladas para elevação e posicionamento de cargas. Construção robusta para uso industrial contínuo.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ],
       "site": "https://www.hi-force.com/",
@@ -686,7 +686,7 @@
     {
       "id": "nightstick",
       "name": "Nightstick",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "A escolha de profissionais de segurança no mundo todo em ambientes de risco extremo",
       "description": "Nightstick é a marca de iluminação profissional da Bayco Products (EUA), especializada em lanternas e lanternas de cabeça intrinsecamente seguras (Ex) para áreas classificadas e ambientes de risco.\n\nCom certificações ATEX, IECEx e Class I Division 1, as lanternas Nightstick são projetadas para profissionais que trabalham em atmosferas explosivas, espaços confinados e operações de resgate. A linha inclui modelos recarregáveis, lanternas de cabeça e lanternas portáteis com alta durabilidade e desempenho luminoso.\n\nFabricadas com materiais de engenharia de alto impacto e à prova d'água, as lanternas Nightstick oferecem segurança e confiabilidade para indústrias de petróleo e gás, mineração, combate a incêndios e serviços de emergência.",
       "gallery": [
@@ -716,19 +716,19 @@
           "id": "xpp-5454g",
           "name": "Lanterna de Cabeça XPP-5454G",
           "description": "Lanterna de cabeça intrinsecamente segura com certificação Class I Division 1. Projetada para trabalho em espaços confinados e áreas classificadas com risco de explosão. Mãos livres com alto desempenho luminoso.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "xpr-5584-gmx",
           "name": "Lanterna Recarregável XPR-5584 GMX",
           "description": "Lanterna portátil recarregável intrinsecamente segura com certificação ATEX/IECEx. Bateria de longa duração com alto desempenho luminoso para operações em atmosferas explosivas.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "lanternas-ex",
           "name": "Lanternas Ex à Prova de Explosão",
           "description": "Linha completa de lanternas portáteis certificadas para atmosferas explosivas (Ex). Modelos com diferentes potências e autonomias para aplicações em petróleo e gás, mineração e resgate.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ],
       "site": "https://www.nightstick.com/",
@@ -1111,19 +1111,19 @@
           "id": "par-1",
           "name": "Mangueiras e Conexões Hidráulicas",
           "description": "Mangueiras de alta pressão e conexões para sistemas hidráulicos industriais e móveis. Ampla gama de diâmetros e materiais para diferentes fluidos e temperaturas.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "par-2",
           "name": "Válvulas e Atuadores",
           "description": "Válvulas direcionais, proporcionais e atuadores pneumáticos e hidráulicos para controle preciso de movimento em máquinas e processos industriais.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "par-3",
           "name": "Sistemas de Filtragem",
           "description": "Filtros hidráulicos e sistemas de monitoramento de contaminação para garantir a vida útil e a confiabilidade de sistemas hidráulicos.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ],
       "site": "https://www.parker.com/us/en/home.html",
@@ -1159,19 +1159,19 @@
           "id": "pel-1",
           "name": "Cases de Proteção",
           "description": "Cases de alto impacto com certificação IP67, à prova d'água, poeira e quedas. Proteção definitiva para equipamentos eletrônicos, armamentos, instrumentos científicos e equipamentos fotográficos.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "pel-2",
           "name": "Air Case",
           "description": "Linha revolucionária de cases ultraleves que mantém a resistência lendária Pelican com até 40% menos peso. Ideal para proteger drones, notebooks e equipamentos portáteis em campo.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "pel-3",
           "name": "Lanterna Tática 7610",
           "description": "Lanterna LED tática de alto desempenho, compacta e recarregável, com feixe ajustável e corpo resistente a impactos. Projetada para forças de segurança, bombeiros e situações de emergência.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ],
       "site": "https://www.pelican.com/us/en",
@@ -1230,7 +1230,7 @@
     {
       "id": "rs",
       "name": "RS Components",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "site": "https://br.rsdelivers.com/",
       "categories": [
         "mro"
@@ -1457,25 +1457,25 @@
           "id": "stopdropp-cordoes-amarracao",
           "name": "Cordões e Espirais de Amarração",
           "description": "Cordões fixos e espirais retráteis para amarração de todos os tipos de ferramentas manuais. Fabricados em nylon de alta tenacidade, poliéster e opções reforçadas com Kevlar. Limites de carga de trabalho (WLL) explícitos.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "stopdropp-ancoras-vestiveis",
           "name": "Âncoras Vestíveis",
           "description": "Cintos de ferramentas e coletes com pontos de fixação reforçados, projetados para trabalhos prolongados em altura. Compatíveis com equipamentos de proteção contra quedas. Ergonômicos e confortáveis.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "stopdropp-bolsas-ferramentas",
           "name": "Bolsas para Ferramentas",
           "description": "Bolsas não condutivas essenciais para trabalhos em zonas elétricas e de telecomunicação. Sistemas de fechamento magnético ou de fivelas que impedem abertura acidental. Múltiplos pontos de fixação.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "stopdropp-kits-completos",
           "name": "Kits Completos de Amarração",
           "description": "Kits completos seriados e embalados por equipe, disponíveis nas versões estática, móvel ou por função. Montados sob medida após avaliação do inventário de ferramentas do cliente. Rastreabilidade completa.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ],
       "site": "https://stopdroptooling.com/",
@@ -1486,7 +1486,7 @@
     {
       "id": "stahl",
       "name": "R. STAHL",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "site": "https://r-stahl.com/en/us/home/",
       "categories": [
         "iluminacao-ex"

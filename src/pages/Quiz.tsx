@@ -44,7 +44,7 @@ function QuizResult({ score, total, onRetry }: { score: number; total: number; o
   const displayedScore = useCountUp(score)
 
   return (
-    <div className="h-full flex flex-col items-center justify-center gap-8 px-6 animate-page-in motion-reduce:animate-none">
+    <div className="h-full flex flex-col items-center justify-center gap-5 px-6 animate-page-in motion-reduce:animate-none">
       <p className="micro-label">{t('nav.quiz')}</p>
       <h2 className="text-3xl font-bold text-center">{t('quiz.title')}</h2>
       <p className="text-xl text-center">{t('quiz.result', { score: displayedScore, total })}</p>
@@ -112,7 +112,7 @@ export default function Quiz() {
 
   return (
     <div className="h-full flex flex-col">
-      <header className="text-center pt-12 pb-6 px-4 flex-shrink-0">
+      <header className="text-center pt-5 pb-3 px-4 flex-shrink-0">
         <p className="micro-label mb-3">{t('nav.quiz')}</p>
         <h1 className="text-2xl font-bold">{t('quiz.title')}</h1>
         <p className="text-muted-foreground mt-1">
@@ -126,12 +126,12 @@ export default function Quiz() {
         </div>
       </header>
 
-      <div className="flex-1 overflow-y-auto px-4 pb-24">
+      <div className="flex-1 overflow-y-auto px-4 pb-6">
         <div className="max-w-2xl mx-auto">
-          <Card key={current} className="mb-6 hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
+          <Card key={current} className="mb-4 hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6">
-              <p className="text-lg font-medium mb-6">{question.text}</p>
-              <div className="flex flex-col gap-3">
+              <p className="text-lg font-medium mb-4">{question.text}</p>
+              <div className="flex flex-col gap-2">
                 {question.options.map((option, i) => {
                   const isCorrect = answered && i === question.correct
                   const isWrongPick = answered && i === selected && i !== question.correct
@@ -143,7 +143,7 @@ export default function Quiz() {
                       size="lg"
                       variant="outline"
                       className={cn(
-                        'justify-between h-auto py-4 px-4 text-left whitespace-normal gap-3',
+                        'justify-between h-auto py-2.5 px-4 text-left whitespace-normal gap-2',
                         isCorrect &&
                           'bg-primary hover:bg-primary text-primary-foreground border-primary glow-red animate-pop-in motion-reduce:animate-none',
                         isWrongPick &&
@@ -152,7 +152,7 @@ export default function Quiz() {
                       )}
                       onClick={() => handleSelect(i)}
                     >
-                      <span className="flex items-start gap-3 min-w-0">
+                      <span className="flex items-start gap-2 min-w-0">
                         <span className="font-mono shrink-0 text-brand-red">{String.fromCharCode(65 + i)}.</span>
                         <span>{option}</span>
                       </span>

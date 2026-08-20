@@ -5,9 +5,13 @@
 ## 1. Pendências com o cliente (entregas aguardando arquivos)
 
 ### Atualização de conteúdo — agosto de 2026 (Eaton, R. STAHL, RS, Oliver)
-- [ ] **Logo R. STAHL** (vetor/alta resolução) — atualmente usando `images/placeholder-logo.png`
-- [ ] **Logo RS Components** (vetor/alta resolução) — atualmente usando `images/placeholder-logo.png`
-- [ ] **Logos reais Blinda, Hawke, Hi-Force e Nightstick** — o `main` apontou esses logos para `images/placeholder-logo.png`; solicitar os arquivos ao cliente
+- [ ] **Logo R. STAHL** (vetor/alta resolução) — aguardando arquivo; fallback textual no app
+- [ ] **Logo RS Components** (vetor/alta resolução) — aguardando arquivo; fallback textual no app
+- [ ] **Logos reais Blinda, Hawke, Hi-Force e Nightstick** — solicitar os arquivos ao cliente; fallback textual no app
+- [ ] **Logo Eaton real** — o arquivo enviado como "logo-eaton.png" era na verdade a logo do Polar Group (agora em images/logo-polar-group.png); Eaton está com fallback textual até o cliente enviar a logo correta
+- [ ] **Logos Blinda, Hawke, Hi-Force, Nightstick, RS e R. STAHL** — `images/placeholder-logo.png` estava corrompido; app agora usa fallback textual (logo vazia nos dados) até o cliente enviar os arquivos reais
+- [ ] **Imagens de produtos faltantes** — ~20 produtos (Hawke, Hi-Force, Nightstick, Parker, Pelican, StopDropp) sem foto real; app usa placeholder animado até envio
+- [ ] **Tagline Chalmit duplicada** — Chalmit usa a mesma tagline da Hawke ("Eletrifique e Energize… desde 1888"), mas a descrição da Chalmit diz "desde 1910"; confirmar com o cliente qual é a tagline correta da Chalmit
 - [ ] **Datasheets Oliver Valves** (~20 PDFs referenciados no doc de conteúdo, ex.: `B10F-Ball-Valve.pdf`, `Y24-Y25-Type.pdf`) — nunca enviados
 - [ ] **Datasheets R. STAHL** — doc diz "INCLUIR OS DATASHEETS anexados no e-mail"; criar link por série quando recebidos
 - [ ] **Link do vídeo Oliver Twinsafe** — o doc só diz "INCLUIR LINK PARA VÍDEO SOBRE OLIVER TWINSAFE", sem URL

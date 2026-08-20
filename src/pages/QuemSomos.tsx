@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { SectionDivider, TargetRings } from '@/components/BrandDecor'
+import { SectionDivider } from '@/components/BrandDecor'
 
 function SectionHeading({ children }: { children: ReactNode }) {
   return (
@@ -17,14 +17,16 @@ export default function QuemSomos() {
 
   return (
     <ScrollArea className="h-full">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        <div className="mb-10 flex items-center gap-8">
-          <TargetRings className="hidden sm:block h-28 w-28 flex-shrink-0" />
-          <div>
-            <p className="micro-label mb-3">{t('nav.quemSomos')}</p>
-            <h1 className="text-3xl font-bold">{t('quemSomos.title')}</h1>
-            <SectionDivider className="mt-4" />
-          </div>
+      <div className="max-w-4xl mx-auto px-6 py-8">
+        <div className="mb-10 flex flex-col items-center text-center">
+          <p className="micro-label mb-3">{t('nav.quemSomos')}</p>
+          <img
+            src="images/logo-polar-group.png"
+            alt="Grupo Polar"
+            className="h-24 sm:h-28 w-auto object-contain"
+          />
+          <h1 className="sr-only">{t('quemSomos.title')}</h1>
+          <SectionDivider className="mt-4 mx-auto" />
         </div>
 
         <p className="text-xl text-muted-foreground mb-6">{t('quemSomos.subtitle')}</p>

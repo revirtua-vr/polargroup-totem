@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { SectionDivider } from '@/components/BrandDecor'
+import { ProductImage } from '@/components/ProductImage'
 import companiesData from '@/data/companies/pt-BR.json'
 
 export default function Produtos() {
@@ -34,13 +35,7 @@ export default function Produtos() {
                 key={product.id}
                 className="flex flex-col hud-corners hover:glow-red hover:border-brand-red/60 transition-all"
               >
-                <div className="h-40 bg-white/95 rounded-t-lg overflow-hidden border-b border-brand-gray-5">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                <ProductImage src={product.image} alt={product.name} className="rounded-t-lg" />
                 <CardContent className="pt-4 flex-1">
                   <CardTitle className="text-base mb-1">{product.name}</CardTitle>
                   <CardDescription className="text-xs mb-2 text-brand-red">{product.companyName}</CardDescription>

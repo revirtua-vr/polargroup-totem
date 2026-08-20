@@ -125,6 +125,32 @@
     content: '/// ';
     color: var(--brand-red);
   }
+  .product-placeholder {
+    background-color: var(--brand-gray-5);
+    background-image:
+      radial-gradient(circle at 50% 42%, rgba(206, 31, 46, 0.12), transparent 55%),
+      repeating-linear-gradient(
+        45deg,
+        transparent 0 12px,
+        rgba(206, 31, 46, 0.06) 12px 24px
+      );
+    animation: stripe-slide 6s linear infinite;
+  }
+}
+
+@keyframes stripe-slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 68px 68px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .product-placeholder {
+    animation: none;
+  }
 }
 
 html, body, #root {

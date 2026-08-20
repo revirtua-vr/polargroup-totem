@@ -162,7 +162,7 @@
     {
       "id": "blinda",
       "name": "Blinda",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "Count on Blinda and its portfolio of solutions for explosive atmospheres",
       "description": "For over 60 years, Blinda has been a national reference in explosion-proof (Ex) electrical equipment, serving with excellence the oil and gas, petrochemical, steel, and mining sectors. Its portfolio includes junction boxes, control panels, push buttons, cable glands, signaling devices, and a complete line of certified connections and accessories.\n\nWith INMETRO, IECEx, and ATEX certifications, Blinda is the only company in Brazil authorized to use CEAG components in its projects, ensuring an international standard of quality and safety. All products are manufactured with high-resistance materials — copper-free aluminum, stainless steel 304/316L, and glass fiber reinforced polyester (GRP) — ensuring IP66/W protection and a temperature class from -60 °C to +110 °C.\n\nLocated in Votorantim (SP), Blinda is part of the Polar Components Group, offering complete solutions in Ex equipment for explosive atmospheres, with specialized technical support and custom manufacturing to meet the most rigorous industry specifications.",
       "gallery": [
@@ -500,7 +500,7 @@
     {
       "id": "eaton",
       "name": "Eaton",
-      "logo": "images/eaton/logo-eaton.png",
+      "logo": "",
       "site": "https://www.eaton.com/",
       "categories": [
         "explosion-proof-lighting"
@@ -574,7 +574,7 @@
     {
       "id": "hawke",
       "name": "Hawke",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "Electrify and Energize — reliable solutions for critical infrastructure since 1888",
       "description": "Hawke is a world-renowned British manufacturer specializing in cable glands and accessories for electrical installations in explosive atmospheres. With decades of experience, the brand is a benchmark in safety and reliability for the oil and gas, petrochemical, mining, and energy sectors.\n\nIts products are certified according to the most stringent international standards (IECEx, ATEX), ensuring protection against explosions in classified areas. The RCG (Resin Cable Gland) line is one of the brand's flagship products, offering resin sealing for critical applications where cable integrity is essential.\n\nHawke also has aerospace credentials, with solutions tested and approved for use in extreme conditions — including space applications — proving the robustness and engineering quality that make its cable glands the preferred choice for integrators and electrical panel manufacturers worldwide.",
       "gallery": [
@@ -603,20 +603,20 @@
           "id": "hawke-1",
           "name": "RCG 501 Cable Gland",
           "description": "Resin-sealed cable gland from the RCG line, designed for installations in hazardous areas and explosive atmospheres. IECEx and ATEX certified. Ideal for critical applications in oil and gas, petrochemical, and mining.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hawke-2",
           "name": "Ex Cable Gland",
           "description": "Complete line of explosion-proof cable glands for Ex d, Ex e, and Ex nR environments. Meets international standards with robust construction in nickel-plated brass or stainless steel, ensuring safety and durability under extreme conditions.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ]
     },
     {
       "id": "hi-force",
       "name": "Hi-Force",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "British leader in high-pressure industrial hydraulic solutions: tools, lifting systems and torque equipment",
       "description": "Hi-Force is a leading British manufacturer of high-torque hydraulic tools for the industrial, offshore and construction sectors. Founded in the United Kingdom, the company develops precision equipment for critical bolting, tensioning, lifting and cutting applications.\n\nWith service centers and distribution in more than 100 countries, Hi-Force offers cutting-edge technology in hydraulic torque wrenches, bolt tensioners, lifting jacks and pumping systems, ensuring safety and productivity in the most demanding operations.",
       "gallery": [
@@ -655,38 +655,38 @@
           "id": "hi-1",
           "name": "TWH-N Hydraulic Torque Wrench",
           "description": "Low-profile hydraulic torque wrench for industrial controlled bolting applications with high torque accuracy. Ideal for flanges, pressure vessels, and critical connections.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-2",
           "name": "Toughlift Lifting System",
           "description": "Self-contained hydraulic jack for controlled lifting of heavy loads. Ideal for industrial and maintenance environments. Safe and precise operation with hydraulic actuation.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-3",
           "name": "APP Tensioning System",
           "description": "High-pressure pump for simultaneous tensioning of multiple bolts in applications such as flanges and pressure vessels. Precision and control for critical bolting operations.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-4",
           "name": "JAS Lifting System",
           "description": "Modular synchronized hydraulic lifting system for precise movement and positioning of large structures. Centralized control of multiple lifting points.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "hi-5",
           "name": "Industrial Hydraulic Jack",
           "description": "Single and double acting hydraulic cylinders with capacities from 10 to 1,000 tons for lifting and positioning loads. Robust construction for continuous industrial use.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ]
     },
     {
       "id": "nightstick",
       "name": "Nightstick",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "tagline": "The choice of security professionals worldwide in extreme risk environments",
       "description": "Nightstick is the professional lighting brand of Bayco Products (USA), specializing in intrinsically safe (Ex) flashlights and headlamps for classified areas and hazardous environments.\n\nWith ATEX, IECEx, and Class I Division 1 certifications, Nightstick flashlights are designed for professionals working in explosive atmospheres, confined spaces, and rescue operations. The line includes rechargeable models, headlamps, and portable flashlights with high durability and luminous performance.\n\nManufactured with high-impact engineering materials and waterproof, Nightstick flashlights offer safety and reliability for the oil and gas, mining, firefighting, and emergency services industries.",
       "gallery": [
@@ -720,19 +720,19 @@
           "id": "xpp-5454g",
           "name": "XPP-5454G Headlamp",
           "description": "Intrinsically safe headlamp with Class I Division 1 certification. Designed for work in confined spaces and classified areas with explosion risk. Hands-free with high luminous performance.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "xpr-5584-gmx",
           "name": "XPR-5584 GMX Rechargeable Flashlight",
           "description": "Intrinsically safe portable rechargeable flashlight with ATEX/IECEx certification. Long-lasting battery with high luminous performance for operations in explosive atmospheres.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "lanternas-ex",
           "name": "Explosion-Proof Ex Flashlights",
           "description": "Complete line of portable flashlights certified for explosive atmospheres (Ex). Models with different power levels and runtimes for applications in oil and gas, mining, and rescue.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ]
     },
@@ -1115,19 +1115,19 @@
           "id": "par-1",
           "name": "Hydraulic Hoses and Fittings",
           "description": "High-pressure hoses and fittings for industrial and mobile hydraulic systems. Wide range of diameters and materials for different fluids and temperatures.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "par-2",
           "name": "Valves and Actuators",
           "description": "Directional, proportional valves and pneumatic and hydraulic actuators for precise motion control in machinery and industrial processes.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "par-3",
           "name": "Filtration Systems",
           "description": "Hydraulic filters and contamination monitoring systems to ensure the service life and reliability of hydraulic systems.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ]
     },
@@ -1163,19 +1163,19 @@
           "id": "pel-1",
           "name": "Protective Cases",
           "description": "High-impact cases with IP67 certification, waterproof, dustproof, and drop-proof. Ultimate protection for electronic equipment, firearms, scientific instruments, and photographic equipment.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "pel-2",
           "name": "Air Case",
           "description": "Revolutionary line of ultralight cases that maintain legendary Pelican durability with up to 40% less weight. Ideal for protecting drones, laptops, and portable equipment in the field.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "pel-3",
           "name": "Tactical Flashlight 7610",
           "description": "High-performance tactical LED flashlight, compact and rechargeable, with adjustable beam and impact-resistant body. Designed for security forces, firefighters, and emergency situations.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ]
     },
@@ -1230,7 +1230,7 @@
     {
       "id": "rs",
       "name": "RS Components",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "site": "https://br.rsdelivers.com/",
       "categories": [
         "mro"
@@ -1461,32 +1461,32 @@
           "id": "stopdropp-cordoes-amarracao",
           "name": "Lanyards and Tethering Coils",
           "description": "Fixed lanyards and retractable coils for tethering all types of hand tools. Made of high-tenacity nylon, polyester, and Kevlar-reinforced options. Explicit working load limits (WLL).",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "stopdropp-ancoras-vestiveis",
           "name": "Wearable Anchors",
           "description": "Tool belts and vests with reinforced attachment points, designed for prolonged work at height. Compatible with fall protection equipment. Ergonomic and comfortable.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "stopdropp-bolsas-ferramentas",
           "name": "Tool Bags",
           "description": "Essential non-conductive bags for work in electrical and telecommunications zones. Magnetic or buckle closure systems that prevent accidental opening. Multiple attachment points.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         },
         {
           "id": "stopdropp-kits-completos",
           "name": "Complete Tethering Kits",
           "description": "Complete kits serialized and packaged per team, available in static, mobile, or function-specific versions. Custom assembled after assessing the customer's tool inventory. Full traceability.",
-          "image": "images/placeholder-logo.png"
+          "image": ""
         }
       ]
     },
     {
       "id": "stahl",
       "name": "R. STAHL",
-      "logo": "images/placeholder-logo.png",
+      "logo": "",
       "site": "https://r-stahl.com/en/us/home/",
       "categories": [
         "ex-lighting"
