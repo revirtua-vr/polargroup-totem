@@ -1,10 +1,60 @@
 {
+  "categories": [
+    {
+      "id": "equipamentos-ex",
+      "label": "Equipamentos Ex"
+    },
+    {
+      "id": "pi",
+      "label": "P&I"
+    },
+    {
+      "id": "iluminacao-ex",
+      "label": "Iluminação Ex"
+    },
+    {
+      "id": "prensa-cabos-ex",
+      "label": "Prensa-Cabos Ex"
+    },
+    {
+      "id": "iluminacao-portatil-ex",
+      "label": "Iluminação Portátil Ex"
+    },
+    {
+      "id": "espaco-confinado-ex",
+      "label": "Equipamentos Ex Espaço Confinado"
+    },
+    {
+      "id": "comunicacao-ex",
+      "label": "Comunicação Ex"
+    },
+    {
+      "id": "ferramentas-hidraulicas",
+      "label": "Ferramentas Hidráulicas"
+    },
+    {
+      "id": "amarracao-ferramentas",
+      "label": "Sistemas de Amarração de Ferramentas"
+    },
+    {
+      "id": "prevencao-quedas",
+      "label": "Prevenção Anti-queda de Objetos"
+    },
+    {
+      "id": "mro",
+      "label": "MRO"
+    },
+    {
+      "id": "gerenciamento-cabos",
+      "label": "Sistema de Gerenciamento de Cabos"
+    }
+  ],
   "companies": [
     {
       "id": "atexxo",
       "name": "Atexxo",
       "logo": "images/atexxo/Logo atexxo - sem fundo.png",
-      "tagline": "Dispositivos móveis à prova de explosão para áreas classificadas",
+      "tagline": "À prova de explosão e à prova do futuro: seu parceiro em equipamentos IECEx, ATEX e Inmetro. Produtos à prova de explosão, adequados para uso na Zona 1 e Zona 2 e/ou Zona 21 ou 22",
       "description": "A Atexxo Manufacturing é uma empresa internacional especializada no design e produção de dispositivos móveis à prova de explosão com certificações ATEX e IECEx. Com sede na Holanda, a Atexxo converte dispositivos premium da Apple e Samsung — como iPhones, iPads e Galaxy Tabs — em versões certificadas para uso seguro em áreas classificadas, mantendo todas as funcionalidades originais dos equipamentos, incluindo 5G, NFC, câmeras, carregamento sem fio e conectividade Wi-Fi e Bluetooth.\n\nOs produtos Atexxo são certificados para ATEX Zona 1 e 2 (risco de explosão por gás) e Zona 21 e 22 (risco de explosão por poeira), com certificações internacionais IECEx e UKCA, além de certificação INMETRO disponível para modelos selecionados. Todos os dispositivos preservam a experiência completa do usuário, incluindo aplicativos, interface, desempenho e ecossistema do dispositivo original, sem perda de performance.\n\nProjetados especificamente para indústrias críticas como óleo e gás, petroquímica, offshore e farmacêutica, os dispositivos Atexxo são ideais para trabalhadores conectados, Indústria 4.0, gêmeos digitais em áreas classificadas e captura segura de fotos e vídeos em ambientes perigosos.",
       "gallery": [
         {
@@ -103,13 +153,17 @@
           "description": "Tablet Apple iPad 11 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todas as funcionalidades originais do iPad, incluindo câmeras, Wi-Fi, 5G e desempenho completo do ecossistema Apple. Certificação ATEX e IECEx.",
           "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png"
         }
+      ],
+      "site": "https://atexxo.com/",
+      "categories": [
+        "comunicacao-ex"
       ]
     },
     {
       "id": "blinda",
       "name": "Blinda",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Equipamentos à prova de explosão com certificação internacional — a única empresa brasileira autorizada a utilizar componentes CEAG",
+      "tagline": "Conte com a Blinda e seu portfólio de soluções para atmosferas explosivas",
       "description": "Há mais de 60 anos, a Blinda é referência nacional em equipamentos elétricos à prova de explosão (Ex), atendendo com excelência os setores de óleo e gás, petroquímico, siderúrgico e de mineração. Seu portfólio abrange caixas de ligação, painéis de comando, botoeiras, prensa-cabos, sinalizadores e uma linha completa de conexões e acessórios certificados.\n\nCom certificações INMETRO, IECEx e ATEX, a Blinda é a única empresa no Brasil autorizada a utilizar componentes CEAG em seus projetos, garantindo padrão internacional de qualidade e segurança. Todos os produtos são fabricados com materiais de alta resistência — alumínio copper free, aço inoxidável 304/316L e poliéster reforçado com fibra de vidro (GRP) — assegurando proteção IP66/W e classe de temperatura de -60 °C a +110 °C.\n\nLocalizada em Votorantim (SP), a Blinda integra o Polar Components Group, oferecendo soluções completas em equipamentos Ex para atmosferas explosivas, com suporte técnico especializado e fabricação sob encomenda para atender às mais rigorosas especificações da indústria.",
       "gallery": [
         {
@@ -221,13 +275,18 @@
         "title": "Catálogo Blinda",
         "file": "pdfs/catalogo-blinda.pdf",
         "indexPage": 5
-      }
+      },
+      "site": "https://blinda.com.br/",
+      "categories": [
+        "equipamentos-ex",
+        "prensa-cabos-ex"
+      ]
     },
     {
       "id": "chalmit",
       "name": "Chalmit",
       "logo": "images/chalmit/Logo Chalmit - sem fundo.png",
-      "tagline": "Iluminação para áreas classificadas desde 1910",
+      "tagline": "Eletrifique e Energize — soluções confiáveis para infraestrutura crítica desde 1888",
       "description": "A Chalmit é especialista em iluminação para áreas classificadas desde 1910, com mais de um século dedicado à iluminação para atmosferas explosivas, com foco em segurança, confiabilidade e desempenho em ambientes severos. Parte do grupo Hubbell e referência do padrão IEC, a Chalmit amplia inovação, padronização global e suporte técnico em projetos críticos.\n\nCom presença em mais de 40 países e alinhamento às certificações ATEX, IECEx e NEC, a Chalmit garante especificação segura nos segmentos de óleo e gás, química, mineração, energia e marítimo. Suas luminárias certificadas atendem zonas classificadas (Zona 1, 2, 21 e 22) em plataformas, refinarias e áreas de armazenamento.\n\nO portfólio inclui luminárias lineares LED para áreas de processo e offshore (linha Protecta X), projetores LED para áreas externas e grandes espaços (linha Evolution X), e bulkheads para circulação e salas técnicas (linhas NexLED / Neo X), com opções de emergência. Construção em alumínio fundido grau marinho, aço inox e revestimentos anticorrosivos, com proteção IP66/IP67. LED de alta eficiência com vida útil típica acima de 100.000 horas.",
       "gallery": [
         {
@@ -299,6 +358,12 @@
           "image": "images/chalmit/04.01.2024 - Protecta X.png"
         },
         {
+          "id": "eclipse-x",
+          "name": "Eclipse X",
+          "description": "Linha de luminárias LED Ex Eclipse X para áreas classificadas e atmosferas explosivas, indicada para os segmentos de óleo e gás, química, mineração, energia e marítimo.",
+          "image": "images/chalmit/Logo Chalmit - sem fundo.png"
+        },
+        {
           "id": "evolution-x",
           "name": "Evolution X",
           "description": "Projetores LED para áreas externas e grandes espaços. Ópticas assimétricas com alta uniformidade e controle de ofuscamento. Redução de poluição luminosa. Certificação ATEX, IECEx para Zonas 1, 2, 21 e 22.",
@@ -310,13 +375,17 @@
           "description": "Bulkheads LED para circulação e salas técnicas. Opções para Zona 1/2 e Zona 21/22, com versões de emergência. Design compacto e robusto para instalação em áreas confinadas. Construção anticorrosiva com proteção IP66.",
           "image": "images/chalmit/NexLEDIII_515.webp"
         }
+      ],
+      "site": "https://www.hubbell.com/chalmit/en",
+      "categories": [
+        "iluminacao-ex"
       ]
     },
     {
       "id": "dropsafe",
       "name": "Dropsafe",
       "logo": "images/dropsafe/Logo Dropsafe - sem fundo.png",
-      "tagline": "Líder global em prevenção de quedas de objetos — protegendo pessoas, ativos e operações com soluções passivas de segurança 24/7",
+      "tagline": "Líder global em prevenção de quedas de objetos. Mitigando os riscos de objetos em queda para tornar os ambientes de trabalho mais seguros",
       "description": "A Dropsafe é líder global na prevenção de quedas de objetos, parceira de empresas em setores de alto risco como energia, petróleo e gás, mineração, químico, marítimo e renováveis. Com mais de 20 anos de experiência, desenvolve soluções especializadas — redes, barreiras, eslingas e sistemas de fixação — para evitar a queda de objetos em ambientes industriais, garantindo operações mais seguras e fortalecendo a cultura de segurança.\n\nAo contrário de soluções ativas que dependem de intervenção humana diária, a Dropsafe adota uma filosofia de prevenção passiva: uma única instalação protege todos os ativos 24 horas por dia, 7 dias por semana, funcionando independentemente da ação humana. Seus produtos são fabricados em aço inoxidável SUS 316 e policarbonato de alta resistência, projetados para ambientes offshore severos com temperaturas de -40 °C a 500 °C.\n\nA tecnologia patenteada Trisafe™ — um mosquetão de tripla ação com travamento automático operável com uma só mão — elimina o erro humano e estabelece um novo padrão de segurança. Com certificações globais incluindo DNVGL-RP-F107, ABS DOPP+, API RP 2D, NORSOK e ISO 9001, a Dropsafe protege pessoas e equipamentos nos ambientes mais exigentes do mundo, respaldada por seguro de responsabilidade de produto de US$ 10 milhões.",
       "gallery": [
         {
@@ -422,13 +491,91 @@
           "description": "Dispositivos que envolvem e prendem itens portáteis utilizados em altura (rádios, detectores de gás, latas de aerossol, multímetros). Rede de aço inoxidável SUS 316. Testadas para mais de 2 vezes a SWL. Inclui clipe de cinto resistente. Reutilizáveis e 100% recicláveis.",
           "image": "images/dropsafe/dropsafe-pouches-975.webp"
         }
+      ],
+      "site": "https://dropsafe.com/",
+      "categories": [
+        "prevencao-quedas"
+      ]
+    },
+    {
+      "id": "eaton",
+      "name": "Eaton",
+      "logo": "images/eaton/logo-eaton.png",
+      "site": "https://www.eaton.com/",
+      "categories": [
+        "iluminacao-ex"
+      ],
+      "tagline": "Fazemos funcionar o que é importante: ajudamos a gerenciar energia elétrica com segurança e sustentabilidade, melhorando a vida das pessoas e do planeta",
+      "description": "Powering Business Worldwide. Soluções de iluminação e conectividade para áreas classificadas e ambientes agressivos — confiabilidade, eficiência e segurança nas condições mais severas. A Eaton combina inovação, certificação global e engenharia de ponta para entregar soluções completas de iluminação e conectividade para as áreas classificadas mais exigentes do mundo. No Brasil, a Polar Group representa as soluções Eaton para áreas classificadas: luminárias LED certificadas e conectores pin & sleeve de alta performance para ambientes com risco de explosão, gases inflamáveis e poeira combustível.\n\nCom eficácia de até 162 lm/W, economia de energia de 20% a 90% em relação às tecnologias HID e fluorescentes e vida útil de 50.000 a 100.000 horas, as luminárias Eaton oferecem partida instantânea, drivers substituíveis em campo e óptica customizada para cada projeto, além de recursos inteligentes — Brightlayer Industrial Lighting Control, Bluetooth Low Energy e sensores integrados para gestão inteligente da iluminação.\n\nA segurança em ambientes classificados vai além da iluminação: os conectores GHG51 Pin & Sleeve garantem isolamento, vedação e segurança total a cada conexão, com performance IEC 60309 e certificações globais — UL844, UL1598, CSA, IECEx, ATEX, CE, ABS, NSF e Inmetro. Confiabilidade líder do setor e gestão térmica superior para os ambientes mais severos da indústria global.\n\nAlém da iluminação Ex, o portfólio elétrico Eaton — disjuntores, painéis e proteção — completa a oferta de soluções de energia representada pela Polar Group.",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/eaton/NLE-High-Mid-Bay.jpg",
+          "alt": "Luminária NLE — LED High/Mid Bay para áreas classificadas"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/HLL-Linear-LED.JPG",
+          "alt": "Luminária HLL — linear LED à prova de explosão"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/VLL-Linear-LED.png",
+          "alt": "Luminária VLL — linear LED para ambientes severos"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/GHG51-pin-sleeve.png",
+          "alt": "Conectores GHG51 Pin & Sleeve para áreas classificadas"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/aplicacao-petroleo-gas.jpeg",
+          "alt": "Aplicação Eaton — petróleo, gás e offshore"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/aplicacao-quimica-farmaceutica.jpeg",
+          "alt": "Aplicação Eaton — indústria química e farmacêutica"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/aplicacao-processamento-alimentos.jpeg",
+          "alt": "Aplicação Eaton — processamento de alimentos"
+        }
+      ],
+      "products": [
+        {
+          "id": "eaton-nle",
+          "name": "Luminária NLE — LED High/Mid Bay",
+          "description": "Classe I, Div 2 / Zone 2/22. Luminária circular de alta eficácia para baías médias e baixas. Eficácia de até 162 lm/W; economia de energia de 20% a 90% vs HID/fluorescente; vida útil de 50.000 a 100.000 horas; partida instantânea; drivers substituíveis em campo; óptica customizada; operação de -40 °C a +65 °C. Invólucro em alumínio livre de cobre e globo em vidro temperado resistente a impactos e ao calor. Aplicações: plataformas offshore, refinarias, plantas químicas, farmacêuticas e instalações com risco de gás e poeira combustível.",
+          "image": "images/eaton/NLE-High-Mid-Bay.jpg"
+        },
+        {
+          "id": "eaton-hll",
+          "name": "Luminária HLL — Linear LED à Prova de Explosão",
+          "description": "Classe I, Div 1 / Zone 1/21. Chassi em alumínio com aletas de resfriamento longitudinais para gestão térmica superior em operação contínua. Travas de tensão em aço inoxidável, lente de policarbonato resistente e tampas com prensa-cabos para vedação rigorosa. Significativa redução no consumo de energia e longa vida útil, minimizando intervenções de manutenção em áreas restritas. Aplicações: plataformas de petróleo e gás, refinarias, plantas químicas e instalações com presença permanente ou ocasional de gases inflamáveis.",
+          "image": "images/eaton/HLL-Linear-LED.JPG"
+        },
+        {
+          "id": "eaton-vll",
+          "name": "Luminária VLL — Linear LED para Ambientes Severos",
+          "description": "Classe I, Div 1 / Zone 1/21. Corpo off-white com acabamento fosco, lente plástica canelada translúcida e quatro clipes de tensão em aço inoxidável assegurando vedação hermética. Tecnologia LED de última geração com iluminação uniforme e eficiente, reduzindo drasticamente o consumo energético em comparação a tecnologias convencionais. Projetada para operação prolongada com mínima necessidade de manutenção, ideal para áreas de difícil acesso e ambientes classificados. Aplicações: indústria química, farmacêutica, processamento de alimentos, plataformas offshore e refinarias.",
+          "image": "images/eaton/VLL-Linear-LED.png"
+        },
+        {
+          "id": "eaton-ghg51",
+          "name": "GHG51 — Conectores Pin & Sleeve",
+          "description": "Classe I, Div 2 / Zone 1 & 2, padrão IEC 60309, proteção IP67/IP69. Envoltório e plugue em nylon tipo 12 reforçado com fibra de vidro, com resistência superior a impacto, corrosão e agentes químicos. Contatos de latão niquelado com condutividade elétrica estável e longa vida útil; tampa e plugue codificados por cor para identificação rápida, reduzindo o risco de conexões incorretas em campo; alívio de tensão reforçado que absorve forças de tração e torção. Perfil compacto com proteção contra chuva e vedação à prova d'água, resistente a lavagem de alta pressão, umidade e lavagem constante; seguem as normas das certificações Inmetro; hubs Myers de entrada dupla inferior Zone 1. Aplicações: petróleo, gás e offshore (plataformas, refinarias e terminais de gás); química e farmacêutica (plantas de processo com lavagem com solventes e requisitos rigorosos de higiene); processamento de alimentos (lavagem de alta pressão frequente). Atenção: os plugues e tomadas Eaton não devem ser usados com outras marcas, pois perdem a certificação pelo uso inadequado.",
+          "image": "images/eaton/GHG51-plug-tomada.png"
+        }
       ]
     },
     {
       "id": "hawke",
       "name": "Hawke",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Prensa-cabos certificados para atmosferas explosivas e aplicações críticas",
+      "tagline": "Eletrifique e Energize — soluções confiáveis para infraestrutura crítica desde 1888",
       "description": "A Hawke é uma fabricante britânica de renome mundial, especializada em prensa-cabos e acessórios para instalações elétricas em atmosferas explosivas. Com décadas de experiência, a marca é referência em segurança e confiabilidade para os setores de óleo e gás, petroquímico, mineração e energia.\n\nSeus produtos são certificados conforme as normas internacionais mais rigorosas (IECEx, ATEX), garantindo proteção contra explosões em ambientes classificados. A linha RCG (Resin Cable Gland) é um dos carros-chefe da marca, oferecendo vedação com resina para aplicações críticas onde a integridade do cabo é essencial.\n\nA Hawke também possui credenciais aeroespaciais, com soluções testadas e aprovadas para uso em condições extremas — incluindo aplicações espaciais — comprovando a robustez e a qualidade de engenharia que tornam seus prensa-cabos a escolha preferida de integradores e montadoras de painéis elétricos em todo o mundo.",
       "gallery": [
         {
@@ -460,13 +607,17 @@
           "description": "Linha completa de prensa-cabos à prova de explosão para ambientes Ex d, Ex e e Ex nR. Atende normas internacionais com construção robusta em latão niquelado ou aço inoxidável, garantindo segurança e durabilidade em condições extremas.",
           "image": "images/placeholder-logo.png"
         }
+      ],
+      "site": "https://www.hubbell.com/hawke/en",
+      "categories": [
+        "prensa-cabos-ex"
       ]
     },
     {
       "id": "hi-force",
       "name": "Hi-Force",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Ferramentas hidráulicas de alto torque para aplicações industriais críticas",
+      "tagline": "Líder britânica em soluções hidráulicas industriais de alta pressão: ferramentas, sistemas de elevação e equipamentos de torque",
       "description": "A Hi-Force é fabricante britânica líder mundial em ferramentas hidráulicas de alto torque para os setores industrial, offshore e de construção. Fundada no Reino Unido, a empresa desenvolve equipamentos de precisão para aplicações críticas de aparafusamento, tensionamento, elevação e corte.\n\nCom centros de serviço e distribuição em mais de 100 países, a Hi-Force oferece tecnologia de ponta em torquímetros hidráulicos, tensionadores de parafusos, macacos de elevação e sistemas de bombeamento, garantindo segurança e produtividade nas operações mais exigentes.",
       "gallery": [
         {
@@ -526,13 +677,17 @@
           "description": "Cilindros hidráulicos de simples e dupla ação com capacidades de 10 a 1.000 toneladas para elevação e posicionamento de cargas. Construção robusta para uso industrial contínuo.",
           "image": "images/placeholder-logo.png"
         }
+      ],
+      "site": "https://www.hi-force.com/",
+      "categories": [
+        "ferramentas-hidraulicas"
       ]
     },
     {
       "id": "nightstick",
       "name": "Nightstick",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Lanternas intrinsecamente seguras para áreas classificadas e operações de resgate",
+      "tagline": "A escolha de profissionais de segurança no mundo todo em ambientes de risco extremo",
       "description": "Nightstick é a marca de iluminação profissional da Bayco Products (EUA), especializada em lanternas e lanternas de cabeça intrinsecamente seguras (Ex) para áreas classificadas e ambientes de risco.\n\nCom certificações ATEX, IECEx e Class I Division 1, as lanternas Nightstick são projetadas para profissionais que trabalham em atmosferas explosivas, espaços confinados e operações de resgate. A linha inclui modelos recarregáveis, lanternas de cabeça e lanternas portáteis com alta durabilidade e desempenho luminoso.\n\nFabricadas com materiais de engenharia de alto impacto e à prova d'água, as lanternas Nightstick oferecem segurança e confiabilidade para indústrias de petróleo e gás, mineração, combate a incêndios e serviços de emergência.",
       "gallery": [
         {
@@ -575,33 +730,372 @@
           "description": "Linha completa de lanternas portáteis certificadas para atmosferas explosivas (Ex). Modelos com diferentes potências e autonomias para aplicações em petróleo e gás, mineração e resgate.",
           "image": "images/placeholder-logo.png"
         }
+      ],
+      "site": "https://www.nightstick.com/",
+      "categories": [
+        "iluminacao-portatil-ex"
       ]
     },
     {
       "id": "oliver",
       "name": "Oliver Valves",
       "logo": "images/oliver/Logo Oliver Valves - Sem fundo.png",
-      "tagline": "Válvulas de instrumentação para aplicações críticas",
-      "description": "A Oliver Valves é fabricante britânica de válvulas de instrumentação para os setores de óleo e gás, petroquímico e energia. Especializada em válvulas agulha, válvulas esfera, válvulas manifold e válvulas de retenção, a empresa fornece soluções de alta precisão para controle de fluxo em aplicações críticas.\n\nCom décadas de experiência em engenharia de válvulas, a Oliver Valves é reconhecida pela confiabilidade e durabilidade de seus produtos nos ambientes mais exigentes do mundo.",
-      "gallery": [],
+      "site": "https://www.valves.co.uk/",
+      "categories": [
+        "pi"
+      ],
+      "tagline": "Confiabilidade sob pressão — soluções de válvulas de alta qualidade para instrumentação, subsea e dutos. Precisão absoluta em instrumentação e controle de fluxo há mais de 40 anos",
+      "description": "A Oliver Valves é fabricante britânica de válvulas de instrumentação e pipeline para os setores de óleo e gás, petroquímico e energia. Especializada em válvulas agulha, válvulas esfera, manifolds, válvulas de retenção e válvulas de Duplo Bloqueio e Sangria (DBB), a empresa fornece soluções de alta precisão para controle de fluxo em aplicações críticas.\n\nCom mais de 40 anos de engenharia em válvulas, a Oliver Valves é reconhecida pela confiabilidade e durabilidade de seus produtos nos ambientes mais exigentes do mundo. A marca Oliver Twinsafe — pioneira na válvula DBB para pipeline há mais de 25 anos — oferece válvulas esfera DBB de grande diâmetro com verdadeiro isolamento duplo: mais segurança, menos vazamentos e menor manutenção, em dutos novos ou existentes.\n\nSobre o conceito DBB (Double Block and Bleed — duplo bloqueio e sangria): é um arranjo com duas válvulas de isolamento em série (primária e secundária) e uma válvula de sangria (vent) entre elas, permitindo bloquear o fluxo nas duas extremidades e aliviar a pressão da cavidade central.",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/oliver/icon-valvulas-instrumentacao.png",
+          "alt": "Linha de válvulas de instrumentação Oliver Valves"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/icon-valvulas-pipeline.png",
+          "alt": "Linha de válvulas de pipeline Oliver Twinsafe"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/DBB-conceito.png",
+          "alt": "Conceito Double Block and Bleed (DBB) — duplo bloqueio e sangria"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/B10F-valvula-esfera.png",
+          "alt": "Válvula de esfera B10F — isolamento único Oliver Valves"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/G12AF-manifold-2v.png",
+          "alt": "Manifold de 2 válvulas G12AF para transmissores de pressão"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/pipeline-top-entry.png",
+          "alt": "Válvula de esfera top entry criogênica Oliver Twinsafe"
+        }
+      ],
       "products": [
         {
-          "id": "oli-1",
-          "name": "Válvulas Agulha",
-          "description": "Válvulas agulha de instrumentação para controle de fluxo preciso em aplicações de alta pressão. Projetadas para os setores de óleo e gás e petroquímico.",
-          "image": "images/placeholder-logo.png"
+          "id": "oliver-b10f",
+          "name": "B10F — Válvula de Esfera",
+          "description": "Válvula de esfera de isolamento único Tipo 'B10', projetada para isolamento seguro e confiável, proporcionando fechamento hermético (bolha-tight). Sedes macias totalmente encapsuladas oferecem vedação positiva e baixos torques de operação. Bore (passagem) 10/14/20 mm; conexão de 1/4\" a 3/4\"; acionamento por alavanca; gaxeta de grafite; classificação de pressão 10.000 PSI; rosca NPT (padrão) / BSPP / BSPT; outros sob consulta.",
+          "image": "images/oliver/B10F-valvula-esfera.png"
         },
         {
-          "id": "oli-2",
-          "name": "Válvulas Manifold",
-          "description": "Manifolds de instrumentação para montagem de transmissores de pressão. Configurações de 2, 3 e 5 vias para atender diferentes requisitos de instalação.",
-          "image": "images/placeholder-logo.png"
+          "id": "oliver-b10m",
+          "name": "B10M — Válvula de Esfera",
+          "description": "Válvula de esfera de isolamento único Tipo 'B10', projetada para isolamento seguro e confiável, proporcionando fechamento hermético (bolha-tight). Sedes macias totalmente encapsuladas oferecem vedação positiva e baixos torques de operação, desde serviço de vácuo até alta pressão. Equipada com haste com dispositivo anti-ejeção como padrão e opção de vedações em PTFE ou Grafoil. Bore 10/14/20 mm; conexão de 1/4\" a 3/4\"; alavanca; gaxeta de grafite; 10.000 PSI; temperatura 120 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/B10M-valvula-esfera.png"
         },
         {
-          "id": "oli-3",
+          "id": "oliver-b6bi",
+          "name": "B6BI — Válvula de Esfera",
+          "description": "Válvula de esfera de isolamento único Tipo 'B6', projetada para isolamento seguro e confiável, proporcionando fechamento hermético (bolha-tight). Sedes macias totalmente encapsuladas oferecem vedação positiva e baixos torques de operação. Conexão 1/4\" e 1/2\"; alavanca; gaxeta de PTFE; 150 PSI; temperatura 120 °C; rosca somente NPT.",
+          "image": "images/oliver/B6BI-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-b6bl50",
+          "name": "B6BL50 — Válvula de Esfera de Desvio",
+          "description": "Válvula de esfera de desvio de fluxo de 3 vias Tipo 'B6BL', projetada para desviar o fluxo com segurança para uma das duas portas de saída. Sedes macias totalmente encapsuladas oferecem vedação positiva e baixos torques de operação. Bore 10/14/20 mm; conexão de 1/4\" a 1\"; alavanca; gaxeta de PTFE; 6.000 PSI; temperatura 120 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/B6BL50-valvula-desvio.png"
+        },
+        {
+          "id": "oliver-b6f",
+          "name": "B6F — Válvula de Esfera",
+          "description": "Válvula de esfera de isolamento único Tipo 'B6', projetada para isolamento seguro e confiável, proporcionando fechamento hermético (bolha-tight). Sedes macias totalmente encapsuladas oferecem baixos torques de operação. Bore 10/14/20 mm; conexão de 1/4\" a 1\"; alavanca; gaxeta de PTFE; 6.000 PSI; temperatura 120 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/B6F-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-b6m",
+          "name": "B6M — Válvula de Esfera",
+          "description": "Válvula de esfera de isolamento único Tipo 'B6', projetada para isolamento seguro e confiável, proporcionando fechamento hermético (bolha-tight). Sedes macias totalmente encapsuladas oferecem vedação positiva e baixos torques de operação. Bore 10/14/20 mm; conexão de 1/4\" a 1\"; alavanca; gaxeta de PTFE; 6.000 PSI; temperatura 120 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/B6M-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-b6slx50",
+          "name": "B6SLX50 — Válvula de Esfera de Desvio",
+          "description": "Válvula de esfera de desvio de fluxo de 3 vias Tipo 'B6SL', projetada para desviar o fluxo com segurança para uma das duas portas de saída. Sedes macias totalmente encapsuladas oferecem vedação positiva e baixos torques de operação. Bore apenas 10 mm; conexão de 1/4\" a 1/2\"; alavanca; gaxeta de PTFE; 6.000 / 10.000 PSI; temperatura 120 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/B6SLX50-valvula-desvio.png"
+        },
+        {
+          "id": "oliver-lpb1",
+          "name": "LPB1 — Válvula de Esfera",
+          "description": "Válvula de esfera de alta performance e qualidade, fabricada em aço inox 316 — até mesmo a alavanca prensada na válvula é em aço inox 316 para evitar oxidação em campo. Com classificação de pressão de 1.000 PSI e tamanhos de 1/4\" até 1\", é recomendada para aplicações de óleo e gás onde o desempenho confiável a longo prazo é essencial. Bore 9/12/16 mm; alavanca; gaxeta de PTFE; temperatura 120 °C; rosca somente NPT.",
+          "image": "images/oliver/LPB1-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-lpb3",
+          "name": "LPB3 — Válvula de Esfera",
+          "description": "Válvula de esfera de alta performance e qualidade, fabricada em aço inox 316 — até mesmo a alavanca prensada na válvula é em aço inox 316 para evitar oxidação em campo. Classificação de pressão de 3.000 PSI em tamanhos de 3/4\" até 1\". Recomendada para aplicações de óleo e gás onde o desempenho confiável a longo prazo é essencial. Bore 19 mm; alavanca; temperatura 120 °C; rosca somente NPT.",
+          "image": "images/oliver/LPB3-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-seletora",
+          "name": "Válvula de Esfera Seletora",
+          "description": "Válvula de esfera seletora projetada para permitir a escolha do fluxo a partir de qualquer uma das duas portas laterais e a saída através de uma única porta inferior. Devido à natureza do design, também pode ser usada como válvula de desvio com entrada inferior e saída por qualquer uma das duas portas laterais. Bore apenas 4 mm; conexão de 1/4\" a 1/2\"; alavanca; 6.000 / 10.000 PSI; temperatura 121 °C; rosca NPT.",
+          "image": "images/oliver/valvula-esfera-seletora.png"
+        },
+        {
+          "id": "oliver-retencao",
           "name": "Válvulas de Retenção",
-          "description": "Válvulas de retenção de alta performance para proteção contra fluxo reverso em sistemas de instrumentação industrial.",
-          "image": "images/placeholder-logo.png"
+          "description": "Válvulas de retenção que permitem o fluxo em apenas uma direção, fechando quando ocorre o fluxo reverso. Variando de tamanhos de 1/4\" a 1\", com conexões de 1/2\" NPT fêmea x fêmea, fabricadas em aço inox 316. Gaxeta Viton/PEEK; pressão até 10.000 PSI; temperatura 120 °C; rosca NPT (padrão) / BSPP / BSPT.",
+          "image": "images/oliver/valvula-retencao.png"
+        },
+        {
+          "id": "oliver-amortecedor",
+          "name": "Amortecedor de Manômetro (Snubber)",
+          "description": "Amortecedor de manômetro (snubber) de 6.000 psi que protege os manômetros contra picos de pressão na linha, com o amortecimento de variações via um orifício variável. Fabricado em aço inox 316, com conexão de 1/2\" NPT macho x fêmea. Bore 2,5 mm; gaxeta Viton; temperatura 120 °C; rosca NPT. Outros materiais e tamanhos disponíveis sob consulta.",
+          "image": "images/oliver/amortecedor-manometro.png"
+        },
+        {
+          "id": "oliver-coletor-ar",
+          "name": "Coletor de Ar de Baixa Pressão",
+          "description": "Coletores de ar (header de ar) de baixa pressão da Oliver Valves, projetados especificamente para esta faixa de pressão, fabricados a partir de uma seção especialmente extrudada em aço inox 316. Bore em tubo Schedule 40; conexão 1/4\" e 1/2\"; alavanca; gaxeta de PTFE; 150 PSI; temperatura 120 °C; rosca somente NPT.",
+          "image": "images/oliver/coletor-ar-baixa-pressao.png"
+        },
+        {
+          "id": "oliver-adaptador-giratorio",
+          "name": "Adaptador Giratório para Manômetro",
+          "description": "Adaptador giratório para manômetro de 10.000 psi que permite a orientação de 360 graus dos manômetros em campo. Fabricado em aço inox 316, com conexão de 1/2\" NPT macho x fêmea. Temperatura 540 °C; rosca NPT (padrão) / BSPP / BSPT.",
+          "image": "images/oliver/adaptador-giratorio-manometro.png"
+        },
+        {
+          "id": "oliver-g12af",
+          "name": "G12AF — Manifold de 2 Válvulas",
+          "description": "Manifold de 2 válvulas Tipo 'G12AF', projetado para montagem remota em transmissores de pressão estática. Os cabeçotes angulados permitem a montagem em painel. A válvula de ventilação separada oferece controle total da purga do instrumento, além da capacidade de calibração em campo. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1\"; CV 0,46; barra em \"T\"; gaxeta PTFE/grafite; 6.000 a 10.000 PSI; sedes metal com metal; temperatura 240 °C / 540 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/G12AF-manifold-2v.png"
+        },
+        {
+          "id": "oliver-g12ff",
+          "name": "G12FF — Manifold de 2 Válvulas",
+          "description": "Manifold de 2 válvulas Tipo 'G12FF', projetado para montagem remota em transmissores de pressão estática. A válvula de ventilação separada oferece controle total da purga do instrumento, além da capacidade de calibração em campo. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1\"; CV 0,46; barra em \"T\"; gaxeta PTFE/grafite; 6.000 a 10.000 PSI; sedes metal com metal; temperatura 240 °C / 540 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/G12FF-manifold-2v.png"
+        },
+        {
+          "id": "oliver-g12fm",
+          "name": "G12FM — Manifold de 2 Válvulas",
+          "description": "Manifold de 2 válvulas Tipo 'G12', projetado para montagem remota em transmissores de pressão estática. A válvula de ventilação separada oferece controle total da purga do instrumento, além da capacidade de calibração em campo. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1\"; CV 0,46; barra em \"T\"; gaxeta PTFE/grafite; 6.000 a 10.000 PSI; sedes metal com metal; temperatura 240 °C / 540 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/G12FM-manifold-2v.png"
+        },
+        {
+          "id": "oliver-g12mf",
+          "name": "G12MF — Manifold de 2 Válvulas",
+          "description": "Manifold de 2 válvulas Tipo 'G12', projetado para montagem remota em transmissores de pressão estática. A válvula de ventilação separada oferece controle total da purga do instrumento, além da capacidade de calibração em campo. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1\"; CV 0,46; barra em \"T\"; gaxeta PTFE/grafite; 6.000 a 10.000 PSI; sedes metal com metal; temperatura 240 °C / 540 °C; rosca NPT / BSPP / BSPT.",
+          "image": "images/oliver/G12MF-manifold-2v.png"
+        },
+        {
+          "id": "oliver-y24",
+          "name": "Y24 — Manifold de 2 Válvulas com Válvulas Agulha",
+          "description": "Manifold com 2 válvulas Tipo 'Y24', projetado para montagem direta em transmissores de pressão estática. A válvula de ventilação separada oferece controle total da purga do instrumento, além da capacidade de calibração em campo. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y24-manifold-2v.png"
+        },
+        {
+          "id": "oliver-y25",
+          "name": "Y25 — Manifold de 2 Válvulas com Válvulas Agulha",
+          "description": "Manifold de 2 válvulas Tipo 'Y25', projetado para montagem direta em transmissores de pressão estática. A válvula de ventilação separada oferece controle total da purga do instrumento, além da capacidade de calibração em campo. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y25-manifold-2v.png"
+        },
+        {
+          "id": "oliver-t34",
+          "name": "T34 — Manifold de 3 Válvulas",
+          "description": "Manifold de 3 válvulas Tipo 'T34', projetado para montagem direta em transmissores de pressão diferencial, com isolamento separado para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; conexões flangeadas.",
+          "image": "images/oliver/T34-manifold-3v.png"
+        },
+        {
+          "id": "oliver-y33",
+          "name": "Y33 — Manifold de 3 Válvulas",
+          "description": "Manifold de 3 válvulas Tipo 'Y33', projetado para montagem remota em transmissores de pressão diferencial, com isolamento separado para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y33-manifold-3v.png"
+        },
+        {
+          "id": "oliver-y35",
+          "name": "Y35 — Manifold de 3 Válvulas",
+          "description": "Manifold de 3 válvulas Tipo 'Y35', projetado para montagem direta em transmissores de pressão diferencial, com isolamento separado para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y35-manifold-3v.png"
+        },
+        {
+          "id": "oliver-yv33",
+          "name": "YV33 — Manifold de 3 Válvulas",
+          "description": "Manifold de 3 válvulas Tipo 'YV33', projetado para montagem remota em transmissores de pressão diferencial, com isolamento separado para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/YV33-manifold-3v.png"
+        },
+        {
+          "id": "oliver-yv34",
+          "name": "YV34 — Manifold de 3 Válvulas",
+          "description": "Manifold de 3 válvulas Tipo 'Y34', projetado para montagem direta em transmissores de pressão diferencial, com isolamento separado para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/YV34-manifold-3v.png"
+        },
+        {
+          "id": "oliver-y52",
+          "name": "Y52 — Manifold de 5 Válvulas",
+          "description": "Manifold de 5 válvulas Tipo 'Y52', projetado para montagem direta em transmissores de pressão diferencial, com isolamento e ventilação separados para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y52-manifold-5v.png"
+        },
+        {
+          "id": "oliver-y53",
+          "name": "Y53 — Manifold de 5 Válvulas",
+          "description": "Manifold de 5 válvulas Tipo 'Y53', projetado para montagem direta em transmissores de pressão diferencial, com isolamento e ventilação separados para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y53-manifold-5v.png"
+        },
+        {
+          "id": "oliver-y54",
+          "name": "Y54 — Manifold de 5 Válvulas",
+          "description": "Manifold de 5 válvulas Tipo 'Y54', projetado para montagem remota em transmissores de pressão diferencial, com isolamento e ventilação separados para as entradas de baixa pressão (LP) e alta pressão (HP), além de uma válvula de equalização para calibração simples. Bore 0,21\" (5,4 mm); conexão de 1/4\" a 1/2\"; barra em \"T\"; gaxeta PTFE/grafite; 6.000 / 10.000 PSI; temperatura 240 °C / 540 °C; rosca NPT (padrão), BSPP e BSPT.",
+          "image": "images/oliver/Y54-manifold-5v.png"
+        },
+        {
+          "id": "oliver-gb1",
+          "name": "GB1 — Válvula de Sangria para Manômetro",
+          "description": "Válvula agulha de sangria Tipo 'GB', projetada para isolamento seguro e confiável, com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico.",
+          "image": "images/oliver/GB1-valvula-sangria.png"
+        },
+        {
+          "id": "oliver-gv1",
+          "name": "GV1 — Válvula de Ventilação para Manômetro",
+          "description": "Válvula agulha de ventilação Tipo 'GV', com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico.",
+          "image": "images/oliver/GV1-valvula-ventilacao.png"
+        },
+        {
+          "id": "oliver-gm1",
+          "name": "GM1 — Válvula Multiporta para Manômetro",
+          "description": "Válvula agulha multiporta Tipo 'GM1', com fechamento estanque (bolha zero), pontas não rotativas e antigripantes e vedação de fuso com autoajuste dinâmico.",
+          "image": "images/oliver/GM1-valvula-multiporta.png"
+        },
+        {
+          "id": "oliver-gm1-ext",
+          "name": "GM1-EXT — Válvula Multiporta para Manômetro com Extensão",
+          "description": "Mesmo projeto da GM1 (multiporta), com extensão para instalações em locais de difícil acesso ou isolamento térmico.",
+          "image": "images/oliver/GM1-valvula-multiporta.png"
+        },
+        {
+          "id": "oliver-agulha-a",
+          "name": "Válvula Agulha Tipo 'A' em Ângulo",
+          "description": "Válvula agulha de isolamento único Tipo 'A', projetada para isolamento seguro e confiável. Oferece fechamento estanque (bolha zero), ponta não rotativa e antigripante (anti-galling) e vedação de fuso com autoajuste dinâmico para longa vida útil em diversas aplicações. As válvulas agulha Oliver fornecem sede metal com metal e isolamento de pequeno diâmetro, sem necessidade de válvulas globo maiores e mais caras.",
+          "image": "images/oliver/valvula-agulha-tipo-A.png"
+        },
+        {
+          "id": "oliver-agulha-bi",
+          "name": "Válvula Agulha Tipo 'BI' de Compressão",
+          "description": "Isolamento único Tipo 'BI', com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico.",
+          "image": "images/oliver/valvula-agulha-tipo-BI.png"
+        },
+        {
+          "id": "oliver-agulha-f",
+          "name": "Válvula Agulha Tipo 'F' Fêmea",
+          "description": "Isolamento único Tipo 'F', com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico.",
+          "image": "images/oliver/valvula-agulha-tipo-F.png"
+        },
+        {
+          "id": "oliver-agulha-fs",
+          "name": "Válvula Agulha Tipo 'FS' à Prova de Fogo (Fire Safe)",
+          "description": "Isolamento único Tipo 'FS', com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico. Fornecida com ensaio fire safe conforme BS6755 PT2 / API 607 / ISO 10497 / API 6FA.",
+          "image": "images/oliver/valvula-agulha-tipo-FS.png"
+        },
+        {
+          "id": "oliver-agulha-hd",
+          "name": "Válvula Agulha Tipo 'HD' de Serviço Pesado",
+          "description": "Isolamento único Tipo 'HD', com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico, para aplicações de alta temperatura e alta pressão.",
+          "image": "images/oliver/valvula-agulha-tipo-HD.png"
+        },
+        {
+          "id": "oliver-agulha-m",
+          "name": "Válvula Agulha Tipo 'M' Macho",
+          "description": "Isolamento único Tipo 'M', com fechamento estanque (bolha zero), ponta não rotativa e antigripante e vedação de fuso com autoajuste dinâmico.",
+          "image": "images/oliver/valvula-agulha-tipo-M.png"
+        },
+        {
+          "id": "oliver-dbb-d",
+          "name": "DBB Tipo D Forjado",
+          "description": "Usinada a partir de um único forjado (upset forging), a válvula DBB Tipo 'D' possui duas válvulas de esfera de isolamento em linha (primária e secundária) e uma válvula agulha de sangria de serviço pesado.",
+          "image": "images/oliver/DBB-tipo-D.png"
+        },
+        {
+          "id": "oliver-dbb-f",
+          "name": "DBB Tipo F Forjado",
+          "description": "Usinada a partir de um único forjado, a DBB Tipo 'F' possui duas válvulas de esfera de isolamento em linha (primária e secundária) e uma válvula de esfera de sangria.",
+          "image": "images/oliver/DBB-tipo-F.png"
+        },
+        {
+          "id": "oliver-dbb-id",
+          "name": "DBB Tipo ID para Instrumentação",
+          "description": "Usinadas a partir de barra forjada, as DBB Tipo 'ID' possuem duas válvulas de esfera de isolamento em linha (primária e secundária) e uma válvula agulha de sangria de serviço pesado.",
+          "image": "images/oliver/DBB-tipo-ID.png"
+        },
+        {
+          "id": "oliver-dbb-in",
+          "name": "DBB Tipo IN para Instrumentação",
+          "description": "Usinadas a partir de barra forjada, as DBB Tipo 'IN' possuem duas válvulas agulha de isolamento (primária e secundária) e uma válvula agulha.",
+          "image": "images/oliver/DBB-tipo-IN.png"
+        },
+        {
+          "id": "oliver-dbb-l",
+          "name": "DBB Tipo L para Instrumentação",
+          "description": "Usinada a partir de barra, a DBB Tipo 'L' possui duas válvulas de esfera de isolamento em linha (primária e secundária) e uma válvula de esfera de sangria.",
+          "image": "images/oliver/DBB-tipo-L.png"
+        },
+        {
+          "id": "oliver-dbb-n",
+          "name": "DBB Tipo N Forjado",
+          "description": "Usinada a partir de um único forjado, a DBB Tipo 'N' possui duas válvulas agulha de isolamento (primária e secundária) e uma válvula agulha.",
+          "image": "images/oliver/DBB-tipo-N.png"
+        },
+        {
+          "id": "oliver-dbb-t",
+          "name": "DBB Tipo T para Instrumentação",
+          "description": "Usinada a partir de barra, a DBB Tipo 'T' possui duas válvulas de esfera de isolamento em linha (primária e secundária) e uma válvula de esfera de sangria.",
+          "image": "images/oliver/DBB-tipo-T.png"
+        },
+        {
+          "id": "oliver-pipeline-compactas",
+          "name": "Válvulas de Esfera Compactas (Oliver Twinsafe)",
+          "description": "Válvulas de esfera de estilo compacto projetadas para proporcionar economias consideráveis de espaço e peso quando comparadas a uma válvula de esfera flangeada tradicional. Disponíveis em designs de esfera flutuante e esfera com munhão/trunnion, com acionamento manual ou automatizado. Normas de projeto: API 6D, ASME VIII Divisão 2, NACE MR-01-75; conexões de extremidade em solda de topo conforme ASME B16.25; interface ISO 5211 F10 para atuador; inserto da sede em PEEK; vedações à prova de fogo em grafite; temperatura de trabalho de -50 a +400 °F (-46 a +200 °C). Corpo e componentes internos em aço-liga, aço inoxidável, aço duplex ou ligas de níquel; haste em aço inoxidável, aço duplex ou ligas de níquel; vedação da haste em lip seal de PTFE com mola de Elgiloy; vedações do corpo em O-rings FKM ou HNBR com anéis de apoio em PTFE; anel bipartido (split ring) em aço-liga AISI 4130 revestido com Xylan.",
+          "image": "images/oliver/pipeline-valvulas-compactas.png"
+        },
+        {
+          "id": "oliver-pipeline-dbb",
+          "name": "DBB — Válvulas de Esfera de Pipeline",
+          "description": "Válvulas de Duplo Bloqueio e Sangria com esfera flutuante e esfera com munhão/trunnion. Isolamento duplo real com duas válvulas de esfera independentes contidas em um único corpo de válvula, garantindo fechamento absoluto e maximizando a operação segura de qualquer instalação de processamento. Normas ASME B16.34, API 6D, ASME VIII, ASME B16.5; à prova de fogo API 607, API 6FA, ISO 10497; pressão ASME Class 150 a 2500, API 6A até 10.000; sedes em PTFE lip seals, macias em Devlon, PEEK, PTFE ou metálicas em carboneto de tungstênio e carboneto de cromo; temperatura -50 °C a 200 °C (opção até 315 °C). Recursos opcionais: pontos de injeção de sede e haste, dreno da cavidade da esfera, portas de ventilação e efeito de duplo pistão (DPE).",
+          "image": "images/oliver/pipeline-dbb-esfera.png"
+        },
+        {
+          "id": "oliver-pipeline-flutuante-compacta",
+          "name": "Válvula de Esfera Flutuante DBB — Design Compacto",
+          "description": "Válvulas de Duplo Bloqueio e Sangria de estilo compacto, projetadas com comprimento total de acordo com a ASME B16.10. O design do corpo em peça única reduz os caminhos de vazamento potenciais e permite que o peso e o espaço sejam mantidos ao mínimo. Disponível em passagem plena e passagem reduzida. Pressão ASME Class 150 a 2500; API 6A até 5.000; sedes macias em PEEK, PTFE ou metálicas; temperatura -50 °C a 240 °C.",
+          "image": "images/oliver/pipeline-flutuante-compacta.png"
+        },
+        {
+          "id": "oliver-pipeline-flangeada",
+          "name": "Válvulas de Esfera Flutuantes DBB Flangeadas — Design 2/3 Peças",
+          "description": "Válvulas de Duplo Bloqueio e Sangria de estilo flangeado, disponíveis em designs de corpo de duas e três peças, contendo três válvulas em uma única unidade — reduzindo o peso e economizando espaço em toda a instalação. Pressão ASME Class 150 a 2500; API 6A até 5.000; sedes macias em PEEK, PTFE ou metálicas; temperatura -50 °C a 240 °C.",
+          "image": "images/oliver/pipeline-flangeada-2-3-pecas.png"
+        },
+        {
+          "id": "oliver-pipeline-level-gauge",
+          "name": "Válvulas para Medidor de Nível (Level Gauge)",
+          "description": "Válvulas para medidor de nível de estilo compacto, projetadas para permitir o isolamento seguro e a lavagem de transmissores de pressão com selo de diafragma, normalmente usados em aplicações de medição de nível de tanques. À prova de fogo API 607, API 6FA, ISO 10497; pressão ASME Class 150 a 2500; sedes macias em PEEK, PTFE ou metálicas; temperatura -50 °C a 240 °C.",
+          "image": "images/oliver/pipeline-level-gauge.png"
+        },
+        {
+          "id": "oliver-pipeline-top-entry",
+          "name": "Válvula de Esfera de Entrada Superior (Top Entry) — Criogênica",
+          "description": "Válvulas de esfera criogênicas \"top entry\" construídas especificamente para os desafios únicos do GNL e outras aplicações de baixa temperatura. O pescoço estendido garante operação segura e confiável em frio extremo, enquanto o corpo \"top entry\" permite a manutenção em linha sem remover a válvula de serviço. Tamanhos 2\", 3\", 4\", 6\"; classe de pressão 150, 300, 600, 900; flanges ASME B16.5 ou solda de topo ASME B16.25; corpo e tampa em ASTM A182 F316L ou ASTM A351 CF8M; esfera e haste em ASTM A182 F316L ou ASTM A182 XM-19; sede macia PCTFE (Kel-F) ou Peek Cryo, ou metálica com TCC; vedações estáticas e de sede em lipseals customizados; prensa-gaxeta ajustável com gaxeta de grafite reforçada. Conformidade ASME B16.34, BS 6364, ISO 28921, NACE MR-01-75 e ISO 15848.",
+          "image": "images/oliver/pipeline-top-entry.png"
+        },
+        {
+          "id": "oliver-pipeline-trunnion-flangeada",
+          "name": "Válvula de Esfera Trunnion DBB Flangeada — Design 3 Peças",
+          "description": "Válvulas de Duplo Bloqueio e Sangria de estilo flangeado, com corpo aparafusado de 3 peças e conexões flangeadas com parafusos passantes. Disponível até 16\" passagem plena (maiores sob consulta); montagem sobre munhão (trunnion) de 2\" a 16\"; conexões ASME B16.5 ou API 6A, hubs ou extremidades soldadas. Normas de projeto: ASME B16.10, ASME B16.34, API 6D, ASME VIII, ASME B16.5; à prova de fogo API 607, API 6FA, ISO 10497; válvula de vent integrada com conexões rosqueadas e flangeadas. Pressão ASME Class 150 a 2500; API 6A até 5.000; sedes macias Devlon, PEEK, PTFE ou metálicas; temperatura -50 °C a 200 °C (opção até 315 °C).",
+          "image": "images/oliver/pipeline-trunnion-flangeada.png"
+        },
+        {
+          "id": "oliver-pipeline-trunnion-compacta",
+          "name": "Válvulas de Esfera com Munhão (Trunnion) DBB — Design Compacto",
+          "description": "Válvula de Duplo Bloqueio e Sangria (DBB) de estilo compacto, projetada com comprimento total conforme a ASME B16.10 ou com a menor dimensão face a face possível. O corpo em peça única reduz os caminhos potenciais de vazamento e mantém peso e espaço no mínimo absoluto. Disponível em passagem plena e reduzida; permite a substituição de válvulas de esfera de isolamento único com a segurança adicional do duplo isolamento real, sem modificações caras na tubulação. Disponível no comprimento ASME B16.10 (CSL) até 10\" de passagem plena e 12\" de passagem reduzida, e nos comprimentos padrão Oliver (COSL); montagem sobre munhão de 2\" a 16\"; conexões flangeadas com parafusos prisioneiros conforme ASME B16.5; válvula de vent integral com conexões de sangria rosqueadas e flangeadas. Normas: ASME B16.10, ASME B16.34, API 6D, ASME VIII, ASME B16.5; à prova de fogo API 607, API 6FA, ISO 10497; sedes macias em Devlon, PEEK, PTFE ou metálicas em carboneto de tungstênio e carboneto de cromo; pressão ASME Class 150 a 2500, API 6A até 5.000; temperatura -50 °C a 200 °C (opção até 315 °C).",
+          "image": "images/oliver/icon-valvulas-pipeline.png"
         }
       ]
     },
@@ -609,7 +1103,7 @@
       "id": "parker",
       "name": "Parker",
       "logo": "images/parker/Logo Parker - Sem fundo.png",
-      "tagline": "Tecnologias de movimento e controle para a indústria",
+      "tagline": "Versatilidade e confiabilidade em conexões de alta pressão",
       "description": "A Parker Hannifin é líder global em tecnologias de movimento e controle, fornecendo soluções hidráulicas, pneumáticas e eletromecânicas para uma ampla gama de indústrias. Com presença em mais de 50 países, a Parker desenvolve componentes e sistemas que aumentam a produtividade e a eficiência de máquinas e equipamentos.\n\nNo portfólio do Grupo Polar, os produtos Parker incluem mangueiras, conexões, válvulas e sistemas de filtragem para aplicações industriais, atendendo aos mais rigorosos padrões de qualidade e segurança.",
       "gallery": [],
       "products": [
@@ -631,14 +1125,18 @@
           "description": "Filtros hidráulicos e sistemas de monitoramento de contaminação para garantir a vida útil e a confiabilidade de sistemas hidráulicos.",
           "image": "images/placeholder-logo.png"
         }
+      ],
+      "site": "https://www.parker.com/us/en/home.html",
+      "categories": [
+        "pi"
       ]
     },
     {
       "id": "pelican",
       "name": "Pelican",
       "logo": "images/pelican/Logo Pelican - Sem fundo.png",
-      "tagline": "Cases de proteção lendários — à prova d'água, poeira e quedas",
-      "description": "A Pelican é referência mundial em cases de proteção de alto desempenho, lanternas táticas e coolers profissionais. Seus produtos são utilizados por forças armadas, socorristas, fotógrafos e aventureiros nos ambientes mais extremos do planeta.\n\nReconhecida pela durabilidade lendária, cada case Pelican possui certificação IP67 contra água e poeira, além de resistir a quedas e impactos severos. A linha Air Case revolucionou o mercado ao oferecer a mesma proteção com redução significativa de peso, ideal para equipamentos eletrônicos e profissionais que precisam de mobilidade sem comprometer a segurança.",
+      "tagline": "Segurança extrema em zonas de risco — proteja sua equipe e seus equipamentos com a tecnologia Pelican",
+      "description": "Lanternas Pelican Ex: iluminação potente certificada para atmosferas explosivas. Cases Pelican: resistência indestrutível contra impactos, poeira e água. Aprovadas pelas normas globais mais rigorosas de segurança.\n\nA Pelican é referência mundial em cases de proteção de alto desempenho, lanternas táticas e coolers profissionais. Seus produtos são utilizados por forças armadas, socorristas, fotógrafos e aventureiros nos ambientes mais extremos do planeta.\n\nReconhecida pela durabilidade lendária, cada case Pelican possui certificação IP67 contra água e poeira, além de resistir a quedas e impactos severos. A linha Air Case revolucionou o mercado ao oferecer a mesma proteção com redução significativa de peso, ideal para equipamentos eletrônicos e profissionais que precisam de mobilidade sem comprometer a segurança.",
       "gallery": [
         {
           "type": "video",
@@ -675,13 +1173,17 @@
           "description": "Lanterna LED tática de alto desempenho, compacta e recarregável, com feixe ajustável e corpo resistente a impactos. Projetada para forças de segurança, bombeiros e situações de emergência.",
           "image": "images/placeholder-logo.png"
         }
+      ],
+      "site": "https://www.pelican.com/us/en",
+      "categories": [
+        "iluminacao-portatil-ex"
       ]
     },
     {
       "id": "proserv",
       "name": "Proserv",
       "logo": "images/proserv/Logo Proserv - Sem fundo.png",
-      "tagline": "Tecnologia de controle e sistemas de amostragem para a indústria de energia",
+      "tagline": "Especialistas em Controles — melhoramos a confiabilidade, a integridade e a produtividade de infraestruturas críticas com controles líderes na indústria",
       "description": "A Proserv é uma empresa global de tecnologia de controle que atende a indústria de energia. Com atuação internacional, somos especialistas em sistemas de amostragem topside e subsea para o setor de óleo e gás.\n\nCom nossa nova identidade de marca, reafirmamos nosso compromisso com a inovação e a excelência operacional, fornecendo soluções de controle avançadas que garantem segurança, eficiência e confiabilidade nas operações de nossos clientes em todo o mundo.",
       "gallery": [
         {
@@ -719,13 +1221,103 @@
           "description": "Sistemas de controle e automação para a indústria de energia, otimizando processos e reduzindo riscos operacionais.",
           "image": "images/proserv/Proserv_empresa global.png"
         }
+      ],
+      "site": "https://proserv.com/",
+      "categories": [
+        "pi"
+      ]
+    },
+    {
+      "id": "rs",
+      "name": "RS Components",
+      "logo": "images/placeholder-logo.png",
+      "site": "https://br.rsdelivers.com/",
+      "categories": [
+        "mro"
+      ],
+      "tagline": "Mais de 500.000 produtos industriais e eletrônicos à distância de um toque",
+      "description": "A Polar Group atua como distribuidora exclusiva da RS Components no Brasil, oferecendo acesso a um portfólio superior a 500.000 produtos de 2.500 fabricantes globais, com operações consolidadas em 32 países.\n\nA RS é o destino digital para soluções de produtos e serviços em design, manufatura e manutenção — compre direto no site, com a garantia da Polar Group.\n\nNo totem, a RS é apresentada como vitrine institucional, sem exibição de preços: o usuário explora as categorias de produtos de forma fluida — componentes eletrônicos, automação, ferramentas, segurança e muito mais — tudo o que a sua indústria precisa.",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/rs/categoria-componentes-eletronicos.jpeg",
+          "alt": "Categoria RS — Componentes Eletrônicos, Energia e Conectores"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-eletrica-automacao.jpeg",
+          "alt": "Categoria RS — Elétrica, Automação e Cabos"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-mecanica-fluidos.jpeg",
+          "alt": "Categoria RS — Mecânica, Fluidos e Ferramentas"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-epi-seguranca.jpeg",
+          "alt": "Categoria RS — EPI, Segurança, Teste e TI"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-maritimo.jpeg",
+          "alt": "Categoria RS — Marítimo"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-rs-pro.jpeg",
+          "alt": "Categoria RS — RS PRO"
+        },
+        {
+          "type": "video",
+          "src": "videos/rs/Hear_From_Our_Customers_RS.mp4",
+          "thumbnail": "images/rs/thumbs/Hear_From_Our_Customers_RS.jpg"
+        }
+      ],
+      "products": [
+        {
+          "id": "rs-componentes-eletronicos",
+          "name": "Componentes Eletrônicos, Energia e Conectores",
+          "description": "Tudo para o seu projeto eletrônico: semicondutores, conectores, componentes passivos e soluções de energia. Da ideia ao produto, a RS tem a peça certa. Inclui baterias e carregadores; resistores, capacitores e indutores; interconexão para circuitos, equipamentos e painéis; telas, LEDs e componentes ópticos; controle eletrostático, sala limpa e prototipagem; plataformas de desenvolvimento e educação; chips, transistores e circuitos integrados; e conversão e distribuição de energia.",
+          "image": "images/rs/categoria-componentes-eletronicos.jpeg"
+        },
+        {
+          "id": "rs-eletrica-automacao",
+          "name": "Elétrica, Automação e Cabos",
+          "description": "Automação e controle, cabos industriais, proteção e distribuição de energia. Eficiência e confiabilidade para a sua operação. Inclui CLPs, controladores e inversores; cabos de força e dados; gabinetes e racks; proteção contra sobrecargas; climatização, ventilação e controle térmico; luminárias e lâmpadas industriais; relés e condicionamento de sinais; chaves e interruptores; e acesso, armazenamento e movimentação de materiais.",
+          "image": "images/rs/categoria-eletrica-automacao.jpeg"
+        },
+        {
+          "id": "rs-mecanica-fluidos",
+          "name": "Mecânica, Fluidos e Ferramentas",
+          "description": "Ferramentas, pneumática, componentes mecânicos e fixadores. A solução completa para manutenção e produção industrial. Inclui colas, fitas e selantes industriais; rolamentos e vedações; tubulações e conexões para fluidos; materiais de engenharia e ferragens; parafusos, porcas e arruelas; ferramentas profissionais; transmissão de potência; válvulas, cilindros e mangueiras pneumáticas e hidráulicas; e ferramentas elétricas, solda e brasagem.",
+          "image": "images/rs/categoria-mecanica-fluidos.jpeg"
+        },
+        {
+          "id": "rs-epi-seguranca",
+          "name": "EPI, Segurança, Teste e TI",
+          "description": "Proteja sua equipe e garanta qualidade: EPIs, segurança no trabalho, instrumentos de teste e medição e soluções de TI. Inclui soluções de TI para infraestrutura; produtos de limpeza industrial e lubrificantes; suprimentos para o ambiente corporativo; capacetes, luvas, óculos e vestuário; segurança patrimonial e ferragens de proteção; sinalização, bloqueios e proteção no local de trabalho; e multímetros, osciloscópios e medidores de precisão.",
+          "image": "images/rs/categoria-epi-seguranca.jpeg"
+        },
+        {
+          "id": "rs-maritimo",
+          "name": "Marítimo",
+          "description": "Soluções especializadas para navegação, segurança marítima e manutenção offshore. Inclui cabos de força e dados para ambientes marítimos; conectores para aplicações marítimas e offshore; ferramentas manuais para manutenção a bordo; EPIs e vestuário para operações marítimas; instrumentos de medição para embarcações e plataformas; sistemas pneumáticos e hidráulicos offshore; produtos de limpeza e manutenção; e fixadores resistentes à corrosão para aplicações navais.",
+          "image": "images/rs/categoria-maritimo.jpeg"
+        },
+        {
+          "id": "rs-pro",
+          "name": "RS PRO",
+          "description": "A linha própria da RS: qualidade profissional, garantia e disponibilidade em todas as categorias. Inclui ferramentas manuais da linha própria; EPIs com garantia RS PRO; instrumentos de teste e medição; gabinetes e invólucros; cabos de energia e industriais com o padrão RS PRO; e conectividade Ethernet da linha própria da RS.",
+          "image": "images/rs/categoria-rs-pro.jpeg"
+        }
       ]
     },
     {
       "id": "sa-equip",
       "name": "SA EQUIP",
       "logo": "images/sa-equip/Logo SA Equip - Sem fundo.png",
-      "tagline": "Equipamentos Ex certificados para as condições mais extremas",
+      "tagline": "Iluminação, ventilação, aquecimento e energia — tornamos ambientes difíceis e perigosos seguros e produtivos",
       "description": "A SA Equipment projeta e fabrica equipamentos certificados Ex (ATEX, IECEx e UKEX) para atmosferas explosivas. Nossa linha de produtos atende aos setores de petróleo e gás, mineração, químico e industrial, com equipamentos robustos de alta performance para os ambientes mais extremos.\n\nCom fabricação no Reino Unido e materiais de qualidade marítima (marine grade), nossos produtos são projetados para operação contínua em temperaturas de -20 °C a +50 °C, com proteção IP65. Cada equipamento é testado e certificado individualmente, garantindo segurança e confiabilidade em Zonas 1 e 2 (gases) e Zonas 21 e 22 (poeiras).",
       "gallery": [
         {
@@ -841,13 +1433,17 @@
           "description": "Movimentador de ar portátil certificado Ex para ventilação e circulação de ar em espaços confinados e áreas classificadas. Compatível com dutos antiestáticos SA CYCLONE. Ideal para renovação de ar, resfriamento e extração de fumos. Certificação ATEX.",
           "image": "images/sa-equip/Ex AIR MOVER.png"
         }
+      ],
+      "site": "https://saequip.com/",
+      "categories": [
+        "espaco-confinado-ex"
       ]
     },
     {
       "id": "stopdropp",
       "name": "StopDropp",
       "logo": "images/stopdropp/Logo Stopdrop - sem fundo.png",
-      "tagline": "Protegendo o invisível. Prevenindo o impensável.",
+      "tagline": "Ferramentas manuais com amarração (tethered) para trabalho em altura — liberdade de uso e funcionalidade total, com segurança contra quedas",
       "description": "A StopDropp desenvolve ferramentas manuais projetadas especificamente para evitar quedas durante trabalhos em altura. Fundada em 2005, com sedes em Houston, Texas (EUA) e Dewsbury, West Yorkshire (Reino Unido), a empresa é referência global em tethered tools, tools at height e tools aloft.\n\nAtende setores de óleo e gás, petroquímica, construção, mineração, utilities, energia eólica e telecomunicações, com o objetivo de reduzir ocorrências de queda de objetos. É membro de organizações dedicadas à prevenção de quedas nos setores offshore e onshore.\n\nSeu ecossistema de produtos abrange: cordões e espirais de amarração com limites de carga de trabalho (WLL) explícitos para todos os tipos de ferramentas; pontos de ancoragem vestíveis (cintos e coletes com pontos de fixação reforçados) e estruturais; bolsas e mochilas com fechamentos magnéticos ou de fivelas, não condutivas e com múltiplos pontos de fixação; além de mosquetões, conectores, envoltórios para ferramentas e kits completos. Todos os produtos possuem certificações EN 13157, ANSI/ISEA 121, ASME B30.20 e API RP 2D, com testes de carga realizados por certificadoras terceirizadas e rastreabilidade total por serialização.",
       "gallery": [
         {
@@ -881,13 +1477,101 @@
           "description": "Kits completos seriados e embalados por equipe, disponíveis nas versões estática, móvel ou por função. Montados sob medida após avaliação do inventário de ferramentas do cliente. Rastreabilidade completa.",
           "image": "images/placeholder-logo.png"
         }
+      ],
+      "site": "https://stopdroptooling.com/",
+      "categories": [
+        "amarracao-ferramentas"
+      ]
+    },
+    {
+      "id": "stahl",
+      "name": "R. STAHL",
+      "logo": "images/placeholder-logo.png",
+      "site": "https://r-stahl.com/en/us/home/",
+      "categories": [
+        "iluminacao-ex"
+      ],
+      "tagline": "Ampla gama de plugues e tomadas à prova de explosão e conectores de plugue",
+      "description": "A R. STAHL é referência alemã em proteção contra explosão (Ex), com tecnologia de ponta para atmosferas explosivas nos setores de óleo e gás, petroquímico, químico e farmacêutico. A Polar Group é o canal oficial de acesso à tecnologia alemã de ponta no Brasil.\n\nSegurança absoluta e eficiência operacional em atmosferas explosivas através da parceria R. STAHL + Polar Group: a linha de plugues e tomadas Ex reúne as séries SolConeX 8570, SolConeX 8571, CES 8575/8579 e CES 8581, com correntes de 16 A a 125 A, 3, 4 ou 5 polos, proteção Ex de IIC T6 / IP66 e materiais em poliamida e latão, certificados para as Zonas 1, 2, 21 e 22.\n\nSoluções voltadas para engenheiros de projeto, gestores de manutenção industrial, compradores técnicos e inspetores de segurança (HSE).",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/stahl/tela-1-abertura.jpeg",
+          "alt": "R. STAHL — abertura e impacto"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-2-autoridade-stahl.jpeg",
+          "alt": "A autoridade R. STAHL em proteção contra explosão"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-3-polar-brasil.jpeg",
+          "alt": "Polar Group — canal oficial R. STAHL no Brasil"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-4-linha-produtos.jpeg",
+          "alt": "Linha de produtos — plugues e tomadas Ex R. STAHL"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-6-certificacoes-zonas.jpeg",
+          "alt": "Certificações e zonas — plugues e tomadas Ex"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-7-aplicacoes.jpeg",
+          "alt": "Aplicações industriais R. STAHL"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-8-cta.jpeg",
+          "alt": "R. STAHL — fale com a Polar Group"
+        },
+        {
+          "type": "video",
+          "src": "videos/stahl/Explosion_Protection_by_R._STAHL.mp4",
+          "thumbnail": "images/stahl/thumbs/Explosion_Protection_by_R._STAHL.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/stahl/miniCON_-_Our_safe_plug-in_connectors_for_hazardous_areas.mp4",
+          "thumbnail": "images/stahl/thumbs/miniCON_-_Our_safe_plug-in_connectors_for_hazardous_areas.jpg"
+        }
+      ],
+      "products": [
+        {
+          "id": "stahl-solconex-8570",
+          "name": "SolConeX 8570 — Plugues e Tomadas Ex",
+          "description": "Série SolConeX 8570: corrente de 16 A, 3/4/5 polos, Zonas 1, 2, 21 e 22, proteção Ex de IIC T6 / IP66, material em poliamida/latão.",
+          "image": "images/stahl/tela-4-linha-produtos.jpeg"
+        },
+        {
+          "id": "stahl-solconex-8571",
+          "name": "SolConeX 8571 — Plugues e Tomadas Ex",
+          "description": "Série SolConeX 8571: corrente de 32 A, 3/4/5 polos, Zonas 1, 2, 21 e 22, proteção Ex de IIC T6 / IP66, material em poliamida/latão.",
+          "image": "images/stahl/tela-4-linha-produtos.jpeg"
+        },
+        {
+          "id": "stahl-ces-8575-8579",
+          "name": "CES 8575 / 8579 — Plugues e Tomadas Ex",
+          "description": "Séries CES 8575 / 8579: corrente de 63 A, 3/4/5 polos, Zonas 1, 2, 21 e 22, proteção Ex de IIC T6 / IP66, material em poliamida/latão.",
+          "image": "images/stahl/tela-6-certificacoes-zonas.jpeg"
+        },
+        {
+          "id": "stahl-ces-8581",
+          "name": "CES 8581 — Plugues e Tomadas Ex",
+          "description": "Série CES 8581: corrente de 125 A, 3/4/5 polos, Zonas 1, 2, 21 e 22, proteção Ex de IIC T6 / IP66, material em poliamida/latão.",
+          "image": "images/stahl/tela-7-aplicacoes.jpeg"
+        }
       ]
     },
     {
       "id": "vantrunk",
       "name": "Vantrunk",
       "logo": "images/vantrunk/Logo Vantrunk - sem fundo.png",
-      "tagline": "Sistemas de gerenciamento de cabos para ambientes industriais e áreas classificadas",
+      "tagline": "Projetados para ambientes extremos",
       "description": "A Vantrunk é referência mundial em sistemas de gerenciamento de cabos, oferecendo soluções inovadoras para os setores industrial e de áreas classificadas. Com décadas de experiência, nossos sistemas de leitos e eletrocalhas garantem segurança, durabilidade e eficiência nas instalações mais exigentes.\n\nDesenvolvemos produtos projetados para suportar ambientes agressivos, incluindo plataformas offshore, plantas petroquímicas, indústrias de mineração e instalações de energia, sempre em conformidade com as mais rigorosas normas internacionais.",
       "gallery": [
         {
@@ -924,6 +1608,10 @@
           "description": "Sistema de travamento inteligente para eletrocalhas e leitos de cabos que garante conexões seguras e instalação simplificada. Ideal para aplicações em plantas petroquímicas, plataformas offshore e ambientes industriais de alta exigência.",
           "image": "images/vantrunk/Intelok Sistrma.png"
         }
+      ],
+      "site": "https://vantrunk.com",
+      "categories": [
+        "gerenciamento-cabos"
       ]
     }
   ]

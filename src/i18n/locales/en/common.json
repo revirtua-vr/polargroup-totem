@@ -9,7 +9,7 @@
   },
   "quemSomos": {
     "title": "Polar Group",
-    "subtitle": "Electrical, electronic and automation components since 1992",
+    "subtitle": "The right product when you need it most",
     "paragraph1": "Founded in 1992 in Macaé, Rio de Janeiro, Polar Group is a supplier of electrical, electronic and automation components, with specialized operations in hazardous areas and explosive atmospheres.",
     "paragraph2": "We work with \"Ex\" materials from the world's leading manufacturers. Present in 3 Brazilian states and in Europe, our team is trained and committed to customer success, ready to deliver anywhere.",
     "missionTitle": "Mission",
@@ -28,7 +28,8 @@
   },
   "marcas": {
     "title": "Our Brands",
-    "subtitle": "Tap a company to learn more"
+    "subtitle": "Tap a company to learn more",
+    "all": "All"
   },
   "produtos": {
     "title": "Products",
@@ -49,7 +50,8 @@
     "gallery": "Gallery",
     "products": "Products",
     "catalog": "Catalog",
-    "viewCatalog": "View catalog"
+    "viewCatalog": "View catalog",
+    "visitSite": "Visit website"
   },
   "quiz": {
     "title": "Polar Group Quiz",

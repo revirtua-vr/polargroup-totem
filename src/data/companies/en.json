@@ -1,11 +1,61 @@
 {
+  "categories": [
+    {
+      "id": "equipamentos-ex",
+      "label": "Ex Equipment"
+    },
+    {
+      "id": "pi",
+      "label": "P&I"
+    },
+    {
+      "id": "iluminacao-ex",
+      "label": "Ex Lighting"
+    },
+    {
+      "id": "prensa-cabos-ex",
+      "label": "Ex Cable Glands"
+    },
+    {
+      "id": "iluminacao-portatil-ex",
+      "label": "Portable Ex Lighting"
+    },
+    {
+      "id": "espaco-confinado-ex",
+      "label": "Confined Space Ex Equipment"
+    },
+    {
+      "id": "comunicacao-ex",
+      "label": "Ex Communication"
+    },
+    {
+      "id": "ferramentas-hidraulicas",
+      "label": "Hydraulic Tools"
+    },
+    {
+      "id": "amarracao-ferramentas",
+      "label": "Tool Tethering Systems"
+    },
+    {
+      "id": "prevencao-quedas",
+      "label": "Object Fall Prevention"
+    },
+    {
+      "id": "mro",
+      "label": "MRO"
+    },
+    {
+      "id": "gerenciamento-cabos",
+      "label": "Cable Management System"
+    }
+  ],
   "companies": [
     {
       "id": "atexxo",
       "name": "Atexxo",
       "logo": "images/atexxo/Logo atexxo - sem fundo.png",
-      "tagline": "Explosion-proof mobile devices for hazardous areas",
-      "description": "Atexxo Manufacturing is an international company specialized in the design and production of explosion-proof mobile devices with ATEX and IECEx certifications. Headquartered in the Netherlands, Atexxo converts premium Apple and Samsung devices — such as iPhones, iPads and Galaxy Tabs — into certified versions for safe use in hazardous areas, maintaining all original equipment functionality, including 5G, NFC, cameras, wireless charging, and Wi-Fi and Bluetooth connectivity.\n\nAtexxo products are certified for ATEX Zone 1 and 2 (gas explosion risk) and Zone 21 and 22 (dust explosion risk), with international IECEx and UKCA certifications, plus INMETRO certification available for selected models. All devices preserve the full user experience, including apps, interface, performance, and ecosystem of the original device, with no loss of performance.\n\nDesigned specifically for critical industries such as oil and gas, petrochemical, offshore, and pharmaceutical, Atexxo devices are ideal for connected workers, Industry 4.0, digital twins in hazardous areas, and safe photo and video capture in dangerous environments.",
+      "tagline": "Explosion-proof and future-proof: your partner in IECEx, ATEX, and Inmetro equipment. Explosion-proof products suitable for use in Zone 1 and Zone 2 and/or Zone 21 or 22",
+      "description": "Atexxo Manufacturing is an international company specialized in the design and production of explosion-proof mobile devices with ATEX and IECEx certifications. Headquartered in the Netherlands, Atexxo converts premium Apple and Samsung devices — such as iPhones, iPads, and Galaxy Tabs — into certified versions for safe use in hazardous areas, maintaining all original equipment functionalities, including 5G, NFC, cameras, wireless charging, and Wi-Fi and Bluetooth connectivity.\n\nAtexxo products are certified for ATEX Zone 1 and 2 (gas explosion risk) and Zone 21 and 22 (dust explosion risk), with international IECEx and UKCA certifications, as well as INMETRO certification available for selected models. All devices preserve the complete user experience, including apps, interface, performance, and ecosystem of the original device, without loss of performance.\n\nDesigned specifically for critical industries such as oil and gas, petrochemical, offshore, and pharmaceutical, Atexxo devices are ideal for connected workers, Industry 4.0, digital twins in hazardous areas, and safe photo and video capture in dangerous environments.",
       "gallery": [
         {
           "type": "image",
@@ -48,59 +98,63 @@
           "thumbnail": "images/atexxo/thumbs/ATX-Mini iPad-M6.jpg"
         }
       ],
+      "site": "https://atexxo.com/",
+      "categories": [
+        "comunicacao-ex"
+      ],
       "products": [
         {
           "id": "atx-iphone-15",
           "name": "iPhone 15 Ex",
-          "description": "Apple iPhone 15 smartphone converted and certified for safe use in hazardous areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB. Maintains all original iPhone 15 features, including 5G, NFC, cameras, wireless charging, and physical buttons. INMETRO, ATEX, and IECEx certification. Marking: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.",
+          "description": "Apple iPhone 15 smartphone converted and certified for safe use in classified areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB. Retains all original iPhone 15 features, including 5G, NFC, cameras, wireless charging, and physical buttons. INMETRO, ATEX, and IECEx certification. Marking: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.",
           "image": "images/atexxo/iphone-15-2-240x300.png"
         },
         {
           "id": "atx-ipad-mini-7",
           "name": "iPad mini 7 Ex",
-          "description": "Apple iPad mini 7th generation tablet converted and certified for safe use in hazardous areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB, in Wi-Fi or Wi-Fi+5G models with E-SIM. Maintains all original features except the fingerprint sensor. INMETRO, ATEX, and IECEx certification.",
+          "description": "Apple iPad mini 7th generation tablet converted and certified for safe use in classified areas Zone 1 and 2 (gases) and Zone 21 and 22 (dusts). Available with storage capacities of 128 GB, 256 GB, and 512 GB, in Wi-Fi or Wi-Fi+5G models with E-SIM. Retains all original features, except the fingerprint sensor. INMETRO, ATEX, and IECEx certification.",
           "image": "images/atexxo/ipad-mini-7-2-240x300.png"
         },
         {
           "id": "atx-iphone-16",
           "name": "iPhone 16 Ex",
-          "description": "Apple iPhone 16 smartphone converted and certified for safe use in hazardous areas Zone 1. Maintains all original device features, including 5G, NFC, cameras, wireless charging, and physical buttons. ATEX and IECEx certification.",
+          "description": "Apple iPhone 16 smartphone converted and certified for safe use in classified areas Zone 1. Retains all original device features, including 5G, NFC, cameras, wireless charging, and physical buttons. ATEX and IECEx certification.",
           "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png"
         },
         {
           "id": "atx-iphone-17",
           "name": "iPhone 17 Ex",
-          "description": "Apple iPhone 17 smartphone converted and certified for safe use in hazardous areas Zone 1. Maintains all original device features. ATEX and IECEx certification.",
+          "description": "Apple iPhone 17 smartphone converted and certified for safe use in classified areas Zone 1. Retains all original device features. ATEX and IECEx certification.",
           "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png"
         },
         {
           "id": "atx-iphone-16e",
           "name": "iPhone 16E Ex",
-          "description": "Apple iPhone 16E smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features. ATEX and IECEx certification.",
+          "description": "Apple iPhone 16E smartphone converted and certified for safe use in classified areas Zone 2. Retains all original device features. ATEX and IECEx certification.",
           "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png"
         },
         {
           "id": "atx-samsung-s24",
           "name": "Galaxy S24 Ex",
-          "description": "Samsung Galaxy S24 smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features, including 5G, cameras, and apps. ATEX and IECEx certification.",
+          "description": "Samsung Galaxy S24 smartphone converted and certified for safe use in classified areas Zone 2. Retains all original device features, including 5G, cameras, and applications. ATEX and IECEx certification.",
           "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png"
         },
         {
           "id": "atx-samsung-s25",
           "name": "Galaxy S25 Ex",
-          "description": "Samsung Galaxy S25 smartphone converted and certified for safe use in hazardous areas Zone 2. Maintains all original device features. ATEX and IECEx certification.",
+          "description": "Samsung Galaxy S25 smartphone converted and certified for safe use in classified areas Zone 2. Retains all original device features. ATEX and IECEx certification.",
           "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png"
         },
         {
           "id": "atx-galaxy-tab-active5",
           "name": "Galaxy Tab Active5 Ex",
-          "description": "Rugged Samsung Galaxy Tab Active5 tablet converted and certified for safe use in hazardous areas Zone 1. Ideal for connected workers and Industry 4.0 in harsh environments. ATEX and IECEx certification.",
+          "description": "Samsung Galaxy Tab Active5 rugged tablet converted and certified for safe use in classified areas Zone 1. Ideal for connected workers and Industry 4.0 in harsh environments. ATEX and IECEx certification.",
           "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png"
         },
         {
           "id": "atx-ipad-11",
           "name": "iPad 11 Ex",
-          "description": "Apple iPad 11 tablet converted and certified for safe use in hazardous areas Zone 1. Maintains all original iPad features, including cameras, Wi-Fi, 5G, and full Apple ecosystem performance. ATEX and IECEx certification.",
+          "description": "Apple iPad 11 tablet converted and certified for safe use in Zone 1 classified areas. Retains all original iPad features, including cameras, Wi-Fi, 5G, and full Apple ecosystem performance. ATEX and IECEx certification.",
           "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png"
         }
       ]
@@ -109,18 +163,18 @@
       "id": "blinda",
       "name": "Blinda",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Explosion-proof equipment with international certification — the only Brazilian company authorized to use CEAG components",
-      "description": "For over 60 years, Blinda has been a national reference in explosion-proof (Ex) electrical equipment, serving with excellence the oil and gas, petrochemical, steel, and mining sectors. Its portfolio encompasses junction boxes, control panels, push-button stations, cable glands, signaling devices, and a complete line of certified connections and accessories.\n\nWith INMETRO, IECEx, and ATEX certifications, Blinda is the only company in Brazil authorized to use CEAG components in its projects, ensuring an international standard of quality and safety. All products are manufactured with high-strength materials — copper-free aluminum, 304/316L stainless steel, and glass-reinforced polyester (GRP) — ensuring IP66/W protection and a temperature class from -60 °C to +110 °C.\n\nLocated in Votorantim (SP), Blinda is part of the Polar Components Group, offering complete solutions in Ex equipment for explosive atmospheres, with specialized technical support and custom manufacturing to meet the industry's most rigorous specifications.",
+      "tagline": "Count on Blinda and its portfolio of solutions for explosive atmospheres",
+      "description": "For over 60 years, Blinda has been a national reference in explosion-proof (Ex) electrical equipment, serving with excellence the oil and gas, petrochemical, steel, and mining sectors. Its portfolio includes junction boxes, control panels, push buttons, cable glands, signaling devices, and a complete line of certified connections and accessories.\n\nWith INMETRO, IECEx, and ATEX certifications, Blinda is the only company in Brazil authorized to use CEAG components in its projects, ensuring an international standard of quality and safety. All products are manufactured with high-resistance materials — copper-free aluminum, stainless steel 304/316L, and glass fiber reinforced polyester (GRP) — ensuring IP66/W protection and a temperature class from -60 °C to +110 °C.\n\nLocated in Votorantim (SP), Blinda is part of the Polar Components Group, offering complete solutions in Ex equipment for explosive atmospheres, with specialized technical support and custom manufacturing to meet the most rigorous industry specifications.",
       "gallery": [
         {
           "type": "image",
           "src": "images/blinda/key804.971.jpg",
-          "alt": "Explosion-proof junction box CBX — manufactured in aluminum, IP66W protection rating, INMETRO certified"
+          "alt": "Explosion-proof junction box CBX — made of aluminum, IP66W protection rating, INMETRO certified"
         },
         {
           "type": "image",
           "src": "images/blinda/key970.1095.jpg",
-          "alt": "Blinda explosion-proof command and control panel for industrial applications in explosive atmospheres"
+          "alt": "Blinda explosion-proof control and command panel for industrial applications in explosive atmospheres"
         },
         {
           "type": "image",
@@ -130,7 +184,7 @@
         {
           "type": "image",
           "src": "images/blinda/key680.1009.jpg",
-          "alt": "Ex sealing unit for cable glands — certified connections and accessories for hazardous areas"
+          "alt": "Ex sealing unit for cable glands — certified connections and accessories for classified areas"
         },
         {
           "type": "video",
@@ -143,77 +197,87 @@
           "thumbnail": "images/blinda/thumbs/BL_prensa cabos.jpg"
         }
       ],
+      "catalog": {
+        "title": "Blinda Catalog",
+        "file": "pdfs/catalogo-blinda.pdf",
+        "indexPage": 5
+      },
+      "site": "https://blinda.com.br/",
+      "categories": [
+        "equipamentos-ex",
+        "prensa-cabos-ex"
+      ],
       "products": [
         {
           "id": "bli-1",
-          "name": "Ex Junction and Distribution Box — CBX Series",
-          "description": "Explosion-proof junction and distribution boxes manufactured in copper-free aluminum with electrostatic polyester powder coating in Munsell gray N6.5. Certified Ex db IIB Gb and Ex tb IIIC Db with IP66W protection rating. Available in 13 sizes (CBX-01 to CBX-18), with viewing window option. Internal mounting plate in orange 2.5YR 6/14. Stainless steel 304 bolts per ANSI B 18.2.1.",
+          "name": "Ex Junction and Distribution Box — CBX Line",
+          "description": "Explosion-proof junction and distribution boxes manufactured in copper-free aluminum with electrostatic polyester powder coating in Munsell N6.5 gray. Certified Ex db IIB Gb and Ex tb IIIC Db with IP66W degree of protection. Available in 13 sizes (CBX-01 to CBX-18), with optional window. Internal mounting plate in orange 2.5YR 6/14. Stainless steel 304 screws per ANSI B 18.2.1.",
           "image": "images/blinda/key804.971.jpg"
         },
         {
           "id": "bli-2",
-          "name": "Ex Empty Junction Box — CBX-U Series",
-          "description": "Empty explosion-proof junction and distribution boxes intended for customer equipment assembly. Certified for recertification per Annex D of ABNT NBR IEC 60079-1. Manufactured in aluminum, IP66W protection rating, sizes CBX-01U to CBX-18U.",
+          "name": "Empty Ex Junction Box — CBX-U Line",
+          "description": "Empty explosion-proof junction and distribution boxes, intended for customer assembly of electrical equipment. Certified for recertification per Annex D of ABNT NBR IEC 60079-1. Manufactured in aluminum, IP66W degree of protection, sizes CBX-01U to CBX-18U.",
           "image": "images/blinda/key804.971.jpg"
         },
         {
           "id": "bli-3",
           "name": "Ex Digital Grounding Controller — CBX-STR2",
-          "description": "Explosion-proof digital grounding controller with solid-state technology, no moving parts. Full-range 110/220 Vac power supply. Detects capacitance between 470pF and 10,000pF. Includes flexible cable up to 8m, alligator clamp, and indicator light. Application in loading and transfer areas for flammable products.",
+          "description": "Explosion-proof digital grounding controller with solid-state technology, no moving parts. Full-range 110/220 Vac power supply. Detects capacitance between 470pF and 10,000pF. Includes flexible cable up to 8m, alligator clip, and indicator light. Application in loading and transfer areas of flammable products.",
           "image": "images/blinda/key525.846 CBX STR2.jpg"
         },
         {
           "id": "bli-4",
-          "name": "Explosion-Proof Siren — BX6500",
-          "description": "Explosion-proof electronic siren with microprocessor and 32 tone types. Sound level of 110dB at 1 meter. Manufactured in aluminum with electrostatic polyester coating. Certified Ex db IIB T6 Gb and Ex tb IIIC T85°C Db. Available in 220Vac, 127Vac, and 24Vdc voltages.",
+          "name": "Explosion-Proof Horn — BX6500",
+          "description": "Explosion-proof electronic horn with microprocessor and 32 sound types. Sound level of 110dB at 1 meter. Manufactured in aluminum with electrostatic polyester painting. Certified Ex db IIB T6 Gb and Ex tb IIIC T85°C Db. Available in voltages 220Vac, 127Vac, and 24Vdc.",
           "image": "images/blinda/key43_Munsell_B.878 (1).jpg"
         },
         {
           "id": "bli-5",
-          "name": "GBOX Terminal Box — GRP (Glass-Reinforced Polyester)",
-          "description": "Junction and terminal boxes in GRP with antistatic surface, resistant to atmospheric corrosion and chemical attack. Inmetro certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 protection rating. Service temperature from -60 °C to +110 °C. Rated voltage up to 690V, rated current up to 315A. Grounding plates in brass or stainless steel.",
+          "name": "GBOX Terminal Box — GRP (Glass Fiber Reinforced Polyester)",
+          "description": "Junction and terminal boxes in GRP with antistatic surface, resistant to atmospheric corrosion and chemical attacks. INMETRO certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 degree of protection. Service temperature from -60 °C to +110 °C. Nominal voltage up to 690V, nominal current up to 315A. Grounding plates in brass or stainless steel.",
           "image": "images/blinda/key1122.1039.jpg"
         },
         {
           "id": "bli-6",
           "name": "Ex-Cell Terminal Box — Stainless Steel Ex-e / Ex-i",
-          "description": "Terminal boxes in 316L or 304 stainless steel with electrochemical polishing. INMETRO certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 protection rating. Impact resistance of 7J. Rated voltage up to 750V, rated current up to 500A. Hinged cover with quarter-turn lock.",
+          "description": "Terminal boxes in stainless steel 316L or 304 with electrochemical polishing. INMETRO certified Ex eb IIC Gb and Ex tb IIIC Db. IP66 degree of protection. Impact resistance of 7J. Nominal voltage up to 750V, nominal current up to 500A. Hinged cover with 1/4 turn lock.",
           "image": "images/blinda/key970.1095.jpg"
         },
         {
           "id": "bli-7",
-          "name": "Ex Mobile Plug Cart — CTME",
-          "description": "Increased safety mobile plug cart for powering equipment in hazardous areas. GRP body, carbon steel frame with blue electrostatic coating, and 8\" (200mm) casters. Certification Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. CEAG standard sockets. Includes 30mA RCD circuit breakers and LOTO device.",
+          "name": "Ex Mobile Socket Cart — CTME",
+          "description": "Mobile socket cart with increased safety for powering equipment in classified areas. GRP body, carbon steel structure with blue electrostatic painting and 8\" (200mm) casters. Certification Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. CEAG standard sockets. Includes 30mA residual current circuit breakers and LOTO device.",
           "image": "images/blinda/key1122.1039.jpg"
         },
         {
           "id": "bli-8",
           "name": "Ex Safety Disconnect Switches — GHG 261 / GHG 262",
-          "description": "Safety switches and disconnectors for hazardous areas. Model GHG 261 (10A) in polyamide and GHG 262 (20A) in GRP. Certification Ex ed IIC T6 / Ex ed ia IIC T6, IP66 protection rating. Locking device in OFF position for up to 3 padlocks. M20/M25/M32 cable glands included.",
+          "description": "Safety switches and disconnectors for classified areas. Model GHG 261 (10A) in polyamide and GHG 262 (20A) in GRP. Certification Ex ed IIC T6 / Ex ed ia IIC T6, IP66 degree of protection. Locking device in OFF position for up to 3 padlocks. Cable glands M20/M25/M32 included.",
           "image": "images/blinda/key742.702.jpg"
         },
         {
           "id": "bli-9",
-          "name": "Ex Cable Glands — A2F, E1F and A2F-EF Series",
-          "description": "Explosion-proof cable glands Ex db IIC, manufactured in nickel-plated brass. Models A2F (standard), A2F-EF (with flange), and E1F (increased safety). Available in various sizes for cables from 1.5mm² to 240mm². Metric or NPT thread as required.",
+          "name": "Explosion-Proof Cable Glands — A2F, E1F and A2F-EF Lines",
+          "description": "Explosion-proof cable glands Ex db IIC, manufactured in nickel-plated brass. Models A2F (standard), A2F-EF (with flange) and E1F (increased safety). Available in various sizes for cables from 1.5mm² to 240mm². Metric or NPT thread as needed.",
           "image": "images/blinda/key41_A2F.1117.jpg"
         },
         {
           "id": "bli-10",
-          "name": "Ex Sealing Units — USD_XH, USX_H and USX_V",
-          "description": "Explosion-proof sealing units for physical barrier against flame propagation in conduits and cable connections. Manufactured in aluminum and brass. Horizontal and vertical models. Used in conjunction with cable glands and NBR 5597 heavy-duty conduits. INMETRO certification.",
+          "name": "Explosion-Proof Sealing Units — USD_XH, USX_H and USX_V",
+          "description": "Explosion-proof sealing units for physical barrier against flame propagation in conduits and cable connections. Manufactured in aluminum and brass. Horizontal and vertical models. Used together with cable glands and heavy-duty conduits NBR 5597. INMETRO certification.",
           "image": "images/blinda/key680.1009.jpg"
         },
         {
           "id": "bli-11",
-          "name": "Ex Connections and Accessories — Unions, Elbows, Nipples, Plugs and Bushings",
-          "description": "Complete line of explosion-proof connections: male-female unions (UX-MF) and female-female unions (UX-FF), expansion unions (UEX), 45° and 90° elbows (CFX), nipples (NA-C and NA-L), couplings (LU), plugs (PR and PCS), drains (DX), breathers (RX), and reducing bushings (BS-M40). Manufactured in aluminum or brass with NPT threads. Certified for groups IIB and IIIC.",
+          "name": "Explosion-Proof Fittings and Accessories — Unions, Elbows, Nipples, Plugs and Bushings",
+          "description": "Complete line of explosion-proof fittings: male-female unions (UX-MF) and female-female unions (UX-FF), expansion unions (UEX), 45° and 90° elbows (CFX), nipples (NA-C and NA-L), couplings (LU), plugs (PR and PCS), drains (DX), breathers (RX) and reducing bushings (BS-M40). Manufactured in aluminum or brass with NPT threads. Certified for groups IIB and IIIC.",
           "image": "images/blinda/key812.1001 (1).jpg"
         },
         {
           "id": "bli-12",
-          "name": "Ex Command and Control Panels — BCX, BCDX and BCTX",
-          "description": "Explosion-proof command and control boxes for push-buttons, indicator lights, instruments, and control devices in hazardous areas. Manufactured in copper-free aluminum with electrostatic polyester coating. IP66W protection rating. Certification Ex db IIB Gb and Ex tb IIIC Db. Customization with genuine CEAG components.",
+          "name": "Explosion-Proof Control and Command Panels — BCX, BCDX and BCTX",
+          "description": "Explosion-proof command and control boxes for push buttons, signal lights, instruments and control devices in classified areas. Manufactured in copper-free aluminum with polyester electrostatic painting. Degree of protection IP66W. Certification Ex db IIB Gb and Ex tb IIIC Db. Customization with original CEAG components.",
           "image": "images/blinda/key970.1095.jpg"
         }
       ]
@@ -222,8 +286,8 @@
       "id": "chalmit",
       "name": "Chalmit",
       "logo": "images/chalmit/Logo Chalmit - sem fundo.png",
-      "tagline": "Lighting for hazardous areas since 1910",
-      "description": "Chalmit has been a specialist in lighting for hazardous areas since 1910, with over a century dedicated to lighting for explosive atmospheres, focusing on safety, reliability, and performance in harsh environments. Part of the Hubbell group and an IEC standard reference, Chalmit expands innovation, global standardization, and technical support in critical projects.\n\nWith presence in over 40 countries and alignment with ATEX, IECEx, and NEC certifications, Chalmit ensures safe specification in oil and gas, chemical, mining, energy, and marine segments. Its certified luminaires serve classified zones (Zone 1, 2, 21, and 22) on platforms, refineries, and storage areas.\n\nThe portfolio includes linear LED luminaires for process and offshore areas (Protecta X series), LED floodlights for outdoor areas and large spaces (Evolution X series), and bulkheads for walkways and technical rooms (NexLED / Neo X series), with emergency options. Construction in marine-grade die-cast aluminum, stainless steel, and anticorrosive coatings, with IP66/IP67 protection. High-efficiency LED with typical service life above 100,000 hours.",
+      "tagline": "Electrify and Energize — reliable solutions for critical infrastructure since 1888",
+      "description": "Chalmit has been a specialist in lighting for hazardous areas since 1910, with over a century dedicated to lighting for explosive atmospheres, focusing on safety, reliability, and performance in harsh environments. Part of the Hubbell group and a reference for the IEC standard, Chalmit expands innovation, global standardization, and technical support in critical projects.\n\nWith a presence in more than 40 countries and alignment with ATEX, IECEx, and NEC certifications, Chalmit ensures safe specification in the oil and gas, chemical, mining, energy, and maritime segments. Its certified luminaires serve classified zones (Zone 1, 2, 21, and 22) on platforms, refineries, and storage areas.\n\nThe portfolio includes LED linear luminaires for process and offshore areas (Protecta X line), LED floodlights for outdoor areas and large spaces (Evolution X line), and bulkheads for circulation and technical rooms (NexLED / Neo X lines), with emergency options. Construction in marine-grade cast aluminum, stainless steel, and anti-corrosion coatings, with IP66/IP67 protection. High-efficiency LED with typical lifespan above 100,000 hours.",
       "gallery": [
         {
           "type": "video",
@@ -263,7 +327,7 @@
         {
           "type": "image",
           "src": "images/chalmit/CHL_NeoX_PIrepresentative_515.webp",
-          "alt": "Chalmit Neo X bulkhead for walkway areas"
+          "alt": "Chalmit Neo X bulkhead for circulation areas"
         },
         {
           "type": "image",
@@ -273,7 +337,7 @@
         {
           "type": "image",
           "src": "images/chalmit/Industrial-02-hero.jpg",
-          "alt": "Industrial lighting application Chalmit"
+          "alt": "Industrial application of Chalmit lighting"
         },
         {
           "type": "image",
@@ -286,12 +350,22 @@
           "alt": "Protecta X linear luminaire"
         }
       ],
+      "site": "https://www.hubbell.com/chalmit/en",
+      "categories": [
+        "iluminacao-ex"
+      ],
       "products": [
         {
           "id": "protecta-x",
           "name": "Protecta X / Protecta III",
-          "description": "Linear LED luminaires for process areas, industrial corridors, and offshore. High luminous efficiency and robust construction in marine-grade aluminum. ATEX, IECEx certification for Zones 1, 2, 21, and 22. IP66/IP67 protection. Available with integrated emergency battery.",
+          "description": "LED linear luminaires for process areas, industrial corridors, and offshore. High luminous efficiency and robust construction in marine-grade aluminum. ATEX, IECEx certification for Zones 1, 2, 21, and 22. IP66/IP67 protection. Available with integrated emergency battery.",
           "image": "images/chalmit/04.01.2024 - Protecta X.png"
+        },
+        {
+          "id": "eclipse-x",
+          "name": "Eclipse X",
+          "description": "Eclipse X LED Ex luminaire line for classified areas and explosive atmospheres, suitable for oil and gas, chemical, mining, energy, and maritime segments.",
+          "image": "images/chalmit/Logo Chalmit - sem fundo.png"
         },
         {
           "id": "evolution-x",
@@ -302,7 +376,7 @@
         {
           "id": "nexled-neo-x",
           "name": "NexLED / Neo X",
-          "description": "LED bulkheads for walkways and technical rooms. Options for Zone 1/2 and Zone 21/22, with emergency versions. Compact and robust design for installation in confined areas. Anticorrosive construction with IP66 protection.",
+          "description": "LED bulkheads for circulation and technical rooms. Options for Zone 1/2 and Zone 21/22, with emergency versions. Compact and robust design for installation in confined areas. Anti-corrosive construction with IP66 protection.",
           "image": "images/chalmit/NexLEDIII_515.webp"
         }
       ]
@@ -311,8 +385,8 @@
       "id": "dropsafe",
       "name": "Dropsafe",
       "logo": "images/dropsafe/Logo Dropsafe - sem fundo.png",
-      "tagline": "Global leader in dropped object prevention — protecting people, assets, and operations with passive 24/7 safety solutions",
-      "description": "Dropsafe is the global leader in dropped object prevention, partnering with companies in high-risk sectors such as energy, oil and gas, mining, chemical, maritime, and renewables. With over 20 years of experience, it develops specialized solutions — nets, barriers, slings, and securing systems — to prevent objects from falling in industrial environments, ensuring safer operations and strengthening safety culture.\n\nUnlike active solutions that rely on daily human intervention, Dropsafe adopts a passive prevention philosophy: a single installation protects all assets 24 hours a day, 7 days a week, operating independently of human action. Its products are manufactured in SUS 316 stainless steel and high-strength polycarbonate, designed for harsh offshore environments with temperatures from -40 °C to 500 °C.\n\nThe patented Trisafe™ technology — a triple-action carabiner with automatic locking operable with one hand — eliminates human error and sets a new safety standard. With global certifications including DNVGL-RP-F107, ABS DOPP+, API RP 2D, NORSOK, and ISO 9001, Dropsafe protects people and equipment in the world's most demanding environments, backed by US$ 10 million product liability insurance.",
+      "tagline": "Global leader in dropped object prevention. Mitigating the risks of falling objects to make work environments safer",
+      "description": "Dropsafe is the global leader in dropped object prevention, partnering with companies in high-risk sectors such as energy, oil and gas, mining, chemical, maritime, and renewables. With over 20 years of experience, it develops specialized solutions — nets, barriers, slings, and fastening systems — to prevent objects from falling in industrial environments, ensuring safer operations and strengthening safety culture.\n\nUnlike active solutions that depend on daily human intervention, Dropsafe adopts a passive prevention philosophy: a single installation protects all assets 24 hours a day, 7 days a week, functioning independently of human action. Its products are manufactured from SUS 316 stainless steel and high-strength polycarbonate, designed for severe offshore environments with temperatures ranging from -40 °C to 500 °C.\n\nThe patented Trisafe™ technology — a triple-action carabiner with automatic locking operable with one hand — eliminates human error and sets a new safety standard. With global certifications including DNVGL-RP-F107, ABS DOPP+, API RP 2D, NORSOK, and ISO 9001, Dropsafe protects people and equipment in the world's most demanding environments, backed by $10 million product liability insurance.",
       "gallery": [
         {
           "type": "video",
@@ -337,7 +411,7 @@
         {
           "type": "image",
           "src": "images/dropsafe/dropsafe-barrier-798.webp",
-          "alt": "Dropsafe barrier installed on industrial guardrail"
+          "alt": "Dropsafe barrier installed on industrial handrail"
         },
         {
           "type": "image",
@@ -380,42 +454,120 @@
           "alt": "Dropsafe LED render — lighting with protective net"
         }
       ],
+      "site": "https://dropsafe.com/",
+      "categories": [
+        "prevencao-quedas"
+      ],
       "products": [
         {
           "id": "dropsafe-nets",
           "name": "Dropsafe Nets",
-          "description": "Secondary retention devices that wrap and securely fasten suspended equipment such as luminaires, CCTV cameras, speakers, and detectors. Manufactured in SUS 316 stainless steel, tested to over 5 times the Safe Working Load (SWL). Equipped with triple-action Trisafe™ carabiner and RFID tag for traceability. Available in over 100 sizes and custom designs.",
+          "description": "Secondary retention devices that surround and securely hold suspended equipment such as light fixtures, CCTV cameras, speakers, and detectors. Made of SUS 316 stainless steel, tested to more than 5 times the Safe Working Load (SWL). Equipped with the Trisafe™ triple-action carabiner and RFID tag for traceability. Available in over 100 sizes and custom designs.",
           "image": "images/dropsafe/dropsafe-nets-225.webp"
         },
         {
           "id": "dropsafe-barrier",
           "name": "Dropsafe Barrier",
-          "description": "Modular dropped object prevention system that attaches to the interior side of guardrails, scaffolding, or under stairs. Manufactured in recyclable polycarbonate, with three components: Large Panel (1675 x 800 mm), Small Panel (1100 x 800 mm), and Fastening Device. High impact resistance (63J), withstands CAT 5 winds (250 km/h). Tool-free installation.",
+          "description": "Modular fall prevention system that attaches to the inside of guardrails, scaffolding, or under stairs. Made of recyclable polycarbonate, with three components: Large Panel (1675 x 800 mm), Small Panel (1100 x 800 mm), and Fixing Device. High impact resistance (63J), withstands CAT 5 winds (250 km/h). Tool-free installation.",
           "image": "images/dropsafe/dropsafe-barrier-798.webp"
         },
         {
           "id": "dropsafe-slings",
           "name": "Dropsafe Slings",
-          "description": "Secondary securing solution for equipment at height when it is not necessary to wrap internal components. Manufactured in SUS 316 stainless steel with double bolts. Available with traditional carabiner (screw lock) or patented triple-action Trisafe™ with automatic locking.",
+          "description": "Secondary attachment solution for equipment at height when wrapping internal components is not necessary. Made of SUS 316 stainless steel with double bolts. Available with a traditional carabiner (screw lock) or the patented Trisafe™ triple-action with automatic locking.",
           "image": "images/dropsafe/dropsafe-slings-598.webp"
         },
         {
           "id": "dropsafe-trisafe-carabiner",
           "name": "Trisafe™ Carabiner",
-          "description": "Patented technology: the world's first carabiner with triple-action mechanism and automatic locking, specifically designed to prevent dropped objects. Hook design, one-hand operation even while wearing gloves. Manufactured in 100% stainless steel.",
+          "description": "Patented technology: the world's first carabiner with a triple-action mechanism and automatic locking, specifically designed to prevent dropped objects. Hook design, one-handed operation even with gloves. Made of 100% stainless steel.",
           "image": "images/dropsafe/dropsafe-tool-tethering-795.webp"
         },
         {
           "id": "dropsafe-tool-tethering",
           "name": "Tool Tethering",
-          "description": "Line of safety lanyards for securing tools at height, equipped with triple-action Trisafe™ carabiner. Options: stainless steel cable (SUS 316L, 3 mm), elastic bungee (1680D Polyester), and webbing. Meets ANSI/ISEA 121-2018. Integrated 360° swivel.",
+          "description": "Line of safety lanyards for attaching tools at height, equipped with the Trisafe™ triple-action carabiner. Options: stainless steel cable (SUS 316L, 3 mm), elastic bungee (1680D Polyester), and webbing. Meets ANSI/ISEA 121-2018. Integrated 360° swivel.",
           "image": "images/dropsafe/dropsafe-tool-tethering-469.webp"
         },
         {
           "id": "dropsafe-pouches",
           "name": "Dropsafe Pouches",
-          "description": "Devices that wrap and secure portable items used at height (radios, gas detectors, aerosol cans, multimeters). SUS 316 stainless steel net. Tested to over 2 times the SWL. Includes heavy-duty belt clip. Reusable and 100% recyclable.",
+          "description": "Devices that surround and secure portable items used at height (radios, gas detectors, aerosol cans, multimeters). SUS 316 stainless steel mesh. Tested to more than 2 times the SWL. Includes a sturdy belt clip. Reusable and 100% recyclable.",
           "image": "images/dropsafe/dropsafe-pouches-975.webp"
+        }
+      ]
+    },
+    {
+      "id": "eaton",
+      "name": "Eaton",
+      "logo": "images/eaton/logo-eaton.png",
+      "site": "https://www.eaton.com/",
+      "categories": [
+        "explosion-proof-lighting"
+      ],
+      "tagline": "We make what matters work: we help manage electrical energy safely and sustainably, improving people's lives and the planet",
+      "description": "Powering Business Worldwide. Lighting and connectivity solutions for hazardous areas and aggressive environments — reliability, efficiency, and safety under the most severe conditions. Eaton combines innovation, global certification, and cutting-edge engineering to deliver complete lighting and connectivity solutions for the most demanding hazardous areas in the world. In Brazil, Polar Group represents Eaton solutions for hazardous areas: certified LED luminaires and high-performance pin & sleeve connectors for environments with explosion risk, flammable gases, and combustible dust.\n\nWith efficacy up to 162 lm/W, energy savings of 20% to 90% compared to HID and fluorescent technologies, and a lifespan of 50,000 to 100,000 hours, Eaton luminaires offer instant start, field-replaceable drivers, and custom optics for each project, plus smart features — Brightlayer Industrial Lighting Control, Bluetooth Low Energy, and integrated sensors for intelligent lighting management.\n\nSafety in hazardous areas goes beyond lighting: GHG51 Pin & Sleeve connectors ensure insulation, sealing, and total safety at every connection, with IEC 60309 performance and global certifications — UL844, UL1598, CSA, IECEx, ATEX, CE, ABS, NSF, and Inmetro. Industry-leading reliability and superior thermal management for the harshest environments in global industry.\n\nIn addition to explosion-proof lighting, the Eaton electrical portfolio — circuit breakers, panels, and protection — completes the range of energy solutions represented by Polar Group.",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/eaton/NLE-High-Mid-Bay.jpg",
+          "alt": "NLE luminaire — LED High/Mid Bay for hazardous areas"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/HLL-Linear-LED.JPG",
+          "alt": "HLL luminaire — explosion-proof linear LED"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/VLL-Linear-LED.png",
+          "alt": "VLL luminaire — linear LED for severe environments"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/GHG51-pin-sleeve.png",
+          "alt": "GHG51 Pin & Sleeve connectors for hazardous areas"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/aplicacao-petroleo-gas.jpeg",
+          "alt": "Eaton application — oil, gas, and offshore"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/aplicacao-quimica-farmaceutica.jpeg",
+          "alt": "Eaton application — chemical and pharmaceutical industry"
+        },
+        {
+          "type": "image",
+          "src": "images/eaton/aplicacao-processamento-alimentos.jpeg",
+          "alt": "Eaton application — food processing"
+        }
+      ],
+      "products": [
+        {
+          "id": "eaton-nle",
+          "name": "NLE Luminaire — LED High/Mid Bay",
+          "description": "Class I, Div 2 / Zone 2/22. High-efficacy circular luminaire for medium and low bays. Efficacy up to 162 lm/W; energy savings from 20% to 90% vs HID/fluorescent; lifespan of 50,000 to 100,000 hours; instant start; field-replaceable drivers; customized optics; operation from -40 °C to +65 °C. Copper-free aluminum housing and impact and heat-resistant tempered glass globe. Applications: offshore platforms, refineries, chemical plants, pharmaceutical facilities, and installations with risk of gas and combustible dust.",
+          "image": "images/eaton/NLE-High-Mid-Bay.jpg"
+        },
+        {
+          "id": "eaton-hll",
+          "name": "HLL Luminaire — Explosion-Proof Linear LED",
+          "description": "Class I, Div 1 / Zone 1/21. Aluminum chassis with longitudinal cooling fins for superior thermal management in continuous operation. Stainless steel tension latches, resistant polycarbonate lens, and covers with cable glands for rigorous sealing. Significant reduction in energy consumption and long lifespan, minimizing maintenance interventions in restricted areas. Applications: oil and gas platforms, refineries, chemical plants, and installations with permanent or occasional presence of flammable gases.",
+          "image": "images/eaton/HLL-Linear-LED.JPG"
+        },
+        {
+          "id": "eaton-vll",
+          "name": "VLL Luminaire — Linear LED for Severe Environments",
+          "description": "Class I, Div 1 / Zone 1/21. Off-white body with matte finish, translucent ribbed plastic lens, and four stainless steel tension clips ensuring hermetic sealing. State-of-the-art LED technology with uniform and efficient lighting, drastically reducing energy consumption compared to conventional technologies. Designed for prolonged operation with minimal maintenance needs, ideal for hard-to-reach areas and classified environments. Applications: chemical industry, pharmaceutical, food processing, offshore platforms, and refineries.",
+          "image": "images/eaton/VLL-Linear-LED.png"
+        },
+        {
+          "id": "eaton-ghg51",
+          "name": "GHG51 — Pin & Sleeve Connectors",
+          "description": "Class I, Div 2 / Zone 1 & 2, IEC 60309 standard, IP67/IP69 protection. Enclosure and plug in fiberglass-reinforced nylon type 12, with superior resistance to impact, corrosion, and chemical agents. Nickel-plated brass contacts with stable electrical conductivity and long lifespan; color-coded cover and plug for quick identification, reducing the risk of incorrect connections in the field; reinforced strain relief that absorbs tensile and torsional forces. Compact profile with rain protection and waterproof sealing, resistant to high-pressure washing, humidity, and constant washing; comply with Inmetro certification standards; dual bottom entry Myers hubs Zone 1. Applications: oil, gas, and offshore (platforms, refineries, and gas terminals); chemical and pharmaceutical (process plants with solvent washing and strict hygiene requirements); food processing (frequent high-pressure washing). Attention: Eaton plugs and sockets should not be used with other brands, as they lose certification due to improper use.",
+          "image": "images/eaton/GHG51-plug-tomada.png"
         }
       ]
     },
@@ -423,8 +575,8 @@
       "id": "hawke",
       "name": "Hawke",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Certified cable glands for explosive atmospheres and critical applications",
-      "description": "Hawke is a world-renowned British manufacturer specializing in cable glands and accessories for electrical installations in explosive atmospheres. With decades of experience, the brand is a reference in safety and reliability for the oil and gas, petrochemical, mining, and energy sectors.\n\nIts products are certified according to the most rigorous international standards (IECEx, ATEX), ensuring explosion protection in hazardous areas. The RCG (Resin Cable Gland) line is one of the brand's flagship products, offering resin sealing for critical applications where cable integrity is essential.\n\nHawke also holds aerospace credentials, with solutions tested and approved for use in extreme conditions — including space applications — proving the robustness and engineering quality that make its cable glands the preferred choice of integrators and electrical panel builders worldwide.",
+      "tagline": "Electrify and Energize — reliable solutions for critical infrastructure since 1888",
+      "description": "Hawke is a world-renowned British manufacturer specializing in cable glands and accessories for electrical installations in explosive atmospheres. With decades of experience, the brand is a benchmark in safety and reliability for the oil and gas, petrochemical, mining, and energy sectors.\n\nIts products are certified according to the most stringent international standards (IECEx, ATEX), ensuring protection against explosions in classified areas. The RCG (Resin Cable Gland) line is one of the brand's flagship products, offering resin sealing for critical applications where cable integrity is essential.\n\nHawke also has aerospace credentials, with solutions tested and approved for use in extreme conditions — including space applications — proving the robustness and engineering quality that make its cable glands the preferred choice for integrators and electrical panel manufacturers worldwide.",
       "gallery": [
         {
           "type": "video",
@@ -442,17 +594,21 @@
           "thumbnail": "images/hawke/thumbs/HK_prensa_cabos_estoque_41s.jpg"
         }
       ],
+      "site": "https://www.hubbell.com/hawke/en",
+      "categories": [
+        "prensa-cabos-ex"
+      ],
       "products": [
         {
           "id": "hawke-1",
           "name": "RCG 501 Cable Gland",
-          "description": "Resin-sealed cable gland from the RCG line, designed for installations in hazardous areas and explosive atmospheres. IECEx and ATEX certification. Ideal for critical applications in oil and gas, petrochemical, and mining.",
+          "description": "Resin-sealed cable gland from the RCG line, designed for installations in hazardous areas and explosive atmospheres. IECEx and ATEX certified. Ideal for critical applications in oil and gas, petrochemical, and mining.",
           "image": "images/placeholder-logo.png"
         },
         {
           "id": "hawke-2",
-          "name": "Ex Cable Glands",
-          "description": "Complete line of explosion-proof cable glands for Ex d, Ex e, and Ex nR environments. Meets international standards with robust construction in nickel-plated brass or stainless steel, ensuring safety and durability in extreme conditions.",
+          "name": "Ex Cable Gland",
+          "description": "Complete line of explosion-proof cable glands for Ex d, Ex e, and Ex nR environments. Meets international standards with robust construction in nickel-plated brass or stainless steel, ensuring safety and durability under extreme conditions.",
           "image": "images/placeholder-logo.png"
         }
       ]
@@ -461,8 +617,8 @@
       "id": "hi-force",
       "name": "Hi-Force",
       "logo": "images/placeholder-logo.png",
-      "tagline": "High-torque hydraulic tools for critical industrial applications",
-      "description": "Hi-Force is a world-leading British manufacturer of high-torque hydraulic tools for the industrial, offshore, and construction sectors. Founded in the United Kingdom, the company develops precision equipment for critical bolting, tensioning, lifting, and cutting applications.\n\nWith service and distribution centers in over 100 countries, Hi-Force offers cutting-edge technology in hydraulic torque wrenches, bolt tensioners, lifting jacks, and pumping systems, ensuring safety and productivity in the most demanding operations.",
+      "tagline": "British leader in high-pressure industrial hydraulic solutions: tools, lifting systems and torque equipment",
+      "description": "Hi-Force is a leading British manufacturer of high-torque hydraulic tools for the industrial, offshore and construction sectors. Founded in the United Kingdom, the company develops precision equipment for critical bolting, tensioning, lifting and cutting applications.\n\nWith service centers and distribution in more than 100 countries, Hi-Force offers cutting-edge technology in hydraulic torque wrenches, bolt tensioners, lifting jacks and pumping systems, ensuring safety and productivity in the most demanding operations.",
       "gallery": [
         {
           "type": "video",
@@ -490,17 +646,21 @@
           "thumbnail": "images/hi-force/thumbs/Sistema de Elevacao com Macaco Toughlift (Hi-Force).jpg"
         }
       ],
+      "site": "https://www.hi-force.com/",
+      "categories": [
+        "ferramentas-hidraulicas"
+      ],
       "products": [
         {
           "id": "hi-1",
           "name": "TWH-N Hydraulic Torque Wrench",
-          "description": "Low-profile hydraulic torque wrench for industrial controlled bolting applications with high torque precision. Ideal for flanges, pressure vessels, and critical connections.",
+          "description": "Low-profile hydraulic torque wrench for industrial controlled bolting applications with high torque accuracy. Ideal for flanges, pressure vessels, and critical connections.",
           "image": "images/placeholder-logo.png"
         },
         {
           "id": "hi-2",
           "name": "Toughlift Lifting System",
-          "description": "Self-contained controlled lifting hydraulic jack for heavy loads. Ideal for industrial and maintenance environments. Safe and precise operation with hydraulic drive.",
+          "description": "Self-contained hydraulic jack for controlled lifting of heavy loads. Ideal for industrial and maintenance environments. Safe and precise operation with hydraulic actuation.",
           "image": "images/placeholder-logo.png"
         },
         {
@@ -518,7 +678,7 @@
         {
           "id": "hi-5",
           "name": "Industrial Hydraulic Jack",
-          "description": "Single-acting and double-acting hydraulic cylinders with capacities from 10 to 1,000 tons for load lifting and positioning. Robust construction for continuous industrial use.",
+          "description": "Single and double acting hydraulic cylinders with capacities from 10 to 1,000 tons for lifting and positioning loads. Robust construction for continuous industrial use.",
           "image": "images/placeholder-logo.png"
         }
       ]
@@ -527,8 +687,8 @@
       "id": "nightstick",
       "name": "Nightstick",
       "logo": "images/placeholder-logo.png",
-      "tagline": "Intrinsically safe flashlights for hazardous areas and rescue operations",
-      "description": "Nightstick is the professional lighting brand of Bayco Products (USA), specializing in intrinsically safe (Ex) flashlights and headlamps for hazardous areas and risk environments.\n\nWith ATEX, IECEx, and Class I Division 1 certifications, Nightstick flashlights are designed for professionals working in explosive atmospheres, confined spaces, and rescue operations. The line includes rechargeable models, headlamps, and portable flashlights with high durability and luminous performance.\n\nManufactured with high-impact engineering-grade materials and waterproof, Nightstick flashlights offer safety and reliability for oil and gas industries, mining, firefighting, and emergency services.",
+      "tagline": "The choice of security professionals worldwide in extreme risk environments",
+      "description": "Nightstick is the professional lighting brand of Bayco Products (USA), specializing in intrinsically safe (Ex) flashlights and headlamps for classified areas and hazardous environments.\n\nWith ATEX, IECEx, and Class I Division 1 certifications, Nightstick flashlights are designed for professionals working in explosive atmospheres, confined spaces, and rescue operations. The line includes rechargeable models, headlamps, and portable flashlights with high durability and luminous performance.\n\nManufactured with high-impact engineering materials and waterproof, Nightstick flashlights offer safety and reliability for the oil and gas, mining, firefighting, and emergency services industries.",
       "gallery": [
         {
           "type": "video",
@@ -551,11 +711,15 @@
           "thumbnail": "images/nightstick/thumbs/NS_Lanternas diversas Ex 24 s.jpg"
         }
       ],
+      "site": "https://www.nightstick.com/",
+      "categories": [
+        "iluminacao-portatil-ex"
+      ],
       "products": [
         {
           "id": "xpp-5454g",
           "name": "XPP-5454G Headlamp",
-          "description": "Intrinsically safe headlamp with Class I Division 1 certification. Designed for work in confined spaces and hazardous areas with explosion risk. Hands-free with high luminous performance.",
+          "description": "Intrinsically safe headlamp with Class I Division 1 certification. Designed for work in confined spaces and classified areas with explosion risk. Hands-free with high luminous performance.",
           "image": "images/placeholder-logo.png"
         },
         {
@@ -567,7 +731,7 @@
         {
           "id": "lanternas-ex",
           "name": "Explosion-Proof Ex Flashlights",
-          "description": "Complete line of portable flashlights certified for explosive atmospheres (Ex). Models with different power levels and runtimes for oil and gas, mining, and rescue applications.",
+          "description": "Complete line of portable flashlights certified for explosive atmospheres (Ex). Models with different power levels and runtimes for applications in oil and gas, mining, and rescue.",
           "image": "images/placeholder-logo.png"
         }
       ]
@@ -576,27 +740,362 @@
       "id": "oliver",
       "name": "Oliver Valves",
       "logo": "images/oliver/Logo Oliver Valves - Sem fundo.png",
-      "tagline": "Instrumentation valves for critical applications",
-      "description": "Oliver Valves is a British manufacturer of instrumentation valves for the oil and gas, petrochemical, and energy sectors. Specialized in needle valves, ball valves, manifold valves, and check valves, the company supplies high-precision solutions for flow control in critical applications.\n\nWith decades of experience in valve engineering, Oliver Valves is recognized for the reliability and durability of its products in the world's most demanding environments.",
-      "gallery": [],
+      "site": "https://www.valves.co.uk/",
+      "categories": [
+        "pi"
+      ],
+      "tagline": "Reliability under pressure — high-quality valve solutions for instrumentation, subsea, and pipelines. Absolute precision in instrumentation and flow control for over 40 years",
+      "description": "Oliver Valves is a British manufacturer of instrumentation and pipeline valves for the oil and gas, petrochemical, and energy sectors. Specializing in needle valves, ball valves, manifolds, check valves, and Double Block and Bleed (DBB) valves, the company provides high-precision flow control solutions for critical applications.\n\nWith over 40 years of valve engineering, Oliver Valves is recognized for the reliability and durability of its products in the world's most demanding environments. The Oliver Twinsafe brand — a pioneer in the DBB pipeline valve for over 25 years — offers large-diameter DBB ball valves with true double isolation: more safety, fewer leaks, and less maintenance, in new or existing pipelines.\n\nAbout the DBB concept (Double Block and Bleed): it is an arrangement with two isolation valves in series (primary and secondary) and a bleed valve between them, allowing flow to be blocked at both ends and pressure in the central cavity to be relieved.",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/oliver/icon-valvulas-instrumentacao.png",
+          "alt": "Oliver Valves instrumentation valve line"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/icon-valvulas-pipeline.png",
+          "alt": "Oliver Twinsafe pipeline valve line"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/DBB-conceito.png",
+          "alt": "Double Block and Bleed (DBB) concept — double block and bleed"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/B10F-valvula-esfera.png",
+          "alt": "B10F ball valve — Oliver Valves single isolation"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/G12AF-manifold-2v.png",
+          "alt": "G12AF 2-valve manifold for pressure transmitters"
+        },
+        {
+          "type": "image",
+          "src": "images/oliver/pipeline-top-entry.png",
+          "alt": "Oliver Twinsafe cryogenic top entry ball valve"
+        }
+      ],
       "products": [
         {
-          "id": "oli-1",
-          "name": "Needle Valves",
-          "description": "Instrumentation needle valves for precise flow control in high-pressure applications. Designed for the oil and gas and petrochemical sectors.",
-          "image": "images/placeholder-logo.png"
+          "id": "oliver-b10f",
+          "name": "B10F — Ball Valve",
+          "description": "Type 'B10' single isolation ball valve, designed for safe and reliable isolation, providing bubble-tight shutoff. Fully encapsulated soft seats offer positive sealing and low operating torques. Bore 10/14/20 mm; connection from 1/4\" to 3/4\"; lever actuation; graphite packing; pressure rating 10,000 PSI; NPT thread (standard) / BSPP / BSPT; others upon request.",
+          "image": "images/oliver/B10F-valvula-esfera.png"
         },
         {
-          "id": "oli-2",
-          "name": "Manifold Valves",
-          "description": "Instrumentation manifolds for pressure transmitter mounting. 2, 3, and 5-way configurations to meet different installation requirements.",
-          "image": "images/placeholder-logo.png"
+          "id": "oliver-b10m",
+          "name": "B10M — Ball Valve",
+          "description": "Type 'B10' single isolation ball valve, designed for safe and reliable isolation, providing bubble-tight shutoff. Fully encapsulated soft seats offer positive sealing and low operating torques, from vacuum service to high pressure. Equipped with a stem with anti-blowout device as standard and option of PTFE or Grafoil seals. Bore 10/14/20 mm; connection from 1/4\" to 3/4\"; lever; graphite packing; 10,000 PSI; temperature 120 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/B10M-valvula-esfera.png"
         },
         {
-          "id": "oli-3",
+          "id": "oliver-b6bi",
+          "name": "B6BI — Ball Valve",
+          "description": "Type 'B6' single isolation ball valve, designed for safe and reliable isolation, providing bubble-tight shutoff. Fully encapsulated soft seats offer positive sealing and low operating torques. Connection 1/4\" and 1/2\"; lever; PTFE packing; 150 PSI; temperature 120 °C; NPT thread only.",
+          "image": "images/oliver/B6BI-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-b6bl50",
+          "name": "B6BL50 — Diverter Ball Valve",
+          "description": "Type 'B6BL' 3-way flow diverter ball valve, designed to safely divert flow to one of two outlet ports. Fully encapsulated soft seats offer positive sealing and low operating torques. Bore 10/14/20 mm; connection from 1/4\" to 1\"; lever; PTFE packing; 6,000 PSI; temperature 120 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/B6BL50-valvula-desvio.png"
+        },
+        {
+          "id": "oliver-b6f",
+          "name": "B6F — Ball Valve",
+          "description": "Type 'B6' single isolation ball valve, designed for safe and reliable isolation, providing bubble-tight shutoff. Fully encapsulated soft seats offer low operating torques. Bore 10/14/20 mm; connection from 1/4\" to 1\"; lever; PTFE packing; 6,000 PSI; temperature 120 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/B6F-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-b6m",
+          "name": "B6M — Ball Valve",
+          "description": "Type 'B6' single isolation ball valve, designed for safe and reliable isolation, providing bubble-tight shutoff. Fully encapsulated soft seats offer positive sealing and low operating torques. Bore 10/14/20 mm; connection from 1/4\" to 1\"; lever; PTFE packing; 6,000 PSI; temperature 120 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/B6M-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-b6slx50",
+          "name": "B6SLX50 — Diverter Ball Valve",
+          "description": "Type 'B6SL' 3-way flow diverter ball valve, designed to safely divert flow to one of two outlet ports. Fully encapsulated soft seats offer positive sealing and low operating torques. Bore only 10 mm; connection from 1/4\" to 1/2\"; lever; PTFE packing; 6,000 / 10,000 PSI; temperature 120 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/B6SLX50-valvula-desvio.png"
+        },
+        {
+          "id": "oliver-lpb1",
+          "name": "LPB1 — Ball Valve",
+          "description": "High performance and quality ball valve, manufactured in 316 stainless steel — even the lever pressed onto the valve is 316 stainless steel to prevent oxidation in the field. With a pressure rating of 1,000 PSI and sizes from 1/4\" to 1\", it is recommended for oil and gas applications where reliable long-term performance is essential. Bore 9/12/16 mm; lever; PTFE packing; temperature 120 °C; NPT thread only.",
+          "image": "images/oliver/LPB1-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-lpb3",
+          "name": "LPB3 — Ball Valve",
+          "description": "High-performance, high-quality ball valve manufactured in 316 stainless steel — even the handle pressed onto the valve is 316 stainless steel to prevent oxidation in the field. Pressure rating of 3,000 PSI in sizes from 3/4\" to 1\". Recommended for oil and gas applications where reliable long-term performance is essential. Bore 19 mm; lever; temperature 120 °C; NPT thread only.",
+          "image": "images/oliver/LPB3-valvula-esfera.png"
+        },
+        {
+          "id": "oliver-seletora",
+          "name": "Selector Ball Valve",
+          "description": "Selector ball valve designed to allow flow to be chosen from either of two side ports and discharged through a single bottom port. Due to the nature of the design, it can also be used as a bypass valve with bottom inlet and outlet through either of the two side ports. Bore only 4 mm; 1/4\" to 1/2\" connection; lever; 6,000 / 10,000 PSI; temperature 121 °C; NPT thread.",
+          "image": "images/oliver/valvula-esfera-seletora.png"
+        },
+        {
+          "id": "oliver-retencao",
           "name": "Check Valves",
-          "description": "High-performance check valves for reverse flow protection in industrial instrumentation systems.",
-          "image": "images/placeholder-logo.png"
+          "description": "Check valves that allow flow in only one direction, closing when reverse flow occurs. Ranging in sizes from 1/4\" to 1\", with 1/2\" NPT female x female connections, manufactured in 316 stainless steel. Viton/PEEK gasket; pressure up to 10,000 PSI; temperature 120 °C; NPT thread (standard) / BSPP / BSPT.",
+          "image": "images/oliver/valvula-retencao.png"
+        },
+        {
+          "id": "oliver-amortecedor",
+          "name": "Pressure Gauge Snubber",
+          "description": "6,000 psi pressure gauge snubber that protects gauges from pressure spikes in the line, damping variations via a variable orifice. Manufactured in 316 stainless steel, with 1/2\" NPT male x female connection. Bore 2.5 mm; Viton gasket; temperature 120 °C; NPT thread. Other materials and sizes available upon request.",
+          "image": "images/oliver/amortecedor-manometro.png"
+        },
+        {
+          "id": "oliver-coletor-ar",
+          "name": "Low Pressure Air Header",
+          "description": "Low pressure air headers from Oliver Valves, designed specifically for this pressure range, manufactured from a specially extruded 316 stainless steel section. Schedule 40 pipe bore; 1/4\" and 1/2\" connection; lever; PTFE gasket; 150 PSI; temperature 120 °C; NPT thread only.",
+          "image": "images/oliver/coletor-ar-baixa-pressao.png"
+        },
+        {
+          "id": "oliver-adaptador-giratorio",
+          "name": "Swivel Adapter for Pressure Gauge",
+          "description": "10,000 psi swivel adapter for pressure gauges that allows 360-degree orientation of gauges in the field. Manufactured in 316 stainless steel, with 1/2\" NPT male x female connection. Temperature 540 °C; NPT thread (standard) / BSPP / BSPT.",
+          "image": "images/oliver/adaptador-giratorio-manometro.png"
+        },
+        {
+          "id": "oliver-g12af",
+          "name": "G12AF — 2-Valve Manifold",
+          "description": "Type 'G12AF' 2-valve manifold, designed for remote mounting on static pressure transmitters. Angled heads allow panel mounting. The separate vent valve offers total control of instrument purging, in addition to field calibration capability. Bore 0.21\" (5.4 mm); 1/4\" to 1\" connection; CV 0.46; T-bar; PTFE/graphite gasket; 6,000 to 10,000 PSI; metal-to-metal seats; temperature 240 °C / 540 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/G12AF-manifold-2v.png"
+        },
+        {
+          "id": "oliver-g12ff",
+          "name": "G12FF — 2-Valve Manifold",
+          "description": "Type 'G12FF' 2-valve manifold, designed for remote mounting on static pressure transmitters. The separate vent valve offers total control of instrument purging, in addition to field calibration capability. Bore 0.21\" (5.4 mm); 1/4\" to 1\" connection; CV 0.46; T-bar; PTFE/graphite gasket; 6,000 to 10,000 PSI; metal-to-metal seats; temperature 240 °C / 540 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/G12FF-manifold-2v.png"
+        },
+        {
+          "id": "oliver-g12fm",
+          "name": "G12FM — 2-Valve Manifold",
+          "description": "Type 'G12' 2-valve manifold, designed for remote mounting on static pressure transmitters. The separate vent valve offers total control of instrument purging, as well as field calibration capability. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1\"; CV 0.46; T-bar; PTFE/graphite packing; 6,000 to 10,000 PSI; metal-to-metal seats; temperature 240 °C / 540 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/G12FM-manifold-2v.png"
+        },
+        {
+          "id": "oliver-g12mf",
+          "name": "G12MF — 2-Valve Manifold",
+          "description": "Type 'G12' 2-valve manifold, designed for remote mounting on static pressure transmitters. The separate vent valve offers total control of instrument purging, as well as field calibration capability. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1\"; CV 0.46; T-bar; PTFE/graphite packing; 6,000 to 10,000 PSI; metal-to-metal seats; temperature 240 °C / 540 °C; NPT / BSPP / BSPT thread.",
+          "image": "images/oliver/G12MF-manifold-2v.png"
+        },
+        {
+          "id": "oliver-y24",
+          "name": "Y24 — 2-Valve Manifold with Needle Valves",
+          "description": "Type 'Y24' 2-valve manifold, designed for direct mounting on static pressure transmitters. The separate vent valve offers total control of instrument purging, as well as field calibration capability. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; T-bar; PTFE/graphite packing; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT (standard), BSPP and BSPT thread.",
+          "image": "images/oliver/Y24-manifold-2v.png"
+        },
+        {
+          "id": "oliver-y25",
+          "name": "Y25 — 2-Valve Manifold with Needle Valves",
+          "description": "Type 'Y25' 2-valve manifold, designed for direct mounting on static pressure transmitters. The separate vent valve offers total control of instrument purging, as well as field calibration capability. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; T-bar; PTFE/graphite packing; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT (standard), BSPP and BSPT thread.",
+          "image": "images/oliver/Y25-manifold-2v.png"
+        },
+        {
+          "id": "oliver-t34",
+          "name": "T34 — 3-Valve Manifold",
+          "description": "Type 'T34' 3-valve manifold, designed for direct mounting on differential pressure transmitters, with separate isolation for low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; T-bar; PTFE/graphite packing; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; flanged connections.",
+          "image": "images/oliver/T34-manifold-3v.png"
+        },
+        {
+          "id": "oliver-y33",
+          "name": "Y33 — 3-Valve Manifold",
+          "description": "Type 'Y33' 3-valve manifold, designed for remote mounting on differential pressure transmitters, with separate isolation for low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; T-bar; PTFE/graphite packing; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT (standard), BSPP and BSPT thread.",
+          "image": "images/oliver/Y33-manifold-3v.png"
+        },
+        {
+          "id": "oliver-y35",
+          "name": "Y35 — 3-Valve Manifold",
+          "description": "Type 'Y35' 3-valve manifold, designed for direct mounting on differential pressure transmitters, with separate isolation for low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; T-bar; PTFE/graphite packing; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT (standard), BSPP and BSPT thread.",
+          "image": "images/oliver/Y35-manifold-3v.png"
+        },
+        {
+          "id": "oliver-yv33",
+          "name": "YV33 — 3-Valve Manifold",
+          "description": "Type 'YV33' 3-valve manifold, designed for remote mounting on differential pressure transmitters, with separate isolation for low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; T-bar; PTFE/graphite packing; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT (standard), BSPP and BSPT thread.",
+          "image": "images/oliver/YV33-manifold-3v.png"
+        },
+        {
+          "id": "oliver-yv34",
+          "name": "YV34 — 3-Valve Manifold",
+          "description": "Type 'Y34' 3-valve manifold, designed for direct mounting on differential pressure transmitters, with separate isolation for the low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; \"T\" bar; PTFE/graphite gasket; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT thread (standard), BSPP and BSPT.",
+          "image": "images/oliver/YV34-manifold-3v.png"
+        },
+        {
+          "id": "oliver-y52",
+          "name": "Y52 — 5-Valve Manifold",
+          "description": "Type 'Y52' 5-valve manifold, designed for direct mounting on differential pressure transmitters, with separate isolation and venting for the low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; \"T\" bar; PTFE/graphite gasket; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT thread (standard), BSPP and BSPT.",
+          "image": "images/oliver/Y52-manifold-5v.png"
+        },
+        {
+          "id": "oliver-y53",
+          "name": "Y53 — 5-Valve Manifold",
+          "description": "Type 'Y53' 5-valve manifold, designed for direct mounting on differential pressure transmitters, with separate isolation and venting for the low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; \"T\" bar; PTFE/graphite gasket; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT thread (standard), BSPP and BSPT.",
+          "image": "images/oliver/Y53-manifold-5v.png"
+        },
+        {
+          "id": "oliver-y54",
+          "name": "Y54 — 5-Valve Manifold",
+          "description": "Type 'Y54' 5-valve manifold, designed for remote mounting on differential pressure transmitters, with separate isolation and venting for the low pressure (LP) and high pressure (HP) inputs, plus an equalization valve for simple calibration. Bore 0.21\" (5.4 mm); connection from 1/4\" to 1/2\"; \"T\" bar; PTFE/graphite gasket; 6,000 / 10,000 PSI; temperature 240 °C / 540 °C; NPT thread (standard), BSPP and BSPT.",
+          "image": "images/oliver/Y54-manifold-5v.png"
+        },
+        {
+          "id": "oliver-gb1",
+          "name": "GB1 — Bleed Valve for Pressure Gauge",
+          "description": "Type 'GB' bleed needle valve, designed for safe and reliable isolation, with bubble-tight shutoff, non-rotating and anti-galling stem tip, and dynamic self-adjusting stem seal.",
+          "image": "images/oliver/GB1-valvula-sangria.png"
+        },
+        {
+          "id": "oliver-gv1",
+          "name": "GV1 — Vent Valve for Pressure Gauge",
+          "description": "Type 'GV' vent needle valve, with bubble-tight shutoff, non-rotating and anti-galling stem tip, and dynamic self-adjusting stem seal.",
+          "image": "images/oliver/GV1-valvula-ventilacao.png"
+        },
+        {
+          "id": "oliver-gm1",
+          "name": "GM1 — Multi-Port Valve for Pressure Gauge",
+          "description": "Type 'GM1' multi-port needle valve, with bubble-tight shutoff, non-rotating and anti-galling stem tips, and dynamic self-adjusting stem seal.",
+          "image": "images/oliver/GM1-valvula-multiporta.png"
+        },
+        {
+          "id": "oliver-gm1-ext",
+          "name": "GM1-EXT — Multi-Port Valve for Pressure Gauge with Extension",
+          "description": "Same design as the GM1 (multi-port), with extension for installations in hard-to-reach locations or thermal insulation.",
+          "image": "images/oliver/GM1-valvula-multiporta.png"
+        },
+        {
+          "id": "oliver-agulha-a",
+          "name": "Type 'A' Angle Needle Valve",
+          "description": "Single isolation Type 'A' needle valve, designed for safe and reliable isolation. It offers bubble-tight shutoff, non-rotating anti-galling stem point, and dynamic self-adjusting stem seal for long service life in various applications. Oliver needle valves provide metal-to-metal seating and small-bore isolation, eliminating the need for larger, more expensive globe valves.",
+          "image": "images/oliver/valvula-agulha-tipo-A.png"
+        },
+        {
+          "id": "oliver-agulha-bi",
+          "name": "Type 'BI' Compression Needle Valve",
+          "description": "Single isolation Type 'BI', with bubble-tight shutoff, non-rotating anti-galling stem point, and dynamic self-adjusting stem seal.",
+          "image": "images/oliver/valvula-agulha-tipo-BI.png"
+        },
+        {
+          "id": "oliver-agulha-f",
+          "name": "Type 'F' Female Needle Valve",
+          "description": "Single isolation Type 'F', with bubble-tight shutoff, non-rotating anti-galling stem point, and dynamic self-adjusting stem seal.",
+          "image": "images/oliver/valvula-agulha-tipo-F.png"
+        },
+        {
+          "id": "oliver-agulha-fs",
+          "name": "Type 'FS' Fire Safe Needle Valve",
+          "description": "Single isolation Type 'FS', with bubble-tight shutoff, non-rotating anti-galling stem point, and dynamic self-adjusting stem seal. Supplied with fire safe testing per BS6755 PT2 / API 607 / ISO 10497 / API 6FA.",
+          "image": "images/oliver/valvula-agulha-tipo-FS.png"
+        },
+        {
+          "id": "oliver-agulha-hd",
+          "name": "Type 'HD' Heavy Duty Needle Valve",
+          "description": "Single isolation Type 'HD', with bubble-tight shutoff, non-rotating anti-galling stem point, and dynamic self-adjusting stem seal, for high-temperature and high-pressure applications.",
+          "image": "images/oliver/valvula-agulha-tipo-HD.png"
+        },
+        {
+          "id": "oliver-agulha-m",
+          "name": "Type 'M' Male Needle Valve",
+          "description": "Single isolation Type 'M', with bubble-tight shutoff, non-rotating anti-galling stem point, and dynamic self-adjusting stem seal.",
+          "image": "images/oliver/valvula-agulha-tipo-M.png"
+        },
+        {
+          "id": "oliver-dbb-d",
+          "name": "Type D Forged DBB",
+          "description": "Machined from a single upset forging, the Type 'D' DBB valve features two inline isolation ball valves (primary and secondary) and a heavy-duty bleed needle valve.",
+          "image": "images/oliver/DBB-tipo-D.png"
+        },
+        {
+          "id": "oliver-dbb-f",
+          "name": "Type F Forged DBB",
+          "description": "Machined from a single forging, the Type 'F' DBB features two inline isolation ball valves (primary and secondary) and a bleed ball valve.",
+          "image": "images/oliver/DBB-tipo-F.png"
+        },
+        {
+          "id": "oliver-dbb-id",
+          "name": "DBB Type ID for Instrumentation",
+          "description": "Machined from forged bar, DBB Type 'ID' features two in-line isolation ball valves (primary and secondary) and one heavy-duty bleed needle valve.",
+          "image": "images/oliver/DBB-tipo-ID.png"
+        },
+        {
+          "id": "oliver-dbb-in",
+          "name": "DBB Type IN for Instrumentation",
+          "description": "Machined from forged bar, DBB Type 'IN' features two isolation needle valves (primary and secondary) and one needle valve.",
+          "image": "images/oliver/DBB-tipo-IN.png"
+        },
+        {
+          "id": "oliver-dbb-l",
+          "name": "DBB Type L for Instrumentation",
+          "description": "Machined from bar stock, DBB Type 'L' features two in-line isolation ball valves (primary and secondary) and one bleed ball valve.",
+          "image": "images/oliver/DBB-tipo-L.png"
+        },
+        {
+          "id": "oliver-dbb-n",
+          "name": "DBB Type N Forged",
+          "description": "Machined from a single forging, DBB Type 'N' features two isolation needle valves (primary and secondary) and one needle valve.",
+          "image": "images/oliver/DBB-tipo-N.png"
+        },
+        {
+          "id": "oliver-dbb-t",
+          "name": "DBB Type T for Instrumentation",
+          "description": "Machined from bar stock, DBB Type 'T' features two in-line isolation ball valves (primary and secondary) and one bleed ball valve.",
+          "image": "images/oliver/DBB-tipo-T.png"
+        },
+        {
+          "id": "oliver-pipeline-compactas",
+          "name": "Compact Ball Valves (Oliver Twinsafe)",
+          "description": "Compact style ball valves designed to provide considerable space and weight savings when compared to a traditional flanged ball valve. Available in floating ball and trunnion-mounted ball designs, with manual or automated actuation. Design standards: API 6D, ASME VIII Division 2, NACE MR-01-75; butt-weld end connections per ASME B16.25; ISO 5211 F10 actuator interface; PEEK seat insert; fire-safe graphite seals; working temperature from -50 to +400 °F (-46 to +200 °C). Body and internal components in alloy steel, stainless steel, duplex steel, or nickel alloys; stem in stainless steel, duplex steel, or nickel alloys; stem seal in PTFE lip seal with Elgiloy spring; body seals in FKM or HNBR O-rings with PTFE backup rings; split ring in AISI 4130 alloy steel coated with Xylan.",
+          "image": "images/oliver/pipeline-valvulas-compactas.png"
+        },
+        {
+          "id": "oliver-pipeline-dbb",
+          "name": "DBB — Pipeline Ball Valves",
+          "description": "Double Block and Bleed valves with floating ball and trunnion-mounted ball. True double isolation with two independent ball valves contained in a single valve body, ensuring absolute shut-off and maximizing safe operation of any processing facility. Standards ASME B16.34, API 6D, ASME VIII, ASME B16.5; fire-safe API 607, API 6FA, ISO 10497; pressure ASME Class 150 to 2500, API 6A up to 10,000; seats in PTFE lip seals, soft in Devlon, PEEK, PTFE, or metallic in tungsten carbide and chromium carbide; temperature -50 °C to 200 °C (option up to 315 °C). Optional features: seat and stem injection points, ball cavity drain, vent ports, and double piston effect (DPE).",
+          "image": "images/oliver/pipeline-dbb-esfera.png"
+        },
+        {
+          "id": "oliver-pipeline-flutuante-compacta",
+          "name": "Floating Ball DBB Valve — Compact Design",
+          "description": "Compact style Double Block and Bleed valves, designed with face-to-face dimensions according to ASME B16.10. The one-piece body design reduces potential leak paths and allows weight and space to be kept to a minimum. Available in full bore and reduced bore. Pressure ASME Class 150 to 2500; API 6A up to 5,000; soft seats in PEEK, PTFE, or metallic; temperature -50 °C to 240 °C.",
+          "image": "images/oliver/pipeline-flutuante-compacta.png"
+        },
+        {
+          "id": "oliver-pipeline-flangeada",
+          "name": "Flanged DBB Floating Ball Valves — 2/3-Piece Design",
+          "description": "Flanged-style double block and bleed valves, available in two- and three-piece body designs, containing three valves in a single unit — reducing weight and saving space throughout the installation. ASME Class 150 to 2500 pressure; API 6A up to 5,000; soft seats in PEEK, PTFE, or metallic; temperature -50 °C to 240 °C.",
+          "image": "images/oliver/pipeline-flangeada-2-3-pecas.png"
+        },
+        {
+          "id": "oliver-pipeline-level-gauge",
+          "name": "Level Gauge Valves",
+          "description": "Compact-style level gauge valves, designed to allow safe isolation and flushing of pressure transmitters with diaphragm seals, typically used in tank level measurement applications. Fire-safe API 607, API 6FA, ISO 10497; ASME Class 150 to 2500 pressure; soft seats in PEEK, PTFE, or metallic; temperature -50 °C to 240 °C.",
+          "image": "images/oliver/pipeline-level-gauge.png"
+        },
+        {
+          "id": "oliver-pipeline-top-entry",
+          "name": "Top Entry Ball Valve — Cryogenic",
+          "description": "Cryogenic top entry ball valves built specifically for the unique challenges of LNG and other low-temperature applications. The extended neck ensures safe and reliable operation in extreme cold, while the top entry body allows in-line maintenance without removing the valve from service. Sizes 2\", 3\", 4\", 6\"; pressure class 150, 300, 600, 900; ASME B16.5 flanges or ASME B16.25 butt weld; body and bonnet in ASTM A182 F316L or ASTM A351 CF8M; ball and stem in ASTM A182 F316L or ASTM A182 XM-19; soft seat PCTFE (Kel-F) or Peek Cryo, or metallic with TCC; static and seat seals in custom lip seals; adjustable gland with reinforced graphite packing. Compliance with ASME B16.34, BS 6364, ISO 28921, NACE MR-01-75, and ISO 15848.",
+          "image": "images/oliver/pipeline-top-entry.png"
+        },
+        {
+          "id": "oliver-pipeline-trunnion-flangeada",
+          "name": "Flanged Trunnion DBB Ball Valve — 3-Piece Design",
+          "description": "Flanged-style double block and bleed valves, with a 3-piece bolted body and flanged connections with through bolts. Available up to 16\" full bore (larger on request); trunnion mounting from 2\" to 16\"; ASME B16.5 or API 6A connections, hubs, or welded ends. Design standards: ASME B16.10, ASME B16.34, API 6D, ASME VIII, ASME B16.5; fire-safe API 607, API 6FA, ISO 10497; integrated vent valve with threaded and flanged connections. ASME Class 150 to 2500 pressure; API 6A up to 5,000; soft seats in Devlon, PEEK, PTFE, or metallic; temperature -50 °C to 200 °C (option up to 315 °C).",
+          "image": "images/oliver/pipeline-trunnion-flangeada.png"
+        },
+        {
+          "id": "oliver-pipeline-trunnion-compacta",
+          "name": "Trunnion DBB Ball Valves — Compact Design",
+          "description": "Compact-style double block and bleed (DBB) valve, designed with face-to-face length according to ASME B16.10 or with the smallest possible face-to-face dimension. The one-piece body reduces potential leak paths and keeps weight and space to an absolute minimum. Available in full bore and reduced bore; allows replacement of single isolation ball valves with the added safety of true double isolation, without expensive piping modifications. Available in ASME B16.10 length (CSL) up to 10\" full bore and 12\" reduced bore, and in Oliver standard lengths (COSL); trunnion mounting from 2\" to 16\"; flanged connections with stud bolts according to ASME B16.5; integral vent valve with threaded and flanged bleed connections. Standards: ASME B16.10, ASME B16.34, API 6D, ASME VIII, ASME B16.5; fire-safe API 607, API 6FA, ISO 10497; soft seats in Devlon, PEEK, PTFE, or metallic in tungsten carbide and chromium carbide; ASME Class 150 to 2500 pressure, API 6A up to 5,000; temperature -50 °C to 200 °C (option up to 315 °C).",
+          "image": "images/oliver/icon-valvulas-pipeline.png"
         }
       ]
     },
@@ -604,9 +1103,13 @@
       "id": "parker",
       "name": "Parker",
       "logo": "images/parker/Logo Parker - Sem fundo.png",
-      "tagline": "Motion and control technologies for industry",
-      "description": "Parker Hannifin is a global leader in motion and control technologies, providing hydraulic, pneumatic, and electromechanical solutions for a wide range of industries. With presence in over 50 countries, Parker develops components and systems that increase productivity and efficiency of machines and equipment.\n\nIn the Polar Group portfolio, Parker products include hoses, fittings, valves, and filtration systems for industrial applications, meeting the most rigorous quality and safety standards.",
+      "tagline": "Versatility and reliability in high-pressure connections",
+      "description": "Parker Hannifin is a global leader in motion and control technologies, providing hydraulic, pneumatic, and electromechanical solutions for a wide range of industries. With a presence in more than 50 countries, Parker develops components and systems that increase the productivity and efficiency of machines and equipment.\n\nIn Grupo Polar's portfolio, Parker products include hoses, fittings, valves, and filtration systems for industrial applications, meeting the most rigorous quality and safety standards.",
       "gallery": [],
+      "site": "https://www.parker.com/us/en/home.html",
+      "categories": [
+        "pi"
+      ],
       "products": [
         {
           "id": "par-1",
@@ -617,7 +1120,7 @@
         {
           "id": "par-2",
           "name": "Valves and Actuators",
-          "description": "Directional and proportional valves and pneumatic and hydraulic actuators for precise motion control in machines and industrial processes.",
+          "description": "Directional, proportional valves and pneumatic and hydraulic actuators for precise motion control in machinery and industrial processes.",
           "image": "images/placeholder-logo.png"
         },
         {
@@ -632,8 +1135,8 @@
       "id": "pelican",
       "name": "Pelican",
       "logo": "images/pelican/Logo Pelican - Sem fundo.png",
-      "tagline": "Legendary protective cases — waterproof, dustproof, and crushproof",
-      "description": "Pelican is a world reference in high-performance protective cases, tactical flashlights, and professional coolers. Its products are used by armed forces, first responders, photographers, and adventurers in the most extreme environments on the planet.\n\nRecognized for legendary durability, each Pelican case features IP67 certification against water and dust, in addition to withstanding severe drops and impacts. The Air Case line revolutionized the market by offering the same protection with significant weight reduction, ideal for electronic equipment and professionals who need mobility without compromising safety.",
+      "tagline": "Extreme safety in hazardous areas — protect your team and equipment with Pelican technology",
+      "description": "Pelican Ex flashlights: powerful lighting certified for explosive atmospheres. Pelican cases: indestructible resistance against impacts, dust, and water. Approved by the world's most rigorous safety standards.\n\nPelican is a global benchmark in high-performance protective cases, tactical flashlights, and professional coolers. Its products are used by armed forces, first responders, photographers, and adventurers in the most extreme environments on the planet.\n\nRecognized for legendary durability, every Pelican case has IP67 certification against water and dust, as well as resistance to drops and severe impacts. The Air Case line revolutionized the market by offering the same protection with a significant weight reduction, ideal for electronic and professional equipment that needs mobility without compromising safety.",
       "gallery": [
         {
           "type": "video",
@@ -651,23 +1154,27 @@
           "thumbnail": "images/pelican/thumbs/Pelican 7610.jpg"
         }
       ],
+      "site": "https://www.pelican.com/us/en",
+      "categories": [
+        "iluminacao-portatil-ex"
+      ],
       "products": [
         {
           "id": "pel-1",
           "name": "Protective Cases",
-          "description": "High-impact cases with IP67 certification, waterproof, dustproof, and crushproof. Ultimate protection for electronic equipment, firearms, scientific instruments, and photographic equipment.",
+          "description": "High-impact cases with IP67 certification, waterproof, dustproof, and drop-proof. Ultimate protection for electronic equipment, firearms, scientific instruments, and photographic equipment.",
           "image": "images/placeholder-logo.png"
         },
         {
           "id": "pel-2",
           "name": "Air Case",
-          "description": "Revolutionary line of ultra-lightweight cases that maintains legendary Pelican strength with up to 40% less weight. Ideal for protecting drones, notebooks, and portable equipment in the field.",
+          "description": "Revolutionary line of ultralight cases that maintain legendary Pelican durability with up to 40% less weight. Ideal for protecting drones, laptops, and portable equipment in the field.",
           "image": "images/placeholder-logo.png"
         },
         {
           "id": "pel-3",
           "name": "Tactical Flashlight 7610",
-          "description": "High-performance compact rechargeable LED tactical flashlight with adjustable beam and impact-resistant body. Designed for security forces, firefighters, and emergency situations.",
+          "description": "High-performance tactical LED flashlight, compact and rechargeable, with adjustable beam and impact-resistant body. Designed for security forces, firefighters, and emergency situations.",
           "image": "images/placeholder-logo.png"
         }
       ]
@@ -676,7 +1183,7 @@
       "id": "proserv",
       "name": "Proserv",
       "logo": "images/proserv/Logo Proserv - Sem fundo.png",
-      "tagline": "Control technology and sampling systems for the energy industry",
+      "tagline": "Control Specialists — we improve the reliability, integrity, and productivity of critical infrastructure with industry-leading controls",
       "description": "Proserv is a global control technology company serving the energy industry. With international operations, we are specialists in topside and subsea sampling systems for the oil and gas sector.\n\nWith our new brand identity, we reaffirm our commitment to innovation and operational excellence, providing advanced control solutions that ensure safety, efficiency, and reliability in our clients' operations worldwide.",
       "gallery": [
         {
@@ -687,7 +1194,7 @@
         {
           "type": "image",
           "src": "images/proserv/Proserv_new brand.png",
-          "alt": "Proserv new visual identity"
+          "alt": "Proserv's new visual identity"
         },
         {
           "type": "image",
@@ -695,11 +1202,15 @@
           "alt": "Proserv topside and subsea sampling systems"
         }
       ],
+      "site": "https://proserv.com/",
+      "categories": [
+        "pi"
+      ],
       "products": [
         {
           "id": "proserv-1",
           "name": "Topside Sampling Systems",
-          "description": "Complete sampling solutions for platforms and surface installations, ensuring precision and operational compliance.",
+          "description": "Complete sampling solutions for platforms and surface facilities, ensuring accuracy and operational compliance.",
           "image": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png"
         },
         {
@@ -717,11 +1228,97 @@
       ]
     },
     {
+      "id": "rs",
+      "name": "RS Components",
+      "logo": "images/placeholder-logo.png",
+      "site": "https://br.rsdelivers.com/",
+      "categories": [
+        "mro"
+      ],
+      "tagline": "Over 500,000 industrial and electronic products at the touch of a button",
+      "description": "Polar Group operates as the exclusive distributor of RS Components in Brazil, offering access to a portfolio of over 500,000 products from 2,500 global manufacturers, with consolidated operations in 32 countries.\n\nRS is the digital destination for product and service solutions in design, manufacturing, and maintenance — buy directly from the website, with the Polar Group guarantee.\n\nOn the kiosk, RS is presented as an institutional showcase, without displaying prices: the user explores product categories fluidly — electronic components, automation, tools, safety, and much more — everything your industry needs.",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/rs/categoria-componentes-eletronicos.jpeg",
+          "alt": "RS Category — Electronic Components, Power, and Connectors"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-eletrica-automacao.jpeg",
+          "alt": "RS Category — Electrical, Automation, and Cables"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-mecanica-fluidos.jpeg",
+          "alt": "RS Category — Mechanical, Fluids, and Tools"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-epi-seguranca.jpeg",
+          "alt": "RS Category — PPE, Safety, Test, and IT"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-maritimo.jpeg",
+          "alt": "RS Category — Marine"
+        },
+        {
+          "type": "image",
+          "src": "images/rs/categoria-rs-pro.jpeg",
+          "alt": "RS Category — RS PRO"
+        },
+        {
+          "type": "video",
+          "src": "videos/rs/Hear_From_Our_Customers_RS.mp4",
+          "thumbnail": "images/rs/thumbs/Hear_From_Our_Customers_RS.jpg"
+        }
+      ],
+      "products": [
+        {
+          "id": "rs-componentes-eletronicos",
+          "name": "Electronic Components, Power and Connectors",
+          "description": "Everything for your electronic project: semiconductors, connectors, passive components and power solutions. From idea to product, RS has the right part. Includes batteries and chargers; resistors, capacitors and inductors; interconnection for circuits, equipment and panels; displays, LEDs and optical components; electrostatic control, cleanroom and prototyping; development and education platforms; chips, transistors and integrated circuits; and power conversion and distribution.",
+          "image": "images/rs/categoria-componentes-eletronicos.jpeg"
+        },
+        {
+          "id": "rs-eletrica-automacao",
+          "name": "Electrical, Automation and Cables",
+          "description": "Automation and control, industrial cables, power protection and distribution. Efficiency and reliability for your operation. Includes PLCs, controllers and drives; power and data cables; enclosures and racks; overload protection; HVAC, ventilation and thermal control; industrial lighting and lamps; relays and signal conditioning; switches and disconnectors; and material access, storage and handling.",
+          "image": "images/rs/categoria-eletrica-automacao.jpeg"
+        },
+        {
+          "id": "rs-mecanica-fluidos",
+          "name": "Mechanics, Fluids and Tools",
+          "description": "Tools, pneumatics, mechanical components and fasteners. The complete solution for industrial maintenance and production. Includes industrial adhesives, tapes and sealants; bearings and seals; piping and fittings for fluids; engineering materials and hardware; screws, nuts and washers; professional tools; power transmission; pneumatic and hydraulic valves, cylinders and hoses; and power tools, soldering and brazing.",
+          "image": "images/rs/categoria-mecanica-fluidos.jpeg"
+        },
+        {
+          "id": "rs-epi-seguranca",
+          "name": "PPE, Safety, Test and IT",
+          "description": "Protect your team and ensure quality: PPE, workplace safety, test and measurement instruments and IT solutions. Includes IT solutions for infrastructure; industrial cleaning products and lubricants; corporate environment supplies; helmets, gloves, glasses and clothing; property security and protective hardware; signage, lockout and workplace protection; and multimeters, oscilloscopes and precision meters.",
+          "image": "images/rs/categoria-epi-seguranca.jpeg"
+        },
+        {
+          "id": "rs-maritimo",
+          "name": "Maritime",
+          "description": "Specialized solutions for navigation, maritime safety and offshore maintenance. Includes power and data cables for maritime environments; connectors for maritime and offshore applications; hand tools for onboard maintenance; PPE and clothing for maritime operations; measurement instruments for vessels and platforms; offshore pneumatic and hydraulic systems; cleaning and maintenance products; and corrosion-resistant fasteners for naval applications.",
+          "image": "images/rs/categoria-maritimo.jpeg"
+        },
+        {
+          "id": "rs-pro",
+          "name": "RS PRO",
+          "description": "RS's own brand: professional quality, warranty and availability across all categories. Includes hand tools from the own brand; PPE with RS PRO warranty; test and measurement instruments; enclosures and housings; power and industrial cables with the RS PRO standard; and Ethernet connectivity from RS's own line.",
+          "image": "images/rs/categoria-rs-pro.jpeg"
+        }
+      ]
+    },
+    {
       "id": "sa-equip",
       "name": "SA EQUIP",
       "logo": "images/sa-equip/Logo SA Equip - Sem fundo.png",
-      "tagline": "Certified Ex equipment for the most extreme conditions",
-      "description": "SA Equipment designs and manufactures Ex certified equipment (ATEX, IECEx, and UKEX) for explosive atmospheres. Our product line serves the oil and gas, mining, chemical, and industrial sectors, with robust high-performance equipment for the most extreme environments.\n\nWith UK manufacturing and marine-grade quality materials, our products are designed for continuous operation in temperatures from -20 °C to +50 °C, with IP65 protection. Each piece of equipment is individually tested and certified, ensuring safety and reliability in Zones 1 and 2 (gases) and Zones 21 and 22 (dusts).",
+      "tagline": "Lighting, ventilation, heating, and power — we make difficult and hazardous environments safe and productive",
+      "description": "SA Equipment designs and manufactures certified Ex equipment (ATEX, IECEx, and UKEX) for explosive atmospheres. Our product line serves the oil and gas, mining, chemical, and industrial sectors, with robust, high-performance equipment for the most extreme environments.\n\nWith manufacturing in the United Kingdom and marine-grade materials, our products are designed for continuous operation at temperatures from -20 °C to +50 °C, with IP65 protection. Each unit is individually tested and certified, ensuring safety and reliability in Zones 1 and 2 (gases) and Zones 21 and 22 (dusts).",
       "gallery": [
         {
           "type": "image",
@@ -751,7 +1348,7 @@
         {
           "type": "image",
           "src": "images/sa-equip/Iluminação portátil LED Ex.png",
-          "alt": "SA LUMIN — Ex portable LED lighting"
+          "alt": "SA LUMIN — Portable LED Ex lighting"
         },
         {
           "type": "image",
@@ -799,41 +1396,45 @@
           "thumbnail": "images/sa-equip/thumbs/SA_em estoque.jpg"
         }
       ],
+      "site": "https://saequip.com/",
+      "categories": [
+        "espaco-confinado-ex"
+      ],
       "products": [
         {
           "id": "sa-cyclone-ac",
           "name": "SA CYCLONE EX Air Conditioner",
-          "description": "Ex certified portable air conditioner for Zones 1 and 2 (gases) and Zones 21 and 22 (dusts). Cooling capacity of 11 kW at 400-440V three-phase 50/60Hz. Airflow of 690 m³/h with typical temperature reduction of 10-20 °C. Cooled area of 240 m³. Dimensions: 800 × 700 × 1290 mm, 200 kg. IP65 protection. ATEX, IECEx, and UKEX certifications. Tropical (HT30) and Temperate (LT30) models.",
+          "description": "Ex-certified portable air conditioner for Zones 1 and 2 (gases) and Zones 21 and 22 (dusts). Cooling power of 11 kW at 400-440V three-phase 50/60Hz. Airflow of 690 m³/h with typical temperature reduction of 10-20 °C. Cooled area of 240 m³. Dimensions: 800 × 700 × 1290 mm, 200 kg. IP65 protection. ATEX, IECEx, and UKEX certifications. Tropical (HT30) and Temperate (LT30) models.",
           "image": "images/sa-equip/Air_Conditioner_Hero.png"
         },
         {
           "id": "sa-lumin-floodlight",
           "name": "SA LUMIN EX LED Floodlight",
-          "description": "Ex certified LED floodlight for lighting large areas in explosive atmospheres. High luminous efficiency with low energy consumption. Robust aluminum construction with anticorrosive protection. ATEX certification for Zones 1 and 2.",
+          "description": "Ex-certified LED floodlight for lighting large areas in explosive atmospheres. High luminous efficiency with low energy consumption. Robust aluminum construction with anti-corrosion protection. ATEX certification for Zones 1 and 2.",
           "image": "images/sa-equip/Iluminação portátil LED Ex.png"
         },
         {
           "id": "sa-lumin-worklight",
           "name": "SA LUMIN EX LED Worklight",
-          "description": "Ex certified LED worklight, subjected to rigorous resistance tests including a 100-meter drop test. Powerful and portable lighting for inspections and maintenance in hazardous areas. ATEX certification for Zones 1 and 2.",
+          "description": "Ex-certified LED work light, subjected to rigorous resistance tests including a 100-meter drop test. Powerful and portable lighting for inspections and maintenance in classified areas. ATEX certification for Zones 1 and 2.",
           "image": "images/sa-equip/Iluminação portátil LED Ex.png"
         },
         {
           "id": "sa-lumin-portable",
-          "name": "SA LUMIN Ex Portable LED Lighting",
-          "description": "Ex certified portable LED lighting line for hazardous areas. Compact and lightweight solutions for temporary lighting in tanks, confined spaces, and maintenance areas. Long-lasting rechargeable battery power. ATEX certification.",
+          "name": "SA LUMIN Portable LED Ex Lighting",
+          "description": "Line of Ex-certified portable LED lighting for classified areas. Compact and lightweight solutions for temporary lighting in tanks, confined spaces, and maintenance areas. Powered by long-lasting rechargeable battery. ATEX certification.",
           "image": "images/sa-equip/Iluminação portátil LED Ex.png"
         },
         {
           "id": "sa-transformador-ex",
           "name": "SA Ex Transformer",
-          "description": "Ex certified portable transformer for safe power supply of equipment in explosive atmospheres. Available in 400VA with robust housing and IP65 protection. Designed for use in Zones 1 and 2. ATEX, IECEx, and UKEX certifications.",
+          "description": "Ex-certified portable transformer for safe power supply of equipment in explosive atmospheres. Available in 400VA with robust housing and IP65 protection. Designed for use in Zones 1 and 2. ATEX, IECEx, and UKEX certifications.",
           "image": "images/sa-equip/SA_Transformador Ex_400VA.png"
         },
         {
           "id": "sa-air-mover",
           "name": "SA CYCLONE EX Air Mover",
-          "description": "Ex certified portable air mover for ventilation and air circulation in confined spaces and hazardous areas. Compatible with SA CYCLONE antistatic ducts. Ideal for air renewal, cooling, and fume extraction. ATEX certification.",
+          "description": "Ex-certified portable air mover for ventilation and air circulation in confined spaces and classified areas. Compatible with SA CYCLONE anti-static ducts. Ideal for air renewal, cooling, and fume extraction. ATEX certification.",
           "image": "images/sa-equip/Ex AIR MOVER.png"
         }
       ]
@@ -842,8 +1443,8 @@
       "id": "stopdropp",
       "name": "StopDropp",
       "logo": "images/stopdropp/Logo Stopdrop - sem fundo.png",
-      "tagline": "Protecting the invisible. Preventing the unthinkable.",
-      "description": "StopDropp develops hand tools specifically designed to prevent drops during work at height. Founded in 2005, with headquarters in Houston, Texas (USA) and Dewsbury, West Yorkshire (UK), the company is a global reference in tethered tools, tools at height, and tools aloft.\n\nIt serves the oil and gas, petrochemical, construction, mining, utilities, wind energy, and telecommunications sectors, with the goal of reducing dropped object occurrences. It is a member of organizations dedicated to drop prevention in offshore and onshore sectors.\n\nIts product ecosystem encompasses: fixed lanyards and retractable coils with explicit Working Load Limits (WLL) for all types of tools; wearable anchor points (belts and vests with reinforced attachment points) and structural anchors; pouches and backpacks with magnetic or buckle closures, non-conductive and with multiple attachment points; plus carabiners, connectors, tool wraps, and complete kits. All products have EN 13157, ANSI/ISEA 121, ASME B30.20, and API RP 2D certifications, with load tests performed by third-party certifiers and full traceability through serialization.",
+      "tagline": "Hand tools with tethering for work at height — freedom of use and full functionality, with safety against drops",
+      "description": "StopDropp develops hand tools specifically designed to prevent drops during work at height. Founded in 2005, with headquarters in Houston, Texas (USA) and Dewsbury, West Yorkshire (UK), the company is a global reference in tethered tools, tools at height, and tools aloft.\n\nIt serves the oil and gas, petrochemical, construction, mining, utilities, wind energy, and telecommunications sectors, aiming to reduce occurrences of dropped objects. It is a member of organizations dedicated to fall prevention in offshore and onshore sectors.\n\nIts product ecosystem includes: tether cords and spirals with explicit working load limits (WLL) for all types of tools; wearable anchor points (belts and vests with reinforced attachment points) and structural ones; bags and backpacks with magnetic or buckle closures, non-conductive and with multiple attachment points; as well as carabiners, connectors, tool wraps, and complete kits. All products have EN 13157, ANSI/ISEA 121, ASME B30.20, and API RP 2D certifications, with load tests performed by third-party certifiers and full traceability through serialization.",
       "gallery": [
         {
           "type": "video",
@@ -851,11 +1452,15 @@
           "thumbnail": "images/stopdropp/thumbs/Stopdrop_ferramentas uso altura.jpg"
         }
       ],
+      "site": "https://stopdroptooling.com/",
+      "categories": [
+        "tool-tethering"
+      ],
       "products": [
         {
           "id": "stopdropp-cordoes-amarracao",
-          "name": "Lanyards and Retractable Coils",
-          "description": "Fixed lanyards and retractable coils for tethering all types of hand tools. Manufactured in high-tenacity nylon, polyester, and Kevlar-reinforced options. Explicit Working Load Limits (WLL).",
+          "name": "Lanyards and Tethering Coils",
+          "description": "Fixed lanyards and retractable coils for tethering all types of hand tools. Made of high-tenacity nylon, polyester, and Kevlar-reinforced options. Explicit working load limits (WLL).",
           "image": "images/placeholder-logo.png"
         },
         {
@@ -866,15 +1471,99 @@
         },
         {
           "id": "stopdropp-bolsas-ferramentas",
-          "name": "Tool Pouches",
-          "description": "Essential non-conductive pouches for work in electrical and telecommunications zones. Magnetic or buckle closure systems that prevent accidental opening. Multiple attachment points.",
+          "name": "Tool Bags",
+          "description": "Essential non-conductive bags for work in electrical and telecommunications zones. Magnetic or buckle closure systems that prevent accidental opening. Multiple attachment points.",
           "image": "images/placeholder-logo.png"
         },
         {
           "id": "stopdropp-kits-completos",
           "name": "Complete Tethering Kits",
-          "description": "Complete serialized kits packed by crew, available in static, mobile, or role-based versions. Custom-assembled after evaluation of the client's tool inventory. Full traceability.",
+          "description": "Complete kits serialized and packaged per team, available in static, mobile, or function-specific versions. Custom assembled after assessing the customer's tool inventory. Full traceability.",
           "image": "images/placeholder-logo.png"
+        }
+      ]
+    },
+    {
+      "id": "stahl",
+      "name": "R. STAHL",
+      "logo": "images/placeholder-logo.png",
+      "site": "https://r-stahl.com/en/us/home/",
+      "categories": [
+        "ex-lighting"
+      ],
+      "tagline": "Wide range of explosion-proof plugs and sockets and plug connectors",
+      "description": "R. STAHL is the German reference in explosion protection (Ex), with cutting-edge technology for explosive atmospheres in the oil and gas, petrochemical, chemical, and pharmaceutical sectors. Polar Group is the official channel for access to German cutting-edge technology in Brazil.\n\nAbsolute safety and operational efficiency in explosive atmospheres through the R. STAHL + Polar Group partnership: the Ex plugs and sockets line includes the SolConeX 8570, SolConeX 8571, CES 8575/8579, and CES 8581 series, with currents from 16 A to 125 A, 3, 4, or 5 poles, Ex protection of IIC T6 / IP66, and materials in polyamide and brass, certified for Zones 1, 2, 21, and 22.\n\nSolutions aimed at project engineers, industrial maintenance managers, technical buyers, and safety inspectors (HSE).",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "images/stahl/tela-1-abertura.jpeg",
+          "alt": "R. STAHL — opening and impact"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-2-autoridade-stahl.jpeg",
+          "alt": "R. STAHL's authority in explosion protection"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-3-polar-brasil.jpeg",
+          "alt": "Polar Group — official R. STAHL channel in Brazil"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-4-linha-produtos.jpeg",
+          "alt": "Product line — R. STAHL Ex plugs and sockets"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-6-certificacoes-zonas.jpeg",
+          "alt": "Certifications and zones — Ex plugs and sockets"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-7-aplicacoes.jpeg",
+          "alt": "R. STAHL industrial applications"
+        },
+        {
+          "type": "image",
+          "src": "images/stahl/tela-8-cta.jpeg",
+          "alt": "R. STAHL — talk to Polar Group"
+        },
+        {
+          "type": "video",
+          "src": "videos/stahl/Explosion_Protection_by_R._STAHL.mp4",
+          "thumbnail": "images/stahl/thumbs/Explosion_Protection_by_R._STAHL.jpg"
+        },
+        {
+          "type": "video",
+          "src": "videos/stahl/miniCON_-_Our_safe_plug-in_connectors_for_hazardous_areas.mp4",
+          "thumbnail": "images/stahl/thumbs/miniCON_-_Our_safe_plug-in_connectors_for_hazardous_areas.jpg"
+        }
+      ],
+      "products": [
+        {
+          "id": "stahl-solconex-8570",
+          "name": "SolConeX 8570 — Ex Plugs and Sockets",
+          "description": "SolConeX 8570 series: 16 A current, 3/4/5 poles, Zones 1, 2, 21 and 22, Ex protection of IIC T6 / IP66, material in polyamide/brass.",
+          "image": "images/stahl/tela-4-linha-produtos.jpeg"
+        },
+        {
+          "id": "stahl-solconex-8571",
+          "name": "SolConeX 8571 — Ex Plugs and Sockets",
+          "description": "SolConeX 8571 series: 32 A current, 3/4/5 poles, Zones 1, 2, 21 and 22, Ex protection of IIC T6 / IP66, material in polyamide/brass.",
+          "image": "images/stahl/tela-4-linha-produtos.jpeg"
+        },
+        {
+          "id": "stahl-ces-8575-8579",
+          "name": "CES 8575 / 8579 — Ex Plugs and Sockets",
+          "description": "CES 8575 / 8579 series: 63 A current, 3/4/5 poles, Zones 1, 2, 21 and 22, Ex protection of IIC T6 / IP66, material in polyamide/brass.",
+          "image": "images/stahl/tela-6-certificacoes-zonas.jpeg"
+        },
+        {
+          "id": "stahl-ces-8581",
+          "name": "CES 8581 — Ex Plugs and Sockets",
+          "description": "CES 8581 series: 125 A current, 3/4/5 poles, Zones 1, 2, 21 and 22, Ex protection of IIC T6 / IP66, material in polyamide/brass.",
+          "image": "images/stahl/tela-7-aplicacoes.jpeg"
         }
       ]
     },
@@ -882,8 +1571,8 @@
       "id": "vantrunk",
       "name": "Vantrunk",
       "logo": "images/vantrunk/Logo Vantrunk - sem fundo.png",
-      "tagline": "Cable management systems for industrial environments and hazardous areas",
-      "description": "Vantrunk is a world reference in cable management systems, offering innovative solutions for industrial and hazardous area sectors. With decades of experience, our cable ladder and tray systems ensure safety, durability, and efficiency in the most demanding installations.\n\nWe develop products designed to withstand harsh environments, including offshore platforms, petrochemical plants, mining industries, and energy installations, always in compliance with the most rigorous international standards.",
+      "tagline": "Designed for extreme environments",
+      "description": "Vantrunk is a world reference in cable management systems, offering innovative solutions for the industrial and hazardous area sectors. With decades of experience, our cable tray and ladder systems ensure safety, durability, and efficiency in the most demanding installations.\n\nWe develop products designed to withstand aggressive environments, including offshore platforms, petrochemical plants, mining industries, and power facilities, always in compliance with the most rigorous international standards.",
       "gallery": [
         {
           "type": "image",
@@ -906,17 +1595,21 @@
           "thumbnail": "images/vantrunk/thumbs/Vantrunk - Speedway cable ladder 04 min.jpg"
         }
       ],
+      "site": "https://vantrunk.com",
+      "categories": [
+        "cable-management"
+      ],
       "products": [
         {
           "id": "vantrunk-speedway",
           "name": "Speedway Cable Ladder System",
-          "description": "High-strength cable ladder system designed for heavy industrial installations and hazardous areas. Offers fast installation, excellent load capacity, and corrosion protection for harsh environments.",
+          "description": "High-strength cable tray system, designed for heavy industrial installations and classified areas. Offers fast installation, excellent load capacity, and corrosion protection for aggressive environments.",
           "image": "images/vantrunk/Intelok Sistrma.png"
         },
         {
           "id": "vantrunk-intelok",
           "name": "Intelok System",
-          "description": "Smart locking system for cable trays and cable ladders that ensures secure connections and simplified installation. Ideal for applications in petrochemical plants, offshore platforms, and high-demand industrial environments.",
+          "description": "Smart locking system for cable trays and cable ladders that ensures secure connections and simplified installation. Ideal for applications in petrochemical plants, offshore platforms, and highly demanding industrial environments.",
           "image": "images/vantrunk/Intelok Sistrma.png"
         }
       ]

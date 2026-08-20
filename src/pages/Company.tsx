@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
 import { RibbonGallery, type GalleryItem } from '@/components/RibbonGallery'
 import companiesData from '@/data/companies/pt-BR.json'
-import { ArrowLeft, BookOpen } from 'lucide-react'
+import { ArrowLeft, BookOpen, ExternalLink } from 'lucide-react'
 
 export default function Company() {
   const { id } = useParams<{ id: string }>()
@@ -23,6 +23,7 @@ export default function Company() {
   }
 
   const catalog = 'catalog' in company ? company.catalog : undefined
+  const site = 'site' in company ? company.site : undefined
 
   return (
     <div className="h-full flex flex-col">
@@ -42,6 +43,10 @@ export default function Company() {
             <h1 className="text-3xl font-bold">{company.name}</h1>
           </div>
 
+          {company.tagline && (
+            <p className="text-lg font-medium text-muted-foreground mb-8 -mt-4">{company.tagline}</p>
+          )}
+
           <div className="prose prose-lg max-w-none mb-8">
             {company.description.split('\n').map((paragraph, i) => (
               <p key={i} className="text-base leading-relaxed mb-4">{paragraph}</p>
@@ -54,6 +59,17 @@ export default function Company() {
                 <BookOpen className="w-5 h-5 mr-2" />
                 {t('company.viewCatalog')}
               </Button>
+            </div>
+          )}
+
+          {site && (
+            <div className="mb-8">
+              <a href={site} target="_blank" rel="noreferrer">
+                <Button size="lg" variant="outline">
+                  <ExternalLink className="w-5 h-5 mr-2" />
+                  {t('company.visitSite')}
+                </Button>
+              </a>
             </div>
           )}
 

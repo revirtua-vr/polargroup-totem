@@ -24,8 +24,8 @@ polargroup-totem/
 │   ├── App.tsx                  # Routes + NavBar + LanguageSwitcher layout
 │   ├── pages/
 │   │   ├── QuemSomos.tsx       # About Polar Group: mission, vision, values
-│   │   ├── Marcas.tsx          # Grid of 18 company cards + quiz card
-│   │   ├── Company.tsx         # Detail view: logo, description, products, ribbon gallery + catalog CTA
+│   │   ├── Marcas.tsx          # Grid of 17 company cards with 12 category filter chips (quiz lives in the nav bar)
+│   │   ├── Company.tsx         # Detail view: logo, tagline, description, site link, products, ribbon gallery + catalog CTA
 │   │   ├── Catalogo.tsx        # Full-height PDF catalog page (/marcas/:id/catalogo) — single scroll via PdfViewer
 │   │   ├── Produtos.tsx        # All products aggregated from every company
 │   │   ├── Videos.tsx          # Dedicated Polar Group videos (not company galleries)
@@ -70,7 +70,7 @@ polargroup-totem/
 | Path | Page | Description |
 |---|---|---|
 | `/` | QuemSomos | About Polar Group (mission, vision, values) |
-| `/marcas` | Marcas | 18-company card grid + quiz entry |
+| `/marcas` | Marcas | 17-company card grid with 12 category filter chips (client-defined categories); quiz is a nav tab |
 | `/marcas/:id` | Company | Company detail with products + gallery |
 | `/marcas/:id/catalogo` | Catalogo | Full-height PDF catalog (only when company has `catalog` field) |
 | `/produtos` | Produtos | All products from all companies aggregated |
@@ -86,6 +86,7 @@ polargroup-totem/
 | Quiz persistence | Ephemeral (answer → score → done) | No user accounts, no leaderboard |
 | Languages | pt-BR authored, en/es via LLM script | Single source of truth + automated translation |
 | Kiosk behavior | Fullscreen, 180s idle → home, no browser chrome | Convention touchscreen UX |
+| Brand browsing | Flat grid of 17 brands + 12 category filter chips (data-driven from `categories` array in companies pt-BR.json, labels translated via translate.ts) | Client-defined category map from "Planilha de marcas"; a brand may belong to multiple categories (e.g. Blinda) |
 | PDF catalogs | Optional `catalog` field per company → CTA on Company page opens dedicated full-height `/marcas/:id/catalogo` page rendered by `PdfViewer` (react-pdf) | Blinda catalog: index links must jump to target page; react-pdf LinkService scrolls to target page. Keep this feature — it is data-driven and intentionally maintained |
 | Routing | HashRouter | Works offline in Electron without a server |
 | Project location | Standalone at `C:\Users\Lucas\polargroup-totem` | Not coupled to CRM monorepo |
@@ -110,6 +111,13 @@ docker build -t polargroup-totem .
 docker run -p 80:80 polargroup-totem
 ```
 
+## TODO.md — Pendências
+
+`TODO.md` (raiz do projeto) é a **lista viva de pendências**: entregas aguardando arquivos do cliente (logos, datasheets, catálogos, vídeos), ativos quebrados pré-existentes e acompanhamentos. Regras:
+- Sempre que algo pendente for resolvido, mover o item para a seção "Resolvidos (histórico)".
+- Sempre que uma nova pendência surgir (ex.: cliente promete enviar material), adicionar como checkbox.
+- Manter o arquivo atualizado é parte do fluxo de trabalho — nunca deixá-lo desatualizado.
+
 ## Quality Gate
 
 ```bash
@@ -130,10 +138,16 @@ pnpm build        # must succeed
 **Company data shape** (`src/data/companies/pt-BR.json`):
 ```json
 {
+  "categories": [
+    { "id": "category-key", "label": "Category label (translated via translate.ts)" }
+  ],
   "companies": [{
     "id": "kebab-case-id",
     "name": "Company Name",
     "logo": "images/logo.png",
+    "site": "https://company-website.com",
+    "categories": ["category-key", "another-category-key"],
+    "tagline": "Short slogan shown under the company name",
     "description": "Paragraphs separated by \\n\\n",
     "gallery": [
       { "type": "image", "src": "images/photo.jpg", "alt": "Caption" },
@@ -150,6 +164,8 @@ pnpm build        # must succeed
   }]
 }
 ```
+
+Notes: 17 companies (Eaton, R. STAHL and RS Components included; "Oliver Twinsafe" content lives inside `oliver`). `translate.ts` chunks translation per company and per product batch — the file is too large for a single API call.
 
 **Quiz data shape** (`src/data/quiz/pt-BR.json`):
 ```json

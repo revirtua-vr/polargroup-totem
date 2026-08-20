@@ -9,7 +9,7 @@
   },
   "quemSomos": {
     "title": "Grupo Polar",
-    "subtitle": "Componentes elétricos, eletrônicos e de automação desde 1992",
+    "subtitle": "O produto certo quando você mais precisa",
     "paragraph1": "Fundado em 1992 em Macaé, Rio de Janeiro, o Grupo Polar é fornecedor de componentes elétricos, eletrônicos e de automação, com atuação especializada em áreas classificadas e atmosferas explosivas.",
     "paragraph2": "Trabalhamos com materiais \"Ex\" dos principais fabricantes mundiais. Presentes em 3 estados brasileiros e na Europa, nossa equipe é treinada e comprometida com o sucesso do cliente, pronta para entregar em qualquer lugar.",
     "missionTitle": "Missão",
@@ -28,7 +28,8 @@
   },
   "marcas": {
     "title": "Nossas Marcas",
-    "subtitle": "Toque em uma empresa para saber mais"
+    "subtitle": "Toque em uma empresa para saber mais",
+    "all": "Todas"
   },
   "produtos": {
     "title": "Produtos",
@@ -49,7 +50,8 @@
     "catalog": "Catálogo",
     "gallery": "Galeria",
     "products": "Produtos",
-    "viewCatalog": "Ver catálogo"
+    "viewCatalog": "Ver catálogo",
+    "visitSite": "Visitar site"
   },
   "pdfViewer": {
     "index": "Índice"
