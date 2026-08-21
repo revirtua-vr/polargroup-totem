@@ -17,6 +17,7 @@ type Category = {
 type Subcategory = {
   companyId: string
   label?: string
+  logo?: string
   intro?: string
   productIds?: string[]
 }
@@ -174,7 +175,7 @@ export default function Produtos() {
                         onClick={() => pickSub(i)}
                       >
                         <CardContent className="pt-5 pb-5 flex items-center justify-center">
-                          <BrandLogo src={comp.logo} name={sc.label ?? comp.name} className="w-full h-16" />
+                          <BrandLogo src={sc.logo ?? comp.logo} name={sc.label ?? comp.name} className="w-full h-16" />
                         </CardContent>
                       </Card>
                     )

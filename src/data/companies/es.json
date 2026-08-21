@@ -30,6 +30,7 @@
         {
           "companyId": "oliver",
           "label": "Oliver Twinsafe",
+          "logo": "images/oliver/oliver-twinsafe-logo.png",
           "productIds": [
             "oliver-pipeline-compactas",
             "oliver-pipeline-dbb",
