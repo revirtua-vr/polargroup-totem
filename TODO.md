@@ -20,13 +20,14 @@
 - [ ] **Fotos reais de produtos RS ("Produtos Representativos")** — doc pede galeria com fotos do catálogo RS; não enviadas
 
 ### Planilha de marcas (rev04 — 12/08/2026)
+- [ ] **6 imagens Proserv** — cliente confirmou que enviará as imagens dos 6 produtos Proserv (P&I)
+- [ ] **2 luminárias Eaton adicionais** — cliente enviará em breve para incluir na categoria "Iluminação Ex Eaton"
+- [ ] **Imagens definitivas SA Equip** — Floodlight e Worklight usam provisoriamente miniaturas dos vídeos; cliente enviará imagens oficiais (incl. correção da luminária portátil)
 - [ ] **Catálogo digital Blinda em PDF** — "a ser enviado dia 13/08" (substituir `pdfs/catalogo-blinda.pdf`?)
 - [ ] **Catálogos Vantrunk** — 3 brochures em PDF (inglês) "a enviar"
 - [ ] **Parker** — planilha marca "Material a ser enviado" (linhas PIPE, Autoclave, A-Lok, MPI — ainda não representadas no app)
 - [ ] **Material Proserv** — planilha marca "Não usar o enviado"
 - [ ] **Material Oliver** — planilha marca "Material a ser enviado" (recebido depois via docx — confirmar se cobre tudo)
-- [ ] **Vídeos adicionais** — ~~planilha menciona vídeos a enviar~~ recebidos e incluídos (ver histórico); restam apenas marcas sem playlist no canal YouTube
-- [ ] **Playlists para marcas ainda sem playlist no canal YouTube** — o app agora tem playlists locais para Blinda, Proserv, RS, Stahl e Stopdropp (espelhando os vídeos enviados); confirmar com o cliente se serão criadas no canal @PolarComponentesBrasil (Eaton, Oliver e Parker seguem sem playlist local também)
 
 ## 2. Ativos quebrados pré-existentes (faltando no repositório)
 
@@ -48,6 +49,7 @@
 
 ## Resolvidos (histórico)
 
+- [x] ~~2ª leva de feedbacks (ago/2026) — Produtos~~ → página sem a visão "Todos" com fluxo categoria → subcategoria (logos das marcas da planilha rev04 + textos de introdução) → produtos; Oliver Valves em camadas conforme o docx (2 grupos → 5 subgrupos → produtos) e Oliver Twinsafe direto nas 8 válvulas de pipeline; Prensa-Cabos Ex com 4 produtos Blinda do catálogo (pp. 90-93, com Aplicações/Marcação Ex/Grau de Proteção/Nº Certificado Inmetro) e 12 itens antigos removidos da categoria; Comunicação Ex só com iPhone 15 e iPad mini 7; Iluminação Ex com Chalmit (3, sem Eclipse X) e Stahl; nova categoria "Iluminação Ex Eaton" (NLE, HLL, VLL, GHG51); badge "LANÇAMENTO" no SA CYCLONE; 5 novas ferramentas Hi-Force; imagens de produtos StopDropp/Nightstick/Pelican/Hi-Force obtidas no polarb2b.com; fim da imagem duplicada no Vantrunk Speedway
 - [x] ~~Logo/símbolo trocados (Contato x Quiz)~~ → correção do cliente: `logo-polar-branco.png` é o PNG branco anexado (usado no Contato) e `simbolo-polar.png` é o PNG vermelho anexado (overlay do Quiz, com P's maiores e mais rápidos após feedback)
 - [x] ~~Feedback do cliente (ago/2026) — Contato~~ → filial Serra substituída por Cariacica (Km 281); nova filial Votorantim/SP (Blinda); seção de representantes (SP, RS, MG, BA/SE); e-commerce polarb2b.store removido; título "Contato — Polar Group" substituído pelo logo Polar todo branco
 - [x] ~~Feedback do cliente (ago/2026) — Quiz~~ → overlay de símbolos "P" da Polar flutuando ao fundo do formulário e das perguntas (motion-reduce respeitado)
