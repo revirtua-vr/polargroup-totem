@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
+import { Card, CardContent, CardTitle } from '@/components/ui/card'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { SectionDivider } from '@/components/BrandDecor'
 import { ProductImage } from '@/components/ProductImage'
+import { BrandLogo } from '@/components/BrandLogo'
 import companiesData from '@/data/companies/pt-BR.json'
 
 export default function Produtos() {
@@ -16,6 +17,7 @@ export default function Produtos() {
       ...product,
       companyName: company.name,
       companyId: company.id,
+      companyLogo: company.logo,
       companyCategories: company.categories ?? [],
     })),
   )
@@ -72,10 +74,18 @@ export default function Produtos() {
                 key={product.id}
                 className="flex flex-col hud-corners hover:glow-red hover:border-brand-red/60 transition-all"
               >
-                <ProductImage src={product.image} alt={product.name} className="rounded-t-lg" />
+                <div className="relative">
+                  <ProductImage src={product.image} alt={product.name} className="rounded-t-lg" />
+                  <div className="absolute top-2 right-2" title={product.companyName}>
+                    <BrandLogo
+                      src={product.companyLogo}
+                      name={product.companyName}
+                      className="w-12 h-12 rounded-full p-1 shadow-md ring-1 ring-brand-gray-4"
+                    />
+                  </div>
+                </div>
                 <CardContent className="pt-4 flex-1">
                   <CardTitle className="text-base mb-1">{product.name}</CardTitle>
-                  <CardDescription className="text-xs mb-2 text-brand-red">{product.companyName}</CardDescription>
                   <p className="text-sm text-muted-foreground">{product.description}</p>
                 </CardContent>
               </Card>
