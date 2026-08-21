@@ -91,6 +91,11 @@ Palette rules:
 - **Quiz lead form**: Card `hud-corners hud-corners-visible`; inputs `bg-muted border-border
   rounded-md` with `primary/40` focus ring; validation errors use `text-brand-yellow` (red is
   never used for errors).
+- **Quiz P overlay**: floating Polar "P" symbols (`POverlay` in `src/pages/Quiz.tsx`) behind the
+  lead form and question screens only (never the result screen) — ~11 `images/simbolo-polar.png`
+  marks (brand-red symbol as provided by the client) at 92–180px, opacity 0.24–0.42, deterministic
+  positions/rotations, organic `p-float` drift (4–8s ease-in-out alternate; static via
+  `motion-reduce:animate-none`). `pointer-events-none`, content wrappers sit on `relative z-10`.
 - **Dialogs/lightbox**: black (`bg-black/95`), unchanged — media should not be tinted.
 - **Two-column Home**: `min-h-full flex flex-col justify-center` inside the page
   `ScrollArea` so content is vertically centered on big kiosk screens (70") with no visible
