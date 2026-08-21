@@ -77,6 +77,12 @@
           "thumbnail": "videos/playlists/dropsafe/03 - Redes_DropSafe.jpg"
         },
         {
+          "id": "redes-dropsafe",
+          "title": "Redes Dropsafe",
+          "src": "videos/dropsafe/Redes Dropsafe.mp4",
+          "thumbnail": "images/dropsafe/thumbs/Redes Dropsafe.jpg"
+        },
+        {
           "id": "7ev6HFeJs1s",
           "title": "Teste de Queda de Objeto: Dropsafe x Rede Não Aprovada",
           "src": "videos/playlists/dropsafe/04 - Teste_de_Queda_de_Objeto_-_Dropsafe_x_Rede_Nao_Aprovada.mp4",
