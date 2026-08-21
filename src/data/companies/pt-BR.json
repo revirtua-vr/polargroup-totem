@@ -1210,6 +1210,18 @@
           "type": "image",
           "src": "images/proserv/Proserv_Sistemas de amostragem topside e subsea.png",
           "alt": "Sistemas de amostragem topside e subsea Proserv"
+        },
+        {
+          "type": "video",
+          "src": "videos/playlists/proserv/01 - Proserv_Subsea_Sampling_Animation.mp4",
+          "thumbnail": "videos/playlists/proserv/01 - Proserv_Subsea_Sampling_Animation.jpg",
+          "alt": "Animação de amostragem subsea Proserv"
+        },
+        {
+          "type": "video",
+          "src": "videos/playlists/proserv/02 - Multi-phase_sampling_system.mp4",
+          "thumbnail": "videos/playlists/proserv/02 - Multi-phase_sampling_system.jpg",
+          "alt": "Sistema de amostragem multifásico Proserv"
         }
       ],
       "products": [
