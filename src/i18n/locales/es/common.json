@@ -42,6 +42,7 @@
     "subtitle": "Conozca nuestros productos y servicios",
     "all": "Todos",
     "selectCategory": "Seleccione una categoría para ver los productos",
+    "selectBrand": "Seleccione una marca para ver los productos",
     "empty": "Ningún producto registrado"
   },
   "playlists": {
