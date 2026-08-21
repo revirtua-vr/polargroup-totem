@@ -21,9 +21,10 @@ type BrandLogoProps = {
   name: string
   className?: string
   imageClassName?: string
+  dark?: boolean
 }
 
-export function BrandLogo({ src, name, className, imageClassName }: BrandLogoProps) {
+export function BrandLogo({ src, name, className, imageClassName, dark }: BrandLogoProps) {
   const [failed, setFailed] = useState(false)
 
   if (!src || failed) {
@@ -42,7 +43,8 @@ export function BrandLogo({ src, name, className, imageClassName }: BrandLogoPro
   return (
     <div
       className={cn(
-        'flex items-center justify-center overflow-hidden rounded-lg border border-brand-gray-5 bg-white p-2',
+        'flex items-center justify-center overflow-hidden rounded-lg border p-2',
+        dark ? 'border-brand-gray-4 bg-background' : 'border-brand-gray-5 bg-white',
         className,
       )}
     >
