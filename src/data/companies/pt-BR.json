@@ -2,51 +2,169 @@
   "categories": [
     {
       "id": "equipamentos-ex",
-      "label": "Equipamentos Ex"
+      "label": "Equipamentos Ex",
+      "subcategories": [
+        {
+          "companyId": "blinda",
+          "intro": "Conte com a Blinda e seu portfólio de soluções para atmosferas explosivas"
+        }
+      ]
     },
     {
       "id": "pi",
-      "label": "P&I"
+      "label": "P&I",
+      "subcategories": [
+        {
+          "companyId": "parker",
+          "intro": "Versatilidade e confiabilidade em conexões de alta pressão."
+        },
+        {
+          "companyId": "proserv",
+          "intro": "Especialistas em Controles — melhoramos a confiabilidade, a integridade e a produtividade de infraestruturas críticas com controles líderes na indústria."
+        },
+        {
+          "companyId": "oliver",
+          "label": "Oliver Valves",
+          "intro": "Confiabilidade Sob Pressão. | Soluções de válvulas de alta qualidade para instrumentação, subsea e dutos — precisão absoluta em instrumentação e controle de fluxo há mais de 40 anos."
+        },
+        {
+          "companyId": "oliver",
+          "label": "Oliver Twinsafe",
+          "productIds": [
+            "oliver-pipeline-compactas",
+            "oliver-pipeline-dbb",
+            "oliver-pipeline-flutuante-compacta",
+            "oliver-pipeline-flangeada",
+            "oliver-pipeline-level-gauge",
+            "oliver-pipeline-top-entry",
+            "oliver-pipeline-trunnion-flangeada",
+            "oliver-pipeline-trunnion-compacta"
+          ],
+          "intro": "Válvulas esfera DBB de grande diâmetro com verdadeiro isolamento duplo — mais segurança, menos vazamentos e menor manutenção, em dutos novos ou existentes."
+        }
+      ]
     },
     {
       "id": "iluminacao-ex",
-      "label": "Iluminação Ex"
+      "label": "Iluminação Ex",
+      "subcategories": [
+        {
+          "companyId": "chalmit",
+          "intro": "Eletrifique e Energize — Soluções confiáveis para infraestrutura crítica desde 1888."
+        },
+        {
+          "companyId": "stahl",
+          "intro": "Ampla gama de plugues e tomadas à prova de explosão e conectores de plugue."
+        }
+      ]
+    },
+    {
+      "id": "iluminacao-ex-eaton",
+      "label": "Iluminação Ex Eaton",
+      "subcategories": [
+        {
+          "companyId": "eaton",
+          "intro": "Fazemos funcionar o que é importante: ajudamos a gerenciar energia elétrica com segurança e sustentabilidade, melhorando a vida das pessoas e do planeta."
+        }
+      ]
     },
     {
       "id": "prensa-cabos-ex",
-      "label": "Prensa-Cabos Ex"
+      "label": "Prensa-Cabos Ex",
+      "subcategories": [
+        {
+          "companyId": "hawke",
+          "intro": "Eletrifique e Energize — Soluções confiáveis para infraestrutura crítica desde 1888."
+        },
+        {
+          "companyId": "blinda",
+          "intro": "Prensa-Cabos \"Ex\" — conexões seguras para atmosferas explosivas."
+        }
+      ]
     },
     {
       "id": "iluminacao-portatil-ex",
-      "label": "Iluminação Portátil Ex"
+      "label": "Iluminação Portátil Ex",
+      "subcategories": [
+        {
+          "companyId": "pelican",
+          "intro": "SEGURANÇA EXTREMA EM ZONAS DE RISCO. Proteja sua equipe e seus equipamentos com a tecnologia Pelican."
+        },
+        {
+          "companyId": "nightstick",
+          "intro": "A escolha de profissionais de segurança no mundo todo em ambientes de risco extremo."
+        }
+      ]
     },
     {
       "id": "espaco-confinado-ex",
-      "label": "Equipamentos Ex Espaço Confinado"
+      "label": "Equipamentos Ex Espaço Confinado",
+      "subcategories": [
+        {
+          "companyId": "sa-equip",
+          "intro": "Iluminação, Ventilação, Aquecimento e Energia. Tornamos ambientes difíceis e perigosos seguros e produtivos."
+        }
+      ]
     },
     {
       "id": "comunicacao-ex",
-      "label": "Comunicação Ex"
+      "label": "Comunicação Ex",
+      "subcategories": [
+        {
+          "companyId": "atexxo",
+          "intro": "À prova de explosão e à prova do futuro: seu parceiro em equipamentos IECEx, ATEX e Inmetro."
+        }
+      ]
     },
     {
       "id": "ferramentas-hidraulicas",
-      "label": "Ferramentas Hidráulicas"
+      "label": "Ferramentas Hidráulicas",
+      "subcategories": [
+        {
+          "companyId": "hi-force",
+          "intro": "A Hi-Force é líder britânica em soluções hidráulicas industriais de alta pressão: ferramentas, sistemas de elevação e equipamentos de torque."
+        }
+      ]
     },
     {
       "id": "amarracao-ferramentas",
-      "label": "Sistemas de Amarração de Ferramentas"
+      "label": "Sistemas de Amarração de Ferramentas",
+      "subcategories": [
+        {
+          "companyId": "stopdropp",
+          "intro": "Ferramentas manuais com amarração (tethered) para trabalho em altura — liberdade de uso e funcionalidade total, com segurança contra quedas."
+        }
+      ]
     },
     {
       "id": "prevencao-quedas",
-      "label": "Prevenção Anti-queda de Objetos"
+      "label": "Prevenção Anti-queda de Objetos",
+      "subcategories": [
+        {
+          "companyId": "dropsafe",
+          "intro": "Líder global em prevenção de quedas de objetos. | Mitigando os riscos de objetos em queda para tornar os ambientes de trabalho mais seguros."
+        }
+      ]
     },
     {
       "id": "mro",
-      "label": "MRO"
+      "label": "MRO",
+      "subcategories": [
+        {
+          "companyId": "rs",
+          "intro": "A RS é o destino digital para soluções de produtos e serviços em design, manufatura e manutenção. Compre direto no site, com a garantia da Polar Group."
+        }
+      ]
     },
     {
       "id": "gerenciamento-cabos",
-      "label": "Sistema de Gerenciamento de Cabos"
+      "label": "Sistema de Gerenciamento de Cabos",
+      "subcategories": [
+        {
+          "companyId": "vantrunk",
+          "intro": "Projetados para ambientes extremos"
+        }
+      ]
     }
   ],
   "companies": [
@@ -103,55 +221,68 @@
           "id": "atx-iphone-15",
           "name": "iPhone 15 Ex",
           "description": "Smartphone Apple iPhone 15 convertido e certificado para uso seguro em áreas classificadas Zona 1 e 2 (gases) e Zona 21 e 22 (poeiras). Disponível com capacidades de armazenamento de 128 GB, 256 GB e 512 GB. Mantém todas as funcionalidades originais do iPhone 15, incluindo 5G, NFC, câmeras, carregamento sem fio e botões físicos. Certificação INMETRO, ATEX e IECEx. Marcação: II 2G Ex db IIC T4 Gb / II 2D Ex tb IIIC T135°C Db.",
-          "image": "images/atexxo/iphone-15-2-240x300.png"
+          "image": "images/atexxo/iphone-15-2-240x300.png",
+          "categories": [
+            "comunicacao-ex"
+          ]
         },
         {
           "id": "atx-ipad-mini-7",
           "name": "iPad mini 7 Ex",
           "description": "Tablet Apple iPad mini 7ª geração convertido e certificado para uso seguro em áreas classificadas Zona 1 e 2 (gases) e Zona 21 e 22 (poeiras). Disponível com capacidades de armazenamento de 128 GB, 256 GB e 512 GB, nos modelos Wi-Fi ou Wi-Fi+5G com E-SIM. Mantém todas as funcionalidades originais, exceto o sensor de impressão digital. Certificação INMETRO, ATEX e IECEx.",
-          "image": "images/atexxo/ipad-mini-7-2-240x300.png"
+          "image": "images/atexxo/ipad-mini-7-2-240x300.png",
+          "categories": [
+            "comunicacao-ex"
+          ]
         },
         {
           "id": "atx-iphone-16",
           "name": "iPhone 16 Ex",
           "description": "Smartphone Apple iPhone 16 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todos os recursos originais do dispositivo, incluindo 5G, NFC, câmeras, carregamento sem fio e botões físicos. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png"
+          "image": "images/atexxo/MOB-EX-IPH-16-front-ex-1-599x1024.png",
+          "categories": []
         },
         {
           "id": "atx-iphone-17",
           "name": "iPhone 17 Ex",
           "description": "Smartphone Apple iPhone 17 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todos os recursos originais do dispositivo. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png"
+          "image": "images/atexxo/MOB-EXD-IPH-17-front-ex-590x1024.png",
+          "categories": []
         },
         {
           "id": "atx-iphone-16e",
           "name": "iPhone 16E Ex",
           "description": "Smartphone Apple iPhone 16E convertido e certificado para uso seguro em áreas classificadas Zona 2. Mantém todos os recursos originais do dispositivo. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png"
+          "image": "images/atexxo/explosion-proof-iphone-16e-ex-zone-2-613x1024.png",
+          "categories": []
         },
         {
           "id": "atx-samsung-s24",
           "name": "Galaxy S24 Ex",
           "description": "Smartphone Samsung Galaxy S24 convertido e certificado para uso seguro em áreas classificadas Zona 2. Mantém todas as funcionalidades originais do dispositivo, incluindo 5G, câmeras e aplicativos. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png"
+          "image": "images/atexxo/MOB-EX-SAM-S24-front-ex-1132x2048.png",
+          "categories": []
         },
         {
           "id": "atx-samsung-s25",
           "name": "Galaxy S25 Ex",
           "description": "Smartphone Samsung Galaxy S25 convertido e certificado para uso seguro em áreas classificadas Zona 2. Mantém todas as funcionalidades originais do dispositivo. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png"
+          "image": "images/atexxo/MOB-EX-SAM-S25-front-ex-566x1024.png",
+          "categories": []
         },
         {
           "id": "atx-galaxy-tab-active5",
           "name": "Galaxy Tab Active5 Ex",
           "description": "Tablet robusto Samsung Galaxy Tab Active5 convertido e certificado para uso seguro em áreas classificadas Zona 1. Ideal para trabalhadores conectados e Indústria 4.0 em ambientes agressivos. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png"
+          "image": "images/atexxo/EXd-TABLET-GTA5-front-ex-1-1055x1536.png",
+          "categories": []
         },
         {
           "id": "atx-ipad-11",
           "name": "iPad 11 Ex",
           "description": "Tablet Apple iPad 11 convertido e certificado para uso seguro em áreas classificadas Zona 1. Mantém todas as funcionalidades originais do iPad, incluindo câmeras, Wi-Fi, 5G e desempenho completo do ecossistema Apple. Certificação ATEX e IECEx.",
-          "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png"
+          "image": "images/atexxo/EXd-TABLET-11-A-front-ex-1-scaled-600x741.png",
+          "categories": []
         }
       ],
       "site": "https://atexxo.com/",
@@ -212,73 +343,145 @@
           "id": "bli-1",
           "name": "Caixa de Ligação e Distribuição Ex — Linha CBX",
           "description": "Caixas de ligação e distribuição à prova de explosão fabricadas em alumínio copper free com pintura eletrostática a pó poliéster cinza Munsell N6.5. Certificadas Ex db IIB Gb e Ex tb IIIC Db com grau de proteção IP66W. Disponíveis em 13 tamanhos (CBX-01 a CBX-18), com opção de visor. Placa de montagem interna em laranja 2,5YR 6/14. Parafusos em aço inox 304 conforme ANSI B 18.2.1.",
-          "image": "images/blinda/key804.971.jpg"
+          "image": "images/blinda/key804.971.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-2",
           "name": "Caixa de Ligação Vazia Ex — Linha CBX-U",
           "description": "Caixas de ligação e distribuição vazias à prova de explosão, destinadas à montagem de equipamentos elétricos pelo cliente. Certificadas para recertificação conforme anexo D da ABNT NBR IEC 60079-1. Fabricadas em alumínio, grau de proteção IP66W, tamanhos CBX-01U a CBX-18U.",
-          "image": "images/blinda/key804.971.jpg"
+          "image": "images/blinda/key804.971.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-3",
           "name": "Controlador Digital de Aterramento Ex — CBX-STR2",
           "description": "Controlador digital de aterramento à prova de explosão com tecnologia de estado sólido, sem partes móveis. Alimentação full-range 110/220 Vac. Detecta capacitância entre 470pF e 10.000pF. Inclui cabo flexível de até 8m, garra tipo jacaré e sinaleiro luminoso. Aplicação em áreas de carregamento e transferência de produtos inflamáveis.",
-          "image": "images/blinda/key525.846 CBX STR2.jpg"
+          "image": "images/blinda/key525.846 CBX STR2.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-4",
           "name": "Sirene à Prova de Explosão — BX6500",
           "description": "Sirene eletrônica à prova de explosão com microprocessador e 32 tipos de sonorização. Nível sonoro de 110dB a 1 metro. Fabricada em alumínio com pintura eletrostática poliéster. Certificada Ex db IIB T6 Gb e Ex tb IIIC T85°C Db. Disponível nas tensões 220Vca, 127Vca e 24Vcc.",
-          "image": "images/blinda/key43_Munsell_B.878 (1).jpg"
+          "image": "images/blinda/key43_Munsell_B.878 (1).jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-5",
           "name": "Caixa de Terminais GBOX — GRP (Poliéster Reforçado com Fibra de Vidro)",
           "description": "Caixas de junção e terminais em GRP com superfície antiestática, resistentes à corrosão atmosférica e ataques químicos. Certificadas Inmetro Ex eb IIC Gb e Ex tb IIIC Db. Grau de proteção IP66. Temperatura de serviço de -60 °C a +110 °C. Tensão nominal até 690V, corrente nominal até 315A. Placas de aterramento em latão ou aço inoxidável.",
-          "image": "images/blinda/key1122.1039.jpg"
+          "image": "images/blinda/key1122.1039.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-6",
           "name": "Caixa de Terminais Ex-Cell — Aço Inoxidável Ex-e / Ex-i",
           "description": "Caixas de terminais em aço inoxidável 316L ou 304 com polimento eletroquímico. Certificadas INMETRO Ex eb IIC Gb e Ex tb IIIC Db. Grau de proteção IP66. Resistência ao impacto de 7J. Tensão nominal até 750V, corrente nominal até 500A. Tampa articulada com trava de 1/4 de volta.",
-          "image": "images/blinda/key970.1095.jpg"
+          "image": "images/blinda/key970.1095.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-7",
           "name": "Carrinho de Tomada Móvel Ex — CTME",
           "description": "Carrinho de tomada móvel de segurança aumentada para alimentação de equipamentos em áreas classificadas. Corpo em GRP, estrutura em aço carbono com pintura eletrostática azul e rodízios de 8\" (200mm). Certificação Ex db eb IIC T4 Gb / Ex tb IIIC T95°C Db. Tomadas padrão CEAG. Inclui disjuntores DR 30mA e dispositivo LOTO.",
-          "image": "images/blinda/key1122.1039.jpg"
+          "image": "images/blinda/key1122.1039.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-8",
           "name": "Chaves Seccionadoras de Segurança Ex — GHG 261 / GHG 262",
           "description": "Interruptores e seccionadoras de segurança para áreas classificadas. Modelo GHG 261 (10A) em poliamida e GHG 262 (20A) em GRP. Certificação Ex ed IIC T6 / Ex ed ia IIC T6, grau de proteção IP66. Dispositivo de bloqueio na posição OFF para até 3 cadeados. Prensa-cabos M20/M25/M32 inclusos.",
-          "image": "images/blinda/key742.702.jpg"
+          "image": "images/blinda/key742.702.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-9",
           "name": "Prensa-Cabos Ex — Linhas A2F, E1F e A2F-EF",
           "description": "Prensa-cabos à prova de explosão Ex db IIC, fabricados em latão niquelado. Modelos A2F (padrão), A2F-EF (com flange) e E1F (segurança aumentada). Disponíveis em diversas bitolas para cabos de 1,5mm² a 240mm². Rosca métrica ou NPT conforme necessidade.",
-          "image": "images/blinda/key41_A2F.1117.jpg"
+          "image": "images/blinda/key41_A2F.1117.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-10",
           "name": "Unidades Seladoras Ex — USD_XH, USX_H e USX_V",
           "description": "Unidades seladoras à prova de explosão para barreira física contra propagação de chamas em eletrodutos e conexões de cabos. Fabricadas em alumínio e latão. Modelos horizontal e vertical. Utilizadas em conjunto com prensa-cabos e eletrodutos pesados NBR 5597. Certificação INMETRO.",
-          "image": "images/blinda/key680.1009.jpg"
+          "image": "images/blinda/key680.1009.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-11",
           "name": "Conexões e Acessórios Ex — Uniões, Cotovelos, Niphes, Plugues e Buchas",
           "description": "Linha completa de conexões à prova de explosão: uniões macho-fêmea (UX-MF) e fêmea-fêmea (UX-FF), uniões de expansão (UEX), cotovelos 45° e 90° (CFX), niphes (NA-C e NA-L), luvas (LU), plugues (PR e PCS), drenos (DX), respiros (RX) e buchas de redução (BS-M40). Fabricadas em alumínio ou latão com roscas NPT. Certificadas para grupos IIB e IIIC.",
-          "image": "images/blinda/key812.1001 (1).jpg"
+          "image": "images/blinda/key812.1001 (1).jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
         },
         {
           "id": "bli-12",
           "name": "Painéis de Comando e Controle Ex — BCX, BCDX e BCTX",
           "description": "Caixas de comando e controle à prova de explosão para botoeiras, sinaleiros, instrumentos e dispositivos de controle em áreas classificadas. Fabricadas em alumínio copper free com pintura eletrostática poliéster. Grau de proteção IP66W. Certificação Ex db IIB Gb e Ex tb IIIC Db. Customização com componentes CEAG originais.",
-          "image": "images/blinda/key970.1095.jpg"
+          "image": "images/blinda/key970.1095.jpg",
+          "categories": [
+            "equipamentos-ex"
+          ]
+        },
+        {
+          "id": "bli-prensa-a2f",
+          "name": "Prensa-Cabo Ex A2F",
+          "description": "Aplicações: Utilizado para entradas diretas de cabos em invólucros de equipamentos com tipos de proteção \"Ex\".\n\nDados construtivos: Fabricado em alumínio, aço inox, latão e latão niquelado. Junta de vedação em neoprene e anel de deslizamento em nylon.\n\nGrau de proteção: IP66 / IP67 / IP68 – Latão, Latão Niquelado e Alumínio; IP66W / IP67W / IP68W – Aço Inox 304 e Aço Inox 316L.\n\nMarcação Ex (Inmetro): Ex db IIC Gb | Ex eb IIC Gb | Ex nR IIC Gc | Ex tb IIIC Db.\n\nNúmero do Certificado Inmetro: NCC 22.0048 X.\n\nPrensa-cabo \"Ex\" do tipo compressão por anel elastomérico para cabo não armado. Fornecida com rosca NPT, Métrica e PG de Ø 1/2\" a 3\".",
+          "image": "images/blinda/prensa-cabos/pg90.png",
+          "categories": [
+            "prensa-cabos-ex"
+          ]
+        },
+        {
+          "id": "bli-prensa-a2f-ef",
+          "name": "Prensa-Cabo Ex A2F/EF",
+          "description": "Aplicações: Utilizado para entradas diretas de cabos em invólucros de equipamentos com tipos de proteção \"Ex\".\n\nDados construtivos: Fabricado em alumínio, aço inox, latão e latão niquelado. Junta de vedação em neoprene e anel de deslizamento em nylon.\n\nGrau de proteção: IP66 / IP67 / IP68 – Latão, Latão Niquelado e Alumínio; IP66W / IP67W / IP68W – Aço Inox 304 e Aço Inox 316L.\n\nMarcação Ex (Inmetro): Ex db IIC Gb | Ex eb IIC Gb | Ex nR IIC Gc | Ex tb IIIC Db.\n\nNúmero do Certificado Inmetro: NCC 22.0048 X.\n\nPrensa-cabo \"Ex\" do tipo compressão por anel elastomérico para cabo não armado, do tipo união, com conexão roscada para eletroduto flexível. Fornecida com rosca NPT, Métrica e PG de Ø 1/2\" a 2\".",
+          "image": "images/blinda/prensa-cabos/pg91.png",
+          "categories": [
+            "prensa-cabos-ex"
+          ]
+        },
+        {
+          "id": "bli-prensa-a2f-er",
+          "name": "Prensa-Cabo Ex A2F/ER",
+          "description": "Aplicações: Utilizado para entradas diretas de cabos em invólucros de equipamentos com tipos de proteção \"Ex\".\n\nDados construtivos: Fabricado em alumínio, aço inox, latão e latão niquelado. Junta de vedação em neoprene e anel de deslizamento em nylon.\n\nGrau de proteção: IP66 / IP67 / IP68 – Latão, Latão Niquelado e Alumínio; IP66W / IP67W / IP68W – Aço Inox 304 e Aço Inox 316L.\n\nMarcação Ex (Inmetro): Ex db IIC Gb | Ex eb IIC Gb | Ex nR IIC Gc | Ex tb IIC Db.\n\nNúmero do Certificado Inmetro: NCC 22.0048 X.\n\nPrensa-cabo \"Ex\" do tipo compressão por anel elastomérico para cabo não armado, do tipo união, com conexão roscada para eletroduto flexível. Fornecida com rosca NPT, Métrica e PG de Ø 1/2\" a 3\".",
+          "image": "images/blinda/prensa-cabos/pg92.png",
+          "categories": [
+            "prensa-cabos-ex"
+          ]
+        },
+        {
+          "id": "bli-prensa-e1f",
+          "name": "Prensa-Cabo Ex E1F",
+          "description": "Aplicações: Utilizado para entradas diretas de cabos em invólucros de equipamentos com tipos de proteção \"Ex\".\n\nDados construtivos: Fabricado em alumínio, aço inox, latão e latão niquelado. Junta de vedação em neoprene e anel de deslizamento em nylon.\n\nGrau de proteção: IP66 / IP67 / IP68 – Latão, Latão Niquelado e Alumínio; IP66W / IP67W / IP68W – Aço Inox 304 e Aço Inox 316L.\n\nMarcação Ex (Inmetro): Ex db IIC Gb | Ex eb IIC Gb | Ex nR IIC Gc | Ex tb IIC Db.\n\nNúmero do Certificado Inmetro: NCC 22.0048 X.\n\nPrensa-cabo \"Ex\" do tipo compressão por anel elastomérico para cabo armado. Fornecida com rosca NPT, Métrica e PG de Ø 1/2\" a 3\".",
+          "image": "images/blinda/prensa-cabos/pg93.png",
+          "categories": [
+            "prensa-cabos-ex"
+          ]
         }
       ],
       "catalog": {
@@ -365,25 +568,35 @@
           "id": "protecta-x",
           "name": "Protecta X / Protecta III",
           "description": "Luminárias lineares LED para áreas de processo, corredores industriais e offshore. Alta eficiência luminosa e construção robusta em alumínio grau marinho. Certificação ATEX, IECEx para Zonas 1, 2, 21 e 22. Proteção IP66/IP67. Disponíveis com bateria de emergência integrada.",
-          "image": "images/chalmit/04.01.2024 - Protecta X.png"
+          "image": "images/chalmit/04.01.2024 - Protecta X.png",
+          "categories": [
+            "iluminacao-ex"
+          ]
         },
         {
           "id": "eclipse-x",
           "name": "Eclipse X",
           "description": "Linha de luminárias LED Ex Eclipse X para áreas classificadas e atmosferas explosivas, indicada para os segmentos de óleo e gás, química, mineração, energia e marítimo.",
-          "image": "images/chalmit/Logo Chalmit - sem fundo.png"
+          "image": "images/chalmit/Logo Chalmit - sem fundo.png",
+          "categories": []
         },
         {
           "id": "evolution-x",
           "name": "Evolution X",
           "description": "Projetores LED para áreas externas e grandes espaços. Ópticas assimétricas com alta uniformidade e controle de ofuscamento. Redução de poluição luminosa. Certificação ATEX, IECEx para Zonas 1, 2, 21 e 22.",
-          "image": "images/chalmit/CHL_EvolutionX_515.webp"
+          "image": "images/chalmit/CHL_EvolutionX_515.webp",
+          "categories": [
+            "iluminacao-ex"
+          ]
         },
         {
           "id": "nexled-neo-x",
           "name": "NexLED / Neo X",
           "description": "Bulkheads LED para circulação e salas técnicas. Opções para Zona 1/2 e Zona 21/22, com versões de emergência. Design compacto e robusto para instalação em áreas confinadas. Construção anticorrosiva com proteção IP66.",
-          "image": "images/chalmit/NexLEDIII_515.webp"
+          "image": "images/chalmit/NexLEDIII_515.webp",
+          "categories": [
+            "iluminacao-ex"
+          ]
         }
       ],
       "site": "https://www.hubbell.com/chalmit/en",
@@ -513,7 +726,7 @@
       "logo": "images/eaton/Logo Eaton - sem fundo.png",
       "site": "https://www.eaton.com/",
       "categories": [
-        "iluminacao-ex"
+        "iluminacao-ex-eaton"
       ],
       "tagline": "Fazemos funcionar o que é importante: ajudamos a gerenciar energia elétrica com segurança e sustentabilidade, melhorando a vida das pessoas e do planeta",
       "description": "Powering Business Worldwide. Soluções de iluminação e conectividade para áreas classificadas e ambientes agressivos — confiabilidade, eficiência e segurança nas condições mais severas. A Eaton combina inovação, certificação global e engenharia de ponta para entregar soluções completas de iluminação e conectividade para as áreas classificadas mais exigentes do mundo. No Brasil, a Polar Group representa as soluções Eaton para áreas classificadas: luminárias LED certificadas e conectores pin & sleeve de alta performance para ambientes com risco de explosão, gases inflamáveis e poeira combustível.\n\nCom eficácia de até 162 lm/W, economia de energia de 20% a 90% em relação às tecnologias HID e fluorescentes e vida útil de 50.000 a 100.000 horas, as luminárias Eaton oferecem partida instantânea, drivers substituíveis em campo e óptica customizada para cada projeto, além de recursos inteligentes — Brightlayer Industrial Lighting Control, Bluetooth Low Energy e sensores integrados para gestão inteligente da iluminação.\n\nA segurança em ambientes classificados vai além da iluminação: os conectores GHG51 Pin & Sleeve garantem isolamento, vedação e segurança total a cada conexão, com performance IEC 60309 e certificações globais — UL844, UL1598, CSA, IECEx, ATEX, CE, ABS, NSF e Inmetro. Confiabilidade líder do setor e gestão térmica superior para os ambientes mais severos da indústria global.\n\nAlém da iluminação Ex, o portfólio elétrico Eaton — disjuntores, painéis e proteção — completa a oferta de soluções de energia representada pela Polar Group.",
@@ -661,31 +874,61 @@
           "id": "hi-1",
           "name": "Torquímetro Hidráulico TWH-N",
           "description": "Torquímetro hidráulico de baixo perfil para aplicações industriais de aparafusamento controlado com alta precisão de torque. Ideal para flanges, vasos de pressão e conexões críticas.",
-          "image": ""
+          "image": "images/hi-force/hi-force-twhn.jpg"
         },
         {
           "id": "hi-2",
           "name": "Sistema de Elevação Toughlift",
           "description": "Macaco hidráulico autônomo de elevação controlada para cargas pesadas. Ideal para ambientes industriais e de manutenção. Operação segura e precisa com acionamento hidráulico.",
-          "image": ""
+          "image": "images/hi-force/hi-force-toughlift.jpg"
         },
         {
           "id": "hi-3",
           "name": "Sistema de Tensionamento APP",
           "description": "Bomba de alta pressão para tensionamento simultâneo de múltiplos parafusos em aplicações como flanges e vasos de pressão. Precisão e controle para operações críticas de boltagem.",
-          "image": ""
+          "image": "images/hi-force/hi-force-app.jpg"
         },
         {
           "id": "hi-4",
           "name": "Sistema de Levantamento JAS",
           "description": "Sistema modular de elevação hidráulica sincronizada para movimentação e posicionamento preciso de grandes estruturas. Controle centralizado de múltiplos pontos de elevação.",
-          "image": ""
+          "image": "images/hi-force/hi-force-jas.jpg"
         },
         {
           "id": "hi-5",
           "name": "Macaco Hidráulico Industrial",
           "description": "Cilindros hidráulicos de simples e dupla ação com capacidades de 10 a 1.000 toneladas para elevação e posicionamento de cargas. Construção robusta para uso industrial contínuo.",
-          "image": ""
+          "image": "images/hi-force/hi-force-macaco.jpg"
+        },
+        {
+          "id": "hi-cilindro",
+          "name": "Cilindro Hidráulico de Baixa Altura HLS101 (10t)",
+          "description": "Cilindro hidráulico de baixa altura com capacidade de 10 toneladas para aplicações de elevação e posicionamento industrial.",
+          "image": "images/hi-force/hi-force-cilindro.jpg"
+        },
+        {
+          "id": "hi-bomba",
+          "name": "Bomba Manual Hidráulica de Alumínio HP212",
+          "description": "Bomba manual hidráulica de alumínio para acionamento de ferramentas e cilindros hidráulicos de alta pressão.",
+          "image": "images/hi-force/hi-force-bomba.jpg"
+        },
+        {
+          "id": "hi-torque-tws",
+          "name": "Chave de Torque Hidráulica TWS17N",
+          "description": "Chave de torque hidráulica de baixo perfil para aperto e desaperto controlado de parafusos industriais.",
+          "image": "images/hi-force/hi-force-torque-tws.jpg"
+        },
+        {
+          "id": "hi-tensionador",
+          "name": "Tensor Hidráulico de Porcas HTN1-100",
+          "description": "Tensor hidráulico de porcas para tensionamento preciso de parafusos e estojos em flanges industriais.",
+          "image": "images/hi-force/hi-force-tensionador.jpg"
+        },
+        {
+          "id": "hi-alargador",
+          "name": "Alargador de Flange Hidráulico HFS50H",
+          "description": "Alargador de flange hidráulico para separação segura de flanges em manutenção industrial.",
+          "image": "images/hi-force/hi-force-alargador-flange.jpg"
         }
       ],
       "site": "https://www.hi-force.com/",
@@ -726,19 +969,19 @@
           "id": "xpp-5454g",
           "name": "Lanterna de Cabeça XPP-5454G",
           "description": "Lanterna de cabeça intrinsecamente segura com certificação Class I Division 1. Projetada para trabalho em espaços confinados e áreas classificadas com risco de explosão. Mãos livres com alto desempenho luminoso.",
-          "image": ""
+          "image": "images/nightstick/nightstick-xpp-5454g.webp"
         },
         {
           "id": "xpr-5584-gmx",
           "name": "Lanterna Recarregável XPR-5584 GMX",
           "description": "Lanterna portátil recarregável intrinsecamente segura com certificação ATEX/IECEx. Bateria de longa duração com alto desempenho luminoso para operações em atmosferas explosivas.",
-          "image": ""
+          "image": "images/nightstick/nightstick-xpr-5584-gmx.webp"
         },
         {
           "id": "lanternas-ex",
           "name": "Lanternas Ex à Prova de Explosão",
           "description": "Linha completa de lanternas portáteis certificadas para atmosferas explosivas (Ex). Modelos com diferentes potências e autonomias para aplicações em petróleo e gás, mineração e resgate.",
-          "image": ""
+          "image": "images/nightstick/nightstick-lanternas-ex.webp"
         }
       ],
       "site": "https://www.nightstick.com/",
@@ -1107,7 +1350,112 @@
           "description": "Válvula de Duplo Bloqueio e Sangria (DBB) de estilo compacto, projetada com comprimento total conforme a ASME B16.10 ou com a menor dimensão face a face possível. O corpo em peça única reduz os caminhos potenciais de vazamento e mantém peso e espaço no mínimo absoluto. Disponível em passagem plena e reduzida; permite a substituição de válvulas de esfera de isolamento único com a segurança adicional do duplo isolamento real, sem modificações caras na tubulação. Disponível no comprimento ASME B16.10 (CSL) até 10\" de passagem plena e 12\" de passagem reduzida, e nos comprimentos padrão Oliver (COSL); montagem sobre munhão de 2\" a 16\"; conexões flangeadas com parafusos prisioneiros conforme ASME B16.5; válvula de vent integral com conexões de sangria rosqueadas e flangeadas. Normas: ASME B16.10, ASME B16.34, API 6D, ASME VIII, ASME B16.5; à prova de fogo API 607, API 6FA, ISO 10497; sedes macias em Devlon, PEEK, PTFE ou metálicas em carboneto de tungstênio e carboneto de cromo; pressão ASME Class 150 a 2500, API 6A até 5.000; temperatura -50 °C a 200 °C (opção até 315 °C).",
           "image": "images/oliver/icon-valvulas-pipeline.png"
         }
-      ]
+      ],
+      "productGroups": {
+        "groups": [
+          {
+            "id": "instrumentacao",
+            "label": "Válvulas de Instrumentação",
+            "subgroups": [
+              {
+                "id": "valvulas-esfera",
+                "label": "Válvulas de esfera",
+                "productIds": [
+                  "oliver-b10f",
+                  "oliver-b10m",
+                  "oliver-b6bi",
+                  "oliver-b6bl50",
+                  "oliver-b6f",
+                  "oliver-b6m",
+                  "oliver-b6slx50",
+                  "oliver-lpb1",
+                  "oliver-lpb3",
+                  "oliver-seletora"
+                ]
+              },
+              {
+                "id": "acessorios-instrumentacao",
+                "label": "Acessórios de Instrumentação",
+                "productIds": [
+                  "oliver-retencao",
+                  "oliver-amortecedor",
+                  "oliver-coletor-ar",
+                  "oliver-adaptador-giratorio"
+                ]
+              },
+              {
+                "id": "manifolds",
+                "label": "Manifolds",
+                "productIds": [
+                  "oliver-g12af",
+                  "oliver-g12ff",
+                  "oliver-g12fm",
+                  "oliver-g12mf",
+                  "oliver-y24",
+                  "oliver-y25",
+                  "oliver-t34",
+                  "oliver-y33",
+                  "oliver-y35",
+                  "oliver-yv33",
+                  "oliver-yv34",
+                  "oliver-y52",
+                  "oliver-y53",
+                  "oliver-y54"
+                ]
+              },
+              {
+                "id": "valvulas-agulha",
+                "label": "Válvulas Agulha",
+                "productIds": [
+                  "oliver-gb1",
+                  "oliver-gv1",
+                  "oliver-gm1",
+                  "oliver-gm1-ext",
+                  "oliver-agulha-a",
+                  "oliver-agulha-bi",
+                  "oliver-agulha-f",
+                  "oliver-agulha-fs",
+                  "oliver-agulha-hd",
+                  "oliver-agulha-m"
+                ]
+              },
+              {
+                "id": "dbb",
+                "label": "Duplo Bloqueio e Sangria (DBB)",
+                "productIds": [
+                  "oliver-dbb-d",
+                  "oliver-dbb-f",
+                  "oliver-dbb-id",
+                  "oliver-dbb-in",
+                  "oliver-dbb-l",
+                  "oliver-dbb-n",
+                  "oliver-dbb-t"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pipeline",
+            "label": "Válvulas de Pipeline",
+            "subgroups": [
+              {
+                "id": "pipeline-produtos",
+                "label": "Válvulas de Pipeline",
+                "productIds": [
+                  "oliver-pipeline-compactas",
+                  "oliver-pipeline-dbb",
+                  "oliver-pipeline-flutuante-compacta",
+                  "oliver-pipeline-flangeada",
+                  "oliver-pipeline-level-gauge",
+                  "oliver-pipeline-top-entry",
+                  "oliver-pipeline-trunnion-flangeada",
+                  "oliver-pipeline-trunnion-compacta"
+                ]
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "parker",
@@ -1169,19 +1517,19 @@
           "id": "pel-1",
           "name": "Cases de Proteção",
           "description": "Cases de alto impacto com certificação IP67, à prova d'água, poeira e quedas. Proteção definitiva para equipamentos eletrônicos, armamentos, instrumentos científicos e equipamentos fotográficos.",
-          "image": ""
+          "image": "images/pelican/pelican-cases.png"
         },
         {
           "id": "pel-2",
           "name": "Air Case",
           "description": "Linha revolucionária de cases ultraleves que mantém a resistência lendária Pelican com até 40% menos peso. Ideal para proteger drones, notebooks e equipamentos portáteis em campo.",
-          "image": ""
+          "image": "images/pelican/pelican-air-case.jpg"
         },
         {
           "id": "pel-3",
           "name": "Lanterna Tática 7610",
           "description": "Lanterna LED tática de alto desempenho, compacta e recarregável, com feixe ajustável e corpo resistente a impactos. Projetada para forças de segurança, bombeiros e situações de emergência.",
-          "image": ""
+          "image": "images/pelican/pelican-7610.jpg"
         }
       ],
       "site": "https://www.pelican.com/us/en",
@@ -1423,25 +1771,26 @@
           "id": "sa-cyclone-ac",
           "name": "SA CYCLONE EX Air Conditioner",
           "description": "Ar-condicionado portátil certificado Ex para Zonas 1 e 2 (gases) e Zonas 21 e 22 (poeiras). Potência de refrigeração de 11 kW a 400-440V trifásico 50/60Hz. Vazão de 690 m³/h com redução típica de temperatura de 10-20 °C. Área resfriada de 240 m³. Dimensões: 800 × 700 × 1290 mm, 200 kg. Proteção IP65. Certificações ATEX, IECEx e UKEX. Modelos Tropical (HT30) e Temperado (LT30).",
-          "image": "images/sa-equip/Air_Conditioner_Hero.png"
+          "image": "images/sa-equip/Air_Conditioner_Hero.png",
+          "badge": "LANÇAMENTO"
         },
         {
           "id": "sa-lumin-floodlight",
           "name": "SA LUMIN EX LED Floodlight",
           "description": "Holofote LED certificado Ex para iluminação de grandes áreas em atmosferas explosivas. Alta eficiência luminosa com baixo consumo de energia. Construção robusta em alumínio com proteção anticorrosiva. Certificação ATEX para Zonas 1 e 2.",
-          "image": "images/sa-equip/Iluminação portátil LED Ex.png"
+          "image": "images/sa-equip/thumbs/SA LUMIN EX LED FLOODLIGHT Product Application - SA Equip (1080p).jpg"
         },
         {
           "id": "sa-lumin-worklight",
           "name": "SA LUMIN EX LED Worklight",
           "description": "Lanterna de trabalho LED certificada Ex, submetida a rigorosos testes de resistência incluindo teste de queda de 100 metros. Iluminação potente e portátil para inspeções e manutenção em áreas classificadas. Certificação ATEX para Zonas 1 e 2.",
-          "image": "images/sa-equip/Iluminação portátil LED Ex.png"
+          "image": "images/sa-equip/thumbs/SA LUMIN EX LED WORKLIGHT 100 DROP TEST - SA Equip (1080p).jpg"
         },
         {
           "id": "sa-lumin-portable",
           "name": "SA LUMIN Iluminação Portátil LED Ex",
           "description": "Linha de iluminação portátil LED certificada Ex para áreas classificadas. Soluções compactas e leves para iluminação temporária em tanques, espaços confinados e áreas de manutenção. Alimentação por bateria recarregável de longa duração. Certificação ATEX.",
-          "image": "images/sa-equip/Iluminação portátil LED Ex.png"
+          "image": "images/sa-equip/SA_Lumin_Portatil_LED_Ex.png"
         },
         {
           "id": "sa-transformador-ex",
@@ -1479,25 +1828,25 @@
           "id": "stopdropp-cordoes-amarracao",
           "name": "Cordões e Espirais de Amarração",
           "description": "Cordões fixos e espirais retráteis para amarração de todos os tipos de ferramentas manuais. Fabricados em nylon de alta tenacidade, poliéster e opções reforçadas com Kevlar. Limites de carga de trabalho (WLL) explícitos.",
-          "image": ""
+          "image": "images/stopdropp/stopdropp-cordoes.png"
         },
         {
           "id": "stopdropp-ancoras-vestiveis",
           "name": "Âncoras Vestíveis",
           "description": "Cintos de ferramentas e coletes com pontos de fixação reforçados, projetados para trabalhos prolongados em altura. Compatíveis com equipamentos de proteção contra quedas. Ergonômicos e confortáveis.",
-          "image": ""
+          "image": "images/stopdropp/stopdropp-ancoras.png"
         },
         {
           "id": "stopdropp-bolsas-ferramentas",
           "name": "Bolsas para Ferramentas",
           "description": "Bolsas não condutivas essenciais para trabalhos em zonas elétricas e de telecomunicação. Sistemas de fechamento magnético ou de fivelas que impedem abertura acidental. Múltiplos pontos de fixação.",
-          "image": ""
+          "image": "images/stopdropp/stopdropp-bolsas.jpg"
         },
         {
           "id": "stopdropp-kits-completos",
           "name": "Kits Completos de Amarração",
           "description": "Kits completos seriados e embalados por equipe, disponíveis nas versões estática, móvel ou por função. Montados sob medida após avaliação do inventário de ferramentas do cliente. Rastreabilidade completa.",
-          "image": ""
+          "image": "images/stopdropp/stopdropp-kits.png"
         }
       ],
       "site": "https://stopdroptooling.com/",
@@ -1622,7 +1971,7 @@
           "id": "vantrunk-speedway",
           "name": "Sistema Speedway Cable Ladder",
           "description": "Sistema de leito de cabos de alta resistência, projetado para instalações industriais pesadas e áreas classificadas. Oferece rápida instalação, excelente capacidade de carga e proteção contra corrosão para ambientes agressivos.",
-          "image": "images/vantrunk/Intelok Sistrma.png"
+          "image": "images/vantrunk/vantrunk-speedway.png"
         },
         {
           "id": "vantrunk-intelok",
