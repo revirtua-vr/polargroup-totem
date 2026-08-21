@@ -44,6 +44,54 @@ function useCountUp(target: number, duration = 800) {
 const inputClass =
   'w-full rounded-md border border-border bg-muted px-4 py-3 text-lg text-foreground placeholder:text-brand-gray-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/40 motion-reduce:transition-none'
 
+const P_ITEMS = [
+  { left: '5%', top: '9%', size: 56, rotate: -18, opacity: 0.1, duration: '12s', delay: '0s', driftX: 12, driftY: -16 },
+  { left: '16%', top: '74%', size: 96, rotate: 14, opacity: 0.06, duration: '16s', delay: '2s', driftX: -10, driftY: -20 },
+  { left: '29%', top: '26%', size: 36, rotate: 32, opacity: 0.14, duration: '10s', delay: '4s', driftX: 8, driftY: 14 },
+  { left: '43%', top: '84%', size: 48, rotate: -28, opacity: 0.09, duration: '18s', delay: '1s', driftX: 16, driftY: -12 },
+  { left: '57%', top: '12%', size: 72, rotate: 8, opacity: 0.07, duration: '14s', delay: '5s', driftX: -14, driftY: 18 },
+  { left: '69%', top: '56%', size: 40, rotate: -40, opacity: 0.12, duration: '9s', delay: '3s', driftX: 10, driftY: -14 },
+  { left: '81%', top: '22%', size: 88, rotate: 24, opacity: 0.06, duration: '17s', delay: '6s', driftX: -8, driftY: -18 },
+  { left: '90%', top: '76%', size: 44, rotate: -12, opacity: 0.1, duration: '11s', delay: '2s', driftX: 14, driftY: 12 },
+  { left: '11%', top: '44%', size: 40, rotate: 40, opacity: 0.16, duration: '8s', delay: '4s', driftX: -16, driftY: -10 },
+  { left: '51%', top: '44%', size: 64, rotate: -32, opacity: 0.07, duration: '15s', delay: '0s', driftX: 12, driftY: 16 },
+  { left: '76%', top: '3%', size: 36, rotate: 18, opacity: 0.18, duration: '10s', delay: '5s', driftX: 12, driftY: 16 },
+]
+
+function POverlay() {
+  return (
+    <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+      {P_ITEMS.map((item, index) => {
+        const wrapperStyle: React.CSSProperties = {
+          left: item.left,
+          top: item.top,
+          opacity: item.opacity,
+          transform: `rotate(${item.rotate}deg)`,
+        }
+        const driftStyle = {
+          width: item.size,
+          height: item.size,
+          animationDuration: item.duration,
+          animationDelay: item.delay,
+          '--p-drift-x': `${item.driftX}px`,
+          '--p-drift-y': `${item.driftY}px`,
+        } as React.CSSProperties
+        return (
+          <div key={index} className="absolute" style={wrapperStyle}>
+            <img
+              src="images/simbolo-polar.png"
+              alt=""
+              draggable={false}
+              className="block animate-[p-float_14s_ease-in-out_infinite_alternate] motion-reduce:animate-none"
+              style={driftStyle}
+            />
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 function LeadForm({ onStart }: { onStart: (data: Omit<QuizLead, 'timestamp'>) => void }) {
   const { t } = useTranslation()
   const [name, setName] = useState('')
@@ -68,14 +116,15 @@ function LeadForm({ onStart }: { onStart: (data: Omit<QuizLead, 'timestamp'>) =>
   }
 
   return (
-    <div className="h-full flex flex-col">
-      <header className="text-center pt-10 pb-6 px-4 flex-shrink-0">
+    <div className="relative h-full flex flex-col overflow-hidden">
+      <POverlay />
+      <header className="relative z-10 text-center pt-10 pb-6 px-4 flex-shrink-0">
         <p className="micro-label mb-3">{t('nav.quiz')}</p>
         <h1 className="text-3xl font-bold">{t('quiz.title')}</h1>
         <p className="text-muted-foreground mt-2 text-lg">{t('quiz.leadSubtitle')}</p>
       </header>
 
-      <div className="flex-1 min-h-0 overflow-y-auto flex px-4 pb-10">
+      <div className="relative z-10 flex-1 min-h-0 overflow-y-auto flex px-4 pb-10">
         <form onSubmit={handleSubmit} className="m-auto w-full max-w-lg" noValidate>
           <Card className="hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6 flex flex-col gap-5">
@@ -253,8 +302,9 @@ export default function Quiz() {
   const progress = ((current + (answered ? 1 : 0)) / total) * 100
 
   return (
-    <div className="h-full flex flex-col">
-      <header className="text-center pt-5 pb-3 px-4 flex-shrink-0">
+    <div className="relative h-full flex flex-col overflow-hidden">
+      <POverlay />
+      <header className="relative z-10 text-center pt-5 pb-3 px-4 flex-shrink-0">
         <p className="micro-label mb-3">{t('nav.quiz')}</p>
         <h1 className="text-2xl font-bold">{t('quiz.title')}</h1>
         <p className="text-muted-foreground mt-1">
@@ -268,7 +318,7 @@ export default function Quiz() {
         </div>
       </header>
 
-      <div className="flex-1 min-h-0 overflow-y-auto flex px-4 pb-8">
+      <div className="relative z-10 flex-1 min-h-0 overflow-y-auto flex px-4 pb-8">
         <div className="m-auto w-full max-w-2xl">
           <Card key={current} className="mb-4 hud-corners hud-corners-visible animate-page-in motion-reduce:animate-none">
             <CardContent className="pt-6">

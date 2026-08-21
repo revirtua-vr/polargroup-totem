@@ -151,6 +151,15 @@
   }
 }
 
+@keyframes p-float {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(var(--p-drift-x, 0px), var(--p-drift-y, -16px), 0);
+  }
+}
+
 .logo-marquee {
   touch-action: pan-y;
 }
