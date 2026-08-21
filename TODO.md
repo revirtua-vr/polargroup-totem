@@ -34,7 +34,6 @@
 
 ## 3. Melhorias / acompanhamentos
 
-- [ ] **Confirmar arte gerada no Contato/Quiz** — o logo "todo branco" foi derivado por script do PNG anexado pelo cliente (o anexo é 100% vermelho; convertemos cada pixel opaco para branco em `public/images/logo-polar-branco.png`) e o símbolo "P" (`public/images/simbolo-polar.png`) foi usado no overlay do Quiz; pedir conferência visual do cliente
 - [ ] **Integração em nuvem dos leads do quiz** — cadastro pré-quiz (nome/telefone/e-mail) salvo hoje em `leads.csv` local (Electron, pasta userData) ou localStorage (web); depois integrar com sistema em nuvem.
 - [ ] **Estrutura de categorias** — cliente pediu na planilha: 12 categorias na 1ª página → subcategorias após clique. Implementado como filtros na página Marcas; se o cliente quiser o fluxo literal (categoria → lista de subcategorias → marca), reavaliar.
 - [ ] **Strings de tela RS** — doc define CTA "Toque para explorar as categorias", cabeçalho "Explore as categorias RS" e aviso "Produto representativo — consulte especificações e disponibilidade no site"; não implementados (aplicável se o cliente pedir o fluxo de vitrine da RS).
@@ -47,6 +46,7 @@
 
 ## Resolvidos (histórico)
 
+- [x] ~~Logo/símbolo trocados (Contato x Quiz)~~ → correção do cliente: `logo-polar-branco.png` é o PNG branco anexado (usado no Contato) e `simbolo-polar.png` é o PNG vermelho anexado (overlay do Quiz, com P's maiores e mais rápidos após feedback)
 - [x] ~~Feedback do cliente (ago/2026) — Contato~~ → filial Serra substituída por Cariacica (Km 281); nova filial Votorantim/SP (Blinda); seção de representantes (SP, RS, MG, BA/SE); e-commerce polarb2b.store removido; título "Contato — Polar Group" substituído pelo logo Polar todo branco
 - [x] ~~Feedback do cliente (ago/2026) — Quiz~~ → overlay de símbolos "P" da Polar flutuando ao fundo do formulário e das perguntas (motion-reduce respeitado)
 - [x] ~~Feedback do cliente (ago/2026) — Playlists~~ → "Playlist" no singular (nav/título), nova frase "organizados por marcas de distribuição", playlists em ordem alfabética; INSTITUCIONAL sem o 3º Encontro Abendi; Nightstick sem XPP Pronta Entrega; SA Equip sem "Sistemas de Iluminação, ventil e energia Ex" (+ 8 vídeos de produto + portfólio); Vantrunk +3, Hawke +2 + ICG/653/UNIV (YouTube), Hi-Force +4, Dropsafe +3, Pelican −duplicata Air Case +3, Atexxo +2, Stopdropp +1; novas playlists Blinda (2 institucionais), RS, Stahl (2), Proserv (2, também na galeria); links YouTube baixados via yt-dlp e transcodificados ≤24 MiB

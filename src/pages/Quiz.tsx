@@ -45,17 +45,17 @@ const inputClass =
   'w-full rounded-md border border-border bg-muted px-4 py-3 text-lg text-foreground placeholder:text-brand-gray-2 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/40 motion-reduce:transition-none'
 
 const P_ITEMS = [
-  { left: '5%', top: '9%', size: 56, rotate: -18, opacity: 0.1, duration: '12s', delay: '0s', driftX: 12, driftY: -16 },
-  { left: '16%', top: '74%', size: 96, rotate: 14, opacity: 0.06, duration: '16s', delay: '2s', driftX: -10, driftY: -20 },
-  { left: '29%', top: '26%', size: 36, rotate: 32, opacity: 0.14, duration: '10s', delay: '4s', driftX: 8, driftY: 14 },
-  { left: '43%', top: '84%', size: 48, rotate: -28, opacity: 0.09, duration: '18s', delay: '1s', driftX: 16, driftY: -12 },
-  { left: '57%', top: '12%', size: 72, rotate: 8, opacity: 0.07, duration: '14s', delay: '5s', driftX: -14, driftY: 18 },
-  { left: '69%', top: '56%', size: 40, rotate: -40, opacity: 0.12, duration: '9s', delay: '3s', driftX: 10, driftY: -14 },
-  { left: '81%', top: '22%', size: 88, rotate: 24, opacity: 0.06, duration: '17s', delay: '6s', driftX: -8, driftY: -18 },
-  { left: '90%', top: '76%', size: 44, rotate: -12, opacity: 0.1, duration: '11s', delay: '2s', driftX: 14, driftY: 12 },
-  { left: '11%', top: '44%', size: 40, rotate: 40, opacity: 0.16, duration: '8s', delay: '4s', driftX: -16, driftY: -10 },
-  { left: '51%', top: '44%', size: 64, rotate: -32, opacity: 0.07, duration: '15s', delay: '0s', driftX: 12, driftY: 16 },
-  { left: '76%', top: '3%', size: 36, rotate: 18, opacity: 0.18, duration: '10s', delay: '5s', driftX: 12, driftY: 16 },
+  { left: '4%', top: '8%', size: 120, rotate: -18, opacity: 0.3, duration: '6s', delay: '0s', driftX: 26, driftY: -22 },
+  { left: '15%', top: '70%', size: 180, rotate: 14, opacity: 0.24, duration: '8s', delay: '2s', driftX: -22, driftY: -28 },
+  { left: '27%', top: '24%', size: 96, rotate: 32, opacity: 0.38, duration: '5s', delay: '1.5s', driftX: 18, driftY: 20 },
+  { left: '41%', top: '80%', size: 116, rotate: -28, opacity: 0.27, duration: '7s', delay: '1s', driftX: 30, driftY: -18 },
+  { left: '55%', top: '10%', size: 152, rotate: 8, opacity: 0.25, duration: '6.5s', delay: '2.5s', driftX: -28, driftY: 24 },
+  { left: '67%', top: '54%', size: 104, rotate: -40, opacity: 0.36, duration: '4.5s', delay: '3s', driftX: 22, driftY: -20 },
+  { left: '79%', top: '20%', size: 168, rotate: 24, opacity: 0.24, duration: '8s', delay: '1s', driftX: -20, driftY: -26 },
+  { left: '88%', top: '72%', size: 112, rotate: -12, opacity: 0.32, duration: '5.5s', delay: '2s', driftX: 28, driftY: 20 },
+  { left: '9%', top: '42%', size: 92, rotate: 40, opacity: 0.42, duration: '4s', delay: '1.5s', driftX: -32, driftY: -16 },
+  { left: '48%', top: '42%', size: 136, rotate: -32, opacity: 0.26, duration: '7.5s', delay: '0s', driftX: 24, driftY: 22 },
+  { left: '73%', top: '2%', size: 96, rotate: 18, opacity: 0.4, duration: '5s', delay: '2s', driftX: 26, driftY: 22 },
 ]
 
 function POverlay() {
