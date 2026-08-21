@@ -3,7 +3,7 @@
     "home": "Home",
     "marcas": "Brands",
     "produtos": "Products",
-    "playlists": "Playlists",
+    "playlists": "Playlist",
     "contato": "Contact",
     "quiz": "Quiz"
   },
@@ -44,8 +44,8 @@
     "empty": "No products registered"
   },
   "playlists": {
-    "title": "Playlists",
-    "subtitle": "Explore Polar Group videos organized by playlist",
+    "title": "Playlist",
+    "subtitle": "Explore Polar Group videos, organized by distribution brands.",
     "empty": "No playlists available"
   },
   "contato": {
