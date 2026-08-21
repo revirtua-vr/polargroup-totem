@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { SectionDivider } from '@/components/BrandDecor'
+import { BrandLogo } from '@/components/BrandLogo'
 import { Play, SkipBack, SkipForward } from 'lucide-react'
 import playlistsRaw from '@/data/playlists/pt-BR.json'
 
@@ -21,6 +22,24 @@ export type Playlist = {
 }
 
 const playlistsData = playlistsRaw as unknown as { playlists: Playlist[] }
+
+const playlistLogos: Record<string, string> = {
+  atexxo: 'images/atexxo/Logo atexxo - sem fundo.png',
+  blinda: 'images/blinda/Logo Blinda - sem fundo.png',
+  chalmit: 'images/chalmit/Logo Chalmit - sem fundo.png',
+  dropsafe: 'images/dropsafe/Logo Dropsafe - sem fundo.png',
+  hawke: 'images/hawke/Logo Hawke - sem fundo.png',
+  'hi-force': 'images/hi-force/logo-white.jpg',
+  institucional: 'images/logo-polar-group.png',
+  nightstick: 'images/nightstick/Logo Nightstick - sem fundo.png',
+  pelican: 'images/pelican/Logo Pelican - Sem fundo.png',
+  proserv: 'images/proserv/Logo Proserv - Sem fundo.png',
+  rs: 'images/rs/Logo RS Components.png',
+  'sa-equip': 'images/sa-equip/Logo SA Equip - Sem fundo.png',
+  stahl: 'images/stahl/Logo R. STAHL - sem fundo.png',
+  stopdropp: 'images/stopdropp/Logo Stopdrop - sem fundo.png',
+  vantrunk: 'images/vantrunk/Logo Vantrunk - sem fundo.png',
+}
 
 export default function Playlists() {
   const { t } = useTranslation()
@@ -86,20 +105,26 @@ export default function Playlists() {
 
         <aside className="w-[420px] flex-shrink-0 flex flex-col min-h-0 gap-4">
           <div className="flex flex-wrap gap-2">
-            {playlistsData.playlists.map((p) => (
-              <button
-                key={p.id}
-                type="button"
-                className={`px-4 py-2 rounded-full text-base font-medium transition-colors border ${
-                  p.id === playlist.id
-                    ? 'bg-primary text-primary-foreground border-primary glow-red'
-                    : 'bg-background text-muted-foreground border-dashed border-brand-gray-4 hover:border-primary/50 hover:text-foreground'
-                }`}
-                onClick={() => setActiveId(p.id)}
-              >
-                {p.title}
-              </button>
-            ))}
+            {playlistsData.playlists.map((p) => {
+              return (
+                <button
+                  key={p.id}
+                  type="button"
+                  className={`rounded-[14px] p-0.5 ring-2 transition-all active:scale-[0.99] ${
+                    p.id === playlist.id
+                      ? 'ring-brand-red/80 glow-red'
+                      : 'ring-transparent hover:ring-brand-red/40'
+                  }`}
+                  onClick={() => setActiveId(p.id)}
+                >
+                  <BrandLogo
+                    src={playlistLogos[p.id]}
+                    name={p.title}
+                    className="w-32 h-10 rounded-[10px]"
+                  />
+                </button>
+              )
+            })}
           </div>
 
           <ScrollArea className="flex-1 min-h-0">
