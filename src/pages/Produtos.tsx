@@ -5,6 +5,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { SectionDivider } from '@/components/BrandDecor'
 import { ProductImage } from '@/components/ProductImage'
 import { BrandLogo } from '@/components/BrandLogo'
+import { BrandCard } from '@/components/BrandCard'
 import { cn } from '@/lib/utils'
 import companiesData from '@/data/companies/pt-BR.json'
 
@@ -164,20 +165,16 @@ export default function Produtos() {
                   {(category.subcategories ?? []).map((sc, i) => {
                     const comp = companyById.get(sc.companyId)
                     if (!comp) return null
-                    const active = subIndex === i
                     return (
-                      <Card
+                      <BrandCard
                         key={`${sc.companyId}-${i}`}
-                        className={cn(
-                          'flex-shrink-0 w-64 lg:w-auto cursor-pointer transition-all active:scale-[0.99] animate-page-in motion-reduce:animate-none',
-                          active ? 'hud-corners-visible border-brand-red/70 glow-red' : 'hud-corners hover:border-brand-red/60 hover:glow-red',
-                        )}
+                        logo={sc.logo ?? comp.logo}
+                        name={sc.label ?? comp.name}
+                        active={subIndex === i}
+                        className="flex-shrink-0 w-64 lg:w-auto"
+                        delay={i * 30}
                         onClick={() => pickSub(i)}
-                      >
-                        <CardContent className="pt-5 pb-5 flex items-center justify-center">
-                          <BrandLogo src={sc.logo ?? comp.logo} name={sc.label ?? comp.name} className="w-full h-16" />
-                        </CardContent>
-                      </Card>
+                      />
                     )
                   })}
                 </div>

@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
-import { Card, CardTitle } from '@/components/ui/card'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { SectionDivider } from '@/components/BrandDecor'
-import { BrandLogo } from '@/components/BrandLogo'
+import { BrandCard } from '@/components/BrandCard'
 import { cn } from '@/lib/utils'
 import companiesData from '@/data/companies/pt-BR.json'
 
@@ -64,26 +63,20 @@ export default function Marcas() {
           )}
         >
           {filteredCompanies.map((company, i) => (
-            <Card
+            <BrandCard
               key={company.id}
+              logo={company.logo}
+              name={company.name}
               className={cn(
-                'cursor-pointer hud-corners hover:glow-red hover:border-brand-red/60 transition-all active:scale-95 p-4 flex flex-col items-center text-center animate-page-in motion-reduce:animate-none',
                 isFiltering
                   ? 'basis-[calc(100%-0px)] sm:basis-[calc(50%-0.75rem)] xl:basis-[calc(33.333%-1rem)]'
                   : 'basis-[calc(50%-0.5rem)] sm:basis-[calc(33.333%-0.667rem)] lg:basis-[calc(25%-0.75rem)] xl:basis-[calc(16.666%-0.834rem)]',
               )}
-              style={{ animationDelay: `${i * 30}ms` }}
+              logoClassName={isFiltering ? 'h-32 xl:h-40' : 'h-20 sm:h-24'}
+              titleClassName={isFiltering ? 'text-lg xl:text-xl' : 'text-sm sm:text-base'}
+              delay={i * 30}
               onClick={() => navigate(`/marcas/${company.id}`)}
-            >
-              <BrandLogo
-                src={company.logo}
-                name={company.name}
-                className={cn('w-full mb-2', isFiltering ? 'h-32 xl:h-40' : 'h-20 sm:h-24')}
-              />
-              <CardTitle className={cn('line-clamp-2', isFiltering ? 'text-lg xl:text-xl' : 'text-sm sm:text-base')}>
-                {company.name}
-              </CardTitle>
-            </Card>
+            />
           ))}
         </div>
       </div>
